@@ -19,7 +19,7 @@ email: positionfov@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Frontend 분야를 정리하고 기록하는 블로그
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://position.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Tajoal
 github_username:  position
 facebook_username: position
@@ -32,3 +32,7 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+# Enter your Disqus shortname (not your username) to enable commenting on posts
+# You can find your shortname on the Settings page of your Disqus account
+disqus: positiongithubio
