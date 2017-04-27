@@ -1,0 +1,115 @@
+<!DOCTYPE html> 
+<html lang="ko"> 
+<head> 
+<meta charset="utf-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" /> 
+<title>광개토태왕 1:1문의하기</title> 
+<link rel="stylesheet" type="text/css" href="css/gt_customer.css" />
+
+<script type="text/javascript">
+	function layerOpen(con){
+		var starObj = document.getElementById("starRating");
+		var starMsgObj = document.getElementById("starRatingMsg");
+		
+		if(con == open){
+			starObj.style.display = "block";
+			starMsgObj.style.display = "block";
+		}else{
+			starObj.style.display = "none";
+			starMsgObj.style.display = "none";
+		}
+	}
+
+	function textResize(obj){
+	  obj.style.height = "1px";
+	  obj.style.height = (20+obj.scrollHeight)+"px";
+	}
+</script>
+</head> 
+
+<body>
+
+<div id="wrap">
+	<header class="headMenu" role="banner">
+		<h1><strong>1:1 문의하기</strong></h1>
+		<button type="button" class="backBtn">뒤로가기</button>
+	</header><!-- //header -->
+	<section id="contents" role="main">
+		<ul class="qnaTab">
+			<li><a href="ask_register.html">문의등록</a></li>
+			<li><a class="on" href="ask_list.html">문의내역</a></li>
+		</ul>
+		<div class="qnaSection">
+			<div class="qnaListWrap">
+				<p class="q_msg">※ 문의내역은 6개월까지 보관됩니다.</p>
+				<div class="qnaWrtView">
+					<h3 class="tit">
+						<span class="heading q_rd">문의</span>
+						<span class="tit_explain">[결제] 결제가 두번됬어요 환불해주세요. <em class="dat">2013.11.28</em></span>
+					</h3>
+					<div class="q_wrt">
+						어쩌고 저쩌고 이래저래 요래저래어쩌고 저쩌고 이래저래 요래저래 어쩌고 저쩌고 이래저래 요래저래 어쩌고 저쩌고 이래저래 요래저래
+					</div>
+					<p class="inf">작성일 : 2013.11.28 ㅣ 게임버전 : 5.8.55v ㅣ 옵티머스 뷰 ㅣ 아이스크림 샌드위치</p>
+				</div>
+
+				<div class="qnaWrtView">
+					<h3 class="tit">
+						<span class="heading a_rd">답변</span>
+						<span class="tit_explain">어쩌고 저쩌고 이래저래 요래저래어쩌고 저쩌고 이래저래 요래저래 어쩌고 저쩌고 이래저래 요래저래 어쩌고 저쩌고 이래저래 요래저래</span>
+					</h3>
+					<div class="star_msg">
+						<p>답변 내용에 만족하셨나요?</p>
+						<p>답변에 대한 만족도를 별점으로 평가해주세요</p>
+					</div>
+					<div class="rating">
+						<span class="ico"><img src="images/i_smile_level.png" alt="평가해주세요"></span>
+						<!-- 
+						<span class="ico"><img src="images/i_smile_level01.png" alt="별점 1개 이모티콘"></span>
+						<span class="ico"><img src="images/i_smile_level02.png" alt="별점 2개 이모티콘"></span>
+						<span class="ico"><img src="images/i_smile_level03.png" alt="별점 3개 이모티콘"></span>
+						<span class="ico"><img src="images/i_smile_level04.png" alt="별점 4개 이모티콘"></span>
+						<span class="ico"><img src="images/i_smile_level05.png" alt="별점 5개 이모티콘"></span>
+						-->
+						<span class="starBg">
+							<strong class="starIco">
+								<em class="star" style="width:20%;"></em>
+								<em class="starLink"><a href="#">별1점</a><a href="#">별2점</a><a href="#">별3점</a><a href="#">별4점</a><a href="#">별5점</a></em>
+							</strong>
+						</span><!-- 별 1개에 width:20% -->
+						<span class="ratebtn"><a href="javascript:layerOpen(open);">평가하기</a></span>
+					</div>
+					<p class="inf">고객님의 의견을 토대로 보다 나은 고객서비스를 위해 최선을 다하겠습니다.</p>
+
+					<div id="starRating" class="onStarMsgLayer" style="display:none;">
+						<p class="tx">별점평가가 반영되었습니다.</p>
+						<p class="tx">1점을 선택한 이유를 알려주시면 더 나은 서비스로 개선하겠습니다.</p>
+						<div class="reason">
+							<textarea class="reasonTxt" placeholder="최대 300자 까지 입력 가능합니다." onkeyup="textResize(this)"></textarea>	
+						</div>
+						<div class="btn_group">
+							<a class="grayBtn" href="javascript:layerOpen(close);">확인</a>
+						</div>
+						<a class="closed" href="javascript:layerOpen(close);"><img src="images/b_msg_close.png" style="width:12px;height:12px;" alt="닫기"></a>
+					</div><!--//별점 평가하기 레이어 (1점 별점 평가시 메세지 박스 출력) -->
+					<div id="starRatingMsg" class="onStarMsgLayer" style="display:none;width:44%;5% 3% 0 3%;left:25%;">
+						<p class="tx">별점평가가 반영되었습니다.</p>
+						<p class="tx">감사합니다.</p>
+						<div class="btn_group">
+							<a class="grayBtn" href="javascript:layerOpen(close);">확인</a>
+						</div>
+						<a class="closed" href="javascript:layerOpen(close);"><img src="images/b_msg_close.png" style="width:12px;height:12px;" alt="닫기"></a>
+					</div><!-- 1점외 별점 평가 완료시 메세지 레이어-->
+				</div>
+				<div class="btn_group">
+					<a class="grayBtn" href="#">재문의</a>
+					<a class="grayBtn" href="#">목록</a>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+</div>
+						
+</body>
+</html> 

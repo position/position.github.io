@@ -1,0 +1,144 @@
+/** Main left column **/
+
+/* freelevel */
+.freelevel{margin-top:13px;}
+
+/* 영어사전 */
+.englishDic{position:relative;margin-top:13px;}
+.englishDic h3{background:url(../images/t_englishDic.gif) left top no-repeat;width:81px;height:25px;}
+.englishDic input{background:#f7f7f7;width:148px;}
+.englishDic button{background:url(../images/b_Dicsearch.gif) left top no-repeat;width:37px;height:22px;margin-left:5px;}
+.englishDic p{height:30px;}
+
+/* 고객센터 */
+.customer{background:url(../images/n_customer.gif) 0 0 no-repeat;width:220px;height:79px;margin-top:13px;}
+
+/* 로그인폼 */
+.vLogin{position:relative;}
+.vLogin strong{color:#383838;}
+.vLogin h3.t_vLogin{float:left;background:url(../images/t_vml_login.gif) left 6px no-repeat;width:110px;height:23px;}
+.vLogin .left_top .save{float:left;padding-top:3px;_padding-top:0px;}
+.vLogin .left_top .idsv{background:url(../images/t_vml_save.gif) right center no-repeat;height:15px;width:50px;padding-right:55px;}
+.vLogin .left_Bg{height:80px;overflow:hidden;}
+.vLogin .left_Bg .log_wrap{clear:both;height:57px;}
+.vLogin .inp input{border:1px solid #e0dcc8;height:14px;padding:3px 0 1px 4px;}
+.vLogin .inp{float:left;width:140px;}
+.vLogin .inp p{padding-left:0px;height:27px;}
+.vLogin .study{font:11px Dotum;letter-spacing:-1px;}
+.vLogin .depar{font-weight:bold;color:#ffa500;}
+.vLogin .inp label{content: ".";display:block;clear:both;}
+.vLogin .id{background:url(../images/t_vml_id.gif) 9px 4px no-repeat;padding-left:40px;height:15px;}
+.vLogin .pw{background:url(../images/t_vml_pw.gif) 0 4px no-repeat;padding-left:40px;height:15px;}
+.vLogin .btn{float:left;width:52px;padding-left:5px;}
+.vLogin .btn button{background:url(../images/b_vml_login.gif) left top no-repeat;width:49px;height:48px;margin-left:5px;}
+.vLogin .findjoin_btn{padding-left:5px;}
+.vLogin .findjoin_btn .find{background:url(../images/b_vml_find.gif) left top no-repeat;width:90px;height:25px;float:left;margin-right:8px;}
+.vLogin .findjoin_btn .join{background:url(../images/b_vml_join.gif) left top no-repeat;width:90px;height:25px;float:left;}
+.vLogin .findjoin_btn .mypage{background:url(../images/b_vml_mypage.gif) left top no-repeat;width:90px;height:25px;float:left;margin-right:8px;}
+.vLogin .findjoin_btn .logout{background:url(../images/b_vml_logout.gif) left top no-repeat;width:90px;height:25px;float:left;}
+
+/* 공지사항/이벤트/FAQ */
+.vNotice{position:relative;margin-top:13px;}
+.vNotice h3.t_vNotice{background:url(../images/t_vme_notice.gif) left center no-repeat;width:195px;height:23px;border-bottom:1px solid #e3e3e3;}
+.vNotice h3.t_vFaq{background:url(../images/t_vmf_faq.gif) left center no-repeat;width:195px;height:23px;border-bottom:1px solid #e3e3e3;}
+.vNotice .left_Bg{height:55px;overflow:hidden;}
+.vNotice ul{padding-left:6px;}
+.vNotice li{background:url(../images/i_bullet.gif) 0 4px no-repeat;padding:0 0 10px 7px;}
+.vNotice .ft{position:absolute;right:12px;top:14px;font:9px verdana, sans-serif;}
+
+/* 제휴사 */
+.vCooperate{position:relative;margin-top:13px;}
+.vCooperate h3.t_vCooperate{background:url(../images/t_vmc_company02.gif) 7px top no-repeat;width:55px;height:18px;}
+.vCooperate .bd{height:187px;overflow:hidden;}
+.vCooperate li{float:left;}
+.vCooperate li a{display:block;}
+.vCooperate li a.com01{background:url(../images/b_vmc_comoon01.gif) left top no-repeat;width:111px;height:47px;}
+.vCooperate li a.com02{background:url(../images/b_vmc_comon02.gif) left top no-repeat;width:109px;height:47px;}
+.vCooperate li a.com03{background:url(../images/b_vmc_comon03.gif) left top no-repeat;width:111px;height:47px;}
+.vCooperate li a.com04{background:url(../images/b_vmc_comon04.gif) left top no-repeat;width:109px;height:47px;}
+.vCooperate li a.com05{background:url(../images/b_vmc_comon05.gif) left top no-repeat;width:111px;height:46px;}
+.vCooperate li a.com06{background:url(../images/b_vmc_comon06.gif) left top no-repeat;width:109px;height:46px;}
+.vCooperate li a.com07{background:url(../images/b_vmc_comon07.gif) left top no-repeat;width:111px;height:47px;}
+.vCooperate li a.com08{background:url(../images/b_vmc_comon08.gif) left top no-repeat;width:109px;height:47px;}
+.vCooperate li a.com01:hover{background:url(../images/b_vmc_comon01.gif) left top no-repeat;width:111px;height:47px;}
+.vCooperate li a.com02:hover{background:url(../images/b_vmc_comon02.gif) left top no-repeat;width:109px;height:47px;}
+.vCooperate li a.com03:hover{background:url(../images/b_vmc_comon03.gif) left top no-repeat;width:111px;height:47px;}
+.vCooperate li a.com04:hover{background:url(../images/b_vmc_comon04.gif) left top no-repeat;width:109px;height:47px;}
+.vCooperate li a.com05:hover{background:url(../images/b_vmc_comon05.gif) left top no-repeat;width:111px;height:46px;}
+.vCooperate li a.com06:hover{background:url(../images/b_vmc_comon06.gif) left top no-repeat;width:109px;height:46px;}
+.vCooperate li a.com07:hover{background:url(../images/b_vmc_comon07.gif) left top no-repeat;width:111px;height:47px;}
+.vCooperate li a.com08:hover{background:url(../images/b_vmc_comon08.gif) left top no-repeat;width:109px;height:47px;}
+.vCooperate .ft{position:absolute;right:10px;top:0px;font:9px verdana, sans-serif;}
+
+/** End Main left column **/
+
+/** Main right column **/
+
+/* 오늘의 관용표현 */
+.vIdiom{position:relative;clear:both;width:200px;}
+.vIdiom h3.t_vIdiom{background:url(../images/t_vm_idiom.gif) left top no-repeat;width:180px;height:18px;border-bottom:1px solid #e3e3e3;}
+.vIdiom .left_Bg02{height:65px;overflow:hidden;}
+.vIdiom .left_Bg02 p{line-height:17px;}
+.vIdiom img{cursor:pointer;}
+.vIdiom .ft{position:absolute;right:12px;bottom:10px;}
+
+/* 셀프스터디 */
+.vSelfstudy{position:relative;clear:both;margin-top:13px;}
+.vSelfstudy h3.t_vSelfstudy{background:url(../images/t_vms_selfstudy.gif) left top no-repeat;width:180px;height:18px;border-bottom:1px solid #e3e3e3;}
+.vSelfstudy .left_Bg02{height:220px;overflow:hidden;}
+.vSelfstudy dl{border-bottom:1px solid #e3e3e3;margin-bottom:10px;padding-bottom:10px;}
+.vSelfstudy .study01{background:url(../images/t_vms_sub01.gif) left top no-repeat;width:180px;height:38px;} 
+.vSelfstudy .study02{background:url(../images/t_vms_sub02.gif) left top no-repeat;width:180px;height:38px;} 
+.vSelfstudy .study03{background:url(../images/t_vms_sub03.gif) left top no-repeat;width:180px;height:38px;} 
+.vSelfstudy dd{padding-top:5px;}
+.vSelfstudy .n_border{border:none;}
+
+/* 수강후기 */
+.vPostscript{position:relative;clear:both;margin-top:13px;background:url(../images/k_vm_dearteacher.jpg) left top no-repeat;width:200px;height:184px;} 
+.vPostscript .post_inner{padding:95px 0 0 20px;}
+.vPostscript li{font:11px Dotum, 돋움;letter-spacing:-1px;padding-bottom:15px;}
+.vPostscript li a{color:#817d65;background:url(../images/i_bullet.gif) 0 4px no-repeat;padding-left:7px;}
+.vPostscript li a:hover{color:#a4994d;}
+
+/** End Main right column **/
+
+
+/** Main Contents **/
+.vProcess{clear:both;margin-top:17px;height:94px;}
+.vProcess h3.t_vm_process{background:url(../images/t_vm_process.gif) left top no-repeat;width:90px;height:16px;padding-bottom:9px;}
+.vProcess li{float:left;}
+.vProcess li.ong_arrow{background:url(../images/i_ong_arrow.gif) center center no-repeat;width:9px;height:55px;margin:0 15px 0 15px;}
+.vProcess li.pro_01{background:url(../images/k_vm_process01.gif) 0 0 no-repeat;width:89px;height:69px;}
+.vProcess li.pro_02{background:url(../images/k_vm_process02.gif) 0 0 no-repeat;width:89px;height:69px;}
+.vProcess li.pro_03{background:url(../images/k_vm_process03.gif) 0 0 no-repeat;width:89px;height:69px;}
+.vProcess li.pro_04{background:url(../images/k_vm_process04.gif) 0 0 no-repeat;width:89px;height:69px;}
+.vProcess p{text-align:center;}
+
+.vNation{position:relative;clear:both;margin-top:13px;width:480px;height:240px;}
+.vNation .ft{position:absolute;right:12px;bottom:10px;}
+
+.vChitchat{clear:both;margin-top:13px;width:480px;height:22px;}
+.vChitchat .vc_today{float:left;background:url(../images/t_vmt_chitchat.gif) left top no-repeat;width:119px;height:22px;}
+.vChitchat .vc_user{float:left;background:url(../images/k_vmt_bg.gif) left top repeat-x;width:311px;height:22px;color:#fff;padding:0 0 0 5px;overflow:hidden;}
+.vChitchat .vc_user ul{padding-top:5px;}
+.vChitchat .vc_user li{width:300px;overflow:hidden;padding-top:5px;}
+.vChitchat .vc_user a{font:12px verdana sans-serif;color:#ff7e00;}
+.vChitchat .vc_user a:hover{color:#fcff00;}
+.vChitchat .vc_more{float:left;background:url(../images/t_vmt_more.gif) left top no-repeat;}
+.vChitchat .vc_more a{display:block;width:44px;height:22px;}
+
+.vCommunity{position:relative;clear:both;margin-top:13px;width:480px;}
+.vCommunity .vMcom{width:235px;height:100px;margin-bottom:10px;}
+.vCommunity h3{float:left;}
+.vCommunity p{font:9px verdana, sans-serif;padding-right:10px;}
+.vCommunity h3.talkbox{background:url(../images/t_Mtalkbox.gif) left top no-repeat;width:41px;height:14px;}
+.vCommunity h3.qna{background:url(../images/t_Mqna.gif) left top no-repeat;width:141px;height:14px;}
+.vCommunity h3.today{background:url(../images/t_Mtoday.gif) left top no-repeat;width:141px;height:14px;}
+.vCommunity h3.chitchat{background:url(../images/t_Mchitchat.gif) left top no-repeat;width:141px;height:14px;}
+.vCommunity .Bg{background:url(../images/t_Mcombg.gif) left top no-repeat;width:225px;height:20px;padding:8px 0 0 10px;}
+.vCommunity ul{padding:10px 0 0 10px;}
+.vCommunity li{font:11px Dotum, 돋움;letter-spacing:-1px;}
+.vCommunity li a{display:block;float:left;clear:both;width:150px;margin-bottom:10px;background:url(../images/i_bullet.gif) 0 4px no-repeat;padding-left:7px;}
+.vCommunity li span{display:block;float:left;width:60px;}
+
+/** End Main Contents **/

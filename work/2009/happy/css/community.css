@@ -1,0 +1,109 @@
+.boardComm{clear:both;}
+.boardComm .tabLine{background:url(../images/i_tabline.gif) 0 0 no-repeat;width:630px;height:30px;}
+.boardComm .tab li {float:left;text-align:center;}
+.boardComm .tab li a{position:relative;display:block;background:url(../images/b_tabimg.gif) 0 0 no-repeat;margin-right:-1px;z-index:102;padding-top:7px;height:22px;color:#464646;}
+.boardComm .tab li a:hover, .boardComm .tab li a.on{position:relative;display:block;z-index:103;font-weight:bold;text-decoration:none;}
+.boardComm .tab li.a a{background-position:0px 0px;width:100px;}
+.boardComm .tab li.b a{background-position:-99px 0px;width:63px;}
+.boardComm .tab li.c a{background-position:-161px 0px;width:97px;}
+.boardComm .tab li.a a.on{background-position:0px -30px;width:100px;}
+.boardComm .tab li.b a.on{background-position:-99px -30px;width:63px;}
+.boardComm .tab li.c a.on{background-position:-161px -30px;width:97px;}
+.boardComm .tab li.a a:hover{background-position:0px -30px;width:100px;}
+.boardComm .tab li.b a:hover{background-position:-99px -30px;width:63px;}
+.boardComm .tab li.c a:hover{background-position:-161px -30px;width:97px;}
+.boardComm table{clear:both;width:630px;}
+.boardComm caption{display:none;}
+.boardComm th{height:32px;font-weight:bold;color:#000;text-align:center;border-bottom:1px solid #dadada;padding-top:3px;}
+.boardComm td{height:35px;border-bottom:1px solid #dadada;padding-top:3px;}
+.boardComm .bg{background:#f7f7f7;}
+.boardComm .ha{width:56px;background:#fff url(../images/i_bar.gif) right center no-repeat;}
+.boardComm .hb{width:353px;background:#fff url(../images/i_bar.gif) right center no-repeat;}
+.boardComm .hc{width:102px;background:#fff url(../images/i_bar.gif) right center no-repeat;}
+.boardComm .hd{width:54px;background:#fff url(../images/i_bar.gif) right center no-repeat;}
+.boardComm .he{width:65px;}
+.boardComm .da{width:56px;color:#000;text-align:center;}
+.boardComm .db{width:343px;padding-left:10px;}
+.boardComm .db .dep a{font-weight:bold;padding-right:5px;}
+.boardComm .db em{color:#ff8400;font-size:11px;padding-left:5px;}
+.boardComm .db .reply01{padding:0 7px 0 10px;}
+.boardComm .db .reply02{padding:0 7px 0 20px;}
+.boardComm .db .reply03{padding:0 7px 0 30px;}
+.boardComm .db .reply04{padding:0 7px 0 40px;}
+.boardComm .db .reply05{padding:0 7px 0 50px;}
+.boardComm .db img{vertical-align:top;}
+.boardComm .dc{width:92px;color:#000;text-align:left;padding-left:10px;}
+.boardComm .dd{width:54px;color:#000;text-align:center;}
+.boardComm .de{width:65px;color:#000;text-align:center;}
+.boardComm .btn{padding:10px 0;}
+.boardSch{padding-top:10px;text-align:center;}
+.boardSch .txt{width:320px;height:11px;padding:3px 0 2px 3px;border:1px solid #ddd;font-size:11px;}
+/* //커뮤니티 리스트 */
+
+.boardView{clear:both;}
+.boardView .title{border-top:1px solid #dadada;border-bottom:1px solid #dadada;padding:13px 0 5px 0;height:50px;overflow:hidden;}
+.boardView .title h4{font:bold 18px 돋움, Dotum, sans-serif;letter-spacing:-1px;color:#000;}
+.boardView .title h4 em{font-size:11px;padding-left:10px;color:#666;}
+.boardView .title p{padding:10px 0 0 5px;}
+.boardView .title span{display:block;float:left;}
+.boardView .title .nick{width:300px;}
+.boardView .title .date{float:right;font-size:11px;padding-right:10px;}
+.boardView .title .date em{padding:0 8px;color:#ccc;}
+.boardView .title .date em.ro{padding:0px;color:#666;}
+.boardView .view{clear:both;min-height:200px;padding:15px 0;line-height:20px;color:#000;word-break:break-all;}
+*html .boardView .view{height:200px;}
+.boardView .recom{padding:30px 0 20px 0;height:20px;text-align:center;border-bottom:1px solid #dadada;}
+.boardView .btn{clear:both;padding:10px 0;margin-bottom:20px;height:30px;}
+.boardView .bt{height:30px;}
+.boardView .replyView{clear:both;border-top:1px solid #dadada;}
+.boardView .replyView .line{border-bottom:1px solid #dadada;}
+.boardView .replyView .bg{background:#f4f4f4;}
+.boardView .replyView dt, .boardView .replyView dd{float:left;}
+.boardView .replyView .rply01{clear:both;padding:15px 0 10px 0;height:auto;width:630px;overflow:hidden;}
+.boardView .replyView .rply01 .user{width:125px;color:#000;padding-left:10px;}
+.boardView .replyView .rply01 .rly{width:390px;color:#000;line-height:18px;padding-right:10px;}
+.boardView .replyView .rply01 .tim{width:85px;text-align:right;color:#9b9b9b;padding-right:10px;font-size:11px;}
+.boardView .replyView .rply01 .tim a{color:#9b9b9b;}
+.boardView .replyView .rply01 .tim em, .boardView .replyView .rply01 .tim em a{color:#ff8400;}
+.boardView .rlyMore{clear:both;padding:0 0 10px 10px;}
+.boardView .rlyMore .arrow{background:url(../images/i_rly_arrow.gif) right 4px no-repeat;padding-right:10px;}
+.boardView .rlyMore .arrow a{color:#9b9b9b;}
+.boardView .rlyMore .wrt{padding:5px 0 10px 0;}
+.boardView .rlyMore .txt{width:565px;height:13px;padding:3px 0 2px 3px;border:1px solid #ddd;font-size:11px;}
+.boardView .rlyMore .rply02{clear:both;padding:5px 0 5px 0;height:auto;width:620px;overflow:hidden;}
+.boardView .rlyMore .rply02 .user{width:70px;color:#9b9b9b;padding-left:10px;}
+.boardView .rlyMore .rply02 .user img{vertical-align:top;margin-right:5px;}
+.boardView .rlyMore .rply02 .rly{width:530px;color:#9b9b9b;}
+.boardView .rlyMore .rply02 .tim{color:#9b9b9b;padding-left:10px;font-size:11px;}
+.boardView .rlyMore .rply02 .del{padding-left:4px;vertical-align:middle;}
+
+.boardView .replyWrite{height:50px;border:1px solid #dadada;background:#f4f4f4;padding:12px;margin:20px 0 30px 0;}
+.boardView .replyWrite textarea{float:left;border:1px solid #dadada;width:530px;height:37px;padding:5px;margin-right:10px;}
+.boardView .confirm{float:left;border:1px solid #bebebe;background:#fff;width:52px;height:47px;color:#666;font-weight:bold;}
+/* //게시판 보기 */
+
+.boardWrite{clear:both;}
+.boardWrite .editor{clear:both;margin-top:20px;}
+.boardWrite .btn02{position:relative;width:630px;text-align:center;padding-top:20px;height:30px;}
+.boardWrite .btn02 a.ahead{position:absolute;top:20px;right:0;height:26px;}
+/* //게시판 쓰기 */
+
+.commPoll{position:relative;clear:both;overflow:hidden;}
+.commPoll .pollBx{float:left;border:1px solid #ececec;width:296px;height:190px;margin:5px 7px 10px 8px;display:inline;}
+.commPoll .pollWrap{padding:20px 10px 15px 15px;}
+.commPoll .pollBx dl{height:140px;}
+.commPoll .pollBx dt{padding-bottom:10px;color:#4a4a4a;}
+.commPoll .pollBx dd{padding-bottom:4px;}
+.commPoll .pollBx p{text-align:center;}
+.commPollview{clear:both;margin:0 auto;width:540px;padding:20px 0;}
+.commPollview dl{clear:both;overflow:hidden;margin-bottom:10px;}
+.commPollview dt{padding-bottom:2px;}
+.commPollview dd{float:left;margin-right:10px;}
+.commPollview .graph{width:400px;height:7px;background:url(../images/i_graph.gif) 0 -100px repeat-x;margin-top:5px;}
+.commPollview .graph span{display:block;}
+.commPollview .graph .no1{background:url(../images/i_graph.gif) 0 0 repeat-x;}
+.commPollview .graph .no2{background:url(../images/i_graph.gif) 0 -50px repeat-x;}
+.commPollview .percent{width:120px;}
+.commPollview .percent .per{font-size:14px;font-weight:bold;}
+.commPollview .btn{text-align:center;padding-top:20px;}
+/* //설문조사 */

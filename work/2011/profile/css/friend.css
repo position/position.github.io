@@ -1,0 +1,9 @@
+.friendTab{clear:both;width:672px;height:50px;background:url(http://img.ndoors.com/webdata/profile/2010/friend/l_friend_tab.gif) left bottom repeat-x;}
+.friendTab ul{height:38px;padding-top:7px;}
+.friendTab li{float:left;text-align:center;font-size:14px;font-weight:bold;letter-spacing:-1px;}
+.friendTab li a{display:block;background:url(http://img.ndoors.com/webdata/profile/2010/friend/b_tab_friend.gif) no-repeat;width:185px;margin-right:-1px;z-index:101;}
+.friendTab .invit a{position:relative;background-position:0 -7px;color:#9a8877;height:27px;padding-top:10px;}
+.friendTab .invit a em{font-weight:bold;letter-spacing:-1px;color:#ffa200;}
+.friendTab .invit a:hover{text-decoration:underline;}
+.friendTab .invit a.on{position:relative;background-position:0 -55px;color:#fff;height:31px;padding-top:14px;z-index:102;margin-top:-7px;}
+.friendTab .invit a.on em{color:#ffe400;}

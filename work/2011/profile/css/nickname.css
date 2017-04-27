@@ -1,0 +1,60 @@
+#pfMakeWrap{position:relative;width:100%;min-width:998px;height:100%;border-top:6px solid #412810;}
+#pfMakeContainer{position:relative;width:998px;height:100%;margin:0 auto;}
+#pfMakeHeader{position:relative;width:998px;height:120px;}
+#pfMakeHeader .logMenu{position:relative;height:32px;}
+#pfMakeHeader .logMenu .meu{float:right;padding:18px 0px 0 0;}
+#pfMakeHeader .logMenu .meu li{float:left;margin-right:10px;display:inline;}
+#pfMakeHeader .logMenu .meu li a{display:block;height:13px;}
+#pfMakeHeader .logMenu .meu li.a a{background:url(http://img.ndoors.com/webdata/profile/2010/common/b_pf_login_v2.gif) 0 0 no-repeat;width:35px;}
+#pfMakeHeader .logMenu .meu li.a_2 a{background:url(http://img.ndoors.com/webdata/profile/2010/common/b_pf_logout_v2.gif) 0 0 no-repeat;width:45px;}
+#pfMakeHeader .logMenu .meu li.b a{background:url(http://img.ndoors.com/webdata/profile/2010/common/b_pf_main_v2.gif) 0 0 no-repeat;width:62px;}
+#pfMakeHeader .pfLogo{clear:both;height:77px;padding-left:3px;}
+#pfMakeHeader .pfLogo h1.profmake{float:left;margin-right:20px;display:inline;background:url(http://img.ndoors.com/webdata/profile/2010/common/t_make_profile.gif) left top no-repeat;width:515px;height:61px;}
+#pfMakeHeader .pfLogo h1.nopage{float:left;margin-right:20px;display:inline;background:url(http://img.ndoors.com/webdata/profile/2010/common/t_pagenone.gif) left top no-repeat;width:565px;height:75px;}
+#pfMakeHeader .pfLogo h1.private{float:left;margin-right:20px;display:inline;background:url(http://img.ndoors.com/webdata/profile/2010/common/t_private.gif) left top no-repeat;width:502px;height:62px;}
+#pfMakeHeader .pfLogo h1.withdraw{float:left;margin-right:20px;display:inline;background:url(http://img.ndoors.com/webdata/profile/2010/common/t_withdrawal.gif) left top no-repeat;width:580px;height:76px;}
+#pfMakeHeader .pfLogo h1.ndoors{float:right;background:url(http://img.ndoors.com/webdata/profile/2010/common/ndoors_logo_v2.gif) 25px 50px no-repeat;width:130px;height:80px;}
+#pfMakeHeader .pfLogo h1.nomember{float:left;margin-right:20px;display:inline;background:url(http://img.ndoors.com/webdata/profile/2010/common/t_sanctions.gif) left top no-repeat;width:613px;height:76px;}
+
+#pfMakeContents{min-height:520px;border:10px solid #cdbfb2;background:#fff;padding:30px;}
+*html #pfMakeContents{height:520px;}
+#pfMakeFooter{clear:both;float:left;height:50px;padding:0 0 0 20px;margin-top:10px;text-align:center;}
+#pfMakeFooter h1{float:left;background:url(http://img.ndoors.com/webdata/profile/2010/common/ndoors_foot_logo_v2.gif) center top no-repeat;width:170px;height:30px;}
+#pfMakeFooter address{float:left;background:url(http://img.ndoors.com/webdata/profile/2010/common/t_copyright_v2.gif) center bottom no-repeat;width:640px;height:30px;}
+
+#pfMakeContents .pageNone{clear:both;padding:10px 0 50px 0;}
+#pfMakeContents .pageNone p{color:#a57f59;}
+#pfMakeContents .pageNone .state{background:#f4f4f4;width:740px;height:30px;margin:0 auto 30px auto;padding:20px 0 20px 0;text-align:center;color:#616161;font-size:14px;letter-spacing:-1px;}
+#pfMakeContents .pageNone .state strong{font-weight:bold;font-size:22px;letter-spacing:-1px;color:#dd0000;}
+#pfMakeContents .pageNone .state em{font-weight:bold;font-size:14px;letter-spacing:-1px;color:#df4900;}
+#pfMakeContents .closedWrap{background:url(http://img.ndoors.com/webdata/profile/2010/common/i_dot_gray.gif) center top repeat-x;height:100px;padding-top:10px;}
+#pfMakeContents .closedWrap .btn{text-align:center;padding-top:50px;}
+#pfMakeContents .closedWrap .closedBtn{background:url(http://img.ndoors.com/webdata/profile/2010/common/b_closed.gif) 0 0 no-repeat;width:137px;height:34px;}
+
+.profileGenerate{clear:both;}
+.profileGenerate .word{font-size:14px;letter-spacing:-1px;margin-bottom:40px;}
+.profileGenerate .word strong{font-weight:bold;color:#df4900;}
+.profileGenerate .nickSetup{background:#f4f4f4;width:740px;height:140px;margin:0 auto;padding:30px 0 30px 0;}
+.profileGenerate .nickSetup .setupWrap{width:400px;margin:0 auto;padding-bottom:20px;}
+.profileGenerate .nickSetup .setupWrap02{padding-left:30px;}
+.profileGenerate .nickSetup .setupWrap .locSel{width:267px;border:1px solid #cdcdcd;}
+.profileGenerate .nickSetup h3{font-weight:bold;font-size:14px;letter-spacing:-1px;color:#000;padding-bottom:5px;}
+.profileGenerate .nickSetup h3 em{color:#dd0000;font-weight:bold;}
+.profileGenerate .nickSetup .nickInp{background:#fff;border:1px solid #cdcdcd;padding:4px 5px 2px 10px;width:250px;height:22px;line-height:20px;font-size:14px;font-weight:bold;color:#4f4f4f;}
+.profileGenerate .nickSetup .overBtn{background:url(http://img.ndoors.com/webdata/profile/2010/setup/b_overlap.gif) 0 0 no-repeat;width:87px;height:20px;margin-left:10px;}
+.profileGenerate .nickSetup .nick{color:#ea7401;padding-top:5px;}
+.profileGenerate .nickSetup dt, .profileGenerate .nickSetup dd{float:left;}
+.profileGenerate .nickSetup dt{font-size:14px;font-weight:bold;color:#000;margin-right:10px;padding-top:5px;}
+.profileGenerate .nickSetup .nam{font-size:22px;font-weight:bold;color:#dd0000;}
+.profileGenerate .nickSetup .link a{font-size:22px;font-weight:bold;color:#cb9b6b;}
+.profileGenerate .proBenefit{clear:both;background:url(http://img.ndoors.com/webdata/profile/2010/section/i_dot_gray.gif) center top repeat-x;margin-top:35px;padding-top:30px;}
+.profileGenerate .proBenefit h2{background:url(http://img.ndoors.com/webdata/profile/2010/common/t_benefit.gif) left top no-repeat;width:229px;height:23px;}
+.profileGenerate ol{clear:both;margin-top:15px;}
+.profileGenerate li{float:left;height:138px;}
+.profileGenerate .benefit01{background:url(http://img.ndoors.com/webdata/profile/2010/common/v_benefit01.gif) left top no-repeat;width:210px;}
+.profileGenerate .benefit02{background:url(http://img.ndoors.com/webdata/profile/2010/common/v_benefit02.gif) left top no-repeat;width:238px;}
+.profileGenerate .benefit03{background:url(http://img.ndoors.com/webdata/profile/2010/common/v_benefit03.gif) left top no-repeat;width:230px;}
+.profileGenerate .benefit04{background:url(http://img.ndoors.com/webdata/profile/2010/common/v_benefit04.gif) left top no-repeat;width:238px;}
+.profileGenerate .btn{clear:both;text-align:center;padding-top:20px;}
+.profileGenerate .btn .proBtn{background:url(http://img.ndoors.com/webdata/profile/2010/common/b_profie.gif) left top no-repeat;width:137px;height:34px;}
+.profileGenerate .btn .prolinkBtn{background:url(http://img.ndoors.com/webdata/profile/2010/common/b_profile_link02.gif) left top no-repeat;width:137px;height:34px;}

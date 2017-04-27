@@ -1,0 +1,1167 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="author" content="제타소프트" />
+<meta name="keywords" content="웹메일솔루션, 나비드메일, NavidMail" />
+<meta name="description" content="웹메일솔루션" />
+<title>Web Mail</title>
+<link rel="stylesheet" href="css/master.css" type="text/css" media="all" />
+
+</head>
+
+<body>
+
+<div id="zWrapper">
+	<div id="zContainer">
+		<div id="zHeader">
+			<div class="userTop">
+				<div class="logo">
+					<h1><a href="#"><span class="hidden">나비드메일</span><img src="images/navidmail_logo.gif" alt="나비드메일" /></a></h1>
+				</div>
+				<div class="userMenu">
+					<ul class="use">	
+						<li class="greeting"><span>관<em>리</em>자</span> 님 안녕하세요!</li>
+						<li class="logoutBtn"><a href="#"><span class="hidden">로그아웃</span></a></li>
+						<li class="infoBtn"><a href="#"><span class="hidden">정보수정</span></a></li>
+					</ul>
+					<div class="other">
+						<select>
+							<option>positionfov@gmail.com</option>
+							<option>positionfov@gmail.com</option>
+						</select>
+					</div>
+					<ul class="fl">
+						<li class="manager">
+							<span><a href="#"><em>웹</em>관리자</a></span>
+							<span><a href="#"><em>시스템</em>관리자</a></span>
+						</li>
+					</ul>
+				</div>
+			</div><!--//userTop -->
+
+			<div class="zNavi">
+				<div class="topnavi">
+					<div class="topnaviOuter">
+						<div class="topnaviCenter"> 
+							<div class="naviBg"> 
+								<ol>
+									<li class="a"><a class="on" href="#"><span class="hidden">메일</span></a></li>
+									<li class="b"><a href="#"><span class="hidden">주소록</span></a></li>
+									<li class="c"><a href="#"><span class="hidden">웹폴더</span></a></li>
+									<li class="d"><a href="#"><span class="hidden">게시판</span></a></li>
+									<li class="e"><a href="#"><span class="hidden">일정관리</span></a></li>
+									<li class="f"><a href="#"><span class="hidden">쪽지</span></a></li>
+									<li class="g"><a href="#"><span class="hidden">뉴스레터</span></a></li>
+									<li class="h"><a href="#"><span class="hidden">SMS</span></a></li>
+								</ol>
+							</div>
+						</div>  
+					</div>
+				</div> 
+			</div><!--//zNavi -->
+
+		</div><!--//zHeader 템플릿 적용시 top 부분 -->
+
+		<div id="zContents">
+			<div id="zLeft">
+				<div class="zMailmenu">
+					<div class="mailMenu">
+						<ul>
+							<li class="m1"><a href="#">메일읽기</a></li>
+							<li class="m2"><a class="wr" href="#">메일쓰기</a><span class="me"><a href="#"><em class="hidden">나에게</em></a></span></li>
+							<li class="m3"><a href="#">보안메일쓰기</a></li>
+							<li class="m4"><a href="#">수신확인</a></li>
+						</ul>
+					</div>
+					<div class="iconMenu">
+						<ul>
+							<li class="i1"><a href="#" title="중요메일"><span class="hidden">중요메일</span></a></li>
+							<li class="i2"><a href="#" title="읽지않음"><span class="hidden">읽지않음</span></a></li>
+							<li class="i3"><a href="#" title="읽음"><span class="hidden">읽음</span></a></li>
+							<li class="i4"><a href="#" title="첨부파일메일"><span class="hidden">첨부파일메일</span></a></li>
+							<li class="i5"><a href="#" title="내게보낸메일"><span class="hidden">내게보낸메일</span></a></li>
+						</ul>
+					</div>
+				</div><!--//zMailmenu -->
+ 
+				<div class="zMailboxBase left_bottom">
+					<div class="left_h3topbg">
+						<h3><a href="javascript:left_view_basicbox('');" onfocus="this.blur()"><img id="left_view_basic_mailbox_img"  src="images/b_minus.gif" /></a>기본메일함</h3>
+					</div>
+					<div class="left_center">
+						<div id="left_block_basicbox">
+							<div class="baseMenu">
+								<ul>
+									<li>
+										<span class="dep01"><a class="arrow" href="#">받은메일함</a></span>
+										<span class="dep02">|<em class="num"><a href="#">244</a></em></span>
+									</li>   
+									<li>
+										<span class="dep01"><a class="arrow" href="#">보낸메일함</a></span>
+									</li>   
+									<li>
+										<span class="dep01"><a class="arrow" href="#">임시보관함</a></span>
+									</li>   
+									<li>
+										<span class="dep01"><a class="arrow" href="#">스팸메일함</a></span>
+										<span class="dep02">|<em class="num"><a href="#">244</a></em></span>
+										<span class="dep03 empty"><a href="#"><em class="hidden">비움</em></a></span>
+									</li> 
+									<li>
+										<span class="dep01"><strong><a class="arrow" href="#">휴지통</a></strong></span>
+										<span class="dep02">|<em class="num"><a href="#">244</a></em></span>
+										<span class="dep03 empty"><a href="#"><em class="hidden">비움</em></a></span>
+									</li>  
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="ft"><a href="#"><span class="hidden">관리</span></a></div>
+				</div><!--//zMailboxBase -->
+
+				<div class="zMailboxUser left_bottom">
+					<div class="left_h3topbg">
+						<h3><a href="javascript:left_view_userbox('');" onfocus="this.blur()"><img id="left_view_user_mailbox_img" src="images/b_minus.gif" /></a>개인메일함</h3>
+					</div>
+					<div class="left_center">
+						<!-- iframe 적용 부분 -->
+						<div id="left_block_userbox">
+							<div class="userMenu">
+								<ul>
+									<li class="file"><img src="images/i_file.gif" /> <a href="#">중요메일</a><em><a href="#">2</a></em><img src="images/icon_person_g.gif" alt="공유된메일함" title="공유된메일함" /></li>
+									<li class="tree01"><img src="images/i_filetree.gif" /> <a href="#">받은메일추가 1</a></li>
+									<li class="file"><img src="images/i_file_no.gif" /> <a href="#">회사메일</a><em><a href="#">2</a></em></li>
+									<li class="file"><img src="images/i_file_no.gif" /> <a href="#">개인메일</a><em><a href="#">2</a></em></li>
+									<li class="file"><img src="images/i_file_no.gif" /> <a href="#">친구메일</a><em><a href="#">2</a></em></li>
+								</ul>
+							</div>
+						</div>
+						<!-- //iframe 적용 부분 -->
+					</div>
+					<div class="ft"><a href="#"><span class="hidden">추가</span></a></div>
+				</div><!--//zMailboxUser -->
+
+				<div class="zMailTag left_bottom">
+					<div class="left_top">
+						<div class="left_center">
+							<div class="tagList">
+								<h3><a href="#">태그목록</a></h3>
+								<ul>
+									<li class="noTag">등록된 태그가 없습니다.</li>   
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="ft"><a href="#"><span class="hidden">추가</span></a></div>
+				</div><!--//zMailTag -->
+
+				<div class="zMailEtc left_bottom">
+					<div class="left_top">
+						<div class="left_center">
+							<div class="etcMenu">
+								<ul class="bor">
+									<li><a class="e1" href="#">환경설정</a></li>
+								</ul>
+								<ul class="bor">
+									<li><a class="e2" href="#">외부메일</a></li>
+								</ul>
+								<ul class="bnone">
+									<li><a class="e3" href="#">조직도</a></li>
+								</ul>
+								<div class="help">
+									<p>
+										<span class="m1"><a href="#">도움말</a></span>
+										<span class="m2"><a href="#">FAQ</a></span>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="ft"><a href="#"><span class="hidden">추가</span></a></div>
+				</div><!--//zMailEtc -->
+
+			</div><!--//zLeft 템플릿 적용시 left 부분 -->
+
+			<div id="zRight">
+				<div class="zMailAccess right_bottom">
+					<div class="right_top">
+						<div class="right_center">
+							<div class="accessDate">
+								<ul>
+									<li><strong>접속일자</strong> : 2008.10.20 11:34:55 </li>
+									<li><strong>접속 IP</strong> : 121.18.28.14</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div><!--//zMailAccess -->
+
+				<div class="zMailSkin right_bottom">
+					<div class="right_top">
+						<div class="right_center">
+							<div class="skinSet">
+								<dl>
+									<dt>스킨설정</dt>
+									<dd><a href="#"><img src="images/i_skin_gray.gif" alt="그레이" /></a></dd>
+									<dd><a href="#"><img src="images/i_skin_green.gif" alt="그린" /></a></dd>
+									<dd><a href="#"><img src="images/i_skin_blue.gif" alt="블루" /></a></dd>
+								</dl>
+							</div>
+						</div>
+					</div>
+				</div><!--//zMailSkin -->
+
+				<div class="zMailMemo right_bottom">
+					<div class="right_top">
+						<div class="right_center">
+							<div class="memoNum">
+								<h3>메모 <img src="images/t_memo_txt.gif" alt="간략한 내용을 메모해두세요" /></h3>
+								<ol>
+									<li><a href="#"><img src="images/b_memoicon_01.gif" alt="메모1" /></a></li>
+									<li><a href="#"><img src="images/b_memoicon_02.gif" alt="메모2" /></a></li>
+									<li><a href="#"><img src="images/b_memoicon_03.gif" alt="메모3" /></a></li>
+									<li><a href="#"><img src="images/b_memoicon_04.gif" alt="메모4" /></a></li>
+									<li><a href="#"><img src="images/b_memoicon_05.gif" alt="메모5" /></a></li>
+									<li><a href="#"><img src="images/b_memoicon_06.gif" alt="메모6" /></a></li>
+									<li><a href="#"><img src="images/b_memoicon_07.gif" alt="메모7" /></a></li>
+									<li><a href="#"><img src="images/b_memoicon_08.gif" alt="메모8" /></a></li>
+								</ol>
+							</div>
+						</div>
+					</div>
+					<div class="memoPopup boxShadow hidden">
+						<div class="poplayer">
+							<div class="popWrap">
+								<h4>메모</h4>
+								<div class="rtop">
+								   <div class="r1">&nbsp;</div>
+								   <div class="r2">&nbsp;</div>
+								   <div class="r3">&nbsp;</div>
+								   <div class="r4">&nbsp;</div>
+								</div>  
+								<div class="contents">
+									<textarea class="txtArea"></textarea>
+								</div>
+								<div class="rbottom">
+								   <div class="r4"/>&nbsp;</div>
+								   <div class="r3"/>&nbsp;</div>
+								   <div class="r2"/>&nbsp;</div>
+								   <div class="r1"/>&nbsp;</div>
+								</div>
+								<div class="btn">
+									<a href="#"><img src="images/b_layer_memo_btn01.gif" alt="저장" /></a>
+									<a href="#"><img src="images/b_layer_memo_btn02.gif" alt="닫기" /></a>
+									<a href="#"><img src="images/b_layer_memo_btn03.gif" alt="삭제" /></a>
+								</div>
+								<div class="ft"><a href="#"><img src="images/b_layer_memo_c.gif" alt="닫기" /></a></div>
+							</div>
+						</div>
+					</div><!-- // 메모장 레이어 hidden 값 지우면 노출 -->
+				</div><!--//zMailMemo -->
+
+				<div class="zMailNotice right_bottom">
+					<div class="right_h3topbg">
+						<h3>공지사항</h3>
+					</div>
+					<div class="right_center">
+						<div class="noticeLst">
+							<ol>
+								<li>
+									<span class="title"><a href="#">스킨이 업데이트 되었습니다.</a></span>
+									<span class="date">09.03.15</span>
+								</li>
+								<li>
+									<span class="title"><a href="#">메일링이 더욱 쉬워집니다.</a></span>
+									<span class="date">09.03.15</span>
+								</li>
+								<li>
+									<span class="title"><a href="#">크리스마스 스킨이 무료로...</a></span>
+									<span class="date">09.03.15</span>
+								</li>
+								<li>
+									<span class="title"><a href="#">3차 버그 오류 수정안내</a></span>
+									<span class="date">09.03.15</span>
+								</li>
+							</ol>
+						</div>
+					</div>
+					<div class="ft"><a href="#"><span class="hidden">MORE</span></a></div>
+				</div><!--//zMailNotice -->
+
+				<div class="zMailSchedule right_bottom">
+					<div class="right_h3topbg">
+						<h3>일정관리</h3>
+					</div>
+					<div class="right_center">
+						<div class="scheduleLst">
+							<p class="date">
+								 <span class="bullet"><em class="today">TODAY :</em> <em class="dat">2010.04.06</em> (화)</span>
+							</p>
+							<ul>
+								<li><img src="images/i_schedule01.gif" alt="전체" /><strong>[09:00]</strong><a href="#">고객사 방문</a></li>
+								<li><img src="images/i_schedule02.gif" alt="부서" /><strong>[09:00]</strong><a href="#">고객사 방문</a></li>
+								<li><img src="images/i_schedule03.gif" alt="개인" /><strong>[09:00]</strong><a href="#">고객사 방문</a></li>
+								<li><img src="images/i_schedule02.gif" alt="부서" /><strong>[09:00]</strong><a href="#">고객사 방문</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="ft"><a href="#"><span class="hidden">MORE</span></a></div>
+				</div><!--//zMailSchedule -->
+
+				<div class="zMailImg right_ㅊottom">
+					<div class="right_h3topbg">
+						<h3>이미지</h3>
+					</div>
+					<div class="right_center">
+						<div class="imgLst">
+							<ol>
+								<li>
+									<span class="title"><a href="#">스킨이 업데이트 되었습니다.</a></span>
+									<span class="date">09.03.15</span>
+								</li>
+								<li>
+									<span class="title"><a href="#">메일링이 더욱 쉬워집니다.</a></span>
+									<span class="date">09.03.15</span>
+								</li>
+							</ol>
+						</div>
+					</div>
+					<div class="ft"><a href="#"><span class="hidden">MORE</span></a></div>
+				</div><!--//zMailNotice -->
+
+			</div><!--//zRight 템플릿 적용시 right 부분 -->
+
+			<div id="zCenter">
+
+				<div class="zMailSch">
+					<table class="schLayout"> 
+						<thead>
+							<tr>
+								<th class="leftTop">&nbsp;</th>
+								<th class="topBg">&nbsp;</th>
+								<th class="rightTop">&nbsp;</th>
+							</tr>
+						</thead>
+						<tbody> 
+							<tr> 
+								<td class="leftBg">&nbsp;</td>
+								<td class="con">
+									<div class="mailSch">
+										<div class="schBg">
+											<div class="sch01">
+												<select>
+													<option>보낸사람</option>
+													<option>받는사람</option>
+													<option>제목</option>
+													<option>본문</option>
+												</select>
+											</div>
+											<div class="sch02">
+												<input type="text" class="schtxt" />
+											</div>
+										</div>
+										<div class="schBtn"><a href="#" onfocus="this.blur()" title="Search"><span class="hidden">SEARCH</span></a></div>
+										<div class="detailBtn"><a href="#"><img src="images/b_detail_schdown.gif" alt="상세검색" /></a></div>
+									</div><!--//mailSch -->
+									<div class="detailSch">
+										<div class="schTerms">
+											<span class="tit"><img src="images/t_txt_schterms.gif" alt="검색조건" /></span>
+											<span class="inp">
+												<select>
+													<option>전체메일함</option>
+													<option>받은메일함</option>
+													<option>보낸메일함</option>
+													<option>임시보관함</option>
+													<option>내게보낸메일함</option>
+													<option>휴지통</option>
+												</select>
+											</span>
+											<span class="inp">
+												<select>
+													<option>전체</option>
+													<option>읽은메일</option>
+													<option>읽지않은메일</option>
+													<option>첨부파일메일</option>
+													<option>중요메일</option>
+													<option>잠금메일</option>
+													<option>보안메일</option>
+												</select>
+											</span>
+											<span class="inp">
+												<select>
+													<option>보낸사람</option>
+													<option>받는사람</option>
+													<option>제목</option>
+													<option>본문</option>
+												</select>
+											</span>
+											<span class="inp stxt_1">
+												<input type="text" class="stxt01" />
+											</span>
+											<span class="btn"><a href="#"><em class="hidden">검색</em></a></span>
+										</div><!--//검색조건 -->
+										<div class="schPeriod">
+											<span class="tit"><img src="images/t_txt_schperiod.gif" alt="검색기간" /></span>
+											<span class="inp">
+												<select>
+													<option>받는시간</option>
+													<option>보낸시간</option>
+												</select>
+											</span>
+											<span class="p1"><a href="#"><em class="hidden">전체</em></a></span>
+											<span class="p2"><a href="#"><em class="hidden">오늘</em></a></span>
+											<span class="p3"><a href="#"><em class="hidden">1주</em></a></span>
+											<span class="p4"><a href="#"><em class="hidden">1개월</em></a></span>
+											<span class="p5"><a href="#"><em class="hidden">3개월</em></a></span>
+											<span class="p6"><a href="#"><em class="hidden">6개월</em></a></span>
+											<span class="p7"><a href="#"><em class="hidden">1년</em></a></span>
+											<span class="stxt_2">
+												<input type="text" class="stxt02 vm" maxlength="8" />
+											</span>
+											<span class="cal">
+												<a href="#"><img src="images/i_calendar.gif" alt="달력보기" /></a>
+												<div class="calendar boxShadow hidden">
+													<div class="wrapAbContent">
+														<table class="tt-calendar">
+															<caption class="cal_month">
+																<a href="#" title="1년 앞의 달력을 보여줍니다.">&laquo;</a>
+																<a href="#">2010</a>
+																<a href="#" title="1년 뒤의 달력을 보여줍니다.">&raquo;</a>
+																&nbsp;
+																<a href="#" title="1개월 앞의 달력을 보여줍니다.">&laquo;</a>
+																<a href="#">4</a>
+																<a href="#" title="1개월 뒤의 달력을 보여줍니다.">&raquo;</a>
+															</caption>
+															<thead>
+																<tr>
+																	<th class="cal_week2">Su</th>
+																	<th class="cal_week1">Mo</th>
+																	<th class="cal_week1">Tu</th>
+																	<th class="cal_week1">We</th>
+																	<th class="cal_week1">Th</th>
+																	<th class="cal_week1">Fr</th>
+																	<th class="cal_week1 bw">Sa</th>
+																</tr>
+															</thead>
+															<tbody>
+																<tr class="cal_week">
+																	<td class="cal_day cal_day_sunday">&nbsp;</td>
+																	<td class="cal_day">&nbsp;</td>
+																	<td class="cal_day">&nbsp;</td>
+																	<td class="cal_day">&nbsp;</td>
+																	<td class="cal_day">&nbsp;</td>
+																	<td class="cal_day">&nbsp;</td>
+																	<td class="cal_day cal_day3"><a class="cal_click" href="#">1</a></td>
+																</tr>
+																<tr class="cal_week">
+																	<td class="cal_day cal_day_sunday"><a class="cal_click" href="#">2</a></td>
+																	<td class="cal_day"><a class="cal_click" href="#">3</a></td>
+																	<td class="cal_day"><a class="cal_click" href="#">4</a></td>
+																	<td class="cal_day"><a class="cal_click" href="#">5</a></td>
+																	<td class="cal_day"><a class="cal_click" href="#">6</a></td>
+																	<td class="cal_day"><a class="cal_click" href="#">7</a></td>
+																	<td class="cal_day"><a class="cal_click" href="#">8</a></td>
+																</tr>
+																<tr class="cal_week">
+																	<td class="cal_day cal_day_sunday"><a class="cal_click" href="#">9</a></td>
+																	<td class="cal_day"><a class="cal_click" href="#">10</a></td>
+																	<td class="cal_day"><a class="cal_click" href="#">11</a></td>
+																	<td class="cal_day"><a class="cal_click" href="#">12</a></td>
+																	<td class="cal_day"><a class="cal_click" href="#">13</a></td>
+																	<td class="cal_day"><a class="cal_click" href="#">14</a></td>
+																	<td class="cal_day"><a class="cal_click" href="#">15</a></td>
+																</tr>
+																<tr class="cal_week cal_current_week">
+																	<td class="cal_day cal_day_sunday"><a class="cal_click" href="#">16</a></td>
+																	<td class="cal_day"><a class="cal_click" href="#">17</a></td>
+																	<td class="cal_day cal_day4">18</td>
+																	<td class="cal_day"><a class="cal_click" href="#">19</a></td>
+																	<td class="cal_day"><a class="cal_click" href="#">20</a></td>
+																	<td class="cal_day"><a class="cal_click" href="#">21</a></td>
+																	<td class="cal_day"><a class="cal_click" href="#">22</a></td>
+																</tr>
+																<tr class="cal_week">
+																	<td class="cal_day cal_day_sunday"><a class="cal_click" href="#">23</a></td>
+																	<td class="cal_day"><a class="cal_click" href="#">24</a></td>
+																	<td class="cal_day"><a class="cal_click" href="#">25</a></td>
+																	<td class="cal_day"><a class="cal_click" href="#">26</a></td>
+																	<td class="cal_day"><a class="cal_click" href="#">27</a></td>
+																	<td class="cal_day"><a class="cal_click" href="#">28</a></td>
+																	<td class="cal_day"><a class="cal_click" href="#">29</a></td>
+																</tr>
+																<tr class="cal_week">
+																	<td class="cal_day cal_day_sunday"><a class="cal_click" href="#">30</a></td>
+																	<td class="cal_day"><a class="cal_click" href="#">31</a></td>
+																	<td class="cal_day">&nbsp;</td>
+																	<td class="cal_day">&nbsp;</td>
+																	<td class="cal_day">&nbsp;</td>
+																	<td class="cal_day">&nbsp;</td>
+																	<td class="cal_day">&nbsp;</td>
+																</tr>
+															</tbody>
+														</table>
+													</div>
+													<div class="ft"><a href="#"><img src="images/b_layer_memo_c.gif" alt="닫기" /></a></div>
+												</div><!-- calender 팝업레이어 hidden 삭제시 노출 -->
+											</span>
+											<span>~</span>
+											<span class="stxt_2">
+												<input type="text" class="stxt02 vm" maxlength="8" />
+											</span>
+											<span class="cal">
+												<a href="#"><img src="images/i_calendar.gif" alt="달력보기" /></a>
+												<div class="calendar boxShadow hidden">
+													<div class="wrapAbContent">
+														<table class="tt-calendar">
+															<caption class="cal_month">
+																<a href="#" title="1년 앞의 달력을 보여줍니다.">&laquo;</a>
+																<a href="#">2010</a>
+																<a href="#" title="1년 뒤의 달력을 보여줍니다.">&raquo;</a>
+																&nbsp;
+																<a href="#" title="1개월 앞의 달력을 보여줍니다.">&laquo;</a>
+																<a href="#">4</a>
+																<a href="#" title="1개월 뒤의 달력을 보여줍니다.">&raquo;</a>
+															</caption>
+															<thead>
+																<tr>
+																	<th class="cal_week2">Su</th>
+																	<th class="cal_week1">Mo</th>
+																	<th class="cal_week1">Tu</th>
+																	<th class="cal_week1">We</th>
+																	<th class="cal_week1">Th</th>
+																	<th class="cal_week1">Fr</th>
+																	<th class="cal_week1 bw">Sa</th>
+																</tr>
+															</thead>
+															<tbody>
+																<tr class="cal_week">
+																	<td class="cal_day cal_day_sunday">&nbsp;</td>
+																	<td class="cal_day">&nbsp;</td>
+																	<td class="cal_day">&nbsp;</td>
+																	<td class="cal_day">&nbsp;</td>
+																	<td class="cal_day">&nbsp;</td>
+																	<td class="cal_day">&nbsp;</td>
+																	<td class="cal_day cal_day3"><a class="cal_click" href="#">1</a></td>
+																</tr>
+																<tr class="cal_week">
+																	<td class="cal_day cal_day_sunday"><a class="cal_click" href="#">2</a></td>
+																	<td class="cal_day"><a class="cal_click" href="#">3</a></td>
+																	<td class="cal_day"><a class="cal_click" href="#">4</a></td>
+																	<td class="cal_day"><a class="cal_click" href="#">5</a></td>
+																	<td class="cal_day"><a class="cal_click" href="#">6</a></td>
+																	<td class="cal_day"><a class="cal_click" href="#">7</a></td>
+																	<td class="cal_day"><a class="cal_click" href="#">8</a></td>
+																</tr>
+																<tr class="cal_week">
+																	<td class="cal_day cal_day_sunday"><a class="cal_click" href="#">9</a></td>
+																	<td class="cal_day"><a class="cal_click" href="#">10</a></td>
+																	<td class="cal_day"><a class="cal_click" href="#">11</a></td>
+																	<td class="cal_day"><a class="cal_click" href="#">12</a></td>
+																	<td class="cal_day"><a class="cal_click" href="#">13</a></td>
+																	<td class="cal_day"><a class="cal_click" href="#">14</a></td>
+																	<td class="cal_day"><a class="cal_click" href="#">15</a></td>
+																</tr>
+																<tr class="cal_week cal_current_week">
+																	<td class="cal_day cal_day_sunday"><a class="cal_click" href="#">16</a></td>
+																	<td class="cal_day"><a class="cal_click" href="#">17</a></td>
+																	<td class="cal_day cal_day4">18</td>
+																	<td class="cal_day"><a class="cal_click" href="#">19</a></td>
+																	<td class="cal_day"><a class="cal_click" href="#">20</a></td>
+																	<td class="cal_day"><a class="cal_click" href="#">21</a></td>
+																	<td class="cal_day"><a class="cal_click" href="#">22</a></td>
+																</tr>
+																<tr class="cal_week">
+																	<td class="cal_day cal_day_sunday"><a class="cal_click" href="#">23</a></td>
+																	<td class="cal_day"><a class="cal_click" href="#">24</a></td>
+																	<td class="cal_day"><a class="cal_click" href="#">25</a></td>
+																	<td class="cal_day"><a class="cal_click" href="#">26</a></td>
+																	<td class="cal_day"><a class="cal_click" href="#">27</a></td>
+																	<td class="cal_day"><a class="cal_click" href="#">28</a></td>
+																	<td class="cal_day"><a class="cal_click" href="#">29</a></td>
+																</tr>
+																<tr class="cal_week">
+																	<td class="cal_day cal_day_sunday"><a class="cal_click" href="#">30</a></td>
+																	<td class="cal_day"><a class="cal_click" href="#">31</a></td>
+																	<td class="cal_day">&nbsp;</td>
+																	<td class="cal_day">&nbsp;</td>
+																	<td class="cal_day">&nbsp;</td>
+																	<td class="cal_day">&nbsp;</td>
+																	<td class="cal_day">&nbsp;</td>
+																</tr>
+															</tbody>
+														</table>
+													</div>
+													<div class="ft"><a href="#"><img src="images/b_layer_memo_c.gif" alt="닫기" /></a></div>
+												</div><!-- calender 팝업레이어 hidden 삭제시 노출 -->
+												<!-- em class="ex">(ex: 20100101)</em -->
+											</span>
+												
+										</div><!--//검색기간 -->
+									</div>
+								</td>
+								<td class="rightBg">&nbsp;</td>
+							</tr>
+							<tr>
+								<td class="leftBottom">&nbsp;</td>
+								<td class="bottomBg">&nbsp;</td>
+								<td class="rightBottom">&nbsp;</td>
+							</tr>
+						</tbody>
+					</table>
+				</div><!--//zMailSch -->
+
+				<div class="zMailList">
+					<table class="mailLayout"> 
+						<thead> 
+							<tr>
+								<th class="leftTop">&nbsp;</th>
+								<th class="topBg mlistWrap">
+									<div class="mlistTop">
+										<div class="noreadWrp">
+											<p class="noread">읽지않은메일 : <em><a href="#">2342</a></em>통 , 쪽지: <em><a href="#">0</a></em>통</p>
+											<p class="del"><a href="#"><span class="hidden">삭제</span></a></p>
+										</div>
+										<div class="amount">
+											<div class="amoList">
+												<dl>
+													<dt class="tit"><img src="images/t_sb_use.gif" alt="메일사용량" /></dt>
+													<dd class="graph">
+														<span class="no1" style="width:100%;">&nbsp;</span>
+													</dd>
+													<dd class="capacity"><em>1721.4</em>K / <strong>100.0</strong>M</dd>
+													<dd class="adm"><a href="#">관리</a></dd>
+												</dl>
+											</div>
+											<div class="amoList">
+												<dl>
+													<dt class="tit"><img src="images/t_sb_attachment.gif" alt="대용량첨부" /></dt>
+													<dd class="graph">
+														<span class="no1" style="width:70%;">&nbsp;</span>
+													</dd>
+													<dd class="capacity"><em>71.4</em>K / <strong>100.0</strong>M</dd>
+													<dd class="adm"><a href="#">관리</a></dd>
+												</dl>
+											</div>
+											<div class="amoList">
+												<dl>
+													<dt class="tit"><img src="images/t_sb_folder.gif" alt="웹폴더" /></dt>
+													<dd class="graph">
+														<span class="no1" style="width:20%;">&nbsp;</span>
+													</dd>
+													<dd class="capacity"><em>71.4</em>K / <strong>100.0</strong>M</dd>
+													<dd class="adm"><a href="#">관리</a></dd>
+												</dl>
+											</div>
+										</div>
+									</div>
+								</th>
+								<th class="rightTop">&nbsp;</th>
+							</tr>
+						</thead>
+						<tbody> 
+							<tr> 
+								<td class="leftBg">&nbsp;</td>
+								<td class="con">
+									<div class="mailList">
+										<table summary="메일리스트">
+											<caption>메일리스트</caption>
+											<colgroup>
+												<col width="40px"></col>
+												<col width="20px"></col>
+												<col width="120px"></col>
+												<col width="95px"></col>
+												<col width=""></col>
+												<col width="90px"></col>
+											</colgroup>
+											<thead>
+												<tr>
+													<th>
+														<a href="#"><img src="images/btn_all.gif" alt="전체" /></a>
+														<!-- a href="#"><img src="images/btn_select.gif" alt="전체" / ></a 체크 시에-->
+													</th>
+													<th><img src="images/icon_clip1.gif" alt="첨부여부" /></th>
+													<th>메일함</th>
+													<th>보낸사람</th>
+													<th>제목</th>
+													<th>받은시간</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td class="a"><input type="checkbox" /></td>
+													<td class="b"><img src="images/icon_clip2.gif" alt="일반첨부" /></td>
+													<td class="c"><img src="images/i_mail_icon01.gif" alt="읽지않은메일" /> 내게보낸메일함</td>
+													<td class="d">
+														<div class="sendMenu">
+															<a href="#">제타소프트</a>
+															<div class="sendInfoLayer boxShadow hidden">
+																<h4>mailadmin@demo.zettamail.com</h4>
+																<table summary="보낸이에 대한 메뉴">
+																	<caption>보낸이에 대한 메뉴</caption>
+																	<tr onmouseover="this.style.backgroundColor='#e9e9e9'" onmouseout="this.style.backgroundColor='#f8f8f8'" style="cursor:pointer;" onclick="">
+																		<td class="icon"><img src="images/i_mail_icon05.gif" alt="메일쓰기" /></td>
+																		<td class="mu">메일쓰기</td>
+																		<td class="arrow"><img src="images/i_arrow02.gif" /></td>
+																	</tr>
+																	<tr onmouseover="this.style.backgroundColor='#e9e9e9'" onmouseout="this.style.backgroundColor='#f8f8f8'" style="cursor:pointer;" onclick="">
+																		<td class="icon"><img src="images/i_mail_icon02.gif" alt="받은메일보기" /></td>
+																		<td class="mu">받은메일보기</td>
+																		<td class="arrow"><img src="images/i_arrow02.gif" /></td>
+																	</tr>
+																	<tr onmouseover="this.style.backgroundColor='#e9e9e9'" onmouseout="this.style.backgroundColor='#f8f8f8'" style="cursor:pointer;" onclick="">
+																		<td class="icon"><img src="images/i_mail_icon06.gif" alt="주소록추가" /></td>
+																		<td class="mu">주소록추가</td>
+																		<td class="arrow"><img src="images/i_arrow02.gif" /></td>
+																	</tr>
+																	<tr onmouseover="this.style.backgroundColor='#e9e9e9'" onmouseout="this.style.backgroundColor='#f8f8f8'" style="cursor:pointer;" onclick="">
+																		<td class="icon"><img src="images/i_mail_icon07.gif" alt="수신거부" /></td>
+																		<td class="mu">수신거부</td>
+																		<td class="arrow"><img src="images/i_arrow02.gif" /></td>
+																	</tr>
+																</table>
+															</div><!-- // 보낸사람메뉴 레이어 -->
+														</div>
+													</td>
+													<td class="e">
+														<div class="main_subject"><a href="#">메일을 보내드립니다. 메일을 보내드립니다. 메일을 보내드립니다. 메일을 보내드립니다.</a></div>
+													</td>
+													<td class="f">10-04-02 14:34</td>
+												</tr>
+												<tr>
+													<td class="a"><input type="checkbox" /></td>
+													<td class="b"><img src="images/icon_clip2.gif" alt="일반첨부" /></td>
+													<td class="c"><img src="images/i_mail_icon02.gif" alt="읽지않은메일" /> 내게보낸메일함</td>
+													<td class="d"><a href="#">제타소프트</a></td>
+													<td class="e">
+														<div class="main_subject"><a href="#">메일을 보내드립니다. 메일을 보내드립니다. 메일을 보내드립니다. 메일을 보내드립니다.</a></div>
+													</td>
+													<td class="f">10-04-02 14:34</td>
+												</tr>
+												<tr>
+													<td class="a"><input type="checkbox" /></td>
+													<td class="b"><img src="images/icon_clip2.gif" alt="일반첨부" /></td>
+													<td class="c"><img src="images/i_mail_icon03.gif" alt="읽지않은메일" /> 내게보낸메일함</td>
+													<td class="d"><a href="#">제타소프트</a></td>
+													<td class="e">
+														<div class="main_subject"><a href="#">메일을 보내드립니다. 메일을 보내드립니다. 메일을 보내드립니다. 메일을 보내드립니다.</a></div>
+													</td>
+													<td class="f">10-04-02 14:34</td>
+												</tr>
+												<tr>
+													<td class="a"><input type="checkbox" /></td>
+													<td class="b"><img src="images/icon_clip2.gif" alt="일반첨부" /></td>
+													<td class="c"><img src="images/i_mail_icon04.gif" alt="읽지않은메일" /> 내게보낸메일함</td>
+													<td class="d"><a href="#">제타소프트</a></td>
+													<td class="e">
+														<div class="main_subject"><a href="#">메일을 보내드립니다. 메일을 보내드립니다. 메일을 보내드립니다. 메일을 보내드립니다.</a></div>
+													</td>
+													<td class="f">10-04-02 14:34</td>
+												</tr>
+												<tr>
+													<td class="a"><input type="checkbox" /></td>
+													<td class="b"><img src="images/icon_clip2.gif" alt="일반첨부" /></td>
+													<td class="c"><img src="images/i_mail_icon05.gif" alt="읽지않은메일" /> 내게보낸메일함</td>
+													<td class="d"><a href="#">제타소프트</a></td>
+													<td class="e">
+														<div class="main_subject"><a href="#">메일을 보내드립니다. 메일을 보내드립니다. 메일을 보내드립니다. 메일을 보내드립니다.</a></div>
+													</td>
+													<td class="f">10-04-02 14:34</td>
+												</tr>
+												<tr>
+													<td class="a"><input type="checkbox" /></td>
+													<td class="b"><img src="images/icon_clip2.gif" alt="일반첨부" /></td>
+													<td class="c"><img src="images/i_mail_icon06.gif" alt="읽지않은메일" /> 내게보낸메일함</td>
+													<td class="d"><a href="#">제타소프트</a></td>
+													<td class="e">
+														<div class="main_subject"><a href="#">메일을 보내드립니다. 메일을 보내드립니다. 메일을 보내드립니다. 메일을 보내드립니다.</a></div>
+													</td>
+													<td class="f">10-04-02 14:34</td>
+												</tr>
+												<tr>
+													<td class="a"><input type="checkbox" /></td>
+													<td class="b"><img src="images/icon_clip2.gif" alt="일반첨부" /></td>
+													<td class="c"><img src="images/i_mail_icon07.gif" alt="읽지않은메일" /> 내게보낸메일함</td>
+													<td class="d"><a href="#">제타소프트</a></td>
+													<td class="e">
+														<div class="main_subject"><a href="#">메일을 보내드립니다. 메일을 보내드립니다. 메일을 보내드립니다. 메일을 보내드립니다.</a></div>
+													</td>
+													<td class="f">10-04-02 14:34</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+
+								</td> 
+								<td class="rightBg">&nbsp;</td>
+							</tr>
+							<tr>
+								<td class="leftBottom">&nbsp;</td>
+								<td class="bottomBg">&nbsp;</td>
+								<td class="rightBottom">&nbsp;</td>
+							</tr>
+						</tbody>
+					</table>
+				</div><!--//zMailSch -->
+
+			</div><!--//zCenter -->
+
+		</div><!--//zContents -->
+
+	</div><!--//zContainer -->
+
+</div><!--//zWrapper -->
+
+
+<script type="text/javascript" language="javascript"> 
+<!--//
+ 
+function left_makeCookie(name, value) {
+	var expdate = new Date();
+	expdate.setTime(expdate.getTime() + (24 * 60 * 60 * 1000));
+	document.cookie = name+"="+value+"; expires="+expdate.toGMTString()+"; path=/";
+}
+function left_readCookie(name) {
+	var namelen = name.length;
+	var value = null;
+	var cookiedata = document.cookie;
+	if(cookiedata.length>0) {
+		var idx0 = cookiedata.indexOf(name);
+		if(idx0 >= 0) value = cookiedata.substring(idx0+namelen+1,idx0+namelen+2);
+	}
+	return value;
+}
+ 
+ 
+var ajaxObjectArray4Left = new Array();
+ 
+ 
+//휴지통 비움
+function empty_trash_result(ajaxIndex){
+ 
+	var ajax_ok = ajaxObjectArray4Left[ajaxIndex].response;
+	ajaxObjectArray4Left[ajaxIndex] = false;
+	
+	if(ajax_ok == 'OK'){
+		//alert('휴지통의 모든 메일이 삭제되었습니다.');
+		var img = self.document.all["trashbox_notread_img"];
+		if(img!= null){
+			img.style.display = 'none';
+		}
+ 
+		var txt = self.document.all["trashbox_notread_txt"];
+		if(txt!= null){
+			txt.style.display = 'none';
+			
+		}
+ 
+		self.document.location.reload(true);
+		
+	}else{
+		alert('휴지통 비움 기능에 문제가 있습니다.');
+	}
+}
+function emptyTrashBox(){
+ 
+	if(confirm('휴지통의 모든 메일이 영구히 삭제되어 복구가 불가능해집니다.\n휴지통을 비우시겠습니까?')){
+ 
+		var ajaxRequestFile = '/zmail/mail/ajax_mail_action.nvd';
+		
+		ajaxObjectArray4Left[ajaxObjectArray4Left.length] = new sack();
+		var ajaxIndex = ajaxObjectArray4Left.length-1;
+		ajaxObjectArray4Left[ajaxIndex].requestFile = ajaxRequestFile + '?mode=empty_trash';			
+		ajaxObjectArray4Left[ajaxIndex].onCompletion = function() { empty_trash_result(ajaxIndex); };	// Specify function that will be executed after file has been found					
+		ajaxObjectArray4Left[ajaxIndex].runAJAX();
+	}
+}
+ 
+ 
+//스팸메일함 비움
+function empty_spam_result(ajaxIndex){
+ 
+	var ajax_ok = ajaxObjectArray4Left[ajaxIndex].response;
+	ajaxObjectArray4Left[ajaxIndex] = false;
+	
+	if(ajax_ok == 'OK'){
+		//alert('스팸메일함의 모든 메일이 삭제되었습니다.');
+		var img = self.document.all["spambox_notread_img"];
+		if(img!= null){
+			img.style.display = 'none';
+		}
+ 
+		var txt = self.document.all["spambox_notread_txt"];
+		if(txt!= null){
+			txt.style.display = 'none';
+			
+		}
+ 
+		self.document.location.reload(true);
+		
+	}else{
+		alert('스팸메일함 비움 기능에 문제가 있습니다.');
+	}
+}
+function emptySpamBox(){
+ 
+	if(confirm('스팸메일함의 모든 편지가 영구히 삭제되어 복구가 불가능해집니다.\n스팸메일함을 비우시겠습니까?')){
+ 
+		var ajaxRequestFile = '/zmail/mail/ajax_mail_action.nvd';
+		
+		ajaxObjectArray4Left[ajaxObjectArray4Left.length] = new sack();
+		var ajaxIndex = ajaxObjectArray4Left.length-1;
+		ajaxObjectArray4Left[ajaxIndex].requestFile = ajaxRequestFile + '?mode=empty_spam';			
+		ajaxObjectArray4Left[ajaxIndex].onCompletion = function() { empty_spam_result(ajaxIndex); };	// Specify function that will be executed after file has been found					
+		ajaxObjectArray4Left[ajaxIndex].runAJAX();
+	}
+}
+ 
+ 
+function pop3Mail(){
+	if(confirm('설정된 모든 외부메일을 가져오시겠습니까?')){
+		var pop3 = showModalDialog("/zmail/mail/configuration/pop3_wait_left.nvd?mode=open_all", pop3, "dialogWidth:460px;dialogHeight:180px;resizable:no;center:yes;help:0;status=0" );
+	}
+}
+ 
+ 
+ 
+/* 기본메일함 드롭다운 : start */
+function left_view_basicbox(flag) {
+	var viewInfoStyle = document.getElementById("left_block_basicbox").style;
+	var setUser = 1;
+	if (viewInfoStyle.display == "none" || flag == "none") {
+		viewInfoStyle.display = "inline";
+		document.getElementById("left_view_basic_mailbox_img").src = 'images/b_minus.gif';
+		left_makeCookie("left_basic_mailbox_open"+setUser, 1);
+	} else {
+		viewInfoStyle.display = "none";
+		document.getElementById("left_view_basic_mailbox_img").src = 'images/b_plus.gif';
+		left_makeCookie("left_basic_mailbox_open"+setUser, 0);
+	}
+} 
+/* 기본메일함 드롭다운 : end */
+ 
+ 
+ 
+/* 개인메일함 드롭다운 : start */
+function left_view_userbox(flag) {
+	var viewInfoStyle = document.getElementById("left_block_userbox").style;
+	var setUser = 1;
+	if (viewInfoStyle.display == "none" || flag == "none") {
+		viewInfoStyle.display = "inline";
+		document.getElementById("left_view_user_mailbox_img").src = 'images/b_minus.gif';
+		left_makeCookie("left_user_mailbox_open"+setUser, 1);
+	} else {
+		viewInfoStyle.display = "none";
+		document.getElementById("left_view_user_mailbox_img").src = 'images/b_plus.gif';
+		left_makeCookie("left_user_mailbox_open"+setUser, 0);
+	}
+}
+function resizingUserLayer(){
+ 
+	var userboxViewStyle = document.getElementById("left_block_userbox").style;
+ 
+	//if(userboxViewStyle != 'undefine'){
+		if (userboxViewStyle.display == "none") {
+			document.getElementById("left_userbox_layer").style.top= -14;//-27 -> -14
+		}else{
+			var userbox_cnt = 3;
+			var set_top = -188;
+			
+			if(userbox_cnt<10) {
+				var plus_top = -24;
+				
+				if(userbox_cnt==0) set_top = -14;
+				else if(userbox_cnt==1) set_top = plus_top - ( 10 + (userbox_cnt+1) );
+				else set_top = plus_top - ( 10 + (20*(userbox_cnt-1) ));
+			}
+			document.getElementById("left_userbox_layer").style.top= set_top;
+		}
+	//}
+}
+function left_add_userbox(){
+	resizingUserLayer();
+	MM_showHideLayers('left_userbox_layer','','show');
+ 
+	var t_form = document.getElementById("leftUserboxForm");
+	t_form.left_new_mailbox_name.focus();
+}
+function leftUserboxLayerClose(){
+ 
+	var t_form = document.getElementById("leftUserboxForm");
+	t_form.left_new_mailbox_name.value = '';
+ 
+	//셀렉트박스 초기화
+	var t_form2 = document.getElementById("left_upper_mailbox_code");
+	settingValue(t_form2.name, t_form2.options[0].text);
+	
+	MM_showHideLayers('left_userbox_layer','','hide');
+}
+function add_mailbox_result(ajaxIndex){
+ 
+	var ajax_ok = ajaxObjectArray4Left[ajaxIndex].response;
+	ajaxObjectArray4Left[ajaxIndex] = false;
+ 
+	if(ajax_ok == 'OK'){
+		leftUserboxLayerClose();
+		//alert('개인메일함에 추가되었습니다');
+		self.document.location.reload(true);
+	
+	}else if(ajax_ok == 'DUPLICATE'){
+		alert('해당 개인메일함이 이미 존재합니다.');
+		var t_form = document.getElementById("leftUserboxForm");	
+		t_form.left_new_mailbox_name.focus();
+ 
+	}else{
+		alert('개인메일함 추가기능에 문제가 생겼습니다.\n\n잠시 후 다시 입력하여주세요.');	
+		var t_form = document.getElementById("leftUserboxForm");	
+		t_form.left_new_mailbox_name.focus();
+	}
+}
+function isValidateuserboxName(name) {
+	name = trim(name);
+ 
+	var len = bytes(name);
+	if (len < 2 || len > 16) {
+		alert('메일함명은 2~16자 까지만 가능합니다. \n(한글2자, 영문1자로 계산)');
+		return false;
+	}
+ 
+	var illegal = " \t\r\n!@#$%^&*+=|\"':;<>()?/,~`";
+	if (strPbrk(name, illegal) != -1) {
+		alert('메일함명에 허용되지 않은 문자가 있습니다. \n\n공백,특수문자 등은 허용되지 않습니다.');
+		return false;
+	}
+ 
+	return true;
+}
+function leftUserboxMake(){
+ 
+	var actionFlag = false;
+	
+	var t_form = document.getElementById("leftUserboxForm");
+	if(t_form.left_new_mailbox_name.value == ''){
+		alert('새메일함을 입력해주세요.');
+		t_form.left_new_mailbox_name.focus();
+		return;
+	}else{
+		actionFlag=true;
+	}
+	
+	if (! isValidateuserboxName(t_form.left_new_mailbox_name.value)) {
+		t_form.left_new_mailbox_name.focus();
+		return;
+	}else{
+		actionFlag=true;
+	}
+ 
+	if(actionFlag)
+	{
+		//setting : 개인메일함의 추가될 정보
+		//방법1) escape('한글')=>%uD55C%uAE00 , 유니코드 값을 표현 
+		//방법2) encodeURIComponent('한글')=>%ED%95%9C%EA%B8%80 , utf-8로 인코딩. encodeURI() 함수도 동일한 결과 출력		
+		var set_new_name = encodeURIComponent(t_form.left_new_mailbox_name.value);//var set_new_name = escape(t_form.left_new_mailbox_name.value);
+		
+		var set_upper_code = t_form.left_upper_mailbox_code.value;
+		var add_param = "&left_private_upper_mailbox_code="+set_upper_code+"&left_private_new_mailbox_name="+set_new_name;
+ 
+		//ajax start
+		var ajaxRequestFile = '/zmail/mail/ajax_mail_action.nvd';
+		ajaxObjectArray4Left[ajaxObjectArray4Left.length] = new sack();
+		var ajaxIndex = ajaxObjectArray4Left.length-1;
+		ajaxObjectArray4Left[ajaxIndex].requestFile = ajaxRequestFile + '?mode=add_user_mailbox' + add_param;			
+		ajaxObjectArray4Left[ajaxIndex].onCompletion = function() { add_mailbox_result(ajaxIndex); };	// Specify function that will be executed after file has been found					
+		ajaxObjectArray4Left[ajaxIndex].runAJAX();
+	}
+}
+/* 개인메일함 드롭다운: end */
+ 
+ 
+ 
+/* 공유메일함  : start */
+function goShareMailbox(resourceName, select){
+	var selectMailbox = select.options[select.selectedIndex].value;
+	//settingValue(select.name, select.options[0].text);
+	
+	var arry_val = selectMailbox.split("|");//0:user_sn , 1:mailbox_code , 2:mailbox_name
+	if(confirm('(공유메일함) '+ resourceName +'의 '+ arry_val[2] +'으로 이동하시겠습니까?')){
+		//자바스크립트에서 인코드 URLEncode  
+		//방법1) escape('한글')=>%uD55C%uAE00 , 유니코드 값을 표현 
+		//방법2) encodeURIComponent('한글')=>%ED%95%9C%EA%B8%80 , utf-8로 인코딩. encodeURI() 함수도 동일한 결과 출력	
+		var shareMailboxName = encodeURIComponent(arry_val[2]);//var name = escape(arry_val[2]);
+		
+		location = "/zmail/mail/mailbox/share_mailbox_list.nvd?user_sn="+arry_val[0]+"&mailbox_code="+arry_val[1]+"&share_mailbox_name="+shareMailboxName;
+	}
+	else{
+		select.options[0].selected = true;
+		return;
+	}
+}
+function left_view_sharebox(flag) {
+	var viewInfoStyle = document.getElementById("left_block_sharebox").style;
+	var setUser = 1;
+	if (viewInfoStyle.display == "none" || flag == "none") {
+		viewInfoStyle.display = "inline";
+		document.getElementById("left_view_share_mailbox_img").src = 'images/b_minus.gif';
+		left_makeCookie("left_share_mailbox_open"+setUser, 1);
+	} else {
+		viewInfoStyle.display = "none";
+		document.getElementById("left_view_share_mailbox_img").src = 'images/b_plus.gif';
+		left_makeCookie("left_share_mailbox_open"+setUser, 0);
+	}
+}
+/* 공유메일함  : end */
+ 
+ 
+ 
+ 
+function _leftProcBodyOnLoad() {
+ 
+	 var setUser = '1';
+ 
+     //기본메일함
+	 var value = left_readCookie("left_basic_mailbox_open"+setUser);
+	 if(value != null) {		
+		if(value==1) {
+			left_view_basicbox("none");
+		}else {
+			left_view_basicbox("inline");
+		}
+	 }
+ 
+	 //개인메일함 
+	 var value2 = left_readCookie("left_user_mailbox_open"+setUser);
+	 if(value2 != null) {		
+		if(value2==1) {
+			left_view_userbox("none");
+		}else {
+			left_view_userbox("inline");
+		}
+	}
+		
+ 
+ 
+  
+}
+ 
+function viewHelp(){
+	var w = 905;
+	var h = 730;
+	var mypage = "/zmail/help/mail_home.html";
+	var myname = 'help';
+	var option = 'toolbar=no,location=no,directories=no, status=no,menubar=no,scrollbars=yes,resizable=yes';
+	LeftPosition = (screen.width) ? (screen.width-w)/2 : 0; 
+    TopPosition = (screen.height) ? (screen.height-h)/2 : 0;
+    settings = 'height='+h+',width='+w+',top='+TopPosition+',left='+LeftPosition+','+ option;
+    win = window.open(mypage,myname,settings);
+}
+ 
+//-->
+</script>
+
+</body>
+
+</html>
+

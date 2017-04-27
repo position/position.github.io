@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="ko">
+<head>
+
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="format-detection" content="telephone=no">
+
+<link rel="shortcut icon" href="images/cbt/favicon.ico" type="image/x-icon" >
+
+<title>영웅의 군단</title>
+
+<script type="text/javascript" src="js/jquery-1.8.2.min.js" ></script>
+<script type="text/javascript" src="js/kakao.link.js"></script>
+<script type="text/javascript" src="js/ygUtil.js?v=20131021134918" ></script>
+
+<meta property="og:url" content="http://yg.nexon.com/teaser/index.aspx">                                  
+<meta property="og:image" content="images/cbt/fb_200x200.png">
+<meta property="og:title" content="영웅의군단 CBT 시작">         
+<meta property="og:description" content="Act 1. 노팅엄에서 로마까지. 엔도어즈 김태곤사단이 개발 중인 모바일 Full 3D MMORPG의 테스트가 시작되었습니다. 당신의 참여를 기다립니다.">
+<link rel="stylesheet" type="text/css" href="css/cbt.css?v=20131021134918" media="screen">
+<script type="text/javascript" src="js/jquery.mobile.custom.min.js"></script>
+<script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
+<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+<script type="text/javascript" src="js/teaser.js?v=20131021134918"></script>
+<!--[if lt IE 9]>
+    <link rel="stylesheet" type="text/css" href="css/cbt_ie8.css?v=20131021134918" media="screen">
+    <script type="text/javascript" src="js/html5shiv.js"></script>    
+    <script type="text/javascript" src="js/PIE.js"></script> 
+	<script type="text/javascript" src="js/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript">
+    $(document).ready(function() {
+         
+        $("#jquery_jplayer_1").jPlayer({
+            ready: function() {
+                $(this).jPlayer("setMedia", {
+                    oga: "http://vod.nexon.co.kr/yg/mp3/ygtitle.ogg",
+                    mp3: "http://vod.nexon.co.kr/yg/mp3/ygtitle.mp3"
+                }).jPlayer("stop");
+            },
+            swfPath: "images/cbt/",
+            supplied: "mp3, oga"
+        });
+        
+        if (window.PIE) {
+            $('.jplayerPosition').each(function() {
+                PIE.attach(this);
+            });
+        }
+    });
+ 
+</script>
+   
+</head>
+<body>
+
+
+<div class="skipToCotent"><a href="#contents">콘텐츠 바로가기</a></div>
+<div class="loading_panel">
+	<p>페이지를 로딩 중입니다. 잠시만 기다려 주세요.</p>
+</div>
+
+<div class="galleryLayer">
+	<div class="head">
+		<a href="#" class="back_step">뒤로</a>
+		<a href="#" class="layer_close">레이어 닫기</a>
+		<div class="op"></div>
+	</div>
+	<div class="photoSlider">
+		<a href="#" class="next_btn">다음 이미지</a>
+		<a href="#" class="prev_btn">이전 이미지</a>
+		<ul>
+			<li><img src="images/cbt/yg_screenshot_01.jpg" alt="유저용 캐릭터 - 요정"></li>
+			<li><img src="images/cbt/yg_screenshot_02.jpg" alt="fan"></li>
+			<li><img src="images/cbt/yg_screenshot_03.jpg" alt="영웅 - 펠릭스"></li>
+			<li><img src="images/cbt/yg_screenshot_04.jpg" alt="수인군단장 - 코마레오"></li>
+			<li><img src="images/cbt/yg_screenshot_05.jpg" alt="페어리헤븐 몬스터_달팽이"></li>
+			<li><img src="images/cbt/yg_screenshot_06.jpg" alt="유저용 캐릭터 - 인간여자"></li>
+			<li><img src="images/cbt/yg_screenshot_07.jpg" alt="몬스터 - 바실리스크"></li>
+			<li><img src="images/cbt/yg_screenshot_08.jpg" alt="유저용 캐릭터 - 인간남자"></li>
+		</ul>
+
+	</div>
+	<div class="foot">
+		<p class="title_pho"></p>
+		<a href="#" class="ori_view">원본보기</a>
+		<div class="op"></div>
+	</div>
+</div>
+
+<div id="ygTeaserWrap">
+	<nav role="navigation" style="display:none;">
+	    <ul class="navi">
+		    <li><a data-id="idx1" href="#idx1">1</a></li>
+		    <li><a data-id="idx2" href="#idx2">2</a></li>
+		    <li><a data-id="idx3" href="#idx3">3</a></li>
+		    <li><a data-id="idx4" href="#idx4">4</a></li>
+		    <li><a data-id="idx5" href="#idx5">5</a></li>
+	    </ul>	 
+	</nav>
+	<header class="userMenu" role="banner">
+	    <div class="wDiv" >
+		    <div class="jplayerWrap">
+				<p class="ost_txt">영웅의군단 OST</p>
+				<div class="jplayerPosition" >
+					<div id="jquery_jplayer_1"></div>
+					<div id="jp_container_1" >					
+						<a href="javascript:;" class="jp-play" tabindex="1">play</a>
+						<a href="javascript:;" class="jp-pause" tabindex="1">pause</a>
+						<a href="javascript:;" class="jp-stop" tabindex="1">stop</a>															
+					</div>
+				</div>
+			</div>
+		    <ul class="snsTop" >
+			    <li class="a"><a href="#" onclick="snsShare('twitter','영웅의군단 CBT 시작!');return false;"><span>트위터</span></a></li>
+			    <li class="b"><a href="#" onclick="snsShare('facebook','영웅의군단 CBT 시작!');return false;"><span>페이스북</span></a></li>
+			    <li class="c"><a href="#" onclick="snsShare('kakao','CBT 시작!');return false;"><span>카카오톡</span></a></li>
+		    </ul>
+		</div>
+	</header>
+    
+	<section id="idx1">
+		<h1 class="blind">영웅의 군단</h1>
+		<img src="images/cbt/k_contents01.jpg" alt="영웅의 군단 - Act1. 노팅엄에서 로마까지">
+	</section>
+	<section id="idx2">
+		<div>
+			<a class="google_btn" href="#" target="_blank"><img src="images/cbt/b_google_play.png" alt="구글플레이 바로가기"></a>
+			<a class="tstore_btn" href="#" target="_blank"><img src="images/cbt/b_t_store.png" alt="티스토어 바로가기"></a>
+			<a class="frontier_btn" href="https://www.facebook.com/NEXONyg" target="_blank"><img src="images/cbt/b_frontier.png" alt="프론티어 지원하기"></a>
+			<img src="images/cbt/k_contents02_4cbt01.jpg" alt="영웅의 군단 3차 CBT 참여하기">	
+			<img src="images/cbt/k_contents02_4cbt02.jpg" alt="영웅의 군단 프론티어 모집">	
+		</div><!-- 테스트 종료 -->
+		
+		<div class="blind">
+			<p>안드로이드OS에서만 플레이 가능합니다.</p>
+			<p>영웅의 군단 카페에 가입하세요 !</p>
+			<p>영웅의군단 카페에서 더 많은 정보를 얻을 수 있습니다.</p>
+			<p>건의, 후기, 버그 등을 자유롭게 남겨주세요.</p>	
+		</div>
+	</section>
+	<section id="idx3">
+		<img src="images/cbt/k_contents03_v2.jpg" alt="Game info">
+		<div class="blind">
+			<h2>Act 1. 노팅엄에서 로마까지</h2>
+			<p>본 버전은 엔도어즈가 개발하고 넥슨에서 서비스하는 모바일 전략 RPG, 영웅의 군단의 개발을 위한 테스트용 데모버전입니다. </p>
+			<p>따라서 미구현 기능 및 버그가 있을 수 있습니다.</p>
+			<p>건의, 후기, 버그 등은 카페에 남겨주시면 더 재미있는 게임을 만들기 위한 소중한 자료로 사용하겠습니다.</p>
+			<p>영웅의군단은 세상을 혼란에 빠뜨리려는 암흑 군주의 음모를 저지하기 위해 여정을 떠나는 영웅들의 이야기를 담은 게임 입니다.</p>
+			<p>여정중에, 혹은 전투의 보상으로 다양한 영웅들을 만납니다.</p>
+			<p>어떤 영웅을 성장하고 조합하여 미션을 해결해 나갈지는 당신의 선택에 달렸습니다.</p>
+		</div>
+	</section>
+	<section id="idx4">
+		<a href="#" id="photo_gallery01" class="photo_view">이미지1</a>
+		<a href="#" id="photo_gallery02" class="photo_view">이미지2</a>
+		<a href="#" id="photo_gallery03" class="photo_view">이미지3</a>
+		<a href="#" id="photo_gallery04" class="photo_view">이미지4</a>
+		<a href="#" id="photo_gallery05" class="photo_view">이미지5</a>
+		<a href="#" id="photo_gallery06" class="photo_view">이미지6</a>
+		<a href="#" id="photo_gallery07" class="photo_view">이미지7</a>
+		<a href="#" id="photo_gallery08" class="photo_view">이미지8</a>
+		<img src="images/cbt/k_contents04_v2.jpg" alt="갤러리">
+	</section>
+	<section id="idx5">
+		<a class="cafe_btn" href="http://cafe.naver.com/legionofheroes/" target="_blank"><img src="images/cbt/b_naver_cafe02.png" alt="네이버 공식 카페"></a>
+		<a class="facebook_btn" href="https://www.facebook.com/NEXONyg" target="_blank"><img src="images/cbt/b_facebook_page02.png" alt="페이스북 팬페이지"></a>
+		<img src="images/cbt/k_contents05_v2.jpg" alt="Facebook Fanpage">
+		<div class="blind">
+			<p>영웅의군단 팬이 되어주세요!</p>
+			<p>영웅의군단 팬페이지에서 '좋아요'를 하면 오픈 및 개발소식을 가장 빠르게 받아볼 수 있습니다.</p>
+		</div>
+	</section>
+	<footer class="teaserFot" role="contentinfo">
+		<p>&copy; 2013 NEXON Korea & NDOORS</p>
+	</footer>
+
+</div><!-- //ygTeaserWrap -->
+	
+</body>
+</html>

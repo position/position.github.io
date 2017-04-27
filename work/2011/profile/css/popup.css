@@ -1,0 +1,73 @@
+/* 친구초대하기 팝업 */
+.popInvite-01{position:absolute;border:1px solid #b1977e;width:304px;height:304px;background:#fff;padding:7px;color:#5c3b1a;z-index:999999;}
+.popInvite-01 .popWrap{padding:0 9px;}
+.popInvite-01 .popWrap em{color:#ea4012;font-weight:bold;}
+.popInvite-01 .popBgcolor{position:relative;background:#e9ded3;width:304px;height:304px;}
+.popInvite-01 .invite_title01{background:url(http://img.ndoors.com/webdata/profile/2010/popup/t_pop_invite.gif) 0 0 no-repeat;width:304px;height:30px;margin-bottom:15px;}
+.popInvite-01 .alert-1{padding-bottom:15px;}
+.popInvite-01 .alert-2{background:#f4eee8;width:276px;font-size:11px;color:#7e644a !important;padding:10px 5px 3px 5px;margin-bottom:15px;}
+.popInvite-01 .alert-2 p{padding-bottom:3px;}
+.popInvite-01 legend{color:#5c3b1a !important;padding-bottom:5px;}
+.popInvite-01 .messArea{width:274px;height:83px;border:1px solid #a5917e;overflow:auto;color:#5c3b1a;padding:5px;}
+.popInvite-01 .btn{text-align:center;margin-top:10px;}
+.popInvite-01 .btn .invBtn{background:url(http://img.ndoors.com/webdata/profile/2010/popup/b_pop_invite.gif) 0 0 no-repeat;width:130px;height:20px;margin-right:10px;}
+.popInvite-01 .btn .cancleBtn{background:url(http://img.ndoors.com/webdata/profile/2010/popup/b_pop_cancle.gif) 0 0 no-repeat;width:130px;height:20px;}
+.popInvite-01 .closed{position:absolute;right:7px;top:6px;}
+.popInvite-01 .closed .closedBtn{background:url(http://img.ndoors.com/webdata/profile/2010/popup/b_pop_closed.gif) 0 0 no-repeat;width:14px;height:14px;}
+
+/* 친구초대완료 팝업 */
+.popInvite-02{position:absolute;border:1px solid #b1977e;width:304px;height:304px;background:#fff;padding:7px;color:#5c3b1a;z-index:999999;}
+.popInvite-02 .popWrap{padding:0 9px;}
+.popInvite-02 .popWrap em{color:#ea4012;font-weight:bold;}
+.popInvite-02 .popBgcolor{position:relative;background:#e9ded3;width:304px;height:304px;}
+.popInvite-02 .invite_title02{background:url(http://img.ndoors.com/webdata/profile/2010/popup/t_pop_invite.gif) 0 -46px no-repeat;width:304px;height:30px;margin-bottom:15px;}
+.popInvite-02 .alert-1{padding-bottom:15px;}
+.popInvite-02 .alert-2{background:#f4eee8;width:271px;font-size:12px;color:#7e644a !important;padding:10px 5px 3px 10px;margin-bottom:15px;}
+.popInvite-02 .alert-2 p{padding-bottom:7px;}
+.popInvite-02 legend{color:#5c3b1a !important;padding-bottom:5px;}
+.popInvite-02 .messArea{width:274px;height:83px;border:1px solid #a5917e;overflow:auto;color:#5c3b1a;padding:5px;}
+.popInvite-02 .btn{text-align:center;margin-top:80px;}
+.popInvite-02 .btn .invBtn{background:url(http://img.ndoors.com/webdata/profile/2010/popup/b_pop_confirm.gif) 0 0 no-repeat;width:130px;height:20px;margin-right:10px;}
+.popInvite-02 .btn .cancleBtn{background:url(http://img.ndoors.com/webdata/profile/2010/popup/b_pop_cancle.gif) 0 0 no-repeat;width:130px;height:20px;}
+.popInvite-02 .btn .closBtn{background:url(http://img.ndoors.com/webdata/profile/2010/popup/b_pop_closed02.gif) 0 0 no-repeat;width:130px;height:20px;}
+.popInvite-02 .closed{position:absolute;right:7px;top:6px;}
+.popInvite-02 .closed .closedBtn{background:url(http://img.ndoors.com/webdata/profile/2010/popup/b_pop_closed.gif) 0 0 no-repeat;width:14px;height:14px;}
+
+/* 쪽지보내기 팝업 */
+.popMessend{position:absolute;border:1px solid #b1977e;width:304px;height:304px;background:#fff;padding:7px;color:#5c3b1a;z-index:999999;}
+.popMessend .popWrap{padding:0 9px;}
+.popMessend .popWrap em{color:#ea4012;font-weight:bold;}
+.popMessend .popBgcolor{position:relative;background:#e9ded3;width:304px;height:304px;}
+.popMessend .invite_title03{background:url(http://img.ndoors.com/webdata/profile/2010/popup/t_pop_invite.gif) 0 -92px no-repeat;width:304px;height:30px;margin-bottom:15px;}
+.popMessend .recipient{padding:0 0 10px 10px;}
+.popMessend .alert-2{background:#f4eee8;width:276px;font-size:11px;color:#7e644a !important;padding:10px 5px 3px 5px;margin-bottom:15px;}
+.popMessend .alert-2 p{padding-bottom:3px;}
+.popMessend legend{color:#5c3b1a !important;padding-bottom:5px;}
+.popMessend label{font-weight:bold;}
+.popMessend .sav{padding:5px 0;}
+.popMessend .descrip{height:40px;}
+.popMessend .messArea{width:274px;height:83px;border:1px solid #a5917e;overflow:auto;color:#5c3b1a;padding:5px;}
+.popMessend .btn{text-align:center;margin-top:10px;}
+.popMessend .btn .sendBtn{background:url(http://img.ndoors.com/webdata/profile/2010/popup/b_pop_send.gif) 0 0 no-repeat;width:130px;height:20px;margin-right:10px;}
+.popMessend .btn .cancleBtn{background:url(http://img.ndoors.com/webdata/profile/2010/popup/b_pop_cancle.gif) 0 0 no-repeat;width:130px;height:20px;}
+.popMessend .closed{position:absolute;right:7px;top:6px;}
+.popMessend .closed .closedBtn{background:url(http://img.ndoors.com/webdata/profile/2010/popup/b_pop_closed.gif) 0 0 no-repeat;width:14px;height:14px;}
+
+/* 쪽지 신고 및 차단하기 */
+.popMessReport{position:absolute;border:1px solid #b1977e;width:384px;background:#fff;padding:7px;color:#5c3b1a;z-index:999999;overflow:hidden;}
+.popMessReport .popWrap{padding:0 9px;}
+.popMessReport .popWrap em{color:#ea4012;font-weight:bold;}
+.popMessReport .popBgcolor{position:relative;background:#e9ded3;width:384px;}
+.popMessReport .invite_title04{background:url(http://img.ndoors.com/webdata/profile/2010/popup/t_pop_invite.gif) 0 -137px no-repeat;width:384px;height:30px;margin-bottom:15px;}
+.popMessReport .from{background:#f4eee8;padding:10px 5px;height:70px;margin-bottom:13px;}
+.popMessReport .from dl{clear:both;height:20px;margin-bottom:5px;}
+.popMessReport .from dt, .popMessReport .from dd{float:left;color:#7e644a;}
+.popMessReport .from dt{width:50px;font-size:11px;font-weight:bold;}
+.popMessReport .from dd{font-size:11px;}
+.popMessReport .from dd strong{color:#ea4012;}
+.popMessReport .from .line{border-bottom:1px solid #e9ded3;}
+.popMessReport .not{letter-spacing:-1px;}
+.popMessReport .btn{text-align:center;margin-top:10px;padding-bottom:10px;}
+.popMessReport .btn .blockBtn{background:url(http://img.ndoors.com/webdata/profile/2010/popup/b_pop_block.gif) 0 0 no-repeat;width:92px;height:20px;margin-right:10px;}
+.popMessReport .closed{position:absolute;right:7px;top:6px;}
+.popMessReport .closed .closedBtn{background:url(http://img.ndoors.com/webdata/profile/2010/popup/b_pop_closed.gif) 0 0 no-repeat;width:14px;height:14px;}

@@ -1,0 +1,176 @@
+/* reset */
+html,body{height:100%;}
+html{background:#e9ded3;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:normal;}
+li{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;font-variant:normal;}
+sup{vertical-align:text-top;}
+sub{vertical-align:text-bottom;}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}
+input,textarea,select{*font-size:100%;}
+legend{color:#000;}
+del,ins{text-decoration:none;}
+button{border:none 0;background:none;cursor:pointer;_cursor /**/:hand;}
+label{cursor:pointer;}
+hr{display:none;border:none 0;}
+input[type="checkbox"],input[type="radio"]{width:13px;height:13px;margin: 0px 5px 3px 2px;*margin: 1px 5px 3px 2px;padding: 0 !important;cursor:default;}
+
+/* fonts */
+body{font:12px/1.335 돋움,dotum,굴림,Gulim,Arial,Helvetica,Clean,AppleGothic,sans-serif;color:#616161;}
+select,input,button,textarea{font:12px 돋움,dotum,굴림,Gulim,Arial,Helvetica,Clean,AppleGothic,sans-serif;}
+table{font-size:inherit;font:100%;}
+pre,code,kbd,samp,tt{font-family:monospace;*font-size:108%;line-height:100%;}
+a{color:#363636;text-decoration:none;}
+a:hover{text-decoration:underline;}
+a:visited{color:#4a4a4a;}
+a img{border:none;}
+img{vertical-align:middle;}
+
+/* class */
+.clear{clear:both;}
+.clearfx{zoom:1;}
+.clearfx:after{content: ".";display:block;font-size:0;height:0px;line-height:0;clear:both;}
+.fl{float:left;}
+.fr{float:right;}
+.vm{vertical-align:middle;}
+.hidden{display:none;}
+.block{display:block;}
+.txt{border:1px solid #b4b4b4;height:14px;padding:2px 3px 2px 3px;}
+.check-off{display:inline-block;background:#d3c9be url(http://img.ndoors.com/webdata/profile/2010/message/i_check_off.gif) left top no-repeat;width:17px;height:17px;cursor:pointer;vertical-align:top;}
+.check-on{display:inline-block;background:#d3c9be url(http://img.ndoors.com/webdata/profile/2010/message/i_check_on.gif) left top no-repeat;width:17px;height:17px;cursor:pointer;vertical-align:top;}
+
+/* layout */
+#pfWrap{position:relative;width:100%;min-width:1018px;height:100%;background:url(http://img.ndoors.com/webdata/profile/2010/common/k_wrap_bg.gif) left top repeat-x;}
+#pfContainer{position:relative;width:1018px;height:100%;margin:0 auto;}
+#pfHeader{position:relative;width:1018px;height:192px;background:url(http://img.ndoors.com/webdata/profile/2010/common/k_head_bg.gif) left top repeat-x;z-index:99999;overflow:hidden;}
+#pfHeader .logMenu{position:relative;height:32px;}
+#pfHeader .logMenu .meu{float:right;padding:18px 20px 0 0;}
+#pfHeader .logMenu .meu li{float:left;margin-right:10px;display:inline;}
+#pfHeader .logMenu .meu li a{display:block;height:13px;}
+#pfHeader .logMenu .meu li.a a{background:url(http://img.ndoors.com/webdata/profile/2010/common/b_pf_login.gif) 0 0 no-repeat;width:35px;}
+#pfHeader .logMenu .meu li.a_2 a{background:url(http://img.ndoors.com/webdata/profile/2010/common/b_pf_logout.gif) 0 0 no-repeat;width:45px;}
+#pfHeader .logMenu .meu li.b a{background:url(http://img.ndoors.com/webdata/profile/2010/common/b_pf_main.gif) 0 0 no-repeat;width:74px;}
+#pfHeader .pfLogo{clear:both;height:77px;padding-left:25px;}
+#pfHeader .pfLogo h1 a{display:block;}
+#pfHeader .pfLogo h1.prof, #pfHeader .pfLogo h1.mess, #pfHeader .pfLogo h1.friend, #pfHeader .pfLogo h1.setup{float:left;margin-right:20px;display:inline;}
+#pfHeader .pfLogo h1.prof a{background:url(http://img.ndoors.com/webdata/profile/2010/common/profile_logo.gif) left top no-repeat;width:189px;height:64px;}
+#pfHeader .pfLogo h1.mess a{background:url(http://img.ndoors.com/webdata/profile/2010/common/message_logo.gif) left top no-repeat;width:189px;height:64px;}
+#pfHeader .pfLogo h1.friend a{background:url(http://img.ndoors.com/webdata/profile/2010/common/friend_logo.gif) left top no-repeat;width:189px;height:64px;}
+#pfHeader .pfLogo h1.setup a{background:url(http://img.ndoors.com/webdata/profile/2010/common/setup_logo.gif) left top no-repeat;width:189px;height:64px;}
+#pfHeader .pfLogo h1.ndoors{float:right;background:url(http://img.ndoors.com/webdata/profile/2010/common/ndoors_logo.gif) 0px 35px no-repeat;width:130px;height:68px;}
+#pfHeader .pfLogo .btnWrap{float:left;padding-top:40px;}
+#pfHeader .pfLogo .btnWrap .profBtn{float:left;background:url(http://img.ndoors.com/webdata/profile/2010/common/b_profile_link.gif) left top no-repeat;width:97px;height:20px;margin-right:5px;}
+#pfHeader .pfLogo .btnWrap .friendBtn{float:left;background:url(http://img.ndoors.com/webdata/profile/2010/common/b_friend_invite.gif) left top no-repeat;width:97px;height:20px;}
+#pfContentsWrap{position:relative;clear:both;margin:-192px auto 0 auto;width:1006px;min-height:100%;background:url(http://img.ndoors.com/webdata/profile/2010/common/k_contents_bg.gif) center top repeat-y;}
+*html #pfContentsWrap{height:100%;}
+#pfContents{padding:205px 17px 0 17px;}
+#pfLeftSection{position:relative;float:left;width:236px;margin-right:30px;border:7px solid #e3e3e3;min-height:100%;}
+#pfLeftSection .pfLeftInner{padding:9px 0px 20px 9px;}
+#pfLeftSec_sub{position:relative;float:left;width:136px;margin:0 45px 0 -12px;display:inline;}
+#pfContentsPage{position:relative;float:left;width:672px;}
+#pfSetupPage{position:relative;float:left;}
+#pfFooter{clear:both;float:left;height:50px;padding:0 0 0 20px;margin-top:30px;text-align:center;}
+#pfFooter h1{float:left;background:url(http://img.ndoors.com/webdata/profile/2010/common/ndoors_foot_logo.gif) center top no-repeat;width:170px;height:30px;}
+#pfFooter address{float:left;background:url(http://img.ndoors.com/webdata/profile/2010/common/t_copyright.gif) center bottom no-repeat;width:640px;height:30px;}
+
+/* Profile Navi, Notice*/
+.pfNavi{position:relative;background:url(http://img.ndoors.com/webdata/profile/2010/common/k_navi_bg.gif) left top repeat-x;height:83px;}
+.pfNavi .pfNoticeWrap{float:left;width:570px;}
+.pfNavi .gamList{clear:both;padding:15px 0 0 25px;}
+.pfNavi .gamList dt, #pfHeader .pfNavi .gamList dd{float:left;}
+.pfNavi .gamList dt{background:url(http://img.ndoors.com/webdata/profile/2010/common/t_dt_gamname.gif) 0 2px no-repeat;width:35px;height:18px;margin-right:10px;}
+.pfNavi .gamList dd, .pfNavi .gamList dd a{font-size:14px;font-weight:bold;color:#d0ab87;}/* .pfNavi .gamList dd a:hover{color:#efcd71;} */
+.pfNavi .pfNotice{background:url(http://img.ndoors.com/webdata/profile/2010/common/k_notice_bg.png) left top no-repeat;width:534px;height:42px;margin:25px 0 0 20px;}
+.pfNavi .pfNotice .wordTxt{border:1px solid #8c7258;background:#fef4eb;height:15px;padding:3px 3px 2px 5px;width:370px;color:#6d5238;line-height:100%;}
+.pfNavi .pfNotice p{float:left;width:400px;}
+.pfNavi .pfNotice .word01{padding:13px 0 0 40px;color:#fff;}
+.pfNavi .pfNotice .word02{padding:9px 0 0 40px;}
+.pfNavi .pfNotice p a{color:#fff;}
+.pfNavi .pfNotice .wordBtn{float:left;color:#ffd200 !important;text-decoration:underline;padding:15px 0 10px 0;line-height:100%;width:70px;}
+.pfNavi .pfNaviMenu{position:relative;float:left;width:448px;}
+.pfNavi .pfNaviMenu ul{height:52px;margin-top:18px;}
+.pfNavi .pfNaviMenu li{position:relative;float:left;background:url(http://img.ndoors.com/webdata/profile/2010/common/k_navi_btn_v3.gif) 0 0 no-repeat;}
+.pfNavi .pfNaviMenu li a{display:block;height:52px;background:url(http://img.ndoors.com/webdata/profile/2010/common/k_navi_btn_v3.gif) 0 0 no-repeat;}
+.pfNavi .pfNaviMenu li.mu_01 a{width:107px;background-position:0px -18px;}
+.pfNavi .pfNaviMenu li.mu_02 a{width:104px;background-position:-107px -18px;z-index:999;}
+.pfNavi .pfNaviMenu li.mu_03 a{width:104px;background-position:-211px -18px;z-index:99999;}
+.pfNavi .pfNaviMenu li.mu_04 a{width:107px;background-position:-315px -18px;z-index:9999;}
+.pfNavi .pfNaviMenu li.mu_01 a:hover{width:107px;background-position:0px -108px;}
+.pfNavi .pfNaviMenu li.mu_02 a:hover{width:104px;background-position:-107px -108px;}
+.pfNavi .pfNaviMenu li.mu_03 a:hover{width:104px;background-position:-211px -108px;}
+.pfNavi .pfNaviMenu li.mu_04 a:hover{width:107px;background-position:-315px -108px;}
+.pfNavi .pfNaviMenu li.mu_01 a.on{width:107px;background-position:0px -108px;}
+.pfNavi .pfNaviMenu li.mu_02 a.on{width:104px;background-position:-107px -108px;}
+.pfNavi .pfNaviMenu li.mu_03 a.on{width:104px;background-position:-211px -108px;}
+.pfNavi .pfNaviMenu li.mu_04 a.on{width:107px;background-position:-315px -108px;}
+.pfNavi .pfNaviMenu li.mu_01 a.on:hover{width:107px;background-position:0px -108px;}
+.pfNavi .pfNaviMenu li.mu_02 a.on:hover{width:104px;background-position:-107px -108px;}
+.pfNavi .pfNaviMenu li.mu_03 a.on:hover{width:104px;background-position:-211px -108px;}
+.pfNavi .pfNaviMenu li.mu_04 a.on:hover{width:107px;background-position:-315px -108px;}
+.pfNavi .pfNaviMenu .notiIcon{position:absolute;width:44px;height:22px;background:url(http://img.ndoors.com/webdata/profile/2010/common/k_notification.png) 0 0 no-repeat;text-align:center;font-weight:bold;color:#753f00;padding-top:6px;top:0px;right:0px;z-index:9999;}
+	#naviMenu{overflow:hidden;height:70px;}
+	#naviMenu li{position:relative;float:left;padding-top:30px;height:40px;overflow:hidden;}
+	#naviMenu .notiIcon{position:absolute;display:block;width:44px;height:22px;background:url(http://img.ndoors.com/webdata/profile/2010/common/k_notification.png) 0 0 no-repeat;text-align:center;font-weight:bold;color:#753f00;padding-top:6px;top:10px;right:0px;z-index:9999;}
+	/* //메뉴네비 수정 110609 */	
+
+/* 프로필 메뉴 레이어 */
+.profileLayer{position:absolute;border:2px solid #bebebe;background:#fff;z-index:99999;}
+.profileLayer *{margin:0 !important;}
+.profileLayer ul{padding:7px 5px 7px 5px;}
+.profileLayer li{float:none !important;}
+.profileLayer li a{font-size:11px !important;font-weight:normal;}
+.profileLayer li a:hover{color:#ff8400;}
+.profileLayer .p-1 a{font-weight:bold;text-decoration:underline;}
+/* //프로필 메뉴 레이어 */
+
+/* paging */
+#paging{position:relative;clear:both; overflow:hidden; margin:0 auto; padding:30px 0; text-align:center;}
+#paging a{display:-moz-inline-box; display:inline-block; margin-right:3px; padding:0px 0px 3px 6px; color:#898989; text-decoration:none !important;font:bold 14px 돋움,Dotum;line-height:23px;background:url(http://img.ndoors.com/webdata/profile/2010/common/k_paging_off.gif) no-repeat left top !important;}
+#paging a:hover,
+#paging a:focus,
+#paging a:active{background:url(http://img.ndoors.com/webdata/profile/2010/common/k_paging_off.gif) no-repeat left top;}
+#paging strong{display:-moz-inline-box; display:inline-block; margin-right:3px; padding:0px 0px 3px 6px; color:#898989; text-decoration:none !important;font:bold 14px 돋움,Dotum; background:url(http://img.ndoors.com/webdata/profile/2010/common/k_paging_on.gif) no-repeat left top !important;line-height:23px;}
+#paging strong{color:#fff !important;}
+#paging strong span{zoom:1; padding:0 7px 3px 2px; display:-moz-inline-box; display:inline-block; background:url(http://img.ndoors.com/webdata/profile/2010/common/k_paging_on.gif) no-repeat right top !important;}
+#paging a span{zoom:1; padding:0 7px 3px 2px; display:block; _display:inline;background:url(http://img.ndoors.com/webdata/profile/2010/common/k_paging_off.gif) no-repeat right top !important;}
+#paging a:hover span,
+#paging a:focus span,
+#paging a:active span{color:#000 !important;text-decoration:underline;cursor:pointer;}
+/* user option */
+#paging a.start{position:relative;padding:0 5px 6px 17px;font:12px "돋움", Dotum;background:url(http://img.ndoors.com/webdata/profile/2010/common/i_paging_arrow.gif) 0 1px no-repeat !important;color:#8a8a8a !important;letter-spacing:-1px;}
+#paging a.pre{position:relative;padding:0 0 6px 10px;font:12px "돋움", Dotum;background:url(http://img.ndoors.com/webdata/profile/2010/common/i_paging_arrow.gif) 0 -18px no-repeat !important;color:#8a8a8a !important;letter-spacing:-1px;margin-left:5px;}
+#paging a.next{position:relative;padding:0 15px 6px 0px;font:12px "돋움", Dotum;background:url(http://img.ndoors.com/webdata/profile/2010/common/i_paging_arrow.gif) right -56px no-repeat !important;color:#8a8a8a !important;letter-spacing:-1px;}
+#paging a.end{position:relative;padding:0 15px 6px 0px;font:12px "돋움", Dotum;background:url(http://img.ndoors.com/webdata/profile/2010/common/i_paging_arrow.gif) right -37px no-repeat !important;color:#8a8a8a !important;letter-spacing:-1px;}
+#paging a.start:hover,
+#paging a.start:focus,
+#paging a.start:active,
+#paging a.end:hover,
+#paging a.end:focus,
+#paging a.end:active,
+#paging a.pre:hover,
+#paging a.pre:focus,
+#paging a.pre:active,
+#paging a.next:hover,
+#paging a.next:focus,
+#paging a.next:active{color:#4a4a4a !important;}
+#paging a.pre{margin-right:10px;}
+#paging a.next{margin-left:4px;}
+
+/* pagination */
+.png{clear:both;text-align:center;padding-top:20px;margin-bottom:20px;font-size:12px;}
+.png a{display:inline-block;padding:0 10px 0 10px;font-weight:bold;vertical-align:middle;}
+.png .num{color:#e3e3e3;}
+.png .num em{color:#ff5a00;font-weight:bold;padding:0 10px 0 10px;}
+.png .num a{color:#000;padding:0 10px 0 10px;}
+.png .num a:hover{color:#ff5a00;padding:0 10px 0 10px;}
+.png .fir a{position:relative;padding:6px  5px 8px 17px;background:url(http://img.ndoors.com/webdata/profile/2010/common/i_paging_arrow.gif) 0 7px no-repeat !important;width:10px;height:10px;}
+.png .pre a{position:relative;padding:6px 0 8px 10px;background:url(http://img.ndoors.com/webdata/profile/2010/common/i_paging_arrow.gif) 0 -12px no-repeat !important;width:10px;height:10px;}
+.png .nxt a{position:relative;padding:6px 15px 8px 0px;background:url(http://img.ndoors.com/webdata/profile/2010/common/i_paging_arrow.gif) right -50px no-repeat !important;width:10px;height:10px;}
+.png .end a{position:relative;padding:6px 15px 8px 0px;background:url(http://img.ndoors.com/webdata/profile/2010/common/i_paging_arrow.gif) right -31px no-repeat !important;width:10px;height:10px;}
+/* /pagination */

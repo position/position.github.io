@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta name="robots" content="noindex, nofollow">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../Images/favicon.ico">
+
+    <title>엔도어즈 인트라넷</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../Lib/css/bootstrap.css" rel="stylesheet">
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="../Css/custom.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+	    <script src="../Js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<div id="ndIntra">
+    <nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#"><img src="../Images/ndoors_logo.png" alt="엔도어즈"></a>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="#">게시판달력</a></li>
+					<li><a href="#">복지제도</a></li>
+					<li><a href="#">생일현황</a></li>
+					<li><a href="#">휴가현황</a></li>
+					<li><a href="#">BTS</a></li>
+					<li><a href="#">WIKI</a></li>
+				</ul>
+				<form class="navbar-form navbar-right">
+					<select class="form-control">
+						<option>제목</option>
+						<option>작성자</option>
+						<option>내용</option>
+						<option>제목+내용</option>
+					</select>
+					<input type="text" class="form-control schInp" placeholder="통합검색">
+					<button type="submit" class="btn btn-primary">검색</button>
+				</form>
+			</div>
+		</div>
+    </nav><!--//.navbar -->
+
+    <div class="container-fluid">
+		<div class="row">
+			<div class="col-md-2 sidebar">
+				<div class="rb-tree">
+					<ul id="tree06" class="rb-icon">
+						<li>
+							<a data-toggle="collapse" href="#tree06-02" class="rb-branch"><span>MY NDOORS</span></a>
+							<ul id="tree06-02" class="collapse in">
+								<li><a href="#" class="rb-leaf"><span>내가 작성한 게시물</span></span></a></li>
+								<li><a href="#" class="rb-leaf"><span>내가 참여한 게시물</span></a></li>
+								<li><a href="#" class="rb-leaf"><span>스크랩한 게시물</span></a></li>
+								<li><a href="#" class="rb-leaf"><span>휴대폰 업로드파일</span></a></li>
+								<li><a href="#" class="rb-leaf"><span>내 장비 현황</span></a></li>
+								<li><a href="#" class="rb-leaf"><span>포상 및 상점 현황</span></a></li>
+							</ul>
+						</li>
+						<li>
+							<a data-toggle="collapse" href="#tree06-03" class="rb-branch"><span>엔도어즈 소식</span></a>
+							<ul id="tree06-03" class="collapse in">
+								<li><a href="#" class="rb-leaf"><span>엔도어즈공지사항</span></a></li>
+								<li><a href="#" class="rb-leaf"><span>자유게시판</span></a></li>
+								<li><a href="#" class="rb-leaf"><span>일정</span></a></li>
+								<li><a href="#" class="rb-leaf"><span>여기저기관람후기</span></a></li>
+								<li><a href="#" class="rb-leaf"><span>IT뉴스</span></a></li>
+								<li><a href="#" class="rb-leaf"><span>업무 안내</span></a></li>
+								<li><a href="#" class="rb-leaf"><span>자료실</span></a></li>
+								<li><a href="#" class="rb-leaf"><span>회사문서양식</span></a></li>
+							</ul>
+						</li>
+						<li>
+							<a data-toggle="collapse" href="#tree06-01" class="rb-branch"><span>개발본부 게시판</span></a>
+							<ul id="tree06-01" class="collapse in">
+								<li><a data-toggle="collapse" href="#tree06-01-01" class="rb-leaf"><span>회사생활FAQ</span></a></li>
+								<li><a data-toggle="collapse" href="#tree06-01-01" class="rb-leaf"><span>장애 SMS전파</span></a></li>
+								<li><a data-toggle="collapse" href="#tree06-01-01" class="rb-leaf"><span>PT 자료실</span></a></li> 
+								<li><a data-toggle="collapse" href="#tree06-01-01" class="rb-leaf"><span>사운드</span></a></li> 
+								<li><a data-toggle="collapse" href="#tree06-01-01" class="rb-leaf"><span>UI</span></a></li> 
+								<li><a data-toggle="collapse" href="#tree06-01-01" class="rb-leaf"><span>영군&광토 UX</span></a></li> 
+								<li><a data-toggle="collapse" href="#tree06-01-01" class="rb-leaf"><span>시네마팀</span></a></li> 
+								<li>
+									<a data-toggle="collapse" href="#tree06-01-02" class="rb-branch"><span>김철희의 영웅의 군단</span></a>
+									<ul id="tree06-01-02" class="collapse in">
+										<li><a href="#" class="rb-leaf"><span>김철희의 영웅의 군단</span></a></li> 
+										<li><a href="#" class="rb-leaf"><span>영군해외</span></a></li> 
+										<li><a href="#" class="rb-leaf"><span>기획/사양서</span></a></li>
+										<li><a href="#" class="rb-leaf"><span>운영이슈</span></a></li> 
+										<li><a href="#" class="rb-leaf"><span>마케팅/사업이슈</span></a></li> 
+										<li><a href="#" class="rb-leaf"><span>기획/프로그램 업보</span></a></li> 
+										<li><a href="#" class="rb-leaf"><span>그래픽 업무보고</span></a></li> 
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a data-toggle="collapse" href="#tree06-04" class="rb-branch"><span>게시글수통계</span></a>
+							<ul id="tree06-04" class="collapse in">
+								<li><a href="#" class="rb-leaf"><span>게시글수통계</span></a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#tree06-05" class="rb-leaf"><span>웹팀업무보고</span></a>
+						</li>
+					</ul>
+				</div>
+			</div><!--//.sidebar -->
+
+			<div class="col-md-10">
+				<div class="contents">
+					<div class="clearfix mb10" style="border-bottom:1px solid #ccc;padding-bottom:10px;">
+						<div class="today-member ml0">
+							<div class="pho" style="height:100px;">
+								<a href="#"><img src="http://intra.ndoors.com/center/upimage/profile/position2014121713105.jpg" alt=""></a>
+							</div>
+							<div class="caption">
+								<h3>Today is Member</h3>
+								<p>엔도어즈&gt;개발본부&gt;개발지원실&gt;웹팀</p>
+								<p>팀원/과장 <a href="#" data-toggle="modal" data-target="#myModal">최경환</a> <a href="#" class="btn btn-default btn-xs" data-toggle="modal" data-target="#myModal">자세히 보기</a></p>
+							</div>
+							<dl class="ndMemberQna fl mb0">
+								<dt>Q. 나만의 특별한 재테크가 있다면? 그 이유는?(ex/예금,적금,보험,연금,적립식펀드- 등)</dt>
+								<dd>A. 특별히 하는 건 없고요 공격적인 투자를 빼고, 남들 하는 만큼만 하고 있습니다. 노테크 하긴 해야 하는데, 당장 다음..</dd>
+								<dd class="btn-g">
+									<button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-chevron-left" style="font-size:0.5em"></span></button>
+									<button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-chevron-right" style="font-size:0.5em"></span></button>
+								</dd>
+							</dl>
+						</div>
+						<div class="visit-info col-md-6 fr">
+							<span class="ip_txt"><a href="#">최경환</a>님의 133번째 방문을 환영합니다.(접속아이피:<em>10.1.90.20</em>)</span>
+							<button type="submit" class="btn btn-primary btn-xs">내정보변경</button>
+							<button type="submit" class="btn btn-primary btn-xs">비밀번호 변경</button>
+							<button type="submit" class="btn btn-danger btn-xs">로그아웃</button>
+						</div>
+					</div>
+					<h2 class="h2-title">&middot; 자유게시판</h2>
+					<div class="nd-board">
+						<div id="word-head-pop" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+							<div class="modal-dialog" style="width:550px;">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+										<h4 class="modal-title" id="myModalLabel">게시판 말머리 설정</h4>
+									</div>
+									<div class="modal-body clearfix">
+										<table class="table table-bordered">
+											<caption>게시판명 : 웹팀 요청/업보</caption>
+											<colgroup>
+												<col width="">
+												<col width="40%">
+											</colgroup>
+											<thead>
+											<tr>
+												<th>말머리</th>
+												<th>관리</th>
+											</tr>
+											</thead>
+											<tbody>
+											<tr>
+												<td class="td-center"><input type="text" class="form-control"></td>
+												<td class="td-center">
+													<button type="button" class="btn btn-default">수정</button>
+													<button type="button" class="btn btn-default">삭제</button>
+												</td>
+											</tr>
+											</tbody>
+										</table>
+										<div class="right">
+											<button type="button" class="btn btn-default"><span class="glyphicon glyphicon-plus"></span> 말머리 추가</button>
+										</div>
+									</div>
+									<div class="modal-footer clearfix">
+										<button type="button" class="btn btn-default" data-dismiss="modal">닫기</button>
+									</div>
+								</div><!-- /.modal-content -->
+							</div><!-- /.modal-dialog -->
+						</div>
+						<div id="board-power-pop" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+							<div class="modal-dialog" style="width:550px;">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+										<h4 class="modal-title" id="myModalLabel">게시판 권한설정</h4>
+									</div>
+									<div class="modal-body clearfix">
+										<ul class="nav nav-tabs" id="myTab">
+											<li class="active"><a href="#home" data-toggle="tab">부서</a></li>
+											<li><a href="#profile" data-toggle="tab">개인</a></li>
+										</ul>
+										<div class="tab-content">
+											<div class="tab-pane active" id="home">
+												<table class="table table-bordered">
+													<caption>게시판명 : 웹팀 요청/업보</caption>
+													<colgroup>
+														<col width="">
+														<col width="40%">
+													</colgroup>
+													<tr>
+														<td>엔도어즈 &gt; 개발본부</td>
+														<td class="td-center">
+															<label><input type="radio" id="" class="vm" name="auth_code_0117" title="없음 선택"> 없음</label>
+															<label><input type="radio" id="" class="vm" name="auth_code_0117" title="읽기 선택"> 읽기</label>
+															<label><input type="radio" id="" class="vm" name="auth_code_0117" title="쓰기 선택"> 쓰기</label>
+															<label><input type="radio" id="" class="vm" name="auth_code_0117" title="관리 선택"> 관리</label>
+														</td>
+													</tr>
+												</table>
+											</div>
+											<div class="tab-pane" id="profile">
+												<div class="tab-pane active">
+													<table class="table table-bordered">
+														<caption>게시판명 : 웹팀 요청/업보</caption>
+														<colgroup>
+															<col width="">
+															<col width="40%">
+														</colgroup>
+														<tr>
+															<td><a href="#">정충민</a> 팀원 : 엔도어즈 &gt; 개발본부 &gt; 기술지원팀</td>
+															<td class="td-center">
+																<label><input type="radio" id="" class="vm" name="auth_code_0117"> 없음</label>
+																<label><input type="radio" id="" class="vm" name="auth_code_0117"> 읽기</label>
+																<label><input type="radio" id="" class="vm" name="auth_code_0117"> 쓰기</label>
+																<label><input type="radio" id="" class="vm" name="auth_code_0117"> 관리</label>
+															</td>
+														</tr>
+													</table>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="modal-footer clearfix">
+										<button type="button" class="btn btn-default" data-dismiss="modal">닫기</button>
+									</div>
+								</div><!-- /.modal-content -->
+							</div><!-- /.modal-dialog -->
+						</div>
+						<div class="form-inline mb10 fr">
+							<select class="form-control">
+								<option>Category</option>
+								<option>말머리 없음</option>
+								<option>인트라넷 수정요청</option>
+							</select>
+							<button type="button" class="btn btn-default" data-toggle="modal" data-target="#word-head-pop">말머리 수정</button>
+							<button type="button" class="btn btn-default">월간일정</button>
+							<select class="form-control">
+								<option>5</option>
+								<option>25</option>
+								<option>50</option>
+								<option>100</option>
+								<option>200</option>
+							</select>
+						</div>
+						<table class="table table-bordered table-hover">
+							<caption class="blind">테이블</caption>
+							<colgroup>
+								<col width="10%">
+								<col width="">
+								<col width="10%">
+								<col width="14%">
+								<col width="10%">
+							</colgroup>
+							<thead>
+							<tr>
+								<th>번호</th>
+								<th>제목</th>
+								<th>작성자</th>
+								<th>날짜</th>
+								<th>조회수</th>
+							</tr>
+							</thead>
+							<tbody>
+							<tr>
+								<td class="td-center">1</td>
+								<td><a href="#">2015년 제도 개편 안내</a> <span class="badge vm">42</span> <span class="label label-warning vm">new</span> <span class="glyphicon glyphicon-thumbs-up vm"><em class="up">21</em></span> <span class="glyphicon glyphicon-paperclip vm"></span></td>
+								<td class="td-center">홍길동</td>
+								<td class="td-center">2015-01-05</td>
+								<td class="td-center">1000</td>
+							</tr>
+							<tr>
+								<td class="td-center">2</td>
+								<td><a href="#">[넥슨그룹] NK 박지원 대표이사 인사말씀</a> <span class="badge">42</span> <span class="label label-warning">new</span></td>
+								<td class="td-center">홍길동</td>
+								<td class="td-center">2015-01-05</td>
+								<td class="td-center">1000</td>
+							</tr>
+							<tr>
+								<td class="td-center">3</td>
+								<td><a href="#">[인사발령] 개발본부 조직개편</a> <span class="badge">20</span></td>
+								<td class="td-center">홍길동</td>
+								<td class="td-center">2015-01-05</td>
+								<td class="td-center">1000</td>
+							</tr>
+							<tr>
+								<td class="td-center">4</td>
+								<td><a href="#">[일반] 2014년 연말정산 관련 자료제출의 건</a> <span class="badge">8</span></td>
+								<td class="td-center">홍길동</td>
+								<td class="td-center">2015-01-05</td>
+								<td class="td-center">1000</td>
+							</tr>
+							<tr>
+								<td class="td-center">5</td>
+								<td><a href="#">[인사발령] 개발본부 영군레이드팀 팀간 전배 </a> <span class="badge">10</span></td>
+								<td class="td-center">홍길동</td>
+								<td class="td-center">2015-01-05</td>
+								<td class="td-center">1000</td>
+							</tr>
+							<tr>
+								<td class="td-center">6</td>
+								<td><a href="#">[일반] 2014년도 정기인사고과 시행의 건  </a> <span class="badge">2</span></td>
+								<td class="td-center">홍길동</td>
+								<td class="td-center">2015-01-05</td>
+								<td class="td-center">1000</td>
+							</tr>
+							</tbody>
+						</table>
+						<div class="left">
+							<button type="button" class="btn btn-default"><span class="glyphicon glyphicon-list-alt"></span> 목록</button>
+							<button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-pencil vm"></span> 글쓰기</button>
+							<div class="fr">
+								<button type="button" class="btn btn-default" data-toggle="modal" data-target="#board-power-pop">게시판 권한</button>	
+							</div>
+						</div>
+						<div class="center">
+							<ul class="pagination">
+								<li class="disabled"><a href="#">Prev</a></li>
+								<li class="active"><a href="#">1</a></li>
+								<li><a href="#">2</a></li>
+								<li><a href="#">3</a></li>
+								<li><a href="#">4</a></li>
+								<li><a href="#">5</a></li>
+								<li><a href="#">Next</a></li>
+								<li><a href="#">Last</a></li>
+							</ul>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-body">
+								<div class="form-inline">
+									<div class="form-group col-md-4">
+										<input type="text" class="form-control" style="width:70px;"> / 196 Pages <button type="button" class="btn btn-default">이동</button>	
+									</div>
+									<div class="form-group col-md-8">
+										<select class="form-control">
+											<option>제목</option>
+											<option>작성자</option>
+											<option>내용</option>
+											<option>제목+내용</option>
+										</select>
+										<input type="text" class="form-control" style="width:60%;">
+										<button type="submit" class="btn btn-primary">검색</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div><!--//.contents -->
+			</div>
+		</div><!--//.row -->
+    </div><!--//.container-fluid -->
+	<footer class="footer clearfix">
+		<address>&copy; NDOORS Corporation. all rights reserved.</address>
+	</footer>
+</div><!--//ndIntra -->
+
+<script src="../Js/jquery-1.11.1.min.js"></script>
+<script src="../Lib/js/bootstrap.min.js"></script>
+</body>
+</html>

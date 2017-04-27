@@ -1,0 +1,27 @@
+﻿@charset="utf-8";
+
+.snsTop li.a a{-ms-behavior: url(/css/backgroundsize.min.htc);	behavior: url(/css/backgroundsize.min.htc);}
+.snsTop li.b a{-ms-behavior: url(/css/backgroundsize.min.htc);	behavior: url(/css/backgroundsize.min.htc);}
+.snsTop li.c a{-ms-behavior: url(/css/backgroundsize.min.htc);	behavior: url(/css/backgroundsize.min.htc);}
+
+
+.galleryLayer .head .layer_close{-ms-behavior: url(/css/backgroundsize.min.htc);	behavior: url(/css/backgroundsize.min.htc);}
+.galleryLayer .photoSlider .next_btn{-ms-behavior: url(/css/backgroundsize.min.htc);	behavior: url(/css/backgroundsize.min.htc);}
+.galleryLayer .photoSlider .prev_btn{-ms-behavior: url(/css/backgroundsize.min.htc);	behavior: url(/css/backgroundsize.min.htc);}
+
+.navi li a{-ms-behavior: url(/css/backgroundsize.min.htc);	behavior: url(/css/backgroundsize.min.htc);}
+.navi li a.on{-ms-behavior: url(/css/backgroundsize.min.htc);	behavior: url(/css/backgroundsize.min.htc);}
+
+.userMenu .gameDn_btn a{-ms-behavior: url(/css/backgroundsize.min.htc);	behavior: url(/css/backgroundsize.min.htc);}
+.snsTop li.a a{-ms-behavior: url(/css/backgroundsize.min.htc);	behavior: url(/css/backgroundsize.min.htc);}
+.snsTop li.b a{-ms-behavior: url(/css/backgroundsize.min.htc);	behavior: url(/css/backgroundsize.min.htc);}
+.snsTop li.c a{-ms-behavior: url(/css/backgroundsize.min.htc);	behavior: url(/css/backgroundsize.min.htc);}
+.photo_view{-ms-behavior: url(/css/backgroundsize.min.htc);	behavior: url(/css/backgroundsize.min.htc);}
+
+.jplayerWrap .ost_txt{-ms-behavior: url(/css/backgroundsize.min.htc);	behavior: url(/css/backgroundsize.min.htc);}
+a.jp-play{-ms-behavior: url(/css/backgroundsize.min.htc);	behavior: url(/css/backgroundsize.min.htc);}
+a.jp-play:hover{-ms-behavior: url(/css/backgroundsize.min.htc);	behavior: url(/css/backgroundsize.min.htc);}
+a.jp-pause{-ms-behavior: url(/css/backgroundsize.min.htc);	behavior: url(/css/backgroundsize.min.htc);}
+a.jp-pause:hover{-ms-behavior: url(/css/backgroundsize.min.htc);	behavior: url(/css/backgroundsize.min.htc);}
+a.jp-stop{-ms-behavior: url(/css/backgroundsize.min.htc);	behavior: url(/css/backgroundsize.min.htc);}
+a.jp-stop:hover{-ms-behavior: url(/css/backgroundsize.min.htc);	behavior: url(/css/backgroundsize.min.htc);}

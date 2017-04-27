@@ -1,0 +1,569 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+<title>비바잉글리시</title>
+<meta name="author" content="GnGcompany" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="영어, 일본어, 중국어, 비바잉글리시, english, japanese, chinese, 전화영어" />
+<link rel="shortcut icon" href="http://www.vivaenglish.co.kr/favicon.ico" />
+<link rel="icon" href="http://www.vivaenglish.co.kr/favicon.ico" type="image/gif" />
+<link rel="stylesheet" href="css/master.css" type="text/css" media="all" />
+<script language="javascript">
+	function xwzRollingImageTrans(imageName, thumbnailName, eventName, winName){
+		this.Index = 0;
+		this.ListItem = new Array(0);
+		this.Name = imageName;
+		this.Thumbnail = thumbnailName;
+		this.tmRotate = null;
+		this.nInterval = 4500;
+		this.eventName = eventName;
+		this.winTarget = winName;
+
+		if(window.xwzRollObject == null) window.xwzRollObject = new Array(0);
+		window.xwzRollObject[this.Name] = this;
+
+		//== 초기화 함수
+		this.install = function(){
+			window.document.images[this.Name].onclick=this.goLink;
+			if(this.ListItem.length == 0) return;
+			this.tmRotate = setTimeout("window.xwzRollObject['" + this.Name + "'].rotateTrans()" , this.nInterval);
+			var icons = document.getElementsByName(this.Thumbnail);
+			for(var i = 0; i < icons.length; i++){
+				if(this.eventName == 'over') icons[i].onmouseover=new Function("window.xwzRollObject['"+this.Name+"'].alterImage(" + i + ")");
+				else icons[i].onclick=new Function("window.xwzRollObject['"+this.Name+"'].alterImage(" + i + ")");
+			}
+		}
+		//== 해당 아이템 추가
+		this.addItem = function(Link, ImgSrc, Icon1, Icon2 ){
+			var itmX = {Link : "", ImgSrc : "", DefIcon : "", OvrIcon : ""};
+			itmX.Link = Link;
+			itmX.ImgSrc = ImgSrc;
+			itmX.DefIcon = Icon1;
+			itmX.OvrIcon = Icon2;
+			this.ListItem[this.ListItem.length] = itmX;
+		}
+		//== 수동 변경
+		this.alterImage = function(index){
+			var icons = document.getElementsByName(this.Thumbnail);
+			if(this.Index == index) return;
+			if(this.ListItem[this.Index].DefIcon !="") icons[this.Index].src = this.ListItem[this.Index].DefIcon;
+
+			this.Index = index;
+			this.imgTrans();
+			clearTimeout(this.tmRotate);
+			this.tmRotate = null;
+			this.tmRotate = setTimeout("window.xwzRollObject['" + this.Name + "'].rotateTrans()" , this.nInterval);
+
+		}
+
+		//== 링크 클릭
+		this.goLink = function(){
+			var name = this.getAttribute('name');
+			var xwzRoll = window.xwzRollObject[name];
+			clearTimeout(xwzRoll.tmRotate);
+			xwzRoll.tmRotate = null;
+
+			if(xwzRoll.winTarget == '' || xwzRoll.winTarget == null){
+				window.location.href=xwzRoll.ListItem[xwzRoll.Index].Link;
+			}else if(xwzRoll.winTarget.toLowerCase().indexOf("javascript") == 0){
+				alert( winTarget.replace(/javascript:/gi,'') )
+			}else{
+				window.open(xwzRoll.ListItem[xwzRoll.Index].Link, xwzRoll.winTarget);
+			}
+		}
+
+		//==
+		this.rotateTrans = function(){
+			var icons = document.getElementsByName(this.Thumbnail);
+			var itmX = this.ListItem[this.Index];
+			if(itmX.DefIcon !="") icons[this.Index].src = itmX.DefIcon;
+
+			this.Index +=1;
+			if(this.Index >= this.ListItem.length) this.Index = 0;
+
+			this.imgTrans();
+
+			clearTimeout(this.tmRotate);
+			this.tmRotate = null;
+			this.tmRotate = setTimeout("window.xwzRollObject['" + this.Name + "'].rotateTrans()" , this.nInterval);
+		}
+
+		//==
+		this.imgTrans = function(){
+			var icons = document.getElementsByName(this.Thumbnail);
+			var itmX = this.ListItem[this.Index];
+			if(itmX.OvrIcon !=null  && itmX.OvrIcon !="") icons[this.Index].src = itmX.OvrIcon;
+			try{
+				document.images[this.Name].filters[0].apply();
+				document.images[this.Name].src = itmX.ImgSrc;
+				document.images[this.Name].filters[0].play();
+			}catch(e){
+				document.images[this.Name].src = itmX.ImgSrc;
+			}
+		}
+	}
+</script>
+
+</head>
+
+<body>
+
+<div id="wrapper">
+	<div id="wrap_inner">
+		<div id="header">
+			<div class="logo">
+				<h1><a href="/"><span class="hidden">VIVA english</span></a></h1>
+			</div>
+			<div class="top_menu">
+				<div class="g_menu">
+					<ul>                  
+						<li class="a"><a href="#"><span class="hidden">HOME</a></span></li>
+						<li class="b_1"><a href="#"><span class="hidden">LOGIN</a></span></li>
+						<!--li class="b_2"><a href="#"><span class="hidden">LOGOUT</a></span></li-->
+						<li class="c_1"><a href="#"><span class="hidden">JOIN</a></span></li>
+						<!--li class="c_2"><a href="#"><span class="hidden">회원정보</a></span></li-->
+						<li class="d"><a href="#"><span class="hidden">About VIVA English</a></span></li>
+					</ul>
+				</div>
+
+				<div id="tablist" class="p_menu">
+					<object type="application/x-shockwave-flash" data="swf/MainNavi.swf" width="690px" height="60px"> 
+						<param name="movie" value="swf/MainNavi.swf" /> 
+						<param name="wmode" value="opaque" /> 
+						<ul class="mainmenu">               
+							<li><a href="#" onClick="return expandcontent('sc1', this)">마이페이지</a>|</li>
+							<li><a href="#" onClick="return expandcontent('sc2', this)">커리큘럼</a>|</li>
+							<li><a href="#" onClick="return expandcontent('sc3', this)">레벨테스트</a>|</li>
+							<li><a href="#" onClick="return expandcontent('sc4', this)">교육신청</a>|</li>
+							<li><a href="#" onClick="return expandcontent('sc5', this)">셀프스터디</a>|</li>
+							<li><a href="#" onClick="return expandcontent('sc6', this)">커뮤니티</a>|</li>
+							<li><a href="#" onClick="return expandcontent('sc7', this)">외국어교육컨설팅</a>|</li>
+							<li><a href="#" onClick="return expandcontent('sc8', this)">어학샵</a></li>
+						</ul>
+					</object> 
+
+				</div>
+			</div>
+
+		</div><!-- header -->
+
+		<div id="container">
+			<div id="left_column">
+				<div class="vLogin left_bottom">
+					<div class="left_top">
+						<h3 class="t_vLogin"><span class="hidden">Members Login</span></h3>
+						<p class="save"><label for="save" class="idsv" title="아이디저장"><input type="checkbox" id="save" /></label></p>
+					</div>
+					<div class="left_Bg">
+						<div class="log_wrap">
+							<div class="inp">
+								<p><label for="id" title="아이디" class="id"><input type="text" class="tx" id="id" style="width:95px" /></label></p>
+								<p><label for="pw" title="비밀번호" class="pw"><input type="password" class="tx" id="pw" style="width:95px" /></label></p>
+							</div>
+							<div class="btn">
+								<!-- button type="button" title="로그인하기"><span class="hidden">로그인</span></button-->
+								<a href="#"><img src="images/b_vml_login.gif" alt="로그인" title="로그인" /></a>
+							</div>
+						</div>
+						<div class="findjoin_btn">
+							<button type="button" class="find" title="아이디 / 비밀번호 찾기"><span class="hidden">아이디 / 비밀번호 찾기</span></button></p>
+							<button type="button" class="join" title="회원가입하기"><span class="hidden">회원가입하기</span></button></p>
+						</div>
+					</div>
+				</div><!-- vLogin 로그아웃 상태 -->
+
+				<!-- div class="vLogin left_bottom">
+					<div class="left_top">
+						<h3 class="t_vLogin"><span class="hidden">Members Login</span></h3>
+					</div>
+					<div class="left_Bg">
+						<div class="log_wrap">
+							<strong>'최경환'</strong> 님 환영합니다.
+						</div>
+						<div class="findjoin_btn">
+							<button type="button" class="mypage" title="아이디 / 비밀번호 찾기"><span class="hidden">마이페이지</span></button></p>
+							<button type="button" class="logout" title="회원가입하기"><span class="hidden">로그아웃하기</span></button></p>
+						</div>
+					</div>
+				</div> vLogin 로그인 상태 -->
+
+				<div class="freelevel">
+					<a href="#"><img src="images/n_freeleveltest.gif" alt="무료레벨테스트 바로가기" title="무료레벨테스트 바로가기" /></a>
+				</div>
+
+				<div class="vNotice left_bottom">
+					<div class="left_top">
+						<h3 class="t_vNotice"><span class="hidden">공지사항/이벤트</span></h3>
+					</div>
+					<div class="left_Bg">
+						<ul>
+							<li><a href="#">공지사항입니다.</a></li>
+							<li><a href="#">공지사항입니다.</a></li>
+							<li><a href="#">공지사항입니다.</a></li>
+						</ul>
+					</div>
+					<div class="ft"><a href="#">more</a></div>
+				</div><!-- 공지사항/이벤트 -->
+
+				<div class="vNotice left_bottom">
+					<div class="left_top">
+						<h3 class="t_vFaq"><span class="hidden">자주하는 질문</span></h3>
+					</div>
+					<div class="left_Bg">
+						<ul>
+							<li><a href="#">신청절차를 알고 싶어요</a></li>
+							<li><a href="#">수료기간은 얼마나 되나요?</a></li>
+							<li><a href="#">코스변경은 가능한가요?</a></li>
+						</ul>
+					</div>
+					<div class="ft"><a href="#">more</a></div>
+				</div><!-- 자주하는 질문 -->
+
+				<div class="englishDic left_bottom">
+					<div class="left_top">
+						<h3 class="t_englishDic"><span class="hidden">영어사전</span></h3>
+					</div>
+					<div class="left_Bg">
+						<p><input type="text" class="text" /><button type="button"><span class="hidden">검색</span></button></p>
+					</div>
+				</div>
+
+				<div class="freelevel">
+					<a href="#"><img src="images/n_vmh_huku.jpg" alt="일본전래동화집" title="일본전래동화집" /></a>
+				</div>
+
+				<div class="customer">
+					<h3 class="hidden">비바잉글리시 고객센터</h3>
+					<p class="hidden">02) 6284-1530</p>
+					<p class="hidden">상담시간 | 평일 AM 9:00 ~ PM 6:00</p>
+				</div>
+
+				<div class="vCooperate">
+					<h3 class="t_vCooperate"><span class="hidden">제휴사</span></h3>
+					<div class="bd">
+						<ul>
+							<li><a href="#" class="com01"><span class="hidden">방송통신위원회</span></a></li>
+							<li><a href="#" class="com02"><span class="hidden">에너지관리공단</span></a></li>
+						</ul>
+						<ul>
+							<li><a href="#" class="com03"><span class="hidden">보건복지가족부</span></a></li>
+							<li><a href="#" class="com04"><span class="hidden">한국지역난방공사</span></a></li>
+						</ul>
+						<ul>
+							<li><a href="#" class="com05"><span class="hidden">현대건설</span></a></li>
+							<li><a href="#" class="com06"><span class="hidden">MBC</span></a></li>
+						</ul>
+						<ul>
+							<li><a href="#" class="com07"><span class="hidden">한겨례</span></a></li>
+							<li><a href="#" class="com08"><span class="hidden">SH공사</span></a></li>
+						</ul>
+					</div>
+					<div class="ft"><a href="#">more</a></div>
+				</div><!-- 제휴사 -->
+
+			</div><!-- left_column -->
+
+			<div id="main_contents">
+				<div>
+					<object type="application/x-shockwave-flash" data="swf/Mainpromo.swf" width="480px" height="280px"> 
+						<param name="movie" value="swf/MainNavi.swf" /> 
+						<param name="wmode" value="opaque" /> 
+						<ul class="mainmenu">               
+							<li><a href="#" onClick="return expandcontent('sc1', this)">마이페이지</a>|</li>
+							<li><a href="#" onClick="return expandcontent('sc2', this)">커리큘럼</a>|</li>
+							<li><a href="#" onClick="return expandcontent('sc3', this)">레벨테스트</a>|</li>
+							<li><a href="#" onClick="return expandcontent('sc4', this)">교육신청</a>|</li>
+							<li><a href="#" onClick="return expandcontent('sc5', this)">셀프스터디</a>|</li>
+							<li><a href="#" onClick="return expandcontent('sc6', this)">커뮤니티</a>|</li>
+							<li><a href="#" onClick="return expandcontent('sc7', this)">외국어교육컨설팅</a>|</li>
+							<li><a href="#" onClick="return expandcontent('sc8', this)">어학샵</a></li>
+						</ul>
+					</object> 
+				</div>
+
+				<div class="freelevel">
+					<a href="#"><img src="images/n_vm_callviva.jpg" alt="전화외국어의 10분의 기적" title="전화외국어의 10분의 기적" /></a>
+				</div>
+
+				<div class="vProcess">
+					<h3 class="t_vm_process"><span class="hidden">VIVA 수강절차</span></h3>
+					<ol>
+						<li class="pro_01"><span class="hidden">무료 레벨테스트 신청</span></li>
+						<li class="ong_arrow"><span class="hidden">></span></li>
+						<li class="pro_02"><span class="hidden">레벨 테스트</span></li>
+						<li class="ong_arrow"><span class="hidden">></span></li>
+						<li class="pro_03"><span class="hidden">결과 &amp; 상담</span></li>
+						<li class="ong_arrow"><span class="hidden">></span></li>
+						<li class="pro_04"><span class="hidden">수업 진행</span></li>
+					</ol>
+				</div>
+
+				<div class="vNation">
+					<div class="vEnglish"><img src="images/n_venglish.jpg" style="filter:progid:DXImageTransform.Microsoft.GradientWipe(GradientSize=1.0, wipeStyle=0, duration=1,motion=forward); CURSOR: pointer" name="IMG_COMM_ROLL_DETAIL2" width="480px" height="240px" /></div>
+					<div class="ft">
+						<img src="images/i_regular_on.gif" style="cursor:pointer" name="IMG_COMM_ROLL_THUMBNAIL2" />
+						<img src="images/i_regular_off.gif" style="cursor:pointer" name="IMG_COMM_ROLL_THUMBNAIL2" />
+						<img src="images/i_regular_off.gif" style="cursor:pointer" name="IMG_COMM_ROLL_THUMBNAIL2" />
+					</div>
+				</div>
+				<style type="text/css">
+				#MS_scroll_text_container{text-align:left;margin:0px;padding:0px;}
+				#MS_scroll_text_container li{margin:0px;padding:0px;}
+				</style>
+				<div class="vChitchat">
+					<div class="vc_today"><span class="hidden">ChitChat Today</span></div>
+					<div class="vc_user">
+						<ul id="MS_scroll_text_container">
+							<li class="MS_scroll_text_item" id="MS_scroll_text_item_0" style="height:24px;width:150px;line-height:24px;overflow:hidden;">최경환[positionfov] <a href="#"><span class="mainboard">0have a good day</a></span></li>
+							<li class="MS_scroll_text_item" id="MS_scroll_text_item_1" style="height:24px;width:150px;line-height:24px;overflow:hidden;">최경환[positionfov] <a href="#"><span class="mainboard">1have a good day</a></span></li>
+							<li class="MS_scroll_text_item" id="MS_scroll_text_item_2" style="height:24px;width:150px;line-height:24px;overflow:hidden;">최경환[positionfov] <a href="#"><span class="mainboard">2have a good day</a></span></li>
+							<li class="MS_scroll_text_item" id="MS_scroll_text_item_3" style="height:24px;width:150px;line-height:24px;overflow:hidden;">최경환[positionfov] <a href="#"><span class="mainboard">3have a good day</a></span></li>
+						</ul>
+					</div>
+					<div class="vc_more"><a href="#" title="더보기"><span class="hidden">more</span></a></div>
+				</div>
+
+				<div class="vCommunity">
+					<div class="vMcom fl">
+						<div class="Bg">
+							<h3 class="talkbox"><span class="hidden">Talkbox</span></h3>
+							<p class="fr"><a href="#">more</a></p>
+						</div>
+						<ul>
+							<li><a href="#">업무시간 및 변경사항 입니다.</a><span>cyk2</span></li>
+							<li><a href="#">금주 전화강의 안내</a><span>positionfov</span></li>
+							<li><a href="#">서버보안작업 안내</a><span>타조알</span></li>
+						</ul>
+					</div>
+					<div class="vMcom fr">
+						<div class="Bg">
+							<h3 class="qna"><span class="hidden">Talkbox</span></h3>
+							<p class="fr"><a href="#">more</a></p>
+						</div>
+						<ul>
+							<li><a href="#">업무시간 및 변경사항 입니다.</a><span>cyk2</span></li>
+							<li><a href="#">금주 전화강의 안내</a><span>positionfov</span></li>
+							<li><a href="#">서버보안작업 안내</a><span>타조알</span></li>
+						</ul>
+					</div>
+					<div class="vMcom fl">
+						<div class="Bg">
+							<h3 class="today"><span class="hidden">Talkbox</span></h3>
+							<p class="fr"><a href="#">more</a></p>
+						</div>
+						<ul>
+							<li><a href="#">업무시간 및 변경사항 입니다.</a><span>cyk2</span></li>
+							<li><a href="#">금주 전화강의 안내</a><span>positionfov</span></li>
+							<li><a href="#">서버보안작업 안내</a><span>타조알</span></li>
+						</ul>
+					</div>
+					<div class="vMcom fr">
+						<div class="Bg">
+							<h3 class="chitchat"><span class="hidden">Talkbox</span></h3>
+							<p class="fr"><a href="#">more</a></p>
+						</div>
+						<ul>
+							<li><a href="#">업무시간 및 변경사항 입니다.</a><span>cyk2</span></li>
+							<li><a href="#">금주 전화강의 안내</a><span>positionfov</span></li>
+							<li><a href="#">서버보안작업 안내</a><span>타조알</span></li>
+						</ul>
+					</div>
+				</div>
+	
+
+			</div><!-- main_contents -->
+
+			<div id="right_column">
+				<script language="javascript" type="text/javascript">
+					function idiom(n) {
+						for(var i = 1; i < 4; i++) {
+							obj = document.getElementById('idiom'+i);
+							img = document.getElementById('idiom_button'+i);
+							if ( n == i ) {
+								obj.style.display = "block";
+								img.src = "images/i_regular_on.gif";    
+							} else {
+								obj.style.display = "none";
+								img.src = "images/i_regular_off.gif";
+							}
+						}
+					}
+				</script>
+				
+				<div id="idiom1" class="vIdiom left_bottom02" style="display:block">
+					<div class="left_top02">
+						<h3 class="t_vIdiom"><span class="hidden">오늘의 관용표현 (Today's Idiom)</span></h3>
+
+					</div>
+					<div class="left_Bg02">
+						<p><a href="#">1Do you mind if I open the window?</a></p>
+					</div>
+					<div class="ft">
+						<img id="idiom_button1" style="cursor:pointer" onclick="idiom(1);" src="images/i_regular02_on.gif" alt="버튼" title="버튼"  />
+						<img id="idiom_button2" style="cursor:pointer" onclick="idiom(2);" src="images/i_regular02_off.gif" alt="버튼" title="버튼"  />
+						<img id="idiom_button3" style="cursor:pointer" onclick="idiom(3);" src="images/i_regular02_off.gif" alt="버튼" title="버튼"  />
+
+					</div>
+				</div>
+
+				<div id="idiom2" class="vIdiom left_bottom02" style="display:none">
+					<div class="left_top02">
+						<h3 class="t_vIdiom"><span class="hidden">오늘의 관용표현 (Today's Idiom)</span></h3>
+					</div>
+
+					<div class="left_Bg02">
+
+						<p><a href="#">2Do you mind if I open the window?</a></p>
+					</div>
+					<div class="ft">
+						<img id="idiom_button1" style="cursor:pointer" onclick="idiom(1);" src="images/i_regular02_off.gif" alt="버튼" title="버튼"  />
+						<img id="idiom_button2" style="cursor:pointer" onclick="idiom(2);" src="images/i_regular02_on.gif" alt="버튼" title="버튼"  />
+						<img id="idiom_button3" style="cursor:pointer" onclick="idiom(3);" src="images/i_regular02_off.gif" alt="버튼" title="버튼"  />
+					</div>
+				</div>
+
+				<div id="idiom3" class="vIdiom left_bottom02" style="display:none">
+					<div class="left_top02">
+						<h3 class="t_vIdiom"><span class="hidden">오늘의 관용표현 (Today's Idiom)</span></h3>
+					</div>
+					<div class="left_Bg02">
+						<p><a href="#">3Do you mind if I open the window?</a></p>
+					</div>
+
+					<div class="ft">
+						<img id="idiom_button1" style="cursor:pointer" onclick="idiom(1);" src="images/i_regular02_off.gif" alt="버튼" title="버튼"  />
+						<img id="idiom_button2" style="cursor:pointer" onclick="idiom(2);" src="images/i_regular02_off.gif" alt="버튼" title="버튼"  />
+						<img id="idiom_button3" style="cursor:pointer" onclick="idiom(3);" src="images/i_regular02_on.gif" alt="버튼" title="버튼"  />
+					</div>
+				</div><!-- 오늘의 관용표현 -->
+
+				<div class="freelevel">
+					<a href="#"><img src="images/n_vm_company.gif" alt="기업교육컨설팅" title="기업교육컨설팅" /></a>
+					<!-- a href="#"><img src="images/n_vm_people.gif" alt="개인교육컨설팅" title="개인교육컨설팅" /></a -->
+				</div>
+				<div class="freelevel">
+					<a href="#"><img src="images/b_vm_price.gif" alt="교육과정 및 수강료 안내" title="교육과정 및 수강료 안내" /></a>
+				</div>
+				<div style="margin-top:8px;">
+					<a href="#"><img src="images/b_vm_teaching.gif" alt="VIVA 교육 교재안내" title="VIVA 교육 교재안내" /></a>
+				</div>
+				<div class="freelevel">
+					<a href="#"><img src="images/n_vm_market.jpg" alt="Market Leader" title="Market Leader" /></a>
+				</div>
+
+				<div class="vSelfstudy left_bottom02">
+					<div class="left_top02">
+						<h3 class="t_vSelfstudy"><span class="hidden">셀프스터디 (Self Study)</span></h3>
+					</div>
+					<div class="left_Bg02">
+						<dl>
+							<dt class="study01"><span class="hidden">MP3 Article (지문과 음성을 통해 머리에 쏙쏙 !)</span></dt>
+							<dd><a href="#"><img src="images/b_vms_go.gif" alt="바로가기" title="바로가기" /></a></dd>
+						</dl>
+						<dl>
+							<dt class="study02"><span class="hidden">영상자료 (동영상을 통해서 예습과 복습을 !)</span></dt>
+							<dd><a href="#"><img src="images/b_vms_go.gif" alt="바로가기" title="바로가기" /></a></dd>
+						</dl>
+						<dl class="n_border">
+							<dt class="study03"><span class="hidden">Today's Idiom (예문과 발음법까지 친절하게 !)</span></dt>
+							<dd><a href="#"><img src="images/b_vms_go.gif" alt="바로가기" title="바로가기" /></a></dd>
+						</dl>
+					</div>
+				</div><!-- 셀프스터디 -->
+
+				<div class="vPostscript">
+					<h3 class="hidden">수강후기 (생생하게 들어보는 VIVA 수강 후기)</h3>
+					<div class="post_inner">
+						<ul>
+							<li><a href="#">영어가 쉬워졌어용~</a></li>
+							<li><a href="#">님아 나이스 짱 홧팅</a></li>
+							<li><a href="#">혓바닥에 버터 바른 느낌이예용</a></li>
+						</ul>
+					</div>
+				</div>
+
+			</div><!-- right_column -->
+
+		</div><!-- container -->
+
+		<div id="fot">
+			<div id="f_sitemap">
+				<div class="openBtn"><a href="#"><img src="images/b_sitemap.gif" align="absmiddle" alt="버튼" title="버튼" /></a></div>
+				<div class="f_sitemap_top" style="display:none;">
+					<div class="f_siteBg">
+						<div class="f_siteLogo"><span class="hidden">VIVA English</span></div>
+						<div class="site_link">
+							<ul>
+								<li><strong><a href="#">고객센터</a></strong></li>
+								<li><a href="#">공지사항</a></li>
+								<li><a href="#">FAQ</a></li>
+								<li><a href="#">Q&amp;A</a></li>
+							</ul>
+							<ul>
+								<li><strong><a href="#">마이페이지</a></strong></li>
+								<li><a href="#">강의캘린더</a></li>
+								<li><a href="#">Composition</a></li>
+								<li><a href="#">강의Q&A</a></li>
+								<li><a href="#">Dear Teacher</a></li>
+								<li><a href="#">교육확인서</a></li>
+								<li><a href="#">결제내역</a></li>
+								<li><a href="#">맞춤공지사항</a></li>
+							</ul>
+							<ul>
+								<li><strong><a href="#">커리큘럼</a></strong></li>
+								<li><a href="#">교육활용법</a></li>
+								<li><a href="#">영어</a></li>
+								<li><a href="#">일본어</a></li>
+								<li><a href="#">중국어</a></li>
+								<li><a href="#">Market Leader</a></li>
+								<li><strong><a href="#">무료레벨테스트</a></strong></li>
+							</ul>
+							<ul>
+								<li><strong><a href="#">교육신청</a></strong></li>
+								<li><a href="#">영어과정</a></li>
+								<li><a href="#">일본어과정</a></li>
+								<li><a href="#">중국어과정</a></li>
+							</ul>
+							<ul>
+								<li><strong><a href="#">셀프스터디</a></strong></li>
+								<li><a href="#">MP3 Article</a></li>
+								<li><a href="#">영상자료</a></li>
+								<li><a href="#">Today's Idiom</a></li>
+								<li><a href="#">Composition</a></li>
+							</ul>
+							<ul>
+								<li><strong><a href="#">커뮤니티</a></strong></li>
+								<li><a href="#">Talk Box</a></li>
+								<li><a href="#">강의Q&A</a></li>
+								<li><a href="#">Dear Teacher</a></li>
+								<li><a href="#">ChitChat</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div><!-- f_sitemap -->
+
+			<div id="footer">
+				<div class="fot_logo"><span class="hidden">VIVA English</span></div>
+				<div class="address">
+					<ul>
+						<li><a href="#">회사소개</a>|</li>
+						<li><a href="#">이용약관</a>|</li>
+						<li><strong><a href="#">개인정보취급방침</a></strong>|</li>
+						<li><a href="#">이메일무단수집거부</a>|</li>
+						<li><a href="#">사이트맵</a></li>
+					</ul>
+					<address>
+						<p>경기도 성남시 분당구 정자동 159-5 백궁프라자 2 | 대표자: 오지훈, 문지연 | 개인정보책임자: 오지훈</p>
+						<p>사업자번호: 129-86-26154 | 통신판매: 제 2008-경기성남-0454호  | 대표전화: 031-712-7005 / 팩스: 031-712-7006</p>
+						<p>Copyrightⓒ GnG Company. All Rights Reserved.</p>
+					</address>
+				</div>
+			</div><!-- footer -->
+		</div><!-- fot -->
+
+	</div><!-- wrap_inner -->
+</div><!-- wrapper -->
+
+</body>
+</html>

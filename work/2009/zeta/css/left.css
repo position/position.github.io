@@ -1,0 +1,97 @@
+.zMailmenu{clear:both;background:url(../images/layout/k_mailmenubg.gif) 0 0 no-repeat;width:184px;height:155px;}
+.zMailmenu .mailMenu{padding:17px 0 0 31px;height:104px;}
+.zMailmenu .mailMenu li{clear:both;padding-bottom:8px;letter-spacing:-1px;}
+.zMailmenu .mailMenu li a{display:block;width:130px;font-weight:bold;color:#d7d7d7;text-decoration:none !important;}
+.zMailmenu .mailMenu li a:hover{color:#fff;}
+.zMailmenu .mailMenu li .wr{float:left;width:90px;}
+.zMailmenu .mailMenu li .me{display:block;float:left;}
+.zMailmenu .mailMenu li .me a{background:url(../images/i_leftmore.gif) 0 3px no-repeat;width:34px;height:14px;}
+.zMailmenu .mailMenu li .me a:hover{background:url(../images/i_leftmore.gif) 0 -12px no-repeat;width:34px;height:14px;}
+.zMailmenu .mailMenu li.m1{height:15px;}
+.zMailmenu .mailMenu li.m2{height:16px;}
+.zMailmenu .mailMenu li.m3{height:17px;}
+.zMailmenu .mailMenu li.m4{height:15px;}
+.zMailmenu .iconMenu{clear:both;}
+.zMailmenu .iconMenu ul{padding:0px 10px 10px 25px;}
+.zMailmenu .iconMenu li{float:left;}
+.zMailmenu .iconMenu li a{display:block;width:20px;height:16px;margin-right:8px;}
+.zMailmenu .iconMenu li.i1{background:url(../images/i_lmenu01_off.gif) 0 0 no-repeat;}
+.zMailmenu .iconMenu li.i2{background:url(../images/i_lmenu02_off.gif) 0 0 no-repeat;}
+.zMailmenu .iconMenu li.i3{background:url(../images/i_lmenu03_off.gif) 0 0 no-repeat;}
+.zMailmenu .iconMenu li.i4{background:url(../images/i_lmenu04_off.gif) 0 0 no-repeat;}
+.zMailmenu .iconMenu li.i5{background:url(../images/i_lmenu05_off.gif) 0 0 no-repeat;}
+.zMailmenu .iconMenu li.i1 a:hover{background:url(../images/i_lmenu01_on.gif) 0 0 no-repeat;}
+.zMailmenu .iconMenu li.i2 a:hover{background:url(../images/i_lmenu02_on.gif) 0 0 no-repeat;}
+.zMailmenu .iconMenu li.i3 a:hover{background:url(../images/i_lmenu03_on.gif) 0 0 no-repeat;}
+.zMailmenu .iconMenu li.i4 a:hover{background:url(../images/i_lmenu04_on.gif) 0 0 no-repeat;}
+.zMailmenu .iconMenu li.i5 a:hover{background:url(../images/i_lmenu05_on.gif) 0 0 no-repeat;}
+/* //메일 읽기,쓰기 메뉴 */
+
+.zMailboxBase{clear:both;position:relative;width:184px;}
+.zMailboxBase .left_h3topbg h3{font-weight:bold;letter-spacing:-1px;color:#fff;padding:12px 0 0 15px;}
+.zMailboxBase .left_h3topbg h3 img{vertical-align:top;margin:2px 4px 0 0;}
+*html .zMailboxBase .left_h3topbg h3 img{margin-top:0px;}
+.zMailboxBase .baseMenu{padding:10px 10px 0px 20px;}
+.zMailboxBase .baseMenu li{clear:both;display:block;height:15px;padding-bottom:5px;overflow:hidden;color:#c2c2c2;zoom:1;}
+.zMailboxBase .baseMenu li a{color:#4e4e4e;}
+.zMailboxBase .baseMenu li a.arrow{background:url(../images/i_arrow_left.gif) 0 3px no-repeat;padding-left:7px;}
+.zMailboxBase .baseMenu li strong a{color:#9a9a9a;}
+.zMailboxBase .baseMenu li span{display:block;float:left;}
+.zMailboxBase .baseMenu li .dep01{width:70px;}
+.zMailboxBase .baseMenu li .dep02{width:40px;color:#c2c2c2;font-size:11px;padding-left:2px;}
+.zMailboxBase .baseMenu li .dep03{text-align:right;}
+.zMailboxBase .baseMenu li .num{padding:0 5px;}
+.zMailboxBase .baseMenu li .num a{font-family:tahoma;font-size:10px;font-weight:bold;color:#ef830f;}
+.zMailboxBase .baseMenu li .empty a{display:block;background:url(../images/b_empty_off.gif) 0 0 no-repeat;width:38px;height:15px;}
+.zMailboxBase .baseMenu li .empty a:hover{background:url(../images/b_empty_on.gif) 0 0 no-repeat;}
+.zMailboxBase .ft{position:absolute;right:15px;top:14px;}
+.zMailboxBase .ft a{display:block;background:url(../images/i_leftmore.gif) -44px 0 no-repeat;width:28px;height:11px;}
+.zMailboxBase .ft a:hover{background:url(../images/i_leftmore.gif) -44px -15px no-repeat;}
+/* //기본메일함 */
+
+.zMailboxUser{clear:both;position:relative;width:184px;}
+.zMailboxUser .left_h3topbg h3{font-weight:bold;letter-spacing:-1px;color:#fff;padding:12px 0 0 15px;}
+.zMailboxUser .left_h3topbg h3 img{vertical-align:top;margin:2px 4px 0 0;}
+*html .zMailboxUser .left_h3topbg h3 img{margin-top:0px;}
+.zMailboxUser .userMenu{padding:10px 10px 0px 15px;}
+.zMailboxUser .userMenu em a{font-family:tahoma;font-size:10px;color:#ef830f;padding-left:3px;}
+.zMailboxUser .userMenu li{font-size:11px;letter-spacing:-1px;}
+.zMailboxUser .userMenu .file{height:17px;}
+.zMailboxUser .userMenu .file em{padding-right:5px;}
+.zMailboxUser .userMenu .tree01{height:23px;vertical-align:bottom;}
+.zMailboxUser .ft{position:absolute;right:15px;top:14px;}
+.zMailboxUser .ft a{display:block;background:url(../images/i_leftmore.gif) -84px 0 no-repeat;width:29px;height:11px;}
+.zMailboxUser .ft a:hover{background:url(../images/i_leftmore.gif) -84px -15px no-repeat;}
+/* //개인메일함 */
+
+.zMailTag{clear:both;position:relative;width:184px;}
+.zMailTag .tagList{padding:5px 15px 0px 15px;}
+.zMailTag .tagList h3{font-weight:bold;background:url(../images/i_tagline.gif) center bottom no-repeat;height:23px;}
+.zMailTag .tagList h3 a{background:url(../images/i_taglist.gif) 0 0 no-repeat;padding-left:18px;}
+.zMailTag .tagList h3 a:hover{color:#000;text-decoration:none;}
+.zMailTag .tagList ul{padding-top:10px;}
+.zMailTag .tagList li{padding-bottom:5px;}
+.zMailTag .tagList .noTag{padding:5px 0 10px 0 !important;text-align:center;}
+.zMailTag .ft{position:absolute;right:15px;top:16px;}
+.zMailTag .ft a{display:block;background:url(../images/i_leftmore.gif) -124px 0 no-repeat;width:29px;height:11px;}
+.zMailTag .ft a:hover{background:url(../images/i_leftmore.gif) -124px -15px no-repeat;}
+/* //태그목록 */
+
+.zMailEtc{clear:both;position:relative;width:184px;}
+.zMailEtc .etcMenu{padding:0px 5px 0px 15px;}
+.zMailEtc .etcMenu li{width:160px;height:22px;padding:7px 0px 0 0;background:url(../images/i_config.gif) right -92px no-repeat;}
+.zMailEtc .etcMenu .bor{border-bottom:1px solid #ccc;width:155px;}
+.zMailEtc .etcMenu .bnone{border:none;}
+.zMailEtc .etcMenu li a{display:block;font-weight:bold;padding-left:26px;color:#4e4e4e;}
+.zMailEtc .etcMenu li a:hover{color:#000;text-decoration:none;}
+.zMailEtc .etcMenu li a.e1{background:url(../images/i_config.gif) 0 0 no-repeat;}
+.zMailEtc .etcMenu li a.e2{background:url(../images/i_config.gif) 0 -34px no-repeat;}
+.zMailEtc .etcMenu li a.e3{background:url(../images/i_config.gif) 0 -69px no-repeat;}
+.zMailEtc .etcMenu .help{background:url(../images/layout/k_configbg.gif) 0 0 no-repeat;width:152px;height:26px;}
+.zMailEtc .etcMenu .help p{padding:6px 0 0 12px;}
+.zMailEtc .etcMenu span{display:block;float:left;}
+.zMailEtc .etcMenu span a{font-weight:bold;color:#fff;font-size:11px;letter-spacing:-1px;}
+.zMailEtc .etcMenu span.m1{width:62px;background:url(../images/i_config.gif) 0 -130px no-repeat;padding-left:15px;}
+.zMailEtc .etcMenu span.m2{background:url(../images/i_config.gif) 0 -158px no-repeat;padding-left:15px;}
+/* //기타메뉴(환경설정,도움말) */
+

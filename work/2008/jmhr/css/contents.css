@@ -1,0 +1,59 @@
+﻿	/*
+	Title:   	JMHR screen styles
+	Author:  Choi kyung hwan
+	E-mail:  positionfov@gmail.com
+	*/
+	
+	/* 공통 */
+	#service,#aboutus,#members,#portfolio,#contact,#news{padding-left:20px;}		
+	
+	/* service */
+	#service .hellojob{background:url(../images/hellojob_logo.gif) no-repeat;width:115px;height:40px;padding-bottom:5px;}
+	#service .sports{background:url(../images/sportsg_logo.gif) no-repeat;width:125px;height:65px;padding-bottom:5px;}
+	#service .jmhr{background:url(../images/jmhr_logo2.gif) no-repeat;width:80px;height:72px;padding-bottom:5px;}
+	#service .seminar{background:url(../images/seminarin_logo.gif) no-repeat;width:180px;height:38px;padding-bottom:5px;}
+	#service p{margin-bottom:30px;line-height:140%;}
+	/* /service */
+	
+	/* about us */
+	#aboutus .creating{background:url(../images/intro_com_txt.gif) no-repeat;width:320px;height:25px;padding-bottom:5px;}
+	#aboutus p{margin-bottom:20px;line-height:140%;}
+	/* /about us */
+	
+	/* members */
+	#members dl{float:left;width:230px;height:255px;margin-right:20px;margin-bottom:20px;overflow:hidden;display:inline;}
+	#members dt{width:230px;height:125px;margin:5px 0 5px 0;}
+	#members .mem01{background:url(../images/ejourney.gif) no-repeat;} 
+	#members .mem02{background:url(../images/pionni.gif) no-repeat;} 
+	#members .mem03{background:url(../images/kay.gif) no-repeat;} 
+	#members .mem04{background:url(../images/mailside.gif) no-repeat;} 
+	#members .mem05{background:url(../images/hopsky.gif) no-repeat;} 
+	#members dd.blog{background:url(../images/i_blog.gif) 0 2px no-repeat;width:200px;height:14px;padding-left:35px;}
+	#members dd{margin-top:10px;}
+	/* /members */
+	
+	/* portfolio */
+	#portfolio dl{float:left;width:230px;height:255px;margin-right:20px;margin-bottom:20px;overflow:hidden;display:inline;}
+	#portfolio dt{width:230px;height:121px;margin:5px 0 5px 0;}
+	#portfolio .work01{background:url(../images/work01.gif) no-repeat;} 
+	#portfolio .work02{background:url(../images/work02.gif) no-repeat;} 
+	#portfolio .work03{background:url(../images/work03.gif) no-repeat;} 
+	#portfolio .work04{background:url(../images/work04.gif) no-repeat;} 
+	#portfolio .work05{background:url(../images/work05.gif) no-repeat;} 
+	#portfolio .work06{background:url(../images/work06.gif) no-repeat;} 
+	#portfolio .work07{background:url(../images/work07.gif) no-repeat;} 
+	#portfolio .work08{background:url(../images/work08.gif) no-repeat;} 
+	#portfolio .work09{background:url(../images/work09.gif) no-repeat;} 
+	#portfolio .work10{background:url(../images/work10.gif) no-repeat;} 
+	#portfolio .work11{background:url(../images/work11.jpg) no-repeat;} 
+	#portfolio .work12{background:url(../images/work12.jpg) no-repeat;} 
+	#portfolio dd.url{font-size:11px;background:url(../images/i_url.gif) 0 2px no-repeat;width:28px;height:14px;padding-left:33px;margin-bottom:10px;white-space:nowrap;}
+	#portfolio dd{margin-top:3px;}
+	/* /portfolio */
+	
+	/* contact */
+	#contact strong{display:block;width:500px;height:20px;border-bottom:1px solid #ddd;margin-bottom:7px;}
+	#contact li{margin-bottom:15px;}
+	/* /contact */
+
+	

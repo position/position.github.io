@@ -1,0 +1,114 @@
+.boardSection{clear:both;color:#848383 !important;background:url(../images/k_board_bg.jpg) center top no-repeat;width:100%;padding-bottom:100px;line-height:18px;}
+.boardSection .articleLoading{background:#444443;margin:20px 0;text-align:center;padding:5px 0;}
+.boardWrap{margin:0 auto;width:860px;padding:30px 20px 20px 20px;}
+.commentWrite{position:relative;clear:both;height:178px;margin-bottom:50px;}
+.commentWrite .commentForm{clear:both;}
+.commentWrite .commentForm .commentArea{float:left;border:1px solid #000;width:720px;height:51px;padding:10px;font-size:15px;overflow:auto;color:#848383;}
+.commentWrite .commentForm .txtBg{background:#fff url(../images/k_textarea_txt01.gif) 10px 10px no-repeat;}
+.commentWrite .commentForm .wrtBtn{float:left;background:url(../images/b_write.jpg) left top no-repeat;width:118px;height:73px;text-indent:-9999px;}
+.commentWrite .sns{float:right;padding-top:3px;}
+.commentWrite .sns em{font-size:12px;}
+.commentWrite .writeFormLayer{position:absolute;bottom:-108px;left:0px;background:#fff;border:1px solid #000;width:700px;height:110px;padding:20px 20px 0 20px;}
+.commentWrite .writeFormLayer legend{display:none;}
+.commentWrite .writeFormLayer *{font-size:12px;}
+.commentWrite .writeFormLayer li{clear:both;height:35px;}
+.commentWrite .writeFormLayer .wrtInp{border:1px solid #b4b4b4;height:20px;padding:2px 5px 2px 5px;color:#6d6d6d;font-size:12px;}
+.commentWrite .writeFormLayer .secu{position:relative;display:block;float:left;background:#bcd0ff;width:110px;height:26px;margin-right:3px;}
+.commentWrite .writeFormLayer .secu .ref{position:absolute;top:3px;right:3px;}
+.commentWrite .writeFormLayer .input{display:block;float:left;}
+.commentWrite .writeFormLayer .closed{position:absolute;top:5px;right:5px;}
+
+.commentList{clear:both;}
+.commentList .comAlign{background:url(../images/l_board_line.png) center bottom no-repeat;height:45px;}
+.commentList .comAlign li{font-size:15px;}
+.commentList .comAlign .ico-bullet-on{background:url(../images/i_arrow_on.gif) 0 center no-repeat;padding-left:15px;}
+.commentList .comAlign .ico-bullet-off{background:url(../images/i_arrow_off.gif) 0 center no-repeat;padding-left:15px;}
+.commentList .comAlign .align01{float:left;margin-right:15px;padding-top:10px;}
+.commentList .comAlign .align01 a{cursor:pointer;}
+.commentList .comAlign .align02{float:right;}
+.commentList .comAlign .sch-bg{width:200px;height:25px;border:2px solid #212121;background:#555;}
+.commentList .comAlign .sch-txt{width:160px;height:20px;border:0 none;background:#555;color:#bbb;padding:0px 3px 2px 5px;font-size:13px;}
+.commentList .postWrap{clear:both;margin-left:150px;}
+.commentList .postWrap .tagSch{background:#ffda0c;font-size:15px;color:#000 !important;}
+.commentList .postWrap .posts{position:relative;background:#fff;border-radius:8px;border:2px solid #3b3831;margin-top:10px;padding-bottom:10px;zoom:1;}
+.commentList .postWrap .postsCon{padding:15px 80px 15px 20px;word-wrap:break-word;}
+.commentList .postWrap .notice{padding:15px 10px 15px 20px !important;}
+.commentList .postWrap .posts:hover{border:2px solid #ffaa00;}
+.commentList .postWrap .nickname{position:absolute;left:-147px;top:0;width:130px;font-size:15px;color:#e4e4e4;padding-top:7px;text-align:right;}
+.commentList .postWrap .nickname .bullet{background:url(../images/i_nickname.gif) 0 center no-repeat;padding-left:15px;font-size:15px;}
+.commentList .postWrap .posts .arrow{position:absolute;background:url(../images/i_boardarrow_off.gif) no-repeat scroll 0 0 transparent;left:-14px;top:10px;width:14px;height:13px;}
+.commentList .postWrap .posts:hover .arrow{position:absolute;background:url(../images/i_boardarrow_on.gif) no-repeat scroll 0 0 transparent;left:-14px;top:10px;width:14px;height:13px;}
+.commentList .postWrap .heart{position:absolute;right:10px;top:10px;background:url(../images/i_heart.gif) 0 0 no-repeat;display:block;height:22px;padding-left:30px;}
+.commentList .postWrap .heart span{font-size:15px;color:#888;font-family:verdana;font-weight:bold;}
+.commentList .postWrap .heart span:hover{color:#222;}
+.commentList .postWrap .heart-on-level00 span,
+.commentList .postWrap .heart-on-level01 span,
+.commentList .postWrap .heart-on-level02 span,
+.commentList .postWrap .heart-on-level03 span{font-size:15px;color:#888;font-family:verdana;font-weight:bold;}
+.commentList .postWrap .heart-on-level00 span:hover,
+.commentList .postWrap .heart-on-level01 span:hover,
+.commentList .postWrap .heart-on-level02 span:hover,
+.commentList .postWrap .heart-on-level03 span:hover{color:#222;}
+.commentList .postWrap .heart-on-level00{position:absolute;right:10px;top:10px;background:url(../images/i_heart.gif) 0 0 no-repeat;display:block;height:22px;padding-left:30px;color:#222;}
+.commentList .postWrap .heart-on-level01{position:absolute;right:10px;top:10px;background:url(../images/i_heart.gif) 0 -26px no-repeat;display:block;height:22px;padding-left:30px;color:#222;}
+.commentList .postWrap .heart-on-level02{position:absolute;right:10px;top:10px;background:url(../images/i_heart.gif) 0 -52px no-repeat;display:block;height:22px;padding-left:30px;color:#222;}
+.commentList .postWrap .heart-on-level03{position:absolute;right:10px;top:10px;background:url(../images/i_heart.gif) 0 -78px no-repeat;display:block;height:22px;padding-left:30px;color:#222;}
+/*
+.commentList .postWrap .heart-on-level01{background-position:0 -26px;color:#222;}
+.commentList .postWrap .heart-on-level02{background-position:0 -52px;color:#222;}
+.commentList .postWrap .heart-on-level03{background-position:0 -78px;color:#222;}*/
+.commentList .postWrap .heart em{text-indent:-9999px;}
+.commentList .postWrap .post{font-size:15px;overflow:hidden;}
+.commentList .postWrap .post .notice-tit a{font-size:15px;color:#000;cursor:pointer;text-decoration:underline;}
+.commentList .postWrap .post .notice-tit a:hover{font-size:15px;color:#000;text-decoration:underline;}
+.commentList .postWrap .post .notice-con{padding-top:15px;font-size:13px;}
+.commentList .postWrap .post .notice-closed{position:absolute;bottom:10px;right:15px;font-size:11px;color:#848383;}
+.commentList .postWrap .post .notice-closed:hover{color:#222;text-decoration:underline;}
+.commentList .postWrap .post .repairArea{float:left;border:1px solid #cbcbcb;width:587px;height:50px;padding:5px;font-size:13px;overflow:auto;color:#848383;}
+
+.commentList .postWrap .user{position:relative;overflow:hidden;height:20px;padding:10px 0 5px 0;}
+.commentList .postWrap .user span{float:left;display:block;}
+.commentList .postWrap .user .rlyLink a{font-size:11px;color:#848383;text-decoration:underline;margin-right:10px;}
+.commentList .postWrap .user .rlyLink a:hover{font-size:11px;color:#222;text-decoration:underline;}
+.commentList .postWrap .user .repair, 
+.commentList .postWrap .user .del,
+.commentList .postWrap .user .com,
+.commentList .postWrap .user .cancle{padding-top:3px;margin-right:2px;}
+.commentList .postWrap .user .repair a{background:url(../images/b_rly_repair.gif) 0 0 no-repeat;display:block;width:28px;height:14px;}
+.commentList .postWrap .user .repair a:hover{background-position:0 -14px;}
+.commentList .postWrap .user .del a{background:url(../images/b_rly_del.gif) 0 0 no-repeat;display:block;width:28px;height:14px;}
+.commentList .postWrap .user .del a:hover{background-position:0 -14px;}
+.commentList .postWrap .user .com a{background:url(../images/b_rly_complete.gif) 0 0 no-repeat;display:block;width:28px;height:14px;}
+.commentList .postWrap .user .com a:hover{background-position:0 -14px;}
+.commentList .postWrap .user .cancle a{background:url(../images/b_rly_cancle.gif) 0 0 no-repeat;display:block;width:28px;height:14px;}
+.commentList .postWrap .user .cancle a:hover{background-position:0 -14px;}
+.commentList .postWrap .user .dat{float:right;font-family:sans-serif;font-size:11px;}
+.commentList .postWrap .user .confirm{float:right;}
+.commentList .postWrap .user .confirm *{font-size:12px;}
+.commentList .postWrap .user .confirm .wrtInp{border:1px solid #b4b4b4;height:17px;padding:2px 5px 2px 5px;color:#6d6d6d;font-size:12px;}
+.commentList .postWrap .user .confirm .btnStyle{border:1px solid #000;background:#2e2e2e;color:#fff;padding:1px 7px;margin-left:5px;}
+
+.commentList .postWrap .replyWrt{border:1px solid #cbcbcb;background:#f8f8f8;padding:10px;width:684px;}
+.commentList .postWrap .replyWrt .replyArea{float:left;border:1px solid #cbcbcb;width:587px;height:34px;padding:5px;font-size:12px;overflow:auto;color:#848383;}
+.commentList .postWrap .replyWrt .txtBg{background:#fff url(../images/k_textarea_txt02.gif) 5px 5px no-repeat;}
+.commentList .postWrap .replyWrt .replyBtn{float:left;background:url(../images/b_write_reply.gif) left top no-repeat;width:85px;height:46px;text-indent:-9999px;}
+.commentList .postWrap .replyWrt .emailPass{position:relative;padding-top:27px;margin-bottom:5px;overflow:hidden;}
+.commentList .postWrap .replyWrt .emailPass *{font-size:12px;}
+.commentList .postWrap .replyWrt .emailPass .ball{position:absolute;border:1px solid #bebebe;border-radius:5px;background:#fff;width:300px;padding:2px 5px;text-align:center;top:0;right:45px;z-index:10;}
+.commentList .postWrap .replyWrt .emailPass .arrow-down{position:absolute;bottom:-10px;left:15px;}
+.commentList .postWrap .replyWrt .emailPass ul{margin-top:5px;}
+.commentList .postWrap .replyWrt .emailPass li{float:left;}
+.commentList .postWrap .replyWrt .emailPass .mr{margin-right:10px;}
+.commentList .postWrap .replyWrt .emailPass .wrtInp{border:1px solid #b4b4b4;height:20px;padding:2px 5px 2px 5px;color:#6d6d6d;font-size:12px;}
+.commentList .postWrap .replyWrt .emailPass .secu{position:relative;display:block;float:left;background:#bcd0ff;width:110px;height:26px;margin-right:3px;}
+.commentList .postWrap .replyWrt .emailPass .secu .ref{position:absolute;top:3px;right:3px;}
+.commentList .postWrap .replyWrt .emailPass .inp{display:block;float:left;}
+.commentList .postWrap .reply{position:relative;background:#f1f1f1;margin-top:0px;padding:15px 80px 15px 20px;word-wrap:break-word;}
+.commentList .postWrap .reply .rly-user{clear:both;background:url(../images/i_reply_arrow.gif) 0 4px no-repeat;font-size:15px;font-weight:bold;color:#6c6963;padding-left:12px;height:25px;}
+
+.schTerms{position:relative;width:100%;background:#444443;height:30px;text-align:center;font-size:15px;color:#c0c0c0;padding-top:10px;margin:30px 0;}
+.schTerms .terms{color:#fff;font-weight:bold;}
+.schTerms .num{color:#f1c100;font-weight:bold;}
+.schTerms .list{position:absolute;top:10px;right:20px;text-decoration:underline;font-size:12px;}
+.txtBg-1{background:#fff url(../images/k_txt_email.gif) 5px center no-repeat;}
+.txtBg-2{background:#fff url(../images/k_txt_password.gif) 5px center no-repeat;}

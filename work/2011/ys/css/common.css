@@ -1,0 +1,269 @@
+﻿/* reset */
+html{background:#fff;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse; border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:normal;}
+li{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;font-variant:normal;}
+sup{vertical-align:text-top;}
+sub{vertical-align:text-bottom;}
+legend{color:#000;}
+del,ins{text-decoration:none;}
+button{border:none 0;background:none;cursor:pointer;_cursor /**/:hand;}
+hr{display:none;border:none 0;}
+label{cursor:pointer;}
+input[type="checkbox"],input[type="radio"]{width:13px;height:13px;margin: 0px 5px 3px 2px;*margin: 1px 5px 3px 2px;padding: 0 !important;cursor:default;}
+
+/* fonts */
+body{font:12px/1.335 돋움,dotum,굴림,Gulim,sans-serif,Arial,Helvetica,Clean,AppleGothic;color:#565656;}
+select,input,button,textarea{font:12px 돋움,dotum,굴림,Gulim,Arial,Helvetica,Clean,AppleGothic,sans-serif;}
+table{font-size:inherit;}
+pre,code,kbd,samp,xmp,tt{font-family:monospace;*font-size:108%;line-height:100%;}
+a{color:#545454;text-decoration:none;}
+a:hover{color:#010101;text-decoration:underline;}
+a:visited{color:#4a4a4a;}
+a img{border:none;}
+img{vertical-align:middle;}
+
+/* class */
+.clear{clear:both;}
+.clearfx{zoom:1;}
+.clearfx:after{content: ".";display:block;font-size:0;height:0px;line-height:0;clear:both;}
+.fl{float:left;}
+.fr{float:right;}
+.vm{vertical-align:middle;}
+.hidden{display:none;}
+.block{display:block;}
+.txt{border:1px solid #b4b4b4;height:14px;padding:2px 3px 2px 3px;}
+.mr_0{margin-right:0px !important;}
+.ml_0{margin-left:0px !important;}
+.bgNo{background-image:none !important;}
+.boxShadow{
+/* IE */border:4px solid #ff9900;
+FILTER: progid:DXImageTransform.Microsoft.Shadow(color:#f5f5f5,direction:145,strength:5);
+/* Opera */box-shadow:4px 4px 4px #f5f5f5;
+/* Firefox */-moz-box-shadow:4px 4px 4px #f5f5f5;
+/* Safiri, Chrome */-webkit-box-shadow:4px 4px 4px #f5f5f5;}
+
+
+.subBg{background:url(http://img.ndoors.com/webdata/yw/obt/2011/common/k_sub_bg.jpg) center top no-repeat;min-width:1000px;}
+#ywWrapper{position:relative;clear:both;background:url(http://img.ndoors.com/webdata/yw/obt/2011/common/k_top_bg.gif) center top repeat-x;min-width:970px;*z-index:999999;}
+#ywContainer{position:relative;width:970px;margin:0 auto;text-align:left;}
+#ywHeader{position:relative;clear:both;width:970px;height:286px;}
+#ywHeader h1{position:absolute;z-index:100;top:13px;text-indent:-9999px;}
+#ywHeader h1 a{display:block;background:url(http://img.ndoors.com/webdata/yw/obt/2011/common/yw_logo.png) left top no-repeat;width:213px;height:203px;}
+#ywHeader #ywNavWrap{position:absolute;left:200px;}
+#ywHeader #ywNavWrap #ywNav{height:286px;}
+#ywHeader #ywNavWrap #ywNav h2{background:url(http://img.ndoors.com/webdata/yw/obt/2011/common/i_nav_bar.gif) right center no-repeat;margin-bottom:20px;}
+#ywHeader #ywNavWrap #ywNav h2 a{display:block;padding-top:30px;width:145px;height:60px;}
+#ywHeader #ywNavWrap #ywNav .game,
+#ywHeader #ywNavWrap #ywNav .news,
+#ywHeader #ywNavWrap #ywNav .community,
+#ywHeader #ywNavWrap #ywNav .pds,
+#ywHeader #ywNavWrap #ywNav .item{float:left;width:145px;text-align:center;}
+#ywHeader #ywNavWrap #ywNav .subnav{display:block;}
+#ywHeader #ywNavWrap #ywNav .subnav li{position:relative;height:27px;overflow:hidden;}
+#ywHeader #ywNavWrap #ywNav .subnav li a{position:relative;display:block;height:15px;margin-bottom:12px;overflow:hidden;}
+#ywHeader #ywNavWrap #ywNav .subnav li a:hover img{margin-top:-24px;*margin-top:-22px;}
+#ywHeader #ywNavWrap #ywNav .subnav li .active{margin-top:-24px;*margin-top:-22px;}
+#ywHeader .ywSearch{position:absolute;top:25px;right:0px;}
+#ywHeader .ywSearch .sch-bg{width:185px;height:38px;border:1px solid #6c6c6c;background:#0a0a0a;}
+#ywHeader .ywSearch .sch-txt{width:132px;height:20px;border:0 none;background:#0a0a0a;color:#bbb;padding:4px 3px 2px 7px;font-size:14px;}
+
+
+#popMultimedia .fansiteKit{clear:both;padding:20px 0px 0 10px;}
+#popMultimedia .fansiteKit .head{clear:both;padding-right:30px;height:120px;}
+#popMultimedia .fansiteKit .head h3{float:left;}
+#popMultimedia .fansiteKit .head .downBtn{float:right;background:url(http://img.ndoors.com/webdata/sampoom/teaser/popup/b_fansite_down.gif) 0 0 no-repeat;width:231px;height:51px;}
+#popMultimedia .fansiteKit .wallpaperContanier{position:relative;width:862px;height:220px;overflow:hidden;}
+#popMultimedia .fansiteKit .wallpaperList{position:absolute;top:;0;left:0;overflow:hidden;}
+#popMultimedia .fansiteKit .wallpaperList .mr0{margin-right:0px !important;}
+#popMultimedia .fansiteKit .wallpaperList .listWrap{float:left;width:862px;}
+#popMultimedia .fansiteKit .wallpaperList .wallThum{float:left;width:208px;margin-right:10px;}
+#popMultimedia .fansiteKit .wallpaperList .wallThum .pho{position:relative;float:left;width:206px;height:144px;border:1px solid #373737;margin-bottom:5px;background:#aaa;}
+#popMultimedia .fansiteKit .wallpaperList .wallThum .pho img{position:absolute;clip:rect(auto 206px 144px auto);left:0;top:0;width:206px;}
+#popMultimedia .fansiteKit .wallpaperList .wallThum dd{clear:both;height:23px;}
+#popMultimedia .fansiteKit .wallpaperList .wallThum dd .part-1{padding-right:4px;}
+#popMultimedia .fansiteKit .circleBtn{clear:both;text-align:center;padding-top:30px;}
+#popMultimedia .fansiteKit .circleBtn span{display:inline-block;cursor:pointer;background:url(http://img.ndoors.com/webdata/sampoom/teaser/popup/b_circle_off.gif) no-repeat;width:20px;height:20px;text-indent:-9999px;}
+#popMultimedia .fansiteKit .circleBtn span.on{background:url(http://img.ndoors.com/webdata/sampoom/teaser/popup/b_circle_on.gif) no-repeat;}
+
+
+#ywPromotion{clear:both;position:relative;width:970px;padding-top:1px;height:106px;}
+#ywPromotion .promotionWrap{position:relative;float:left;border-left:1px solid #000;border-right:1px solid #000;overflow:hidden;}
+#ywPromotion .promotionContainer{position:relative;width:690px;height:106px;overflow:hidden;}
+#ywPromotion .promotion{position:absolute;top:;0;left:0;overflow:hidden;}
+#ywPromotion .promotion .promoList{float:left;}
+#ywPromotion .promotion .promoList img{width:690px;height:106px;}
+#ywPromotion .gameStart{float:left;width:278px;height:106px;}
+*html #ywPromotion .gameStart{position:absolute;top:1px;right:0;}
+#ywPromotion .changeBtn{position:absolute;bottom:13px;right:19px;}
+#ywPromotion .changeBtn li{float:left;margin-right:6px;background:url(http://img.ndoors.com/webdata/yw/obt/2011/common/i_promo_off.gif) left top no-repeat;width:12px;height:12px;cursor:pointer;}
+#ywPromotion .changeBtn li.on{background:url(http://img.ndoors.com/webdata/yw/obt/2011/common/i_promo_on.gif) left top no-repeat;}
+	.jq-slideshow{position:relative;}
+	.jq-slideshow-item img{float:left;}
+	.jq-slideshow-item{position:absolute;top:0;left:0;}
+	.jq-slideshow-title { position:absolute; width:100%; left:0; bottom:0; background:#000; color:#fff;}
+	.jq-slideshow-controls { position:absolute; right:0; bottom:0; padding:10px;}
+	.jq-slideshow-controls a { display:block; width:16px; height:16px; float:left; margin-right:2px; background-image:url(controls.png); background-repeat:no-repeat;}
+	.jq-slideshow-controls a:last-child { margin-right:0;}
+	.jq-slideshow-controls a:active { position:relative; top:1px;}
+	.jq-slideshow-rgba { background-color:rgba(0,0,0,0.8);}
+	.jq-slideshow-opacity {  filter:alpha(opacity=70); opacity:0.7;}
+
+#ywContents{clear:both;width:970px;padding:30px 0;}
+#ywSection{float:left;width:690px;}
+#ywRight{float:right;width:248px;}
+#ywRight .rightNav{margin-bottom:30px;}
+#ywRight .rightNav h2{width:248px;height:48px;text-indent:-9999px;}
+#ywRight .rightNav .titHero{background:url(http://img.ndoors.com/webdata/yw/obt/2011/common/t_h2_hero.gif) left top no-repeat;}
+#ywRight .rightNav .titNews{background:url(http://img.ndoors.com/webdata/yw/obt/2011/common/t_h2_news.gif) left top no-repeat;}
+#ywRight .rightNav .titCom{background:url(http://img.ndoors.com/webdata/yw/obt/2011/common/t_h2_community.gif) left top no-repeat;}
+#ywRight .rightNav .titPds{background:url(http://img.ndoors.com/webdata/yw/obt/2011/common/t_h2_pds.gif) left top no-repeat;}
+#ywRight .rightNav li{background:url(http://img.ndoors.com/webdata/yw/obt/2011/common/k_right_bg.gif) left bottom repeat-x;}
+#ywRight .rightNav li a{display:block;height:48px;padding-left:15px;overflow:hidden;}
+#ywRight .rightNav li a:hover img{margin-top:-32px;}
+#ywRight .rightNav li .active{margin-top:-32px;}
+#ywRight .favorites{clear:both;height:144px;margin-bottom:26px;}
+#ywRight .favorites ul{clear:both;margin-bottom:4px;overflow:hidden;}
+#ywRight .favorites li{float:left;margin-right:4px;}
+#ywRight .favorites li:last-child{margin-right:0px !important;}
+
+#ywFooter{position:relative; clear:both;width:970px;height:180px;border-top:1px solid #e0e0e0;}
+#ywFooter .fot{padding-top:30px;}
+#ywFooter .fot .foot_menu {width:486px; margin-bottom:10px; letter-spacing:-1px; border-bottom:1px solid #f5f5f5;}
+#ywFooter .fot .foot_menu a {display:inline-block;}
+#ywFooter .fot .foot_menu a strong {color:#ff6600;}
+#ywFooter .fot .foot_menu img {margin:0 4px;}
+#ywFooter .fot .logo{float:left;width:120px;text-align:left;padding-top:0;margin-right:0px;display:inline; letter-spacing:-3px;}
+#ywFooter .fot .logo span{padding-right:0; display:inline-block;vertical-align:middle;}
+#ywFooter .fot .logo img {vertical-align:middle;}
+#ywFooter .fot .logo span a {color:#555;}
+#ywFooter .fot .copyright{float:left;margin-right:15px;font-size:11px;color:#999;display:inline;}
+#ywFooter .fot .copyright p{padding-bottom:10px;}
+#ywFooter .fot .copyright address{padding-bottom:10px;}
+#ywFooter .fot .deli{position:absolute; top:15px; right:0; padding-top:15px;}
+#ywFooter .fot .foot_info .line {width:15px; height:14px; vertical-align:middle; display:inline-block; background:url(http://img.ndoors.com/webdata/yw/obt/2011/common/foot_line.gif) center top no-repeat;}
+
+
+/* paging */
+.paginate{clear:both; float:left; width:100%; padding-top:30px;text-align:center;line-height:normal}
+.paginate a,
+.paginate strong{display:inline-block;position:relative;margin:0 0 0 -1px;padding:5px 10px;font-weight:bold;font-size:12px;font-family:Arial;color:#666;line-height:15px;text-decoration:none;vertical-align:middle;border:1px solid #ddd;background:#fff url(http://img.ndoors.com/webdata/yw/teaser/popup/k_png_bg.gif) left bottom repeat-x; cursor:pointer;}
+.paginate a:hover,
+.paginate a:active{border:1px solid #ddd;background:#fff;color:#ff6b08;z-index:9;cursor:pointer;text-decoration:none;}
+.paginate strong{border:1px solid #ddd;background:#fff;color:#ff6b08;z-index:9;}
+.paginate .direct{font-weight:normal;color:#333;white-space:nowrap;padding:7px 10px 7px 10px;*padding:5px 10px 5px 10px;line-height:17px;}
+.paginate .on,
+.paginate .direct:hover,
+.paginate .direct:active{border:1px solid #ddd;background:#fff;color:#ff6b08;z-index:9;}
+/* 게시판 리플 */
+.b_reply_wrap {}
+.reply_info {clear:both; float:left; width:100%; height:20px; margin-top:25px;}
+.reply_info .num {float:left; padding-left:15px; font-size:11px; color:#333;}
+.reply_info .num .person {font-size:14px; color:#ff6700;}
+.reply_info .byte {float:right; margin-top:3px; padding-right:10px; color:#7a7a7a; font-weight:bold;}
+#b_reply {margin-top:-1px;}
+.b_reply {clear:both; width:100%; border-bottom:1px solid #e8e8e8;}
+.b_reply td {padding:15px; font-family:dotum; color:#999; line-height:20px; border-top:1px solid #e8e8e8;}
+.b_reply .writer {width:20%; font-size:11px;}
+.b_reply .comment {padding:15px 8px;}
+.b_reply .comment .ment {width:430px; white-space:pre-wrap; white-space:pre-line; word-break:break-all; word-wrap:break-word;}
+.b_reply .register {width:14%; font-size:11px; text-align:center;}
+.b_reply tr.r_write td {padding:7px 0; border-top:none;}
+.b_reply tr.r_write .writerBg {height:36px; padding:15px; background:#f6f5f2;}
+.b_reply tr.r_write .comment {padding:7px;}
+.b_reply tr.re_r_list td {padding:15px 0; background:#fafafa; border-top:1px solid #fff;}
+.b_reply tr.re_r_list .re_reply {width:100%;}
+.b_reply tr.re_r_list .re_reply td {padding:2px 15px !important; vertical-align:top; border-top:0;}
+.b_reply tr.re_r_list .re_reply td.comment .recomment {margin-right:10px;; display:inline-block;}
+.b_reply tr.re_r_list .re_reply td.writer .name {padding-left:16px; background:url(http://img.ndoors.com/webdata/yw/obt/2011/pds/i_rereply.gif) 0 top no-repeat; display:inline-block;}
+.b_reply .re_r_cont {position:relative; margin-top:10px; padding-right:90px;}
+.b_reply .re_r_cont .button {position:absolute; top:0; right:0; display:inline-block;}
+.b_reply .re_r_cont .button a {float:left;}
+.b_reply .day, .b_report {font-size:11px;}
+.b_reply .day {padding:0 10px 0 0; display:inline-block; background:url(http://img.ndoors.com/webdata/yw/obt/2011/community/line_report.gif) right center no-repeat;}
+.b_reply .name {color:#666;}
+.write_text {padding:0;}
+.write_text textarea {width:100%; height:59px; padding:5px 0 0 0; color:#b7b7b7; border:1px solid #e4e4e4;}
+.reWriter {width:54px; height:18px; vertical-align:middle; background:url(http://img.ndoors.com/webdata/yw/obt/2011/community/b_reply_write.gif) 0 0 no-repeat; display:inline-block; cursor:pointer;}
+.reDelete {width:54px; height:18px; vertical-align:middle; background:url(http://img.ndoors.com/webdata/yw/obt/2011/community/b_reply_del.gif) 0 0 no-repeat; display:inline-block; cursor:pointer;}
+.button .reDelete {margin-left:5px;}
+.b_report {color:#727272; text-decoration:underline;}
+.more_reply {margin-top:15px; text-align:center; border:1px solid #e2e2e2; background:url(http://img.ndoors.com/webdata/yw/obt/2011/common/btn_more_bg.gif) 0 bottom repeat-x;}
+.more_reply a.btnView {width:100%; height:25px; padding:3px 0 0 0; color:#666; font-weight:bold; line-height:22px; border:1px solid #fff; border-top:none; background:url(http://img.ndoors.com/webdata/yw/obt/2011/common/clear.gif) 0 0 repeat-x; display:block;}
+.more_reply a.btnView span {padding-right:25px; background:transparent url(http://img.ndoors.com/webdata/yw/obt/2011/community/i_reply_more.gif) right center no-repeat; display:inline-block;}
+.more_reply a:hover {text-decoration:none;}
+.view_allmenu {clear:both; float:left; width:100%; padding-bottom:10px;}
+.view_allmenu a.btnView {padding-left:15px; color:#55443d; font-weight:bold; background:url(http://img.ndoors.com/webdata/yw/obt/2011/community/i_menu_all.gif) left 1px no-repeat; display:inline-block;}
+.view_allmenu a:hover {text-decoration:none;}
+/* img board style */
+.b_img_list {clear:both;}
+.b_img_list .fir {margin-left:0 !important;}
+.b_img_list .img_list {position:relative; float:left; margin-bottom:30px; cursor:pointer;}
+.b_img_list .img_list dt {position:absolute; left:0; bottom:0; width:100%; padding:7px 0; font-size:12px; text-align:center; color:#ebebeb; background:url(http://img.ndoors.com/webdata/yw/obt/2011/pds/subject_pngbg.png) repeat; display:none;}
+.b_img_list .img_list dt a {color:#ebebeb;}
+.b_img_list .img_list dt .kind {color:#f1a417;}
+.b_img_list .img_list .print_img {overflow:hidden;}
+.b_img_list .img_list .print_img .imgSize {vertical-align:top;}
+.mouseOn dt {display:block !important;}
+/* 404 오류 페이지 */
+#yw_error404 {width:1000px; height:700px; margin:0 auto; background:url(http://img.ndoors.com/webdata/yw/obt/2011/common/error404_bg.jpg) top right no-repeat;}
+.err404_tit {margin:105px 0 34px 0;}
+.err404_cont {width:464px; padding-left:70px;}
+.err404_cont .btn_l a {margin-right:8px; display:inline-block;}
+.err404_box {width:410px; margin-bottom:40px; padding:15px 10px 25px 10px; border:5px solid #eaeaea;}
+.err404_box .err_subject {float:left; padding:4px; font-size:15px; color:#fff; font-weight:bold; line-height:15px; background:#535353;}
+.err404_box .err_reason {clear:both; margin-bottom:23px; padding:8px 2px 18px 2px; color:#7d7d7d; line-height:18px; background:url(http://img.ndoors.com/webdata/yw/obt/2011/common/error404_underline.gif) center bottom no-repeat;}
+.err404_box .re_search {text-align:center;}
+.i_combine_search {width:252px; height:27px; border:4px solid #c0c0c0; background:#f4f4f4;}
+.i_combine_search .box {width:213px; height:27px; color:#666;  padding:0 0 0 10px; border:0; background:#f4f4f4;}
+/* 통합검색 */
+.searchWrap {clear:both;}
+.combine_search {margin-top:17px; border-top:1px solid #bfbfbf;}
+.top_result_wrap {clear:both; float:left; width:100%; padding:11px 0; line-height:16px; border-top:1px solid #fff; border-bottom:1px solid #f5f1ef; background:#faf9f8;}
+.top_result {float:left; padding-left:8px; font-size:14px; color:#333;}
+.top_result .keyword {color:#f26522;}
+.top_result_wrap .go_google {float:right; padding-right:8px;}
+.search_result {clear:both;}
+.search_result .result_list {padding:22px 20px 22px 4px; border-bottom:1px solid #ebebeb;}
+.search_result .result_list dt {margin-bottom:10px; font-size:15px;}
+.search_result .result_list dt a {color:#f26522; text-decoration:underline;}
+.search_result .result_list dd {color:#7d7d7d; line-height:18px;}
+.search_result .result_list dd a {color:#7d7d7d;}
+
+/* 게임 실행중 */
+.ywPlayingWrap{position:relative;clear:both;background:#000 url(http://img.ndoors.com/webdata/yw/obt/2011/common/k_playing.jpg) center top no-repeat;min-width:1000px;}
+.ywPalying{margin:0 auto;width:1000px;min-height:1000px;}
+.ywPalying .btn-group{padding-top:420px;text-align:center;}
+.ywPalying .btn-group .homeBtn{background:url(http://img.ndoors.com/webdata/yw/obt/2011/common/b_hero_home.jpg) left top no-repeat;width:184px;height:49px;}
+.ywPalying .btn-group .reconnectBtn{background:url(http://img.ndoors.com/webdata/yw/obt/2011/common/b_hero_reconnect.jpg) left top no-repeat;width:184px;height:49px;}
+
+
+
+
+/* 사이트맵 main.css 에서
+.commonSitemap {clear:both; float:left; width:100%; margin-top:30px;}
+.commonMap {clear:both; float:left; width:100%; margin-top:0; padding:28px 0; color:#666; line-height:19px; border-top:3px solid #f1f1f1; background:#f8f8f8; display:none;}
+.commonMap .mapHero {width:120px; background:url(http://img.ndoors.com/webdata/yw/obt/2011/main/sitemap_line.gif) left 0 no-repeat;}
+.mainBg #ywWrapper #ywContainer .mainSitemap .mapHero {margin-left:0 !important; background:url(http://img.ndoors.com/webdata/yw/obt/2011/main/sitemap_line.gif) left 0 no-repeat;}
+.commonMap .mapNews {width:100px;}
+.commonMap .mapComm {width:100px;}
+.commonMap .mapPds {width:130px;}
+.commonMap .mapMyinfo {background:url(http://img.ndoors.com/webdata/yw/obt/2011/main/sitemap_line.gif) left 0 no-repeat;}
+.commonMap .title {float:left; width:128px; padding-left:21px; font-weight:bold;}
+.commonMap .title .ico {padding-left:18px; background:url(http://img.ndoors.com/webdata/yw/obt/2011/main/sitemap_ico.gif) left 4px no-repeat; display:inline-block;}
+.commonMap .site {float:left; height:128px; padding-left:41px;}
+.commonMap .site .siteSubTitle {margin-bottom:11px; font-weight:bold;}
+.commonMap .site .siteList {}
+.commonMap .site .siteList li {font-size:11px;}
+.commonMap .site .siteList li a {color:#999;}
+.view_allmenu {clear:both; float:left; width:100%; padding:31px 0 28px 0;}
+.view_allmenu a.btnView {margin-left:21px; padding-left:15px; color:#55443d; font-weight:bold; background:url(http://img.ndoors.com/webdata/yw/obt/2011/community/i_menu_all.gif) left 1px no-repeat; display:inline-block;}
+.view_allmenu a:hover {text-decoration:none;}
+ */
+

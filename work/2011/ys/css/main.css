@@ -1,0 +1,228 @@
+﻿/*.mainBg {background:url(http://img.ndoors.com/webdata/yw/obt/2011/main/main_bg.jpg) center 0 no-repeat;}*/
+.mainBg #ywWrapper {}
+.mainBg #ywHeader {height:478px;}
+.mainBg #ywContents {padding:44px 0;}
+
+/* 메인 헤더 */
+#ywMainWrapper{position:relative;clear:both;background:url(http://img.ndoors.com/webdata/yw/obt/2011/common/k_maintop_bg.gif) center top repeat-x;min-width:970px;}
+#ywMainContainer{position:relative;width:970px;margin:0 auto;text-align:left;}
+#ywMainHeader{position:relative;clear:both;width:970px;height:90px;margin:0 auto;}
+#ywMainHeader h1{position:absolute;z-index:100;top:13px;text-indent:-9999px;}
+#ywMainHeader h1 a{display:block;background:url(http://img.ndoors.com/webdata/yw/obt/2011/common/yw_logo.png) left top no-repeat;width:213px;height:203px;}
+#ywMainHeader #ywNavWrap{position:absolute;width:970px;height:206px;}
+.ywNavBg{position:absolute;background:url(http://img.ndoors.com/webdata/yw/obt/2011/common/k_subnav.png) center bottom repeat-x;width:970px;height:206px;top:60px;opacity:0;filter:Alpha(opacity=0);}
+#ywMainHeader #ywNavWrap #ywNav{position:absolute;height:266px;left:200px;z-index:10;}
+#ywMainHeader #ywNavWrap #ywNav *{z-index:10;}
+#ywMainHeader #ywNavWrap #ywNav h2{background:url(http://img.ndoors.com/webdata/yw/obt/2011/common/i_nav_bar.gif) right 31px no-repeat; height:110px;}
+#ywMainHeader #ywNavWrap #ywNav h2 a{display:block;padding-top:30px;width:145px;height:60px;}
+#ywMainHeader #ywNavWrap #ywNav .game, 
+#ywMainHeader #ywNavWrap #ywNav .news,
+#ywMainHeader #ywNavWrap #ywNav .community,
+#ywMainHeader #ywNavWrap #ywNav .pds,
+#ywMainHeader #ywNavWrap #ywNav .item{float:left;width:145px;text-align:center;}
+#ywMainHeader #ywNavWrap #ywNav .subnav{display:block;}
+#ywMainHeader #ywNavWrap #ywNav .subnav li{position:relative;height:27px;overflow:hidden;opacity:0;filter:Alpha(opacity=0);display:none;zoom:1}
+#ywMainHeader #ywNavWrap #ywNav .subnav li a{position:relative;display:block;height:13px;margin-bottom:15px;overflow:hidden;zoom:1}
+#ywMainHeader #ywNavWrap #ywNav .subnav li .active{margin-top:-24px;}
+#ywMainHeader .ywSearch{position:absolute;top:25px;right:0px;}
+#ywMainHeader .ywSearch .sch-bg{width:185px;height:38px;border:1px solid #6c6c6c;background:#0a0a0a;}
+#ywMainHeader .ywSearch .sch-txt{width:132px;height:20px;border:0 none;background:#0a0a0a;color:#bbb;padding:4px 3px 2px 7px;font-size:14px;}
+#ywMainHeader #ywNavWrap #ywNav .subnav li a:hover img{margin-top:-24px;}
+#ywMainPromotion{position:relative;width:100%;height:498px;overflow:hidden;margin:0 auto;}
+/*#ywMainPromotion{position:relative;width:100%;height:498px;overflow:hidden;}*/
+#ywMainPromotion .yw_slider_wrapper{display:block;height:390px;background:#000;}
+#ywMainPromotion .yw_slider{}
+#ywMainPromotion .yw_slider li{float:left;position:relative;width:100%;}
+
+#ywMainPromotion .ywPromNav{position:relative;width:970px;height:108px;margin:0 auto;}
+#ywMainPromotion .ywPromNav .arrow-left{position:absolute;background:url(http://img.ndoors.com/webdata/yw/obt/2011/main/k_arrow_left.gif) left top no-repeat;width:42px;height:108px;left:0;}
+#ywMainPromotion .ywPromNav .arrow-left:hover{background:url(http://img.ndoors.com/webdata/yw/obt/2011/main/k_arrow_left_on.gif) left top no-repeat;width:42px;height:108px;}
+#ywMainPromotion .ywPromNav .arrow-right{background:url(http://img.ndoors.com/webdata/yw/obt/2011/main/k_arrow_right.gif) left top no-repeat;width:40px;height:108px;}
+#ywMainPromotion .ywPromNav .arrow-right:hover{background:url(http://img.ndoors.com/webdata/yw/obt/2011/main/k_arrow_right_on.gif) left top no-repeat;width:40px;height:108px;}
+#ywMainPromotion .ywPromNav .gameStart{position:absolute;right:1px;top:1px;width:278px;height:107px;}
+*html #ywMainPromotion .ywPromNav .gameStart{position:absolute;top:0;right:0;width:278px;height:106px;}
+#ywMainPromotion .ywNavthumb{position:relative;float:left;width:609px;height:108px;margin-left:42px;overflow:hidden;display:inline;}
+#ywMainPromotion .ywNavthumb ul{position:absolute;left:0;top:0;width:4000px;}
+#ywMainPromotion .ywNavthumb li{position:relative;float:left;width:203px;height:108px;overflow:hidden;display:inline-block;}
+#ywMainPromotion .ywNavthumb li img{cursor:pointer;display:block;}
+
+#ywMainPromotion .ywNavthumb li.selected .sel{position:absolute;display:block;background:url(http://img.ndoors.com/webdata/yw/obt/2011/main/i_promo_select.png) left center no-repeat;width:203px;height:108px;}
+#ywMainPromotion .ywNavthumb li.selected img{margin-top:-108px;}
+#ywMainPromotion .ywNavthumb .nav-bg{background:url(http://img.ndoors.com/webdata/yw/obt/2011/main/k_promo_nav.gif) left top no-repeat;width:203px;}
+#ywMainPromotion .ywNavthumb .nav-title{position:absolute;font-size:11px;left:15px;top:20px;letter-spacing:-1px;}
+#ywMainPromotion .ywNavthumb .nav-title dt{margin-bottom:4px;font-weight:bold;color:#776f66;}
+#ywMainPromotion .ywNavthumb .nav-title dd{color:#918c85;}
+/*.yw_loading{position:absolute;color:#000;font-size:12px;padding:15px;background:#fff url(http://img.ndoors.com/webdata/yw/teaser/ajax-loader.gif) no-repeat center center;width:100%;height:100%;top:0;left:0;}*/
+/* Slider Style */
+/* .visualWrap{position:relative;margin:0 auto;width:970px;height:1000px;}*/
+/* //메인 헤더 */
+
+/* 상단 - 초보자가이드 */
+#mainTopBar * {}
+#mainTopBar .guideMenuWrap {float:left; height:110px; background:url(http://img.ndoors.com/webdata/yw/obt/2011/main/bigginer_guide_bg.gif) 0 0 repeat-x; border-bottom:1px solid #d7d6d5; overflow:hidden;}
+#mainTopBar .guideMenuWrap .title {float:left; width:90px; height:45px; padding:65px 0 0 36px; background:url(http://img.ndoors.com/webdata/yw/obt/2011/main/bigginer_guide_title_bg.gif) 0 0 no-repeat;}
+#mainTopBar .guideMenuWrap .guideMenu {float:left; width:410px;}
+#mainTopBar .guideMenuWrap .guideMenu .guideMenuText {margin-top:16px; padding-left:22px; height:26px; font-size:11px; color:#646060; background:url(http://img.ndoors.com/webdata/yw/obt/2011/main/bigginer_guide_ico.gif) 1px 1px no-repeat;}
+#mainTopBar .guideMenuWrap .guideMenu .guideMenuList {float:left; border-left:1px solid #afaeac; border-top:1px solid #afaeac;}
+#mainTopBar .guideMenuWrap .guideMenu .guideMenuList li {float:left;}
+/* 상단 - 툴바 */
+#mainTopBar .toolbar {float:left; border-left:1px solid #a3a3a3; border-bottom:1px solid #bfbfbf;}
+#mainTopBar .toolbar .mainSns {}
+#mainTopBar .toolbar .mainSns li {float:left; border-left:1px solid #a3a3a3; border-bottom:1px solid #a3a3a3;}
+#mainTopBar .toolbar .mainSns li.fir {border-left:none;}
+#mainTopBar .toolbar .gameDown {clear:both;}
+/* 상단 - 로그인 공통 */
+#mainTopBar #loginForm {float:left; width:280px; height:110px; background:url(http://img.ndoors.com/webdata/yw/obt/2011/main/login_bg.gif) 0 0 no-repeat; border-bottom:1px solid #b4b1ad;}
+#mainTopBar #loginForm .approach_ban {position:absolute; width:240px; height:110px; padding:0 20px; background:url(http://img.ndoors.com/webdata/yw/obt/2011/main/login_pop.gif) 0 0 no-repeat; display:none;}
+#mainTopBar #loginForm .approach_ban .ment {width:100%; padding:23px 0; color:#fffffd; font-weight:bold; text-align:center;}
+/* 상단 - 로그인 전 */
+#mainTopBar #loginForm .signUp {width:270px; height:95px; padding:15px 0 0 10px; background:url(http://img.ndoors.com/webdata/yw/obt/2011/main/logout_bg.gif) 0 0 no-repeat;}
+#mainTopBar #loginForm .signUp .loginWrite {float:left; width:245px; padding-left:8px;}
+#mainTopBar #loginForm .signUp .loginWrite .loginInfo {float:left;}
+#mainTopBar #loginForm .signUp .loginWrite .loginInfo li {margin-top:5px;}
+#mainTopBar #loginForm .signUp .loginWrite .loginInfo li.fir {margin-top:0;}
+#mainTopBar #loginForm .signUp .loginWrite .loginInfo .i_login {width:141px; height:27px; padding:0 8px; font-size:11px; color:#aaa19e; line-height:28px; border:0; background:url(http://img.ndoors.com/webdata/yw/obt/2011/main/loginbg_base.gif) 0 0 no-repeat;}
+#mainTopBar #loginForm .signUp .loginWrite .loginInfo .i_login_id {width:141px; height:27px; padding:0 8px; font-size:11px; color:#aaa19e; line-height:28px; border:0; background:url(http://img.ndoors.com/webdata/yw/obt/2011/main/loginbg_id.gif) 0 0 no-repeat;}
+#mainTopBar #loginForm .signUp .loginWrite .loginInfo .i_login_pw {width:141px; height:27px; padding:0 8px; font-size:11px; color:#aaa19e; line-height:28px; border:0; background:url(http://img.ndoors.com/webdata/yw/obt/2011/main/loginbg_pw.gif) 0 0 no-repeat;}
+#mainTopBar #loginForm .signUp .loginWrite .logonBtn {float:right;}
+#mainTopBar #loginForm .signUp .logonBtn a {display:block;}
+#mainTopBar #loginForm .signUp .login_etc {clear:both; float:left; width:100%; margin-top:7px; font-size:11px; color:#55443d; line-height:16px; letter-spacing:-1px;}
+#mainTopBar #loginForm .signUp .login_etc li {float:left; margin-right:9px; display:inline-block;}
+#mainTopBar #loginForm .signUp .login_etc li a {text-decoration:none;}
+#mainTopBar #loginForm .signUp .login_etc li a.ico {padding-left:12px; background:url(http://img.ndoors.com/webdata/yw/obt/2011/main/login_ico.gif) 0 1px no-repeat; display:inline-block;}
+.input_check {width:13px; height:13px; margin-right:5px; vertical-align:middle;}
+/* 상단 - 로그인 후 */
+#mainTopBar #loginForm .signOut {width:280px; height:110px; font-size:11px; background:url(http://img.ndoors.com/webdata/yw/obt/2011/main/login_bg.gif) 0 0 no-repeat;}
+#mainTopBar #loginForm .signOut .i_new {vertical-align:middle;}
+#mainTopBar #loginForm .signOut .myInfo {height:22px; padding:9px 12px 0 12px; color:#d8cdc0; letter-spacing:-1px;}
+#mainTopBar #loginForm .signOut .myInfo a {color:#d8cdc0;}
+#mainTopBar #loginForm .signOut .myInfo a:hover {text-decoration:none;}
+#mainTopBar #loginForm .signOut .myInfo .userName {float:left; width:95px; font-weight:bold;}
+#mainTopBar #loginForm .signOut .myInfo .userName strong {color:#fff;}
+#mainTopBar #loginForm .signOut .myInfo .myMenu {float:right; width:152px;}
+#mainTopBar #loginForm .signOut .myInfo .myMenu li {float:left; padding-left:7px; margin-left:6px; background:url(http://img.ndoors.com/webdata/yw/obt/2011/main/login_line02.gif) 0 6px no-repeat; display:inline;}
+#mainTopBar #loginForm .signOut .myInfo .myMenu li.fir {width:45px; padding:0; margin:0; text-align:right; background:none;}
+#mainTopBar #loginForm .signOut .myChr {clear:both; height:49px; padding:15px; color:#7c664b; border-left:1px solid #a8a4a0;}
+#mainTopBar #loginForm .signOut .myChr .thumbs {float:left; margin-right:15px; display:inline;}
+#mainTopBar #loginForm .signOut .myChr .myChrInfo {float:left; width:185px;}
+#mainTopBar #loginForm .signOut .myChr .myChrInfo .master {}
+#mainTopBar #loginForm .signOut .myChr .myChrInfo .master dt {float:left; margin-right:5px; padding-right:5px; line-height:18px; background:url(http://img.ndoors.com/webdata/yw/obt/2011/main/login_line.gif) right 9px no-repeat; display:inline;}
+#mainTopBar #loginForm .signOut .myChr .myChrInfo .master dd.chr_select {float:left;}
+#mainTopBar #loginForm .signOut .myChr .myChrInfo .chrInfo {clear:both; float:left; width:100%; padding-top:4px;}
+#mainTopBar #loginForm .signOut .myChr .myChrInfo .chrInfo li {float:left; line-height:14px;}
+#mainTopBar #loginForm .signOut .myChr .myChrInfo .chrInfo li .tit {width:28px; margin-right:5px; background:url(http://img.ndoors.com/webdata/yw/obt/2011/main/login_line.gif) right 6px no-repeat; display:inline-block;}
+#mainTopBar #loginForm .signOut .myChr .myChrInfo .chrInfo li.job {width:90px; color:#6d5d4a;}
+#mainTopBar #loginForm .signOut .myChr .myChrInfo .chrInfo li.server {width:95px;}
+#mainTopBar #loginForm .signOut .myChr .myChrInfo .chrInfo li.lv {width:90px;}
+#mainTopBar #loginForm .signOut .myChr .myChrInfo .chrInfo li.buddy {width:95px;}
+/* 메인 타이틀 공통 */
+h3.main_title {clear:both; height:40px;}
+.main_title {clear:both; float:left; width:100%; height:40px;}
+.main_title h3 {float:left;}
+.main_title a.more {float:right; width:15px; height:16px; margin-top:5px; display:inline-block;}
+.main_title a.more img {vertical-align:top;}
+.main_title .updateDay {float:right; margin-top:5px; font-size:11px; color:#666;}
+/* 메인 left */
+#ywContentLeft {float:left; width:464px; margin-right:42px; display:inline;}
+/* 메인 left - 전광판 */
+#ywEventInfo {clear:both; float:left; width:100%; margin-bottom:42px;}
+.eDisplayWrap {clear:both; float:left; border:1px solid #e2e2e2;}
+.eDisplay {float:left; width:449px; padding:14px 0 10px 11px; border:1px solid #fff; background:#f0f0f0;}
+.eDisplay .ebox {float:left; font-size:24px; color:#fff; font-weight:bold; letter-spacing:-2px; line-height:30px; text-align:center;}
+.eDisplay .ebox li {position:relative; float:left; padding:11px 0 0 0; display:inline;}
+.eDisplay .ebox li .bbox {position:absolute; top:0; left:0; width:100%; height:27px; line-height:0; background:url(http://img.ndoors.com/webdata/yw/obt/2011/main/e_display_blur.png) 0 bottom repeat-x;}
+.eDisplay .ebox li.ePlace {width:295px; height:43px; background:url(http://img.ndoors.com/webdata/yw/obt/2011/main/e_display_box.gif) no-repeat;}
+.eDisplay .ebox li.ePate {width:134px; height:43px; margin-left:6px; background:url(http://img.ndoors.com/webdata/yw/obt/2011/main/e_display_box02.gif) no-repeat;}
+.eDisplay .eInfo {clear:both; float:left; width:100%; margin-top:10px;}
+.eDisplay .eInfo dt {float:left; width:36px; text-align:right;}
+.eDisplay .eInfo dd {float:left; font-size:11px; color:#666; padding:2px 0 0 7px;}
+.eDisplay .eInfo dd.time {width:80px;}
+.eDisplay .eInfo dd.reward {width:270px;}
+/* 메인 left - 영웅시대 소식 */
+#ywNotices {clear:both; float:left; width:100%;}
+.inspection {float:left; width:100%; height:29px; margin-bottom:12px; color:#fff; background:#ff6600; overflow:hidden;}
+.inspection dt {float:left; width:46px; padding-top:8px; height:21px; font-weight:bold; text-align:center; background:#373737;}
+.inspection dd {padding:8px 15px 0 15px;}
+.inspection dd.message {float:left; font-weight:bold;}
+.inspection dd.day {float:right; font-size:11px;}
+#mainNotice {clear:both; float:left; width:100%;}
+#mainNotice .noticeList {clear:both; float:left; width:434px; margin:0 0 8px 0; padding:13px 14px; _padding:13px 12px; border:1px solid #e2e2e2;}
+#mainNotice .noticeList .noticeImg {float:left; width:100%; margin-bottom:9px;}
+#mainNotice .noticeList .listCont {float:left; width:434px;}
+#mainNotice .noticeList .listCont dt {float:left; width:300px;}
+#mainNotice .noticeList .listCont dt a {width:235px; height:17px; overflow:hidden; color:#666; line-height:20px; font-weight:bold; display:inline-block;}
+#mainNotice .noticeList .listCont dd {float:right; width:120px; height:14px; padding-top:3px; font-size:11px; color:#ababab;}
+#mainNotice .noticeList .listCont .b_ico {width:50px; height:17px; margin-right:10px; font-size:11px; line-height:18px; text-align:center; vertical-align:top; background:url(http://img.ndoors.com/webdata/yw/obt/2011/main/notice_ico.gif) no-repeat; display:inline-block; overflow:hidden;}
+#mainNotice .noticeList .listCont .b_notice {color:#59bc06;}
+#mainNotice .noticeList .listCont .b_event {color:#ff9000;}
+#mainNotice .noticeList .listCont .b_update {color:#1499c5;}
+#mainNotice .noticeList .listCont .b_gm {color:#a96de6;}
+#mainNotice .noticeList .listCont .b_news {color:#ff7699;}
+/* 메인 right */
+#ywContentRight {float:left; width:464px;}
+/* 메인 right - RISING HERO */
+#userRecommendWrap {margin-bottom:42px;}
+#userRecommend {position:relative; clear:both; width:100%; height:208px;}
+#userRecommend .control {position:absolute; width:24px; height:205px; display:block; text-indent:-10000em; background:url(http://img.ndoors.com/webdata/yw/obt/2011/main/rising_btn.gif); z-index:1; cursor:pointer;}
+#userRecommend #leftControl {top:0; left:0; background-position:0 0;}
+#userRecommend #rightControl {top:0; right:0; background-position:-26px 0;}
+#slideshow {position:relative; width:464px; height:208px; overflow:hidden;}
+#slideshow .rsHero {padding:0 38px;}
+#slideshow .rsHero .slide {height:208px; margin:0 auto;}
+#slideshow .rsHero .slide .rsCharacter {float:left; width:121px; margin-right:12px; display:inline;}
+#slideshow .rsHero .slide .rsCharacter .chImg {float:left; margin-bottom:8px; padding:4px; border:1px solid #e7e7e7;}
+#slideshow .rsHero .slide .rsCharacter .chImg a {width:111px; height:111px; display:block; overflow:hidden;}
+#slideshow .rsHero .slide .rsCharacter .chImg .img {width:111px; height:111px;}
+#slideshow .rsHero .slide .rsCharacter .chInfo {clear:both; text-align:center;}
+#slideshow .rsHero .slide .rsCharacter .chInfo dt {margin-bottom:6px; color:#333; font-weight:bold;}
+#slideshow .rsHero .slide .rsCharacter .chInfo dt a {color:#333;}
+#slideshow .rsHero .slide .rsCharacter .chInfo dd {color:#999; font-size:11px;}
+#slideshow .rsHero .slide .rsCharacter .chInfo dd.lv {}
+#slideshow .rsHero .slide .rsCharacter .chInfo dd.creatDay {margin-bottom:5px;}
+#slideshow .rsHero .slide .rsCharacter .chInfo dd.creatDay .line {width:15px; height:14px; vertical-align:middle; display:inline-block; background:url(http://img.ndoors.com/webdata/yw/obt/2011/common/foot_line.gif) center top no-repeat;}
+#slideshow .rsHero .slide .userImg {float:left;}
+/* 메인 right - 커뮤니티 최근 TOPIC */
+#recentTopic {clear:both; float:left;  width:100%; margin-bottom:42px;}
+#recentTopic .topicBoardWrap {clear:both; float:left; width:100%; border-top:1px solid #e7e7e7;}
+#recentTopic .topicBoard {padding:17px 15px; border-bottom:1px solid #e7e7e7; background:url(http://img.ndoors.com/webdata/yw/obt/2011/main/topic_bg.gif) left bottom repeat-x;}
+#recentTopic .topicBoard dt {color:#666; font-weight:bold;}
+#recentTopic .topicBoard dt a {color:#666;}
+#recentTopic .topicBoard dt .hit {color:#ba9075;}
+#recentTopic .topicBoard dt .hit a {color:#ba9075;}
+#recentTopic .topicBoard dd.writer {margin-top:5px; font-size:11px; color:#bbb;}
+#recentTopic .topicBoard dd.cont {width:100%; height:32px; margin-top:15px; line-height:18px; color:#999; overflow:hidden;}
+#recentTopic .topicBoard dd.cont a {color:#999;}
+/* 메인 right - 디스이즈게임 */
+.thisisgame {clear:both; float:left; width:462px; padding:11px 0; line-height:18px; border:1px solid #e2e2e2;}
+.thisisgame .thisTit {float:left; width:121px; height:17px; color:#ff6600; font-weight:bold; text-align:center; background:url(http://img.ndoors.com/webdata/yw/obt/2011/main/thisisgame_ico.gif) right center no-repeat;)}
+.thisisgame .thisCont {float:left;}
+.thisisgame .thisCont a {width:268px; height:17px; padding-left:20px; color:#999; vertical-align:middle; display:inline-block; overflow:hidden;}
+/* 메인 right - Topic */
+.topicPhoto {clear:both; float:left; width:100%; margin-top:35px;}
+.topicPhoto .topicList {}
+.topicPhoto .topicList li {position:relative; float:left; margin-left:5px;}
+.topicPhoto .topicList li a {width:110px; height:80px; display:block; overflow:hidden;}
+.topicPhoto .topicList li .img {width:110px; height:80px;}
+.topicPhoto .topicList li .ico {position:absolute; top:-3px; left:18px;}
+.topicPhoto .topicList li.best {margin-left:0;}
+.topicPhoto .topicList li.best a {width:104px; height:74px; border:3px solid #ff6200;}
+/* facebook platform */
+.facebookPlatform {width:100%; height:250px; border-top:1px solid #ececec; overflow:hidden;}
+/* 사이트맵 */
+.mainSitemapWrap {clear:both; float:left; width:100%; margin-top:30px;}
+.mainSitemap {clear:both; float:left; width:100%; margin-top:0; padding:28px 0; color:#666; line-height:19px; border-top:3px solid #f1f1f1; background:#f8f8f8;}
+.mainSitemap .mapHero {width:100px; margin-left:128px; display:inline;}
+.mainBg #ywWrapper #ywContainer .mainSitemap .mapHero {margin-left:0 !important; background:url(http://img.ndoors.com/webdata/yw/obt/2011/main/sitemap_line.gif) left 0 no-repeat;}
+.mainSitemap .mapNews {width:100px;}
+.mainSitemap .mapComm {width:100px;}
+.mainSitemap .mapPds {width:130px;}
+.mainSitemap .mapItem {width:100px;}
+.mainSitemap .mapMyinfo {background:url(http://img.ndoors.com/webdata/yw/obt/2011/main/sitemap_line.gif) left 0 no-repeat;}
+.mainSitemap .title {float:left; width:128px; padding-left:21px; font-weight:bold;}
+.mainSitemap .title .ico {padding-left:18px; background:url(http://img.ndoors.com/webdata/yw/obt/2011/main/sitemap_ico.gif) left 4px no-repeat; display:inline-block;}
+.mainSitemap .site {float:left; height:128px; padding-left:20px;}
+.mainSitemap .site .siteSubTitle {margin-bottom:11px; font-weight:bold;}
+.mainSitemap .site .siteList {}
+.mainSitemap .site .siteList li {font-size:11px;}
+.mainSitemap .site .siteList li a {color:#999;}
+

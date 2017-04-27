@@ -1,0 +1,71 @@
+#news_title{clear:both;padding:0 10px 0 4px;margin:10px 0 5px 0;}
+#news_title span.navi{display:block;font:11px 돋움,dotum;color:#838383;float:right;margin-top:-15px;}
+#news_title span a{font:11px 돋움,dotum;}
+#news_title span a.active{font-weight:bold;}
+#news_title h2.news_tit01{background:url(../images/t_news.gif) 0 0 no-repeat;width:110px;height:19px;}
+#news_title h2.news_tit02{background:url(../images/t_news.gif) 0 -24px no-repeat;width:110px;height:19px;}
+#news_title h2.news_tit03{background:url(../images/t_news.gif) 0 -50px no-repeat;width:110px;height:19px;}
+#news_title h2.news_tit04{background:url(../images/t_news.gif) 0 -74px no-repeat;width:110px;height:19px;}
+#news_title h2.news_tit05{background:url(../images/t_news.gif) 0 -100px no-repeat;width:200px;height:19px;}
+#news_title h2.news_tit06{background:url(../images/t_news.gif) 0 -125px no-repeat;width:140px;height:19px;}
+#news_title h2.news_tit07{background:url(../images/t_news.gif) 0 -149px no-repeat;width:140px;height:19px;}
+
+#community_title{clear:both;padding:0 10px 0 4px;margin:10px 0 5px 0;}
+#community_title span.navi{display:block;font:11px 돋움,dotum;color:#838383;float:right;margin-top:-15px;}
+#community_title span a{font:11px 돋움,dotum;}
+#community_title span a.active{font-weight:bold;}
+#community_title h2.community_tit01{background:url(../images/t_community.gif) 0 0 no-repeat;width:110px;height:19px;}
+#community_title h2.community_tit02{background:url(../images/t_community.gif) 0 -24px no-repeat;width:110px;height:19px;}
+#community_title h2.community_tit03{background:url(../images/t_community.gif) 0 -48px no-repeat;width:110px;height:19px;}
+#community_title h2.community_tit04{background:url(../images/t_community.gif) 0 -72px no-repeat;width:110px;height:19px;}
+#community_title h2.community_tit05{background:url(../images/t_community.gif) 0 -95px no-repeat;width:170px;height:19px;}
+#community_title h2.community_tit06{background:url(../images/t_community.gif) 0 -120px no-repeat;width:110px;height:19px;}
+#community_title h2.community_tit07{background:url(../images/t_community.gif) 0 -144px no-repeat;width:140px;height:19px;}
+#community_title h2.community_tit08{background:url(../images/t_community.gif) 0 -168px no-repeat;width:110px;height:19px;}
+#community_title h2.community_tit09{background:url(../images/t_community.gif) 0 -192px no-repeat;width:110px;height:19px;}
+#community_title h2.community_tit10{background:url(../images/t_community.gif) 0 -215px no-repeat;width:110px;height:19px;}
+#community_title h2.community_tit11{background:url(../images/t_community.gif) 0 -240px no-repeat;width:110px;height:19px;}
+#community_title h2.community_tit12{background:url(../images/t_community.gif) 0 -264px no-repeat;width:170px;height:19px;}
+#community_title h2.community_tit13{background:url(../images/t_community.gif) 0 -288px no-repeat;width:110px;height:19px;}
+#community_title h2.community_tit14{background:url(../images/t_community.gif) 0 -312px no-repeat;width:140px;height:19px;}
+#community_title h2.community_tit15{background:url(../images/t_community.gif) 0 -336px no-repeat;width:110px;height:19px;}
+#community_title h2.community_tit16{background:url(../images/t_community.gif) 0 -360px no-repeat;width:170px;height:19px;}
+#community_title h2.community_tit17{background:url(../images/t_community.gif) 0 -384px no-repeat;width:110px;height:19px;}
+#community_title h2.community_tit18{background:url(../images/t_community.gif) 0 -410px no-repeat;width:140px;height:19px;}
+
+#candi_title{clear:both;padding:0 10px 0 4px;margin:10px 0 5px 0;}
+#candi_title span.navi{display:block;font:11px 돋움,dotum;color:#838383;float:right;margin-top:-15px;}
+#candi_title span a{font:11px 돋움,dotum;}
+#candi_title span a.active{font-weight:bold;}
+#candi_title h2.candi_tit01{background:url(../images/t_candidate_v2.gif) 0 0 no-repeat;width:160px;height:19px;}
+#candi_title h2.candi_tit02{background:url(../images/t_candidate_v2.gif) 0 -24px no-repeat;width:100px;height:19px;}
+#candi_title h2.candi_tit03{background:url(../images/t_candidate_v2.gif) 0 -48px no-repeat;width:100px;height:19px;}
+#candi_title h2.candi_tit04{background:url(../images/t_candidate_v2.gif) 0 -71px no-repeat;width:100px;height:19px;}
+#candi_title h2.candi_tit05{background:url(../images/t_candidate_v2.gif) 0 -95px no-repeat;width:100px;height:19px;}
+#candi_title h2.candi_tit06{background:url(../images/t_candidate_v2.gif) 0 -120px no-repeat;width:100px;height:19px;}
+#candi_title h2.candi_tit07{background:url(../images/t_candidate_v2.gif) 0 -143px no-repeat;width:100px;height:19px;}
+#candi_title h2.candi_tit08{background:url(../images/t_candidate_v2.gif) 0 -168px no-repeat;width:100px;height:19px;}
+#candi_title h2.candi_tit09{background:url(../images/t_candidate_v2.gif) 0 -192px no-repeat;width:70px;height:19px;}
+#candi_title h2.candi_tit10{background:url(../images/t_candidate_v2.gif) 0 -215px no-repeat;width:70px;height:19px;}
+#candi_title h2.candi_tit11{background:url(../images/t_candidate_v2.gif) 0 -239px no-repeat;width:85px;height:19px;}
+#candi_title h2.candi_tit12{background:url(../images/t_candidate_v2.gif) 0 -263px no-repeat;width:85px;height:19px;}
+#candi_title h2.candi_tit13{background:url(../images/t_candidate_v2.gif) 0 -288px no-repeat;width:85px;height:19px;}
+#candi_title h2.candi_tit14{background:url(../images/t_candidate_v2.gif) 0 -312px no-repeat;width:85px;height:19px;}
+#candi_title h2.candi_tit15{background:url(../images/t_candidate_v2.gif) 0 -335px no-repeat;width:85px;height:19px;}
+#candi_title h2.candi_tit16{background:url(../images/t_candidate_v2.gif) 0 -359px no-repeat;width:85px;height:19px;}
+#candi_title h2.candi_tit17{background:url(../images/t_candidate_v2.gif) 0 -384px no-repeat;width:130px;height:19px;}
+#candi_title h2.candi_tit18{background:url(../images/t_candidate_v2.gif) 0 -410px no-repeat;width:85px;height:19px;}
+#candi_title h2.wid01{width:152px;padding-top:1px;}
+#candi_title h2.wid02{width:125px;padding-top:1px;}
+#candi_title h2.wid03{width:140px;padding-top:1px;}
+#candi_title h2.wid04{width:185px;padding-top:1px;}
+#candi_title h2{text-align:right;}
+#candi_title strong{font-size:13px;}
+
+#election_title{clear:both;padding:0 10px 0 4px;margin:10px 0 5px 0;}
+#election_title span.navi{display:block;font:11px 돋움,dotum;color:#838383;float:right;margin-top:-15px;}
+#election_title span a{font:11px 돋움,dotum;}
+#election_title span a.active{font-weight:bold;}
+#election_title h2.election_tit01{background:url(../images/t_election.gif) 0 0 no-repeat;width:160px;height:19px;}
+#election_title h2.election_tit02{background:url(../images/t_election.gif) 0 -24px no-repeat;width:170px;height:19px;}
+#election_title h2.election_tit03{background:url(../images/t_election.gif) 0 -48px no-repeat;width:110px;height:19px;}

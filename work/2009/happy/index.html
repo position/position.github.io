@@ -1,0 +1,608 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="author" content="스포츠 코리아" />
+<meta name="keywords" content="Happy Leports, 마라톤, 생활체육, 자전거" />
+<meta name="description" content="Happy Leports, 해피레포츠" />
+<title>Happy Leports 마라톤</title>
+<link rel="stylesheet" href="css/master.css" type="text/css" media="all" />
+
+</head>
+
+<body>
+
+<div id="wrapper">
+	<div id="header">
+		<div class="top">
+			<div class="logo">
+				<div class="mh">
+					<h1><a href="#" class="a"><span class="hidden">Happy Leports</span></a><a href="/" class="b"><span class="hidden">마라톤</span></a></h1>
+				</div>
+				<div class="etcLink">
+					<a href="#" class="m1">&nbsp;<span class="hidden">자전거</span></a>
+					<a href="#" class="m2">&nbsp;<span class="hidden">생활체육</span></a>
+				</div>
+			</div>
+			<div class="memberMenu">
+				<div class="uh">
+					<a href="#">로그인</a> |
+					<a href="#">회원가입</a> |
+					<a href="#">장바구니</a> |
+					<a href="#">주문조회</a> |
+					<a href="#">고객센터</a>
+				</div>
+				<div class="mAd">
+					<a href="#"><img src="images/sample_ad.gif" alt="메인광고" /></a>
+				</div>
+			</div>
+		</div><!--//top -->
+
+		<div class="topNavi">
+			<div class="tNav">
+				<ol>
+					<li class="a"><a class="on" href="#"><span>마라톤 홈</span></a></li>
+					<li class="b"><a href="#"><span>마라톤 사진</span></a></li>
+					<li class="c"><a href="#"><span>마라톤 대회일정</span></a></li>
+					<li class="d"><a href="#"><span>마라톤 커뮤니티</span></a></li>
+					<li class="e"><a href="#"><span>마라톤 뉴스</span></a></li>
+					<li class="f"><a href="#"><span>마라톤 배우기</span></a></li>
+					<li class="z"><a href="#">사진상품안내</a> / <a href="#">사진취재요청</a> / <a href="#">마라톤홈페이지 제작</a></li>
+				</ol>
+			</div>
+		</div><!--//topNavi -->
+		<div class="subNavi">
+			<div class="mNav">	
+				<ol>
+					<li class="m01">해피레포츠 마라톤 홈페이지에 오신걸 환영합니다.</li>
+				</ol>
+				<p>
+					<input type="text" class="text vm" style="width:213px;" />
+					<a href="#"><img src="images/b_m_search.gif" alt="검색" /></a>
+				</p>
+			</div>
+		</div><!--//subNavi -->
+	</div><!--//header -->
+
+	<div id="columnArea">
+		<script type="text/javascript">
+			try {
+			 document.execCommand('BackgroundImageCache', false, true);
+			} catch(e) {}
+
+			function open_close() {
+			var sidebar_all = document.getElementById('sidebar_all');
+			var obj_sidebar = document.getElementById('sidebar');
+			var btn_open = document.getElementById('sidebar_open');
+			var btn_close = document.getElementById('sidebar_close');
+
+			}
+
+			function A2YSlide(name,id,range,sec,tb,margin){
+				this.name = name;
+				this.obj = document.getElementById(id);
+				this.range = range;
+				this.sec = sec;
+				this.tb = tb;
+				this.margin = margin;
+				this.Timer();
+			}
+			A2YSlide.prototype.Move = function A2YSlide_Move(fix_y){
+				objY = parseInt(this.obj.style.top);
+				if(objY != fix_y){
+					this.obj.style.top = (objY + this.GetMoveValue(objY,fix_y)) + 'px';
+				}
+				this.Timer();
+			}
+			A2YSlide.prototype.GetMoveValue = function A2YSlide_GetMoveValue(start, end){
+				return (end - start) * this.range;
+			}
+
+			A2YSlide.prototype.GetDocTnB = function A2YSlide_GetDocTnB(bTB){
+				return ((bTB)?document.documentElement.clientHeight:0) + document.documentElement.scrollTop;
+			}
+
+			A2YSlide.prototype.Timer = function A2YSlide_Timer(){
+				setTimeout(this.name + '.Move('+(this.GetDocTnB(this.tb)+this.margin)+')',this.sec);
+			}
+			function A2Wzd_YSlide(id,range,sec,tb,margin){
+				eval('C'+id+" = new A2YSlide('C"+id+"','"+id+"',"+range+","+sec+","+tb+","+margin+');');
+			}
+
+			function scroll_ing() {
+				A2Wzd_YSlide('top',0.2,10,0,0);
+			}
+
+			if (typeof window.addEventListener != 'undefined') {
+				window.addEventListener("load", open_close, false);
+				window.addEventListener("load", scroll_ing, false);
+			} else if (typeof window.attachEvent != 'undefined') {
+				window.attachEvent("onload", open_close);
+				window.attachEvent("onload", scroll_ing);
+			}
+		</script><!--// quick menu script-->
+
+		<div id="top" style="position:absolute;top:0px;right:-115px;width:104px;">
+			<a href="#"><img src="images/b_quickbg.gif" alt="맨 위로" title="맨 위로" /></a>
+		</div><!--// quick menu -->
+
+
+		<div id="leftColumn">
+
+			<div class="hLogin hidden">
+				<h2 class="hidden">로그인(회원가입/ 아이디, 비밀번호찾기)</h2>
+				<div class="inp">
+					<p><input type="text" class="txt" /></p>
+					<p><input type="text" class="txt" /></p>
+				</div>
+				<div class="btn">
+					<p><input type="checkbox" id="id" class="vm" /><label for="id">ID저장</label></p>
+					<p><button type="button"><span class="hidden">로그인</span></button></p>
+				</div>
+				<div class="join clearfx">
+					<strong><a href="#">회원가입</a></strong>&nbsp; l &nbsp;<a href="#">아이디 / 비밀번호 찾기</a>
+				</div>
+			</div><!--// 로그아웃 상태 -->
+			<div class="hLogin log">
+				<h2 class="hidden">로그인(내정보관리 / 내앨범보기)</h2>
+				<div class="inf">
+					<p class="per"><strong>강남달림이</strong> 님</p>
+					<p class="myinfo"><a href="#">내정보</a></p>
+				</div>
+				<div class="myam">
+					<p class="album"><strong><a href="#">나의앨범</a></strong> <a href="#">목록보기</a></p>
+					<p class="bsket"><strong><a href="#">장바구니</a></strong> <a href="#">0건</a></p>
+				</div>
+				<div class="myorder">
+					<p class="order"><strong><a href="#">주문조회</a></strong> <a href="#">0건</a></p>
+					<p class="custo"><strong><a href="#">고객센터</a></strong> <a href="#">나의질문</a></p>
+				</div>
+				<p class="btn02"><button type="button"><span class="hidden">로그아웃</span></button></p>
+			</div><!--// 로그인 상태 -->
+
+			<div class="hNotice">
+				<h2>공지사항</h2>
+				<ul>
+					<li class="clearfx"><strong><a href="#">김연아를 보는 외국인들..</a></strong></li>
+					<li class="clearfx"><a href="#">3인 3색 인터뷰한국이 '축구종가'보다</a></li>
+					<li class="clearfx"><a href="#">고전하는 한국야구의 진화</a></li>
+					<li class="clearfx"><a href="#">친정식구 A.로드 "웰컴 코리안특급"...</a></li>
+				</ul>
+				<div class="mr"><a href="#"><img src="images/i_more.gif" alt="더보기" /></a></div>
+			</div>
+
+			<div class="clear" style="margin-top:13px;">
+				<a href="#"><img src="images/n_rightbanner01.gif" alt="배너" /></a>
+			</div>
+
+			<div class="hSurvey">
+				<h2>설문조사</h2>
+				<div class="line">
+					<dl class="bg">
+						<dt>그릇된 졸업식 뒷풀이 문화 어떻게 대처하는 것이 좋을까요?</dt>
+						<dd><input type="radio" id="n1" name="poll" /><label for="n1">학생들의 자율적인 자제가 중요하다</label></dd>
+						<dd><input type="radio" id="n2" name="poll" /><label for="n2">정부 당국의 규제가 필요하다</label></dd>
+						<dd><input type="radio" id="n3" name="poll" /><label for="n3">학교측의 세심한 계도가 필요하다</label></dd>
+						<dd><input type="radio" id="n4" name="poll" /><label for="n4">잘 모르겠다</label></dd>
+					</dl>
+					<p>
+						<a href="#"><img src="images/b_vote.gif" alt="투표" /></a>
+						<a href="#"><img src="images/b_result.gif" alt="결과보기" /></a>
+					</p>
+				</div>
+				<div class="mr"><a href="#"><img src="images/i_more.gif" alt="더보기" /></a></div>
+			</div>
+
+			<div class="hRanking">
+				<h2>대회수상자</h2>
+				<ol>
+					<li class="clearfx">
+						<p class="nam">전준효 00:57:35 / 42.195KM</p>
+						<p class="mass">2010 MBC 섬진강 꽃길 마라톤대회</p>
+					</li>
+					<li class="clearfx">
+						<p class="nam">전준효 00:57:35 / 42.195KM</p>
+						<p class="mass">2010 MBC 섬진강 꽃길 마라톤대회</p>
+					</li>
+					<li class="clearfx">
+						<p class="nam">전준효 00:57:35 / 42.195KM</p>
+						<p class="mass">2010 MBC 섬진강 꽃길 마라톤대회</p>
+					</li>
+					<li class="clearfx">
+						<p class="nam">전준효 00:57:35 / 42.195KM</p>
+						<p class="mass">2010 MBC 섬진강 꽃길 마라톤대회</p>
+					</li>
+					<li class="clearfx">
+						<p class="nam">전준효 00:57:35 / 42.195KM</p>
+						<p class="mass">2010 MBC 섬진강 꽃길 마라톤대회</p>
+					</li>
+				</ol>
+				<div class="mr"><a href="#"><img src="images/i_more.gif" alt="더보기" /></a></div>
+			</div>
+
+			<div class="clear" style="margin-top:20px;">
+				<a href="#"><img src="images/n_rightbanner02.gif" alt="배너" /></a>
+			</div>
+
+			<div class="clear" style="margin-top:10px;">
+				<a href="#"><img src="images/n_rightbanner03.gif" alt="배너" /></a>
+			</div>
+
+		</div><!--//leftColumn -->
+
+		<div id="centerColumn">
+
+			<div class="hMainphoto">
+				<div class="phoList">
+					<div class="line">
+						<h2><span class="hidden">마라톤 사진</span></h2>
+					</div>
+					<div id="pTab" class="menu">
+						<span><a class="on" href="javascript:tabchg('pTab',1)">최근대회사진</a></span> |
+						<span><a href="javascript:tabchg('pTab',2)">나의사진</a></span>
+					</div>
+					<div id="pTab1">
+						<dl class="pline">
+							<dt class="pho"><a href="#"><img src="images/v_phokind_09.jpg" alt="1st Seoul International Race Championship" width="100px" /></a></dt>
+							<dd class="mass"><a href="#">1st Seoul International Race Championship</a></dd>
+							<dd class="date">2010.02.03 (일)</dd>
+							<dd class="place">[서울] 올림픽주경기장</dd>
+						</dl>
+						<dl class="pline">
+							<dt class="pho"><a href="#"><img src="images/v_phokind_09.jpg" alt="1st Seoul International Race Championship" width="100px" /></a></dt>
+							<dd class="mass"><a href="#">1st Seoul International Race Championship</a></dd>
+							<dd class="date">2010.02.03 (일)</dd>
+							<dd class="place">[서울] 올림픽주경기장</dd>
+						</dl>
+						<dl class="pline">
+							<dt class="pho"><a href="#"><img src="images/v_phokind_09.jpg" alt="1st Seoul International Race Championship" width="100px" /></a></dt>
+							<dd class="mass"><a href="#">1st Seoul International Race Championship</a></dd>
+							<dd class="date">2010.02.03 (일)</dd>
+							<dd class="place">[서울] 올림픽주경기장</dd>
+						</dl>
+						<dl>
+							<dt class="pho"><a href="#"><img src="images/v_phokind_09.jpg" alt="1st Seoul International Race Championship" width="100px" /></a></dt>
+							<dd class="mass"><a href="#">1st Seoul International Race Championship</a></dd>
+							<dd class="date">2010.02.03 (일)</dd>
+							<dd class="place">[서울] 올림픽주경기장</dd>
+						</dl>
+						<a class="mr" href="#"><img src="images/i_more.gif" alt="더보기" /></a>
+					</div>
+					<div id="pTab2" class="hidden">
+						<dl class="pline">
+							<dt class="pho"><a href="#"><img src="images/v_phokind_09.jpg" alt="1st Seoul International Race Championship" width="100px" /></a></dt>
+							<dd class="mass"><a href="#">1st Seoul International Race p22</a></dd>
+							<dd class="date">2010.02.03 (일)</dd>
+							<dd class="place">[서울] 올림픽주경기장</dd>
+						</dl>
+						<dl class="pline">
+							<dt class="pho"><a href="#"><img src="images/v_phokind_09.jpg" alt="1st Seoul International Race Championship" width="100px" /></a></dt>
+							<dd class="mass"><a href="#">1st Seoul International Race Championship</a></dd>
+							<dd class="date">2010.02.03 (일)</dd>
+							<dd class="place">[서울] 올림픽주경기장</dd>
+						</dl>
+						<dl class="pline">
+							<dt class="pho"><a href="#"><img src="images/v_phokind_09.jpg" alt="1st Seoul International Race Championship" width="100px" /></a></dt>
+							<dd class="mass"><a href="#">1st Seoul International Race Championship</a></dd>
+							<dd class="date">2010.02.03 (일)</dd>
+							<dd class="place">[서울] 올림픽주경기장</dd>
+						</dl>
+						<dl>
+							<dt class="pho"><a href="#"><img src="images/v_phokind_09.jpg" alt="1st Seoul International Race Championship" width="100px" /></a></dt>
+							<dd class="mass"><a href="#">1st Seoul International Race Championship</a></dd>
+							<dd class="date">2010.02.03 (일)</dd>
+							<dd class="place">[서울] 올림픽주경기장</dd>
+						</dl>
+						<a class="mr" href="#"><img src="images/i_more.gif" alt="더보기" /></a>
+					</div>
+				</div>
+				<div class="history">
+					<dl>
+						<dt>[동아일보]</dt>
+						<dd>
+							서울국제마라톤&nbsp; 
+							<a href="#">2003</a> | 
+							<a href="#">2004</a> | 
+							<a href="#">2005</a> | 
+							<a href="#">2006</a> | 
+							<a href="#">2007</a> | 
+							<a href="#">2008</a> | 
+							<a href="#">2009</a> | 
+							<strong><a href="#">2010</a></strong> 
+						</dd>
+						<dd>
+							경주국제마라톤&nbsp;
+							<a href="#">2003</a> | 
+							<a href="#">2004</a> | 
+							<a href="#">2005</a> | 
+							<a href="#">2006</a> | 
+							<a href="#">2007</a> | 
+							<a href="#">2008</a> | 
+							<strong><a href="#">2009</a></strong> 
+						</dd>
+					</dl>
+					<dl>
+						<dt>[조선일보]</dt>
+						<dd>
+							춘천국제마라톤&nbsp; 
+							<a href="#">2003</a> | 
+							<a href="#">2004</a> | 
+							<a href="#">2005</a> | 
+							<a href="#">2006</a> | 
+							<a href="#">2007</a> | 
+							<a href="#">2008</a> | 
+							<strong><a href="#">2009</a></strong> 
+						</dd>
+					</dl>
+					<dl>
+						<dt>[중앙일보]</dt>
+						<dd>
+							중앙서울마라톤&nbsp;
+							<a href="#">2003</a> | 
+							<a href="#">2004</a> | 
+							<a href="#">2005</a> | 
+							<a href="#">2006</a> | 
+							<a href="#">2007</a> | 
+							<a href="#">2008</a> | 
+							<strong><a href="#">2009</a></strong> 
+						</dd>
+					</dl>
+				</div>
+			</div><!--//hMainphoto -->
+
+			<div class="hMaincomm">
+				<div class="line">
+					<h2><span class="hidden">마라톤 커뮤니티</span></h2>
+				</div>
+				<ul>
+					<li class="clearfx">
+						<span class="tit"><strong><a href="#">[자유] 김연아를 보는 외국인들..</a></strong></span>
+						<span class="nick">positionfov</span>
+					</li>
+					<li class="clearfx">
+						<span class="tit"><a href="#">[자유] 3인 3색 인터뷰한국이 '축구종가'보다 낫네</a></span>
+						<span class="nick">positionfov</span>
+					</li>
+					<li class="clearfx">
+						<span class="tit"><a href="#">[맛집] 고전하는 한국야구의 진화</a></span>
+						<span class="nick">타조알</span>
+					</li>
+					<li class="clearfx">
+						<span class="tit"><a href="#">[자유] 친정식구 A.로드 "웰컴 코리안특급"l女 쇼트트랙..</a></span>
+						<span class="nick">positionfov</span>
+					</li>
+					<li class="clearfx">
+						<span class="tit"><a href="#">[자유] 섹시화보 글래머 몸매 눈길l크로캅과 실바의. . </a></span>
+						<span class="nick">positionfov</span>
+					</li><!-- list 5개 노출 -->
+				</ul>
+				<div class="mr"><a href="#"><img src="images/i_more.gif" alt="더보기" /></a></div>
+			</div><!--//hMaincomm -->
+
+			<div class="hMainnews">
+				<div class="line">
+					<h2><span class="hidden">마라톤 뉴스</span></h2>
+				</div>
+				<dl>
+					<dt class="pho"><a href="#"><img src="images/v_phokind_09.jpg" alt="박찬호, 양키스에서 살아남는 방법" width="120px" /></a></dt>
+					<dd class="tit"><a href="#">박찬호, 양키스에서 살아남는 방법</a></dd>
+					<dd class="con">
+						박찬호(36)가 마침내 핀스트라이프를 입는데 성공했다. 박찬호는22일 한국에서 기자회견을 갖고 지난해 월드시리즈 우승팀 뉴욕양키스와 계약했다고 밝혔다....
+					</dd>
+				</dl>
+				<dl>
+					<dt class="pho"><a href="#"><img src="images/v_phokind_09.jpg" alt="박찬호, 양키스에서 살아남는 방법" width="120px" /></a></dt>
+					<dd class="tit"><a href="#">박찬호, 양키스에서 살아남는 방법</a></dd>
+					<dd class="con">
+						박찬호(36)가 마침내 핀스트라이프를 입는데 성공했다. 박찬호는22일 한국에서 기자회견을 갖고 지난해 월드시리즈 우승팀 뉴욕양키스와 계약했다고 밝혔다....
+					</dd>
+				</dl>
+				<div class="mr"><a href="#"><img src="images/i_more.gif" alt="더보기" /></a></div>
+			</div><!--//hMainnews -->
+
+		</div><!--//centerColumn -->
+
+		<div id="rightColumn">
+
+			<div class="hMainmass">
+				<h2><span class="hidden">마라톤 대회</span></h2>
+				<div class="box">
+					<ul class="line">
+						<li class="clearfx">
+							<span class="date">2010.02.06</span>
+							<span class="name"><a href="#">1st Seoul 제6회 아! 고구려 역사지키기 마라톤대회</a></span>
+						</li>
+						<li class="clearfx">
+							<span class="time">10:00 (일)</span>
+							<span class="place">[서울] 올림픽주경기장</span>
+						</li>
+					</ul>
+					<ul class="line">
+						<li class="clearfx">
+							<span class="date">2010.02.06</span>
+							<span class="name"><a href="#">1st Seoul International Race</a></span>
+						</li>
+						<li class="clearfx">
+							<span class="time">10:00 (일)</span>
+							<span class="place">[서울] 올림픽주경기장</span>
+						</li>
+					</ul>
+					<ul class="line">
+						<li class="clearfx">
+							<span class="date">2010.02.06</span>
+							<span class="name"><a href="#">1st Seoul 제6회 아! 고구려 역사지키기 마라톤대회</a></span>
+						</li>
+						<li class="clearfx">
+							<span class="time">10:00 (일)</span>
+							<span class="place">[서울] 올림픽주경기장</span>
+						</li>
+					</ul>
+					<ul class="line">
+						<li class="clearfx">
+							<span class="date">2010.02.06</span>
+							<span class="name"><a href="#">1st Seoul International Race</a></span>
+						</li>
+						<li class="clearfx">
+							<span class="time">10:00 (일)</span>
+							<span class="place">[서울] 올림픽주경기장</span>
+						</li>
+					</ul>
+					<ul class="line">
+						<li class="clearfx">
+							<span class="date">2010.02.06</span>
+							<span class="name"><a href="#">1st Seoul 제6회 아! 고구려 역사지키기 마라톤대회</a></span>
+						</li>
+						<li class="clearfx">
+							<span class="time">10:00 (일)</span>
+							<span class="place">[서울] 올림픽주경기장</span>
+						</li>
+					</ul>
+					<ul class="line">
+						<li class="clearfx">
+							<span class="date">2010.02.06</span>
+							<span class="name"><a href="#">1st Seoul International Race</a></span>
+						</li>
+						<li class="clearfx">
+							<span class="time">10:00 (일)</span>
+							<span class="place">[서울] 올림픽주경기장</span>
+						</li>
+					</ul>
+					<ul class="line">
+						<li class="clearfx">
+							<span class="date">2010.02.06</span>
+							<span class="name"><a href="#">1st Seoul 제6회 아! 고구려 역사지키기 마라톤대회</a></span>
+						</li>
+						<li class="clearfx">
+							<span class="time">10:00 (일)</span>
+							<span class="place">[서울] 올림픽주경기장</span>
+						</li>
+					</ul>
+					<ul class="line">
+						<li class="clearfx">
+							<span class="date">2010.02.06</span>
+							<span class="name"><a href="#">1st Seoul International Race</a></span>
+						</li>
+						<li class="clearfx">
+							<span class="time">10:00 (일)</span>
+							<span class="place">[서울] 올림픽주경기장</span>
+						</li>
+					</ul>
+					<ul class="line">
+						<li class="clearfx">
+							<span class="date">2010.02.06</span>
+							<span class="name"><a href="#">1st Seoul 제6회 아! 고구려 역사지키기 마라톤대회</a></span>
+						</li>
+						<li class="clearfx">
+							<span class="time">10:00 (일)</span>
+							<span class="place">[서울] 올림픽주경기장</span>
+						</li>
+					</ul>
+					<ul class="line">
+						<li class="clearfx">
+							<span class="date">2010.02.06</span>
+							<span class="name"><a href="#">1st Seoul International Race</a></span>
+						</li>
+						<li class="clearfx">
+							<span class="time">10:00 (일)</span>
+							<span class="place">[서울] 올림픽주경기장</span>
+						</li>
+					</ul>
+					<ul class="line">
+						<li class="clearfx">
+							<span class="date">2010.02.06</span>
+							<span class="name"><a href="#">1st Seoul 제6회 아! 고구려 역사지키기 마라톤대회</a></span>
+						</li>
+						<li class="clearfx">
+							<span class="time">10:00 (일)</span>
+							<span class="place">[서울] 올림픽주경기장</span>
+						</li>
+					</ul>
+					<ul>
+						<li class="clearfx">
+							<span class="date">2010.02.06</span>
+							<span class="name"><a href="#">1st Seoul International Race</a></span>
+						</li>
+						<li class="clearfx">
+							<span class="time">10:00 (일)</span>
+							<span class="place">[서울] 올림픽주경기장</span>
+						</li>
+					</ul><!-- list 12개 노출 마지막 ul class="line" 생략 -->
+				</div>
+				<div class="mr"><a href="#"><img src="images/i_more.gif" alt="더보기" /></a></div>
+			</div><!--//hMainmass -->
+
+			<div class="hMainstudy">
+				<h2><span class="hidden">마라톤 배우기</span></h2>
+				<div class="box">
+					<dl>
+						<dt>다이어트</dt>
+						<dd class="pho"><a href="#"><img src="images/v_phokind_09.jpg" alt="3인3색 인터뷰" width="120px" /></a></dd>
+						<dd class="tit"><a href="#">3인3색 인터뷰</a></dd>
+						<dd class="con"><a href="#">고전하는 한국야구의 친정 한국야구의 친정 A.로드 . .</a></dd>
+					</dl>
+					<dl>
+						<dt>식이요법</dt>
+						<dd class="pho"><a href="#"><img src="images/v_phokind_09.jpg" alt="3인3색 인터뷰" width="120px" /></a></dd>
+						<dd class="tit"><a href="#">3인3색 인터뷰</a></dd>
+						<dd class="con"><a href="#">고전하는 한국야구의 친정 한국야구의 친정 A.로드 . .</a></dd>
+					</dl>
+					<dl>
+						<dt>건강상식</dt>
+						<dd class="pho"><a href="#"><img src="images/v_phokind_09.jpg" alt="3인3색 인터뷰" width="120px" /></a></dd>
+						<dd class="tit"><a href="#">3인3색 인터뷰</a></dd>
+						<dd class="con"><a href="#">고전하는 한국야구의 친정 한국야구의 친정 A.로드 . .</a></dd>
+					</dl>
+					<dl>
+						<dt>여성과 마라톤</dt>
+						<dd class="pho"><a href="#"><img src="images/v_phokind_09.jpg" alt="3인3색 인터뷰" width="120px" /></a></dd>
+						<dd class="pho"><a href="#"><img src="images/v_phokind_09.jpg" alt="3인3색 인터뷰" width="120px" /></a></dd>
+						<dd class="tit"><a href="#">3인3색 인터뷰</a></dd>
+						<dd class="con"><a href="#">고전하는 한국야구의 친정 한국야구의 친정 A.로드 . .</a></dd>
+					</dl>
+				</div>
+				<div class="mr"><a href="#"><img src="images/i_more.gif" alt="더보기" /></a></div>
+			</div><!--//hMainstudy -->
+
+		</div><!--//rightColumn -->
+
+	</div><!--//columnArea-->
+
+	<div id="footer">
+		<div class="fot">
+			<span><a href="#">회사소개</a></span> |
+			<span><a href="#">사업제휴</a></span> |
+			<span><a href="#">광고문의</a></span> |
+			<span><a href="#">취재·홍보문의</a></span> |
+			<span><a href="#">사진촬영·대여문의</a></span> |
+			<span><a href="#">홈페이지제작문의</a></span> |
+			<span><a href="#">기사제보</a></span> |
+			<span><a href="#">서비스이용약관</a></span> |
+			<span><a href="#">개인정보보호정책</a></span> |
+			<span><a href="#">찾아오시는길</a></span>
+		</div>
+		<address>
+			<p>서울시 마포구 신공덕동 12-6 규성빌딩 301호 ㈜스포츠코리아</p>
+			<p>TEL(02)707-2127 · FAX(02)707-2206 | Email : <a href="mailto:news.happyleports.com">news.happyleports.com</a> | Copyrightⓒ happyleports. All rights reserved.</p>
+		</address>
+	</div><!--//footer-->
+
+</div><!--//wrapper -->
+<script type="text/javascript"> 
+				 
+function tabchg(idName,nVar){
+	var totimg = document.getElementById(idName).getElementsByTagName('span');
+	for(var i=1;i<=totimg.length;i++){
+		document.getElementById(idName+i).style.display="none";
+		document.getElementById(idName).getElementsByTagName('a')[i-1].className="";	
+	}
+		document.getElementById(idName+nVar).style.display="block";
+		document.getElementById(idName).getElementsByTagName('a')[nVar-1].className="on";
+}
+</script>
+
+</body>
+
+</html>

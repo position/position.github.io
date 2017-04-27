@@ -1,0 +1,82 @@
+#main_wrap{clear:both;height:390px;margin-top:10px;}
+#main_news{float:left;width:390px;margin-right:20px;display:inline;}
+#main_news .pho{position:relative;display:block;width:390px;height:170px;}
+#main_news .pho a img{position:absolute;clip:rect(auto 390px 170px auto);left:0;top:0;}
+#main_news dl{padding-left:5px;}
+#main_news dt{padding-top:10px;}
+#main_news dd{padding-top:7px;}
+#main_news dt a{font:bold 25px Dotum, 돋움;letter-spacing:-2px;}
+#main_news .nList{clear:both;margin-top:15px;}
+#main_news .nList ul{float:left;width:194px;}
+#main_news .nList li{padding-top:3px;}
+#main_news .nList .list01{width:194px;border-right:1px solid #ccc;}
+#main_news .nList .list02{width:179px;padding-left:15px;}
+
+#candidateInfo{position:relative;float:left;width:212px;height:350px;border:3px solid #d4d7ed;padding:1px;}
+#candidateInfo .Bg{background:url(../images/k_candidatebg.gif) left top no-repeat;width:194px;padding:50px 9px 10px 9px;}
+#candidateInfo .areaNavi{background:url(../images/k_infobg.gif) left bottom repeat-x;width:182px;height:15px;border:1px solid #d1d1d1;padding:5px ;margin-bottom:15px;}
+#candidateInfo .areaNavi em a{color:#f26522;font-weight:bold;}
+#candidateInfo .areaNavi span{display:block;}
+#candidateInfo .areaNavi .loc{float:left;width:140px;}
+#candidateInfo .areaNavi .gap{float:left;font:11px 돋움, Dotum;padding-top:3px;}
+#candidateInfo .areaNavi .gap a{color:#666;}
+#candidateInfo .areaNavi .gap a.on{font-weight:bold;}
+#candidateInfo .governor{position:relative;clear:both;width:194px;height:90px;margin-bottom:12px;}
+#candidateInfo .governor h4{background:url(../images/i_icon.gif) 0 -158px no-repeat;padding-left:5px;font-weight:bold;}
+#candidateInfo .governor ul{padding-top:5px;}
+#candidateInfo .governor li{float:left;border:1px solid #ddd;width:60px;height:66px;margin-right:4px;}
+#candidateInfo .governor li.mar0{margin-right:0px;}
+#candidateInfo .governor .ft{position:absolute;top:2px;right:0;}
+#candidateInfo .governor .ft a{font:11px Dotum, 돋움;letter-spacing:-1px;color:#333;background:url(../images/i_icon.gif) 0 -41px no-repeat;padding-left:7px;}
+#candidateInfo .comment{clear:both;background:#fffff2;text-align:center;border-top:1px solid #ebebdf;border-bottom:1px solid #ebebdf;padding-bottom:5px;margin-bottom:12px;}
+#candidateInfo .comment p{font:bold 11px 돋움, Dotum;letter-spacing:-1px;padding-top:5px;color:#6e5831;}
+
+#partyNews{clear:both;margin-bottom:20px;}
+#partyNews h3{color:#333;font:bold 13px Gulim, 굴림;background:url(../images/i_icon.gif) 0 0 no-repeat;padding-left:14px;margin-bottom:7px;}
+#partyNews .Bg{background:#a7b7d1;padding:5px;overflow:hidden;height:185px;}
+#partyNews .line{width:606px;border:1px solid #819abc;background:#fff;padding:12px 0 12px 12px;overflow:hidden;height:158px;}
+#partyNews .party{height:98px;margin-bottom:10px;clear:both;}
+#partyNews .party .nam{float:left;margin-right:11px;background:#f5f5f5;border-top:1px solid #e3e3e3;width:67px;height:97px;text-align:center;}
+#partyNews .party .nam p{font-weight:bold;color:#535353;padding-top:40px;}
+#partyNews .party .pList{float:left;width:516px;}
+#partyNews .party .pList ul{clear:both;}
+#partyNews .party .pList li{float:left;width:93px;height:42px;border:1px solid #dedede;margin:0 10px 10px 0;}
+#partyNews .party .pList li.mar0{margin-right:0;}
+#partyNews .party .pList li a{display:block;width:93px;height:42px;}
+#partyNews .party .pList li a.logo01{background:url(../images/u_sm_party01.gif) center center no-repeat;}
+#partyNews .party .pList li a.logo02{background:url(../images/u_sm_party02.gif) center center no-repeat;}
+#partyNews .party .pList li a.logo03{background:url(../images/u_sm_party03.gif) center center no-repeat;}
+#partyNews .party .pList li a.logo04{background:url(../images/u_sm_party04.gif) center center no-repeat;}
+#partyNews .party .pList li a.logo05{background:url(../images/u_sm_party05.gif) center center no-repeat;}
+#partyNews .party .pList li a.logo06{background:url(../images/u_sm_party06.gif) center center no-repeat;}
+#partyNews .party .pList li a.logo07{background:url(../images/u_sm_party07.gif) center center no-repeat;}
+#partyNews .area .loc{float:left;margin-right:18px;background:#f5f5f5;border-top:1px solid #e3e3e3;width:67px;height:47px;text-align:center;}
+#partyNews .area .loc p{font-weight:bold;color:#535353;padding-top:15px;}
+#partyNews .area .aList{float:left;}
+#partyNews .area .aList ul{clear:both;}
+#partyNews .area .aList ul.pad1{padding-top:3px;}
+#partyNews .area .aList ul.pad2{padding-top:7px;}
+#partyNews .area .aList li{float:left;display:block;}
+#partyNews .area .aList li.are{width:55px;text-align:center;}
+#partyNews .area .aList li.bar{width:5px;text-align:center;color:#cacaca;}
+#partyNews .area .aList li a{display:block;font-weight:bold;}
+#partyNews .area .aList li a:hover{background:#f5f5f5;text-decoration:none;}
+
+#talkBox{float:left;width:390px;margin-right:20px;}
+#talkBox .talkWrap{position:relative;}
+#talkBox .line{border-bottom:2px solid #b4c1d8;}
+#talkBox h3{color:#333;font:bold 13px Gulim, 굴림;background:url(../images/i_icon.gif) 0 0 no-repeat;padding-left:14px;margin-bottom:7px;}
+#talkBox ul{padding:7px 0 5px 5px;}
+#talkBox li{padding-bottom:5px;}
+#talkBox li a{background:url(../images/i_icon.gif) 0 -69px no-repeat;padding-left:7px;}
+#talkBox .ft{position:absolute;top:2px;right:0;}
+#talkBox .ft a{font:11px Dotum, 돋움;letter-spacing:-1px;color:#333;background:url(../images/i_icon.gif) 0 -41px no-repeat;padding-left:7px;}
+
+#elecInfo{float:left;width:220px;}
+#elecInfo .elecWrap{position:relative;}
+#elecInfo .line{border-bottom:2px solid #b4c1d8;}
+#elecInfo h3{color:#333;font:bold 13px Gulim, 굴림;background:url(../images/i_icon.gif) 0 0 no-repeat;padding-left:14px;margin-bottom:7px;}
+#elecInfo ul{padding-top:12px;}
+#elecInfo li{margin-bottom:10px;}
+#elecInfo .ft{position:absolute;top:2px;right:0;}
+#elecInfo .ft a{font:11px Dotum, 돋움;letter-spacing:-1px;color:#333;background:url(../images/i_icon.gif) 0 -41px no-repeat;padding-left:7px;}

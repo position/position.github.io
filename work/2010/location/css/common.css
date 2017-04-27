@@ -1,0 +1,208 @@
+/* reset */
+html{color:#666;background:#fff;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:normal;}
+li{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;font-variant:normal;}
+sup{vertical-align:text-top;}
+sub{vertical-align:text-bottom;}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}
+input,textarea,select{*font-size:100%;}
+input[type="checkbox"],input[type="radio"]{width:13px;height:13px;margin: 0px 5px 3px 2px;*margin: 1px 5px 3px 2px;padding: 0 !important;cursor:default;vertical-align:middle;}
+legend{color:#000;}
+del,ins{text-decoration:none;}
+button{border:none 0;background:none;cursor:pointer;_cursor /**/:hand;}
+a img{border:none;}
+q:before,q:after{content:'';}
+
+/* fonts */
+body{font:12px/1.335 굴림,Gulim,Arial,Helvetica,Clean,AppleGothic,sans-serif;}
+select,input,button,textarea{font:12px 굴림,Gulim,Arial,Helvetica,Clean,AppleGothic,sans-serif;}
+table{font-size:inherit;font:100%;}
+pre,code,kbd,samp,tt{font-family:monospace;*font-size:108%;line-height:100%;}
+body{text-align:center;}
+a{color:#012c7a;text-decoration:none;}
+a:visited{color:#800080;}
+a:hover{text-decoration:underline;}
+
+/* layout css*/
+#doc2{position:relative;width:950px;margin:0 auto;text-align:left;}
+.yui-t6 #yui-main{float:left;margin-right:20px;}
+.yui-t6 #yui-main .yui-b{width:630px;}
+.yui-t6 .yui-b{float:left;width:300px;}
+#hd,#bd,#ft{clear:both;}
+#hd{background:url(../images/k_illust.gif) 310px 0 no-repeat;position:relative;}
+#bd{background:url(../images/k_rightBg.gif) right 0 repeat-y;overflow:hidden;}
+strong{font-weight:bold;}
+.clearfx{zoom:1;}
+.clearfx:after{content: ".";display:block;font-size:0;height:0px;line-height:0;clear:both;}
+.fl{float:left;}
+.fr{float:right;}
+.hidden{display:none;}
+/* /layout */
+
+/* paging */
+#pn0{clear:both;text-align:center;width:100%;margin:15px 0 15px 0;}
+#pn0 a{background:url(../images/i_n0.gif) 0 -317px no-repeat;color:#233C8E;padding:2px 10px 0 9px;margin-left:-4px;text-decoration:none;font:11px 돋움, Dotum;}
+html>body #pn0 a{background-position:0 -318px;}
+#pn0 a:hover{text-decoration:underline;}
+html>body #pn0 a:hover{background-position:0 -318px;}
+#pn0 .n{background:none;}
+#pn0 .y{background:none;font-weight:bold;cursor:none;}
+#pn0 a.pv,#pn0 a.pv:hover{background:none;margin:0 4px 0 7px;padding:0;color:#000;}
+#pn0 a.nx,#pn0 a.nx:hover{background:none;margin:0 2px 0 0;padding:0;color:#000;}
+#pn0 a.pv10,#pn0 a.nx10,#pn0 a.pv10:hover,#pn0 a.nx10:hover{margin:0;padding:0;color:#000;}
+#pn0 a.x{font-weight:bold;background:url(../images/i_n0.gif) 0 -317px no-repeat;cursor:none;}
+#pn0 a.pv10,#pn0 a.pv,#pn0 a.pv10:hover,#pn0 a.pv:hover{background:url(../images/i_n0.gif) 0 -338px no-repeat;padding:0 0 0 7px;}
+#pn0 a.pv10,#pn0 a.pv10:hover{margin:0 7px 0 0;}
+#pn0 a.nx10{margin:0 0 0 7px}
+#pn0 a.nx10,#pn0 a.nx,#pn0 a.nx10:hover,#pn0 a.nx:hover{background:url(../images/i_n0.gif) 100% -348px no-repeat;padding:0 7px 0 0;margin:0 0 0 7px;}
+#pn0 a.nx,#pn0 a.nx:hover{margin:0 5px 0 0;}
+/* /paging */
+
+#uh{clear:both;color:#c1c1c1;margin-top:8px;font:11px dotum, 돋움;text-align:left;}
+#uh a{color:#036 !important;}
+#mh{position:relative;float:left;height:48px;margin-top:12px;}
+#mh span{display:none;}
+#mh a{display:block;float:left;width:143px;height:29px;background:url(../images/yahoo_logo.gif) 0 0 no-repeat;}
+#mh .a{display:inline;margin-right:8px;}
+#mh .b{width:185px;background-position:100% 0;}
+#ad{background:#fff;width:630px;height:48px;text-align:center;}
+#adHE{position:absolute;width:160px;height:100px;right:0px;top:46px;*top:54px;}
+
+#Dday{float:right;width:128px;height:21px;background:url(../images/k_Dday.gif) 0 0 no-repeat;color:#656565;text-align:center;padding-top:5px;margin-top:-15px;}
+#Dday{font:11px 돋움,Dotum;color:#656565;}
+#Dday em{color:#c45c5b;font-weight:bold;}
+#Dday span{color:#333;}
+#Dday a{font:11px 돋움,Dotum;color:#656565;}
+#Dday a em{color:#c45c5b;font-weight:bold;}
+#Dday a span{color:#333;}
+/*
+#prn{clear:both;}
+#prn .pn{height:45px;padding-left:9px;background:url(../images/k_prn.png) 0 0 no-repeat;}
+#prn .pn li{float:left;background:url(../images/k_prn.png) 0px 0px no-repeat;}
+#prn .pn li.a,#prn .pn li.z{background:none;}
+#prn .pn li span{display:none;}
+#prn .pn li a{display:block;height:45px;background:url(../images/k_prn.png) 0px 0px no-repeat;}
+#prn .pn li.a a{width:83px;background-position:-9px -50px;}
+#prn .pn li.b a{width:76px;background-position:-92px -50px;}
+#prn .pn li.c a{width:86px;background-position:-168px -50px;}
+#prn .pn li.d a{width:131px;background-position:-254px -50px;}
+#prn .pn li.e a{width:130px;background-position:-385px -50px;}
+#prn .pn li.f a{width:98px;background-position:-515px -50px;}
+#prn .pn li.a a:hover{background-position:-9px -100px;}
+#prn .pn li.b a:hover{background-position:-92px -100px;}
+#prn .pn li.c a:hover{background-position:-168px -100px;}
+#prn .pn li.d a:hover{background-position:-254px -100px;}
+#prn .pn li.e a:hover{background-position:-385px -100px;}
+#prn .pn li.f a:hover{background-position:-515px -100px;}
+#prn .pn li.a a.on{background-position:-9px -150px;}
+#prn .pn li.b a.on{background-position:-92px -150px;}
+#prn .pn li.c a.on{background-position:-168px -150px;}
+#prn .pn li.d a.on{background-position:-254px -150px;}
+#prn .pn li.e a.on{background-position:-385px -150px;}
+#prn .pn li.f a.on{background-position:-515px -150px;}
+#prn .pn li.z{float:left;margin:13px 0 0 31px;}
+#prn .pn li.z a{width:82px;height:21px;background:url(../images/k_prn.png) -644px -13px no-repeat;}
+
+#main_prn{float:left;clear:both;margin-bottom:10px;width:950px;height:30px;}
+#main_prn .sn{height:29px;background:#f4f4f4;border-bottom:1px solid #d8d8d8;padding-left:7px;}
+#main_prn .sn li{background:url(../images/i_barprn.gif) 0 8px no-repeat;float:left;padding:4px 3px 0 4px;text-align:center;}
+#main_prn .sn li a{display:block;font:bold 12px 굴림, Gulim;color:#666;padding-left:3px;}
+#main_prn .sn li a span{display:block;padding:5px 10px 6px 7px;}
+#main_prn .sn li a:hover{text-decoration:none;}
+#main_prn .sn li.on a{color:#fff;background:url(../images/k_prn.png) left -238px no-repeat;}
+#main_prn .sn li.on a span{background:url(../images/k_prn.png) right -238px no-repeat;}
+#main_prn .sn li.a{background:none;}
+*/
+#prn{clear:both;}
+#prn .pn{height:45px;padding-left:9px;background:url(../images/k_prn_v2.png) 0 0 no-repeat;}
+#prn .pn li{float:left;background:url(../images/k_prn_v2.png) 0px 0px no-repeat;}
+#prn .pn li.a,#prn .pn li.z{background:none;}
+#prn .pn li span{display:none;}
+#prn .pn li a{display:block;height:45px;background:url(../images/k_prn_v2.png) 0px 0px no-repeat;}
+#prn .pn li.a a{width:83px;background-position:-9px -50px;}
+#prn .pn li.b a{width:76px;background-position:-92px -50px;}
+#prn .pn li.c a{width:86px;background-position:-168px -50px;}
+#prn .pn li.d a{width:134px;background-position:-254px -50px;}
+#prn .pn li.e a{width:172px;background-position:-388px -50px;}
+#prn .pn li.f a{width:98px;background-position:-560px -50px;}
+#prn .pn li.a a:hover{background-position:-9px -100px;}
+#prn .pn li.b a:hover{background-position:-92px -100px;}
+#prn .pn li.c a:hover{background-position:-168px -100px;}
+#prn .pn li.d a:hover{background-position:-254px -100px;}
+#prn .pn li.e a:hover{background-position:-388px -100px;}
+#prn .pn li.f a:hover{background-position:-560px -100px;}
+#prn .pn li.a a.on{background-position:-9px -150px;}
+#prn .pn li.b a.on{background-position:-92px -150px;}
+#prn .pn li.c a.on{background-position:-168px -150px;}
+#prn .pn li.d a.on{background-position:-254px -150px;}
+#prn .pn li.e a.on{background-position:-388px -150px;}
+#prn .pn li.f a.on{background-position:-560px -150px;}
+#prn .pn li.z{float:left;margin:13px 0 0 26px;}
+#prn .pn li.z a{width:82px;height:21px;background:url(../images/k_prn_v2.png) -684px -13px no-repeat;}
+
+#main_prn{float:left;clear:both;margin-bottom:10px;width:950px;height:30px;}
+#main_prn .sn{height:29px;background:#f4f4f4;border-bottom:1px solid #d8d8d8;padding-left:7px;}
+#main_prn .sn li{background:url(../images/i_barprn.gif) 0 8px no-repeat;float:left;padding:4px 3px 0 4px;text-align:center;}
+#main_prn .sn li a{display:block;font:bold 12px 굴림, Gulim;color:#666;padding-left:3px;}
+#main_prn .sn li a span{display:block;padding:5px 10px 6px 7px;}
+#main_prn .sn li a:hover{text-decoration:none;}
+#main_prn .sn li.on a{color:#fff;background:url(../images/k_prn_v2.png) left -238px no-repeat;}
+#main_prn .sn li.on a span{background:url(../images/k_prn_v2.png) right -238px no-repeat;}
+#main_prn .sn li.a{background:none;}
+
+#news_prn{float:left;clear:both;margin-bottom:10px;width:950px;height:30px;}
+#news_prn .sn{height:29px;background:#f4f4f4;border-bottom:1px solid #d8d8d8;padding-left:7px;}
+#news_prn .sn li{background:url(../images/i_barprn.gif) 0 8px no-repeat;float:left;padding:4px 3px 0 4px;text-align:center;}
+#news_prn .sn li a{display:block;font:bold 12px 굴림, Gulim;color:#666;padding-left:3px;}
+#news_prn .sn li a span{display:block;padding:5px 10px 6px 7px;}
+#news_prn .sn li a:hover{text-decoration:none;}
+#news_prn .sn li.on a{color:#fff;background:url(../images/k_prn.png) left -238px no-repeat;}
+#news_prn .sn li.on a span{background:url(../images/k_prn.png) right -238px no-repeat;}
+#news_prn .sn li.a{background:none;}
+
+#community_prn{float:left;clear:both;margin-bottom:10px;width:950px;height:30px;}
+#community_prn .sn{height:29px;background:#f4f4f4;border-bottom:1px solid #d8d8d8;padding-left:7px;}
+#community_prn .sn ol{margin-left:160px;}
+#community_prn .sn li{background:url(../images/i_barprn.gif) 0 8px no-repeat;float:left;padding:4px 3px 0 4px;text-align:center;}
+#community_prn .sn li a{display:block;font:bold 12px 굴림, Gulim;color:#666;padding-left:3px;}
+#community_prn .sn li a span{display:block;padding:5px 5px 6px 3px;}
+#community_prn .sn li a:hover{text-decoration:none;}
+#community_prn .sn li.on a{color:#fff;background:url(../images/k_prn.png) left -238px no-repeat;}
+#community_prn .sn li.on a span{background:url(../images/k_prn.png) right -238px no-repeat;}
+#community_prn .sn li.t{display:block;font-weight:bold;padding-left:15px;padding-top:7px;color:#333;}
+#community_prn .sn li.a, #community_prn .sn li.d, #community_prn .sn li.k, #community_prn .sn li.t{background:none;}
+
+#candi_prn{float:left;clear:both;margin-bottom:10px;width:950px;height:30px;}
+#candi_prn .sn{height:29px;background:#f4f4f4;border-bottom:1px solid #d8d8d8;padding-left:7px;}
+#candi_prn .sn ol{margin-left:190px;}
+#candi_prn .sn li{background:url(../images/i_barprn.gif) 0 8px no-repeat;float:left;padding:4px 3px 0 4px;text-align:center;}
+#candi_prn .sn li a{display:block;font:bold 12px 굴림, Gulim;color:#666;padding-left:3px;}
+#candi_prn .sn li a span{display:block;padding:5px 5px 6px 3px;}
+#candi_prn .sn li a:hover{text-decoration:none;}
+#candi_prn .sn li.on a{color:#fff;background:url(../images/k_prn.png) left -238px no-repeat;}
+#candi_prn .sn li.on a span{background:url(../images/k_prn.png) right -238px no-repeat;}
+#candi_prn .sn li.t{display:block;font-weight:bold;padding-left:15px;padding-top:7px;color:#333;}
+#candi_prn .sn li.a, #candi_prn .sn li.t{background:none;}
+
+
+#election_prn{float:left;clear:both;margin-bottom:10px;width:950px;height:30px;}
+#election_prn .sn{height:29px;background:#f4f4f4;border-bottom:1px solid #d8d8d8;padding-left:7px;}
+#election_prn .sn ol{margin-left:455px;}
+#election_prn .sn li{background:url(../images/i_barprn.gif) 0 8px no-repeat;float:left;padding:4px 3px 0 4px;text-align:center;}
+#election_prn .sn li a{display:block;font:bold 12px 굴림, Gulim;color:#666;padding-left:3px;}
+#election_prn .sn li a span{display:block;padding:5px 5px 6px 3px;}
+#election_prn .sn li a:hover{text-decoration:none;}
+#election_prn .sn li.on a{color:#fff;background:url(../images/k_prn.png) left -238px no-repeat;}
+#election_prn .sn li.on a span{background:url(../images/k_prn.png) right -238px no-repeat;}
+#election_prn .sn li.a{background:none;}
+
+#ftr{padding:10px 0;color:#777;font:11px/19px dotum;text-align:center;border-top:1px solid #e0e0e0;margin-top:20px;}
+#ftr a{color:#003399;}
+

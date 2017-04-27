@@ -1,0 +1,112 @@
+.zMailSch{position:relative;clear:both;}
+.zMailSch .schLayout{width:100%;}
+.zMailSch .schLayout .leftTop{background:url(../images/layout/k_schbg_ltop.gif) 0 0 no-repeat;width:12px;height:17px;}
+.zMailSch .schLayout .topBg{background:url(../images/layout/k_schbg_tbg.gif) 0 0 repeat-x;}
+.zMailSch .schLayout .rightTop{background:url(../images/layout/k_schbg_rtop.gif) 0 0 no-repeat;width:12px;height:17px;}
+.zMailSch .schLayout .leftBg{background:url(../images/layout/k_schbg_lbg.gif) 0 0 repeat-y;width:12px;}
+.zMailSch .schLayout .con{background:#f4f4f4;padding:5px 5px 10px 5px;}
+.zMailSch .schLayout .rightBg{background:url(../images/layout/k_schbg_rbg.gif) 0 0 repeat-y;width:12px;}
+.zMailSch .schLayout .leftBottom{background:url(../images/layout/k_schbg_lbottom.gif) 0 0 no-repeat;width:12px;height:11px;}
+.zMailSch .schLayout .bottomBg{background:url(../images/layout/k_schbg_bbg.gif) 0 0 repeat-x;}
+.zMailSch .schLayout .rightBottom{background:url(../images/layout/k_schbg_rbottom.gif) 0 0 no-repeat;width:12px;height:11px;}
+.zMailSch .stxt01{width:95%;border:1px solid #cdcdcd;height:14px;padding:3px 3px 2px 3px;}
+.zMailSch .stxt02{width:91%;border:1px solid #cdcdcd;height:12px;padding:2px 3px 2px 3px;font-size:11px;}
+.zMailSch .stxt_1{width:25%;}
+.zMailSch .stxt_2{width:8%;}
+.zMailSch .mailSch{clear:both;height:37px;}
+.zMailSch .mailSch .sch01{float:left;padding-top:2px;margin-top:1px;}
+.zMailSch .mailSch .sch01 select{width:80px;border:none 0;font-size:11px;padding-left:5px;margin-top:1px;*margin-top:0px;}
+.zMailSch .mailSch .sch02{float:left;}
+.zMailSch .mailSch .schBg{float:left;background:url(../images/layout/k_mailsearchbg.gif) 0 0 no-repeat;width:375px;height:28px;padding:3px 0 0 13px;}
+.zMailSch .mailSch .schSel{border:0 none;font-size:11px;border:1px solid red;}
+.zMailSch .mailSch .schtxt{border:0 none;margin-top:3px;width:290px;height:13px;padding:2px 0 0 5px;}
+.zMailSch .mailSch .schBtn a{float:left;width:73px;height:28px;margin-right:5px;background:url(../images/b_search.gif) 0 -32px no-repeat;}
+.zMailSch .mailSch .schBtn a:hover{background:url(../images/b_search.gif) 0 0 no-repeat;}
+.zMailSch .mailSch .detailBtn{float:right;padding-top:3px;}
+.zMailSch .detailSch{clear:both;background:url(../images/i_schdot.gif) 0 0 repeat-x;padding-top:10px;}
+.zMailSch .detailSch span{float:left;display:block;margin-right:5px;}
+*html .zMailSch .detailSch span{display:inline;}
+.zMailSch .detailSch .inp select{border:1px solid #ccc;font-size:11px;height:22px;padding:3px 0 3px 2px;margin-top:0px;*margin-top:2px;}
+.zMailSch .detailSch .schTerms{clear:both;height:30px;}
+.zMailSch .detailSch .schTerms .inp{position:relative;z-index:10;}
+.zMailSch .detailSch .schTerms .tit{padding-bottom:1px;}
+.zMailSch .detailSch .schTerms .btn a{display:block;width:53px;height:22px;background:url(../images/b_dsch_search.gif) 0 -32px no-repeat;}
+.zMailSch .detailSch .schTerms .btn a:hover{background:url(../images/b_dsch_search.gif) 0 0 no-repeat;}
+.zMailSch .detailSch .schPeriod{clear:both;}
+.zMailSch .detailSch .schPeriod .inp{position:relative;z-index:1;}
+.zMailSch .detailSch .schPeriod .p1,
+.zMailSch .detailSch .schPeriod .p2,
+.zMailSch .detailSch .schPeriod .p3,
+.zMailSch .detailSch .schPeriod .p4,
+.zMailSch .detailSch .schPeriod .p5,
+.zMailSch .detailSch .schPeriod .p6{margin-right:2px;}
+.zMailSch .detailSch .schPeriod .p7{margin-right:4px;}
+.zMailSch .detailSch .schPeriod .p1 a{display:block;width:30px;height:18px;background:url(../images/b_date_enter.gif) 0 0 no-repeat;}
+.zMailSch .detailSch .schPeriod .p2 a{display:block;width:30px;height:18px;background:url(../images/b_date_enter.gif) -34px 0 no-repeat;}
+.zMailSch .detailSch .schPeriod .p3 a{display:block;width:26px;height:18px;background:url(../images/b_date_enter.gif) -68px 0 no-repeat;}
+.zMailSch .detailSch .schPeriod .p4 a{display:block;width:36px;height:18px;background:url(../images/b_date_enter.gif) -98px 0 no-repeat;}
+.zMailSch .detailSch .schPeriod .p5 a{display:block;width:36px;height:18px;background:url(../images/b_date_enter.gif) -138px 0 no-repeat;}
+.zMailSch .detailSch .schPeriod .p6 a{display:block;width:36px;height:18px;background:url(../images/b_date_enter.gif) -178px 0 no-repeat;}
+.zMailSch .detailSch .schPeriod .p7 a{display:block;width:51px;height:18px;background:url(../images/b_date_enter.gif) -248px 0 no-repeat;}
+.zMailSch .detailSch .schPeriod .p1 a:hover{background:url(../images/b_date_enter.gif) 0 -23px no-repeat;}
+.zMailSch .detailSch .schPeriod .p2 a:hover{background:url(../images/b_date_enter.gif) -34px -23px no-repeat;}
+.zMailSch .detailSch .schPeriod .p3 a:hover{background:url(../images/b_date_enter.gif) -68px -23px no-repeat;}
+.zMailSch .detailSch .schPeriod .p4 a:hover{background:url(../images/b_date_enter.gif) -98px -23px no-repeat;}
+.zMailSch .detailSch .schPeriod .p5 a:hover{background:url(../images/b_date_enter.gif) -138px -23px no-repeat;}
+.zMailSch .detailSch .schPeriod .p6 a:hover{background:url(../images/b_date_enter.gif) -178px -23px no-repeat;}
+.zMailSch .detailSch .schPeriod .p7 a:hover{background:url(../images/b_date_enter.gif) -248px -23px no-repeat;}
+.zMailSch .detailSch .schPeriod .cal{position:relative;padding-top:2px;}
+.zMailSch .detailSch .schPeriod .ex{font-size:11px;color:#000;}
+/* 메일검색 */
+
+.zMailList{clear:both;}
+.zMailList .mailLayout{width:100%;}
+.zMailList .mailLayout .leftTop{background:url(../images/layout/k_mailbg_ltop.gif) 0 0 no-repeat;width:12px;height:76px;}
+.zMailList .mailLayout .topBg{background:url(../images/layout/k_mailbg_tbg.gif) 0 0 repeat-x;}
+.zMailList .mailLayout .rightTop{background:url(../images/layout/k_mailbg_rtop.gif) 0 0 no-repeat;width:12px;height:76px;}
+.zMailList .mailLayout .leftBg{background:url(../images/layout/k_mailbg_lbg.gif) 0 0 repeat-y;width:12px;}
+.zMailList .mailLayout .con{clear:both;}
+.zMailList .mailLayout .rightBg{background:url(../images/layout/k_mailbg_rbg.gif) 0 0 repeat-y;width:12px;}
+.zMailList .mailLayout .leftBottom{background:url(../images/layout/k_mailbg_lbottom.gif) 0 0 no-repeat;width:12px;height:12px;}
+.zMailList .mailLayout .bottomBg{background:url(../images/layout/k_mailbg_bbg.gif) 0 0 repeat-x;}
+.zMailList .mailLayout .rightBottom{background:url(../images/layout/k_mailbg_rbottom.gif) 0 0 no-repeat;width:12px;height:12px;}
+.zMailList .mlistWrap{padding:20px 10px 0 10px;}
+.zMailList .mlistTop{border-bottom:1px solid #d9d9d9;height:55px;}
+.zMailList .mlistTop .noreadWrp{float:left;}
+.zMailList .mlistTop .noread{color:#4e4e4e;background:url(../images/i_mail_icon01.gif) 0 3px no-repeat;padding-left:18px;}
+.zMailList .mlistTop .noread em a{color:#ef830f;font-weight:bold;text-decoration:none;}
+.zMailList .mlistTop .del{padding-top:15px;}
+.zMailList .mlistTop .del a{display:block;width:42px;height:19px;background:url(../images/b_maildel.gif) 0 0 no-repeat;}
+.zMailList .mlistTop .del a:hover{background:url(../images/b_maildel.gif) 0 -29px no-repeat;}
+.zMailList .mlistTop .amount{float:right;width:320px;}
+.zMailList .mlistTop .amount .amoList{clear:both;}
+.zMailList .mlistTop .amount dl{clear:both;overflow:hidden;}
+.zMailList .mlistTop .amount dt,.zMailList .mlistTop .amount dd{float:left;}
+.zMailList .mlistTop .amount .tit{width:70px;padding-top:1px;}
+.zMailList .mlistTop .amount .graph{width:99px;height:7px;background:url(../images/i_graph.gif) 0 0 repeat-x;margin-top:4px;}
+*html .zMailList .mlistTop .amount .graph{margin-top:2px;}
+.zMailList .mlistTop .amount .graph span{display:block;}
+.zMailList .mlistTop .amount .graph .no1{background:url(../images/i_graph.gif) 0 -23px repeat-x;}
+.zMailList .mlistTop .amount .capacity{margin-left:10px;width:110px;font-size:10px;color:#959595;font-family:tahoma;}
+.zMailList .mlistTop .amount .capacity em{color:#eb6100;font-weight:bold;}
+.zMailList .mlistTop .amount .adm a{font-size:11px;background:url(../images/i_arrow_left.gif) 0 3px no-repeat;padding-left:4px;}
+.zMailList .mlistTop .amount .adm a:hover{color:#000;text-decoration:none;}
+.zMailList .con{padding:0 10px 10px 10px;}
+.zMailList .mailList{clear:both;}
+.zMailList .mailList table{width:100%;}
+.zMailList .mailList caption{display:none;}
+.zMailList .mailList th{text-align:center;height:30px;font-size:11px;letter-spacing:-1px;}
+.zMailList .mailList td{height:25px;color:#000;}
+.zMailList .mailList td a{color:#000;}
+.zMailList .mailList .a{text-align:center;}
+.zMailList .mailList .b{text-align:center;}
+.zMailList .mailList .c{padding-left:10px;}
+.zMailList .mailList .d{text-align:center;}
+.zMailList .mailList .sendMenu{position:relative;display:block;width:95px;}
+.zMailList .mailList .d a:hover{color:#ef830f;font-weight:bold;text-decoration:none;letter-spacing:-1px;}
+.zMailList .mailList .e{padding-left:10px;}
+.zMailList .mailList .e a{color:#000;font-weight:bold;}
+.zMailList .mailList .e .main_subject{font-family:Dotum,AppleGothic,sans-serif;font-size:12px;font-weight:bold;width:100%;height:15px;overflow:hidden;}
+.zMailList .mailList .e a:visited{color:#666;font-weight:normal;}
+.zMailList .mailList .f{text-align:center;font-size:11px;color:#666 !important;}
+/* 메일리스트 */

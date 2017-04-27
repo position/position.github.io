@@ -1,0 +1,440 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>2010 제5회 전국동시 지방선거 - 야후! 코리아</title>
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet" href="css/master.css" type="text/css" media="all">
+<script type="text/javascript">
+function chg_div(id, cnt) {
+	for(var i = 1; i <= cnt; i++) {
+		var div_id = id + i;
+		var obj = document.getElementById(div_id);
+
+		if(obj.style.display != "none") {
+			obj.style.display = "none";
+			var show_num = (i == cnt) ? 1 : i + 1;
+			div_id = id + show_num;
+			var show_obj =  document.getElementById(div_id);
+			show_obj.style.display = '';
+			return true;
+		}
+	}
+}
+function ss_win(url) {
+	var yg_ss  = window.open(url, 'ys_ss', 'left=5,top=5,width=980,height=736,scrollbars=no,location=yes');
+
+	try {
+		yg_ss.focus();
+	}
+	catch(ex) {}
+}
+</script>
+					
+<script type="text/javascript">
+	function ptchg(iName, nVar, dName){
+		for(var i=1;i<3;i++){
+			document.getElementById(dName+i).style.display="none";
+		}
+			document.getElementById(dName+nVar).style.display="block";
+	
+	}
+</script>
+
+</head>
+
+<body>
+<div id="doc2" class="yui-t6">
+	<div id="hd">
+		<div id="uh">
+			<a href="http://kr.yahoo.com">야후!</a> | <a href="http://help.yahoo.com/help/kr/blog">도움말</a> |
+			<a href="#">로그인</a> <!--<a href="#"><strong>positionfov</strong> 님</a> <a href="#">로그아웃</a> -->
+		</div>
+			
+		<div id="mh">
+			<h1><a href="http://kr.yahoo.com" class="a"><span>Yahoo!Korea</span></a> <a href="#" class="b"><span>미주한인</span></a></h1>
+		</div>
+
+		<div id="Dday">
+			<a href="http://su.election.go.kr/" target="blank">선거 앞으로 <span>D-<em>150</em>일</span></a>
+		</div>
+	
+		<div id="prn">
+			<div class="pn">
+				<ol>
+					<li class="a"><a class="on" href="#"><span>홈</span></a></li>
+					<li class="b"><a href="#"><span>뉴스</span></a></li>
+					<li class="c"><a href="#"><span>토론방</span></a></li>
+					<li class="d"><a href="#"><span>후보정보(광역)</span></a></li>
+					<li class="e"><a href="#"><span>후보정보(지방)</span></a></li>
+					<li class="f"><a href="#"><span>선거정보</span></a></li>
+					<li class="z"><a href="#"><span>야후! 미디어</span></a></li>
+				</ol>
+			</div>
+
+			<div id="main_prn">
+				<div class="sn">
+					<ol>																
+						<li class="a"><span>2010년 지방선거투표일은 6월 2일 입니다.</span></li>
+					</ol>
+				</div>
+			</div>
+		</div>
+
+	</div><!-- hd -->
+
+	<div id="bd">
+		<div id="yui-main">
+			<div class="yui-b">
+				<div class="yui-g">
+
+					<div id="ad">
+						<a href="#"><img src="images/x_ad_top.gif" alt="광고 배너"/></a>
+					</div>
+					
+					<div id="main_wrap">
+						<div id="main_news">
+							<div class="pho">
+								<a href="#"><img src="images/x_sample.jpg" width="390px" alt="MB 준예산 집행 예산안 대책"/></a>
+							</div>
+							<dl>
+								<dt><a href="#">MB "준예산 집행 예산안 대책"</a></dt>
+								<dd>[머니투데이 송기용기자]["국회 예산안 처리 안되면 1월1일 준예산 즉시 집행"]이명박 대통령은 24일 국회의 내년도 예산처리 지연과 관련, "금년 내에 예산안이 국회에서 처리될 것을 희망하지만 정부는 만약의...</dd>
+							</dl>
+							<div class="nList">
+								<ul class="list01">
+									<li><a href="#">'공세'로 전환한 정세균,.. </a></li>
+									<li><a href="#">민주 "李 대통령 위에 왕관.." </a></li>
+									<li><a href="#">한명숙 "시련 의미 생각하며.."</a></li>
+									<li><a href="#">`국회폭력' 강기갑 의원 징역..</a></li>
+									<li><a href="#">'몰리는' 정세균 "도저히 묵과..</a></li>
+								</ul>
+								<ul class="list02">
+									<li><a href="#">'공세'로 전환한 정세균,.. </a></li>
+									<li><a href="#">민주 "李 대통령 위에 왕관.." </a></li>
+									<li><a href="#">한명숙 "시련 의미 생각하며.."</a></li>
+									<li><a href="#">`국회폭력' 강기갑 의원 징역..</a></li>
+									<li><a href="#">'몰리는' 정세균 "도저히 묵과..</a></li>
+								</ul>
+							</div>
+						</div><!-- main 포토뉴스  -->
+
+						<div id="candidateInfo">
+							<div class="Bg">
+							<h3 class="hidden">내 지역 후보정보</h3>
+								<div class="areaNavi">
+									<span class="loc">서울 &gt; <em><a href="#">강남구갑</a></em></span>
+									<span class="gap"><a class="on" href="#">갑</a> | <a href="#">을</a></span>
+								</div>
+								<div class="governor">
+									<h4>시/도지사</h4>
+									<ul>
+										<li><img src="images/i_people.gif" width="60px" height="66px" alt="사진없음" align="absmiddle" /></li>
+										<li><img src="images/i_people.gif" width="60px" height="66px" alt="사진없음" align="absmiddle" /></li>
+										<li class="mar0"><img src="images/i_people.gif" width="60px" height="66px" alt="사진없음" align="absmiddle" /></li>
+									</ul>
+									<div class="ft"><a href="#">더보기</a></div>
+								</div>
+								<div class="comment">
+									<p>지역별 후보정보는</p>
+									<p>후보등록 이후 제공됩니다.</p>
+								</div>
+								<div class="governor">
+									<h4>구/시/군/지방의원</h4>
+									<ul>
+										<li><img src="images/i_people.gif" width="60px" height="66px" alt="사진없음" align="absmiddle" /></li>
+										<li><img src="images/i_people.gif" width="60px" height="66px" alt="사진없음" align="absmiddle" /></li>
+										<li class="mar0"><img src="images/i_people.gif" width="60px" height="66px" alt="사진없음" align="absmiddle" /></li>
+									</ul>
+									<div class="ft"><a href="#">더보기</a></div>
+								</div>
+							</div>
+						</div><!-- 내 지역 후보정보 -->
+					</div><!-- news_wrap -->
+					
+					<div id="partyNews">
+						<h3>정당/권역별 뉴스</h3>
+						<div class="Bg">
+							<div class="line">
+								<div class="party">
+									<div class="nam">
+										<p>정당</p>
+									</div>
+									<div class="pList">
+										<ul>
+											<li class="logo"><a class="logo01" href="#"><span class="hidden">한나라당</span></a></li>
+											<li class="logo"><a class="logo02" href="#"><span class="hidden">민주당</span></a></li>
+											<li class="logo"><a class="logo03" href="#"><span class="hidden">자유선진당</span></a></li>
+											<li class="logo"><a class="logo04" href="#"><span class="hidden">친박연대</span></a></li>
+											<li class="logo mar0"><a class="logo05" href="#"><span class="hidden">민주노동당</span></a></li>
+											<li class="logo"><a class="logo06" href="#"><span class="hidden">창조한국당</span></a></li>
+											<li class="logo"><a class="logo07" href="#"><span class="hidden">진보신당</span></a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="area">
+									<div class="loc">
+										<p>지역</p>
+									</div>
+									<div class="aList">
+										<ul class="pad1">
+											<li class="are"><a href="#">서울</a></li>
+											<li class="bar">|</li>
+											<li class="are"><a href="#">부산</a></li>
+											<li class="bar">|</li>
+											<li class="are"><a href="#">대구</a></li>
+											<li class="bar">|</li>
+											<li class="are"><a href="#">인천</a></li>
+											<li class="bar">|</li>
+											<li class="are"><a href="#">광주</a></li>
+											<li class="bar">|</li>
+											<li class="are"><a href="#">대전</a></li>
+											<li class="bar">|</li>
+											<li class="are"><a href="#">울산</a></li>
+											<li class="bar">|</li>
+											<li class="are"><a href="#">경기</a></li>
+										</ul>
+										<ul class="pad2">
+											<li class="are"><a href="#">강원</a></li>
+											<li class="bar">|</li>
+											<li class="are"><a href="#">충북</a></li>
+											<li class="bar">|</li>
+											<li class="are"><a href="#">충남</a></li>
+											<li class="bar">|</li>
+											<li class="are"><a href="#">전북</a></li>
+											<li class="bar">|</li>
+											<li class="are"><a href="#">전남</a></li>
+											<li class="bar">|</li>
+											<li class="are"><a href="#">경북</a></li>
+											<li class="bar">|</li>
+											<li class="are"><a href="#">경남</a></li>
+											<li class="bar">|</li>
+											<li class="are"><a href="#">제주</a></li>
+										</ul>
+									</div>
+								</div>	
+							</div>
+						</div>
+					</div><!-- 정당/권역별 뉴스 -->
+
+					<div id="talkBox">
+						<div class="talkWrap">
+							<div class="line">
+								<h3>토론마당</h3>
+							</div>
+							<ul>
+								<li><a href="#">오세훈 ´누구와 붙어도 이긴다´</a></li>
+								<li><a href="#">새해 폭설, 세종시 원안 집중 강타?</a></li>
+								<li><a href="#">김문수 앞에 놓인 두 갈래 길</a></li>
+								<li><a href="#">박근혜, 정몽준 멀치감치 따돌리고 '1위'</a></li>
+								<li><a href="#">오세훈 "일 잘했다" 64% "교체해야" 57%</a></li>
+							</ul>
+							<ul>
+								<li><a href="#">오세훈 ´누구와 붙어도 이긴다´</a></li>
+								<li><a href="#">새해 폭설, 세종시 원안 집중 강타?</a></li>
+								<li><a href="#">김문수 앞에 놓인 두 갈래 길</a></li>
+								<li><a href="#">박근혜, 정몽준 멀치감치 따돌리고 '1위'</a></li>
+								<li><a href="#">오세훈 "일 잘했다" 64% "교체해야" 57%</a></li>
+							</ul>
+							<div class="ft"><a href="#">참여하기</a></div>
+						</div>
+					</div><!-- 토론마당-->
+
+					<div id="elecInfo">
+						<div class="elecWrap">
+							<div class="line">
+								<h3>선거정보</h3>
+							</div>
+							<ul>
+								<li><a href="#"><img src="images/u_banner01.jpg" width="220px" height="60px" /></a></li>
+								<li><a href="#"><img src="images/u_banner02.jpg" width="220px" height="60px" /></a></li>
+							</ul>
+							<div class="ft"><a href="#">더보기</a></div>
+						</div>
+					</div><!-- 선거정보 -->
+
+				</div><!-- yui-g -->
+			</div><!-- yui-b -->
+		</div><!-- yui-main -->
+		
+		<div class="yui-b">
+
+			<!-- right -->
+			<div id="rv01" class="rc_news">
+				<div id="rm1" style="">
+					<h3>주요 뉴스</h3>
+					<div class="nTab">
+						<ul>
+							<li class="tb1"><a onmouseover="javascript:ptchg('t_p',1,'rm')" id="t_p1" class="on" href="#"><span class="hidden">많이 본 뉴스</span></a></li>
+							<li class="tb2"><a onmouseover="javascript:ptchg('t_p',2,'rm')" id="t_p2" class="off" href="#"><span class="hidden">여론조사 뉴스</span></a></li>
+						</ul>
+					</div>
+					<div class="nList" id="photo_a1" style="">
+						<ol class="nb" style="">
+							<li class="n1"><a href="#">많이 본 뉴스</a></li>
+							<li class="n2"><a href="#">많이 본 뉴스</a></li>
+							<li class="n3"><a href="#">많이 본 뉴스</a></li>
+							<li class="n4"><a href="#">많이 본 뉴스</a></li>
+							<li class="n5"><a href="#">많이 본 뉴스</a></li>
+							<li class="n6"><a href="#">많이 본 뉴스</a></li>
+							<li class="n7"><a href="#">많이 본 뉴스</a></li>
+						</ol>
+					</div>
+					<div class="nList" id="photo_a2" style="display:none;">
+						<ol class="nb" style="">
+							<li class="n8"><a href="#">많이 본 뉴스7</a></li>
+							<li class="n9"><a href="#">많이 본 뉴스</a></li>
+							<li class="n10"><a href="#">많이 본 뉴스</a></li>
+							<li class="n11"><a href="#">많이 본 뉴스</a></li>
+							<li class="n12"><a href="#">많이 본 뉴스</a></li>
+							<li class="n13"><a href="#">많이 본 뉴스</a></li>
+							<li class="n14"><a href="#">많이 본 뉴스</a></li>
+						</ol>
+					</div>
+					<div class="nList" id="photo_a3" style="display:none;">
+						<ol class="nb" style="">
+							<li class="n15"><a href="#">많이 본 뉴스8</a></li>
+							<li class="n16"><a href="#">많이 본 뉴스</a></li>
+							<li class="n17"><a href="#">많이 본 뉴스</a></li>
+							<li class="n18"><a href="#">많이 본 뉴스</a></li>
+							<li class="n19"><a href="#">많이 본 뉴스</a></li>
+							<li class="n20"><a href="#">많이 본 뉴스</a></li>
+							<li class="n21"><a href="#">많이 본 뉴스</a></li>
+						</ol>
+					</div>
+					<div class="nList" id="photo_a4" style="display:none;">
+						<ol class="nb" style="">
+							<li class="n22"><a href="#">많이 본 뉴스9</a></li>
+							<li class="n23"><a href="#">많이 본 뉴스</a></li>
+							<li class="n24"><a href="#">많이 본 뉴스</a></li>
+							<li class="n25"><a href="#">많이 본 뉴스</a></li>
+							<li class="n26"><a href="#">많이 본 뉴스</a></li>
+							<li class="n27"><a href="#">많이 본 뉴스</a></li>
+							<li class="n28"><a href="#">많이 본 뉴스</a></li>
+						</ol>
+					</div>
+					<span><a class="rl" href="javascript://" onclick="chg_div('photo_a', 4)"><img src="images/i_rld.gif"></a></span>
+					<div class="ft"><a href="#">더보기</a></div>
+				</div>
+				<div id="rm2" style="display:none;">
+					<h3>주요 뉴스</h3>
+					<div class="nTab">
+						<ul>
+							<li class="tb1"><a onmouseover="javascript:ptchg('t_p',1,'rm')" id="t_p1" class="off" href="#"><span class="hidden">많이 본 뉴스</span></a></li>
+							<li class="tb2"><a onmouseover="javascript:ptchg('t_p',2,'rm')" id="t_p2" class="on" href="#"><span class="hidden">여론조사 뉴스</span></a></li>
+						</ul>
+					</div>
+					<div class="nList" id="photo_b1" style="">
+						<ol class="nb" style="">
+							<li class="n1"><a href="#">여론조사 뉴스2</a></li>
+							<li class="n2"><a href="#">여론조사 뉴스</a></li>
+							<li class="n3"><a href="#">여론조사 뉴스</a></li>
+							<li class="n4"><a href="#">여론조사 뉴스</a></li>
+							<li class="n5"><a href="#">여론조사 뉴스</a></li>
+							<li class="n6"><a href="#">여론조사 뉴스</a></li>
+							<li class="n7"><a href="#">여론조사 뉴스</a></li>
+						</ol>
+					</div>
+					<div class="nList" id="photo_b2" style="display:none;">
+						<ol class="nb" style="">
+							<li class="n8"><a href="#">여론조사 뉴스3</a></li>
+							<li class="n9"><a href="#">여론조사 뉴스</a></li>
+							<li class="n10"><a href="#">여론조사 뉴스</a></li>
+							<li class="n11"><a href="#">여론조사 뉴스</a></li>
+							<li class="n12"><a href="#">여론조사 뉴스</a></li>
+							<li class="n13"><a href="#">여론조사 뉴스</a></li>
+							<li class="n14"><a href="#">여론조사 뉴스</a></li>
+						</ol>
+					</div>
+					<div class="nList" id="photo_b3" style="display:none;">
+						<ol class="nb" style="">
+							<li class="n15"><a href="#">여론조사 뉴스4</a></li>
+							<li class="n16"><a href="#">여론조사 뉴스</a></li>
+							<li class="n17"><a href="#">여론조사 뉴스</a></li>
+							<li class="n18"><a href="#">여론조사 뉴스</a></li>
+							<li class="n19"><a href="#">여론조사 뉴스</a></li>
+							<li class="n20"><a href="#">여론조사 뉴스</a></li>
+							<li class="n21"><a href="#">여론조사 뉴스</a></li>
+						</ol>
+					</div>
+					<div class="nList" id="photo_b4" style="display:none;">
+						<ol class="nb" style="">
+							<li class="n22"><a href="#">여론조사 뉴스5</a></li>
+							<li class="n23"><a href="#">여론조사 뉴스</a></li>
+							<li class="n24"><a href="#">여론조사 뉴스</a></li>
+							<li class="n25"><a href="#">여론조사 뉴스</a></li>
+							<li class="n26"><a href="#">여론조사 뉴스</a></li>
+							<li class="n27"><a href="#">여론조사 뉴스</a></li>
+							<li class="n28"><a href="#">여론조사 뉴스</a></li>
+						</ol>
+					</div>
+					<span><a class="rl" href="javascript://" onclick="chg_div('photo_b', 4)"><img src="images/i_rld.gif"></a></span>
+					<div class="ft"><a href="#">더보기</a></div>
+				</div>
+				
+					
+			</div><!-- 주요뉴스 -->
+
+			<div id="rv02">
+				<a href="#"><img src="http://content.yieldmanager.edgesuite.net/atoms/97/60/91/31/976091314310d55e07fa1fdbde8c9314.gif" /></a>
+			</div><!-- right ad -->
+
+			<div id="rv03" class="rc_reply">
+				<h3>실시간 댓글 배틀</h3>
+				<div class="rList">
+					<ol class="nb">
+						<li class="n1"><a href="#">많이 본 뉴스</a></li>
+						<li class="n2"><a href="#">많이 본 뉴스</a></li>
+						<li class="n3"><a href="#">많이 본 뉴스</a></li>
+						<li class="n4"><a href="#">많이 본 뉴스</a></li>
+						<li class="n5"><a href="#">많이 본 뉴스</a></li>
+						<li class="n6"><a href="#">많이 본 뉴스</a></li>
+						<li class="n7"><a href="#">많이 본 뉴스</a></li>
+						<li class="n8"><a href="#">많이 본 뉴스</a></li>
+						<li class="n9"><a href="#">많이 본 뉴스</a></li>
+						<li class="n10"><a href="#">많이 본 뉴스</a></li>
+					</ol>
+				</div>
+				<div class="ft"><a href="#">더보기</a></div>
+			</div><!-- 실시간 댓글 배틀 -->
+
+			<div id="rv04" class="rc_poll">
+				<h3>라이브 폴</h3>
+				<div class="pList">
+					<h4>영리 의료법인 도입 논란이 일고 있는데 어떻게 생각하는 주관식으로 서술하시오.</h4>
+					<ol>
+						<li><input type="radio" name="" id="num01" /><label for="num01">찬성</label></li>
+						<li><input type="radio" name="" id="num02" /><label for="num02">반대</label></li>
+						<li><input type="radio" name="" id="num03" /><label for="num03">무관심</label></li>
+						<li><input type="radio" name="" id="num04" /><label for="num04">기권</label></li>
+					</ol>
+					<div class="btn">
+						<a href="#"><img src="images/b_vote.gif" alt="투표하기" title="투표하기" /></a>
+						<a href="#"><img src="images/b_result.gif" alt="결과보기" title="결과보기" /></a>
+					</div>
+				</div>
+				<div class="ft"><a href="#">더보기</a></div>
+			</div><!-- 실시간 댓글 배틀 -->
+			<!-- /right -->
+
+		</div><!-- yui-b -->
+	</div><!-- bd -->
+
+	<div id="ft">
+		<div id="ftr">
+			<p>
+				<a href="http://kr.docs.yahoo.com/info/privacy.html" target="_blank">개인정보/청소년보호 정책</a> &middot;
+				<a href="http://kr.docs.yahoo.com/info/disclaimer.html" target="_blank">책임의 한계와 법적고지</a> &middot;
+				<a href="http://kr.docs.yahoo.com/info/copyright.html" target="_blank">지적재산권 침해구제센터</a> &middot;
+				<a href="http://kr.docs.yahoo.com/info/utos.html" target="_blank">서비스 약관</a> &middot;
+				<a href="http://kr.helpboard.yahoo.com/helpfeedback/m_news.html?from_url=http%3A%2F%2Fhelp%2Eyahoo%2Ecom%2Fl%2Fkr%2Fyahoo%2Fnews%2Fnews%2D54822%2Ehtml" target="_blank">의견 또는 질문</a> &middot;
+				<a href="http://kr.helpboard.yahoo.com/helpfeedback/il_news.html" target="_blank">권리침해신고</a> &middot;
+				<a href="http://help.yahoo.com/l/kr/yahoo/news/" target="_blank">도움말</a>
+			</p>
+			<address>Copyright &copy; 2010 <a href="http://kr.pr.yahoo.com/Yahoo/" target="_blank">Yahoo! Korea Corp.</a> All rights reserved.</address>
+		</div>
+	</div><!-- ft -->
+</div>
+</body>
+</html>

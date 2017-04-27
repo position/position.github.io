@@ -1,0 +1,121 @@
+﻿@charset="utf-8";
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select{margin:0;padding:0;}
+html{height:100%;background:#000;}
+body{position:relative;color:#000;-webkit-text-size-adjust:none;word-wrap:break-word;word-break:break-all;}
+section,nav,article,aside,hgroup,header,footer{display:block;}
+body,input,textarea,select,button,table{font-size:14px;line-height:1.25em;font-family:NanumGothic, Gulim, Helvetica, AppleSDGothicNeo, Sans-serif;border-radius:0;color:#666;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+img,fieldset{border:0;vertical-align:middle;}
+ul,ol{list-style:none;}
+table{border-collapse:collapse;}
+button{border:0 none;cursor:pointer;}
+em,address{font-style:normal;}
+a{color:inherit;text-decoration:none;}
+hr{display:none;}
+.hidden{display:none;}
+.blind, .skipToCotent{position:absolute;width:0;height:0;text-indent:-9999em;}
+.loading_panel{position:fixed;width:100%;height:100%;background:#000 url(http://s.nx.com/s2/game/yg/teaser/loading.gif) no-repeat center center;visibility:hidden;z-index:2000;}
+.loading_panel p{position:absolute;width:100%;text-align:center;color:#fff;top:50%;margin-top:-50px;}
+
+#ygTeaserWrap{position:relative;min-width:320px;background:url(http://s.nx.com/s2/game/yg/teaser/k_body_pattern.gif) repeat;}
+
+.galleryLayer{position:fixed;width:100%;height:100%;top:0px;left:0px;background:#252525;z-index:200;display:none;}
+.galleryLayer .head{position:absolute;width:100%;height:48px;top:0;z-index:90;}
+.galleryLayer .head .op{position:absolute;width:100%;height:48px;background:#000;opacity:0.7;z-index:0;}
+.galleryLayer .head .back_step{position:absolute;display:inline-block;width:75px;text-align:center;padding-top:13px;height:35px;border-right:1px solid #000;box-shadow:inset -1px 0px 1px #333;font-size:18px;font-weight:bold;color:#dedede;left:0;top:0;z-index:10;}
+.galleryLayer .head .layer_close{position:absolute;display:inline-block;width:48px;height:48px;background:url(http://s.nx.com/s2/game/yg/teaser/b_gellery_close.gif) no-repeat center top;background-size:48px 48px;right:0;top:0;text-indent:-9999em;z-index:10;}
+.galleryLayer .photoSlider{position:relative;width:100%;height:100%;}
+
+.galleryLayer .photoSlider ul{position:absolute;width:100%;height:100%;}
+.galleryLayer .photoSlider li{position:absolute;width:100%;height:100%;text-align:center;display:-webkit-box;-webkit-box-pack:center;-webkit-box-align:center;z-index:1;}
+.galleryLayer .photoSlider li img{width:90%;}
+.galleryLayer .photoSlider .next_btn{position:absolute;background:url(http://s.nx.com/s2/game/yg/teaser/b_pho_next.png) no-repeat center center;background-size:21px 39px;width:45px;height:45px;top:50%;margin-top:-22px;right:0px;text-indent:-9999em;z-index:100;}
+.galleryLayer .photoSlider .prev_btn{position:absolute;background:url(http://s.nx.com/s2/game/yg/teaser/b_pho_prev.png) no-repeat center center;background-size:21px 39px;width:45px;height:45px;top:50%;margin-top:-22px;left:0px;text-indent:-9999em;z-index:100;}
+.galleryLayer .foot{position:fixed;width:100%;height:48px;bottom:0;z-index:90;text-align:center;}
+.galleryLayer .foot .title_pho{position:absolute;width:70%;height:35px;padding-top:13px;text-align:center;color:#fff;font-weight:bold;font-size:16px;z-index:10;}
+.galleryLayer .foot .ori_view{position:absolute;display:inline-block;width:30%;height:35px;padding-top:13px;color:#fff;font-weight:bold;font-size:16px;right:0;top:0;border-left:1px solid #000;box-shadow:inset 1px 0px 1px #333;z-index:10;}
+.galleryLayer .foot .op{position:absolute;width:100%;height:48px;background:#000;opacity:0.7;z-index:0;}
+
+.navi{position:fixed;top:50%;left:10px;margin-top:-75px;z-index:100;}
+.navi li{position:relative;width:30px;height:30px;text-align:center;text-indent:-9999em;}
+.navi li a{position:absolute;display:block;width:30px;height:30px;background:url(http://s.nx.com/s2/game/yg/teaser/b_select_off.png) no-repeat center center;background-size:16px 16px;}
+.navi li a.on{background:url(http://s.nx.com/s2/game/yg/teaser/b_select_on.png) no-repeat center center;background-size:16px 16px;}
+
+.userMenu{position:fixed;width:100%;background:#000;height:45px;top:0;left:0;z-index:100;}
+.userMenu .wDiv{position:relative;}
+.userMenu .gameDn_btn{position:absolute;left:7px;top:8px;border:1px solid #222;border-radius:20px;background:#141414;padding-right:10px;}
+.userMenu .gameDn_btn a{display:block;color:#fff;background:url(http://s.nx.com/s2/game/yg/teaser/i_download.png) no-repeat right center;background-size:11px 11px;font-size:14px;padding:5px 10px;width:165px;}
+.snsTop{position:absolute;right:5px;top:4px;}
+.snsTop li{float:left;}
+.snsTop li a{display:block;width:37px;height:37px;}
+.snsTop li.a a{background:url(http://s.nx.com/s2/game/yg/teaser/b_twitter.png) no-repeat center center;background-size:30px 30px;}
+.snsTop li.b a{background:url(http://s.nx.com/s2/game/yg/teaser/b_facebook.png) no-repeat center center;background-size:30px 30px;}
+.snsTop li.c a{background:url(http://s.nx.com/s2/game/yg/teaser/b_kakaotalk.png) no-repeat center center;background-size:30px 30px;}
+.snsTop li span{display:none;}
+
+section{position:relative;}
+section img{width:100%;}
+
+.apkDownload_btn{position:absolute;width:50%;top:49%;left:25%;z-index:10;}
+.apkGuide_btn01{position:absolute;width:28%;bottom:33%;left:36%;z-index:10;}
+.apkGuide_btn02{position:absolute;width:24%;bottom:32%;left:60%;z-index:10;}
+.event_btn{position:absolute;width:70%;bottom:6%;left:15%;z-index:10;}
+.navercafe_btn{position:absolute;width:60%;top:32%;left:20%;z-index:10;}
+.fb_btn{position:absolute;width:60%;top:38%;left:20%;z-index:10;}
+
+.download_btn{position:absolute;width:90%;top:33%;left:4%;z-index:10;}
+.ygCafe_btn{position:absolute;width:70%;bottom:17%;left:15%;z-index:10;}
+.movie_btn{position:absolute;width:18%;bottom:5.5%;left:41%;z-index:10;}
+
+.cafe_btn{position:absolute;width:73%;bottom:30%;left:14%;z-index:10;}
+.facebook_btn{position:absolute;width:73%;bottom:14%;left:14%;z-index:10;}
+.frontier_btn{position:absolute;width:60%;bottom:17%;left:20.5%;z-index:10;}
+.google_btn{position:absolute;width:35%;top:30%;left:15%;z-index:10;}
+.tstore_btn{position:absolute;width:35%;top:30%;left:51.5%;z-index:10;}
+.gamedn_btn{position:absolute;width:50%;top:26.5%;left:25%;z-index:10;}
+.mobiledn_btn{position:absolute;width:34%;top:26.5%;left:15%;z-index:10;}
+.tabletdn_btn{position:absolute;width:34%;top:26.5%;left:52%;z-index:10;}
+.gstar_btn{position:absolute;width:68%;top:40.8%;left:17%;z-index:10;}
+
+
+#idx4{height:100%;}
+#photo_gallery01{top:5%;left:14%;}
+#photo_gallery02{top:12.8%;left:50.5%;}
+#photo_gallery03{top:25%;left:14%;}
+#photo_gallery04{top:33.8%;left:50.5%;}
+#photo_gallery05{top:44.3%;left:14%;}
+#photo_gallery06{top:55%;left:50.5%;}
+#photo_gallery07{top:65.5%;left:14%;}
+#photo_gallery08{top:76%;left:50.5%;}
+.photo_view{position:absolute;display:block;width:33%;height:19%;background:url(http://s.nx.com/s2/game/yg/teaser/b_gallery_view.png) no-repeat right top;background-size:23px 23px;text-indent:-9999em;}
+
+.teaserFot{height:126px;color:#515151;background:#1e1e1f;text-align:center;box-shadow:inset 0px 3px 3px #111;}
+.teaserFot p{padding-top:30px;}
+
+section,footer{}
+
+.jplayerWrap{position:absolute;left:0;top:10px;}
+.jplayerWrap .ost_txt{float:left;background:url(http://s.nx.com/s2/game/yg/teaser/i_ost.png) no-repeat right center;background-size:23px 20px;;padding:5px 28px 2px 0;margin-right:10px;}
+.jplayerWrap .jplayerPosition{float:left;border:2px solid #f3371a;border-radius:20px;background:#1d1c1f;overflow:hidden;margin-top:-6px;}
+#jp_container_1 a{display:block;float:left;overflow:hidden;text-indent:-9999px;}
+a.jp-play, a.jp-pause{width:45px;height:33px;}
+a.jp-play{background:url(http://s.nx.com/s2/game/yg/teaser/b_play.png) center center no-repeat;background-size:14px 14px;}
+a.jp-play:hover{background:url(http://s.nx.com/s2/game/yg/teaser/b_play_on.png) center center no-repeat;background-size:14px 14px;}
+a.jp-pause{background:url(http://s.nx.com/s2/game/yg/teaser/b_pause.png) center center no-repeat;background-size:14px 14px;display:none;}
+a.jp-pause:hover{background:url(http://s.nx.com/s2/game/yg/teaser/b_pause_on.png) center center no-repeat;background-size:14px 14px;}
+a.jp-stop{width:40px;height:33px;}
+a.jp-stop{background:url(http://s.nx.com/s2/game/yg/teaser/b_stop.png) center center no-repeat;background-size:14px 14px;}
+a.jp-stop:hover{background:url(http://s.nx.com/s2/game/yg/teaser/b_stop_on.png) center center no-repeat;background-size:14px 14px;}
+
+
+@media all and (min-width:800px){
+	section, footer, .wDiv{width:800px;margin:0 auto;}
+}
+
+@media all and (max-width:360px){
+	.ost_txt{display:none;}
+}
+
+@media all and (max-width:767px){
+	section, footer, .wDiv{width:100%;}
+}

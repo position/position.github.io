@@ -1,0 +1,43 @@
+.boxShadow{border:2px solid #ff9900;FILTER: progid:DXImageTransform.Microsoft.Shadow(color:silver,direction:145,strength:5);} 
+
+.calendar{position:absolute;width:186px;border:2px solid #ff9900;background:#fff;z-index:999;top:17px;right:0px;}
+.calendar .tt-calendar {width:100%;table-layout:fixed}
+.calendar .wrapAbContent {padding:0 10px 10px 10px;}
+.calendar .no-more-prev {background:url(./images/icon_left_page.gif) left 1px no-repeat !important; padding-left:6px; color:#999;}
+.calendar .no-more-next {background:url(./images/icon_right_page.gif) right 1px no-repeat !important; padding-right:6px; color:#999;}
+.calendar .bw{border-right:1px solid #fff;}
+.calendar .cal_month{font-family:verdana, sans-serif;font-size:10px;color:#666;padding:8px 0 8px 0;font-weight:bold;text-align:center;}
+.calendar .cal_month a:link, .cal_month a:visited, .cal_month a:hover {color:#000;font-weight: bold;}
+.calendar .cal_week1{font-family:verdana, sans-serif;font-size:10px;height:18px;color:#fff;font-weight:bold;background:#eda95f;text-align:center;}
+.calendar .cal_week2{font-family:verdana, sans-serif; font-size:10px; height:18px;color:#fff;font-weight:bold;background:#eda95f;text-align:center;}
+.calendar .cal_day_sunday{background:#f7f7f7 !important;}
+.calendar .cal_day_sunday a{color:#ff0000;}
+.calendar .cal_day_sunday a:hover{text-decoration:underline;}
+.calendar .cal_day{font-family:verdana,san-serif;font-size:10px;color: #999;text-align:center;height:18px;background:#eee;border:1px solid #fff;}
+.calendar .ft{position:absolute;right:7px;top:7px;}
+/* 달력레이어 */
+
+.memoPopup{position:absolute;width:226px;border:2px solid #e88010;background:#f4a22d;margin-bottom:10px;z-index:999;left:5px;}
+.memoPopup .poplayer{position:relative;width:226px;}
+.memoPopup .popWrap{padding:5px;}
+.memoPopup .popWrap h4{color:#fff;font-weight:bold;padding:0 0 5px 5px;}
+.memoPopup .rtop, .rbottom{display:block;} 
+.memoPopup .rtop *{display:block;height:1px;overflow:hidden;background:#fff;}  
+.memoPopup .rbottom *{margin-bottom:10px;display:block;height:1px;overflow:hidden;background:#fff; }
+.memoPopup .r1{margin:0 5px; background:#fff} 
+.memoPopup .r2{margin:0 3px; border-left:2px solid #fff;border-right:2px solid #fff;} 
+.memoPopup .r3{margin:0 2px; border-left:1px solid #fff;border-right:1px solid #fff;} 
+.memoPopup .r4{margin:0 1px; height:2px; border-left:1px solid #fff;border-right:1px solid #fff;}
+.memoPopup .contents{height:100px;border-left:1px solid #fff;border-right:1px solid #fff;background:#fff;padding:10px;}
+.memoPopup .contents .txtArea{width:100%;height:100px;border:0 none;overflow:auto;}
+.memoPopup .btn{text-align:center;padding-top:5px;}
+.memoPopup .ft{position:absolute;right:7px;top:7px;}
+/* 메모장레이어 */
+
+.sendInfoLayer{position:absolute;width:186px;border:2px solid #ff9900;background:#fff;top:17px;left:15px;z-index:999;}
+.sendInfoLayer h4{border-bottom:1px solid #d9d9d9;font-family:tahoma, sans-serif;font-size:10px;font-weight:bold;color:#ff6600;text-align:center;padding:5px 0 7px 0;}
+.sendInfoLayer caption{display:none;}
+.sendInfoLayer .icon{background:#e9e9e9;width:34px;height:24px;text-align:center;}
+.sendInfoLayer .mu{color:#000;padding-left:10px;width:126px;text-align:left !important;}
+.sendInfoLayer .arrow{width:26px;text-align:center;}
+/* 보내는사람 메뉴레이어 */

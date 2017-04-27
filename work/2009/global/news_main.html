@@ -1,0 +1,1001 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>야후! 미주한인</title>
+<link rel="stylesheet" href="http://img.yahoo.co.kr/ykc/yui/reset-fonts-grids.css" type="text/css">
+<style type="text/css">
+/* reset */
+html{color:#666;background:#fff;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+li{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;font-variant:normal;}
+sup{vertical-align:text-top;}
+sub{vertical-align:text-bottom;}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}
+input,textarea,select{*font-size:100%;}
+legend{color:#000;}
+del,ins{text-decoration:none;}
+button{border:none 0;background:none;cursor:pointer;_cursor /**/:hand;}
+a img{border:none;}
+
+/* fonts */
+body{font:12px/1.335 굴림,Gulim,Arial,Helvetica,Clean,AppleGothic,sans-serif;}
+select,input,button,textarea{font:12px 굴림,Gulim,Arial,Helvetica,Clean,AppleGothic,sans-serif;}
+table{font-size:inherit;font:100%;}
+pre,code,kbd,samp,tt{font-family:monospace;*font-size:108%;line-height:100%;}
+body{text-align:center;}a{color:#001166;text-decoration:none;}a:visited{color:#800080;}a:hover{text-decoration:underline;}
+
+/* layout  css*/
+#doc2{width:950px;margin:0 auto;text-align:left;}
+.yui-t6 #yui-main{margin-right:-325px;}
+.yui-t6 #yui-main .yui-b{width:635px;padding-bottom:0px;}
+.yui-t6 .yui-b{width:300px;padding-bottom:20px;}
+#hd,#bd,#bd_n01,#bd_n02,#bd_j01,#bd_j02,#bd_y,#ft{clear:both;}
+.yui-gf .yui-u{width:525px;}
+.yui-gf div.first{width:95px;}
+
+.yui-gf .yui-nmu{width:428px;float:right;}
+.yui-gf div.nmfirst{width:192px;float:left;}
+
+.yui-gf .yui-jmu{width:500px;float:right;}
+.yui-gf div.jmfirst{width:120px;float:left;}
+
+/*업소록 메인 layout */
+.gui-w{width:635px;}
+.gui-l{float:left;width:192px;}
+.gui-r{float:right;width:428px;}
+.gui-b{clear:both;}
+
+#bd:after,#bd_n01:after,#bd_n02:after,#bd_j01:after,#bd_j02:after,#bd_y:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+#bd_n01,#bd_n02,#bd_j01,#bd_j02,#bd_y{zoom:1;}
+/* 기본 Bg */
+#bd{background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/bg/k_rightbg.gif) right 0 repeat-y;}
+/* 뉴스 Bg1 */
+#bd_n01{background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/bg/k_bb.gif) left top repeat-y;}
+/* 뉴스 Bg2 */
+#bd_n02{background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/bg/k_bb02.gif) left top repeat-y;}
+/* Job Bg1 */
+#bd_j01{background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/bg/k_bb03.gif) left top repeat-y;}
+/* Job Bg2 */
+#bd_j02{background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/bg/k_bb04.gif) left top repeat-y;}
+/* 업소록 Bg */
+#bd_y{background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/bg/k_y_rightbg.gif) left top repeat-y;}
+strong{font-weight:bold;}
+/* /layout */
+
+/* 추가 class */
+.block{display:block;}
+.clear{clear:both;}
+.clearfx{zoom:1;}
+.clearfx:after{content: ".";display:block;font-size:0;height:0px;line-height:0;clear:both;}
+.hidden{display:none;}
+.bold{font-weight:bold;}
+.fl{float:left;}
+.fr{float:right;}
+.n_bg{background-image:none;}
+.more a{font:11px Dotum,돋움;color:#011168;text-decoration:none;background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/icon/i_arrow.gif) no-repeat;padding-left:6px;letter-spacing:-1px;}
+/* /추가 class */
+
+/* pagination */
+.png{text-align:center;padding-top:24px;margin-bottom:20px;}
+.png .pre,.png .nxt{color:#999;}
+.png .pre a,.png .nxt a{border:1px solid #ddd;margin:0 3px;padding:4px 5px 1px;font:bold 11px dotum;color:#001166;}
+.png .pre a{background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/bg/k_png.gif) no-repeat 6px 7px;padding-left:12px;}
+.png .nxt a{background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/bg/k_png.gif) no-repeat 100% 7px;padding-right:12px;}
+.png .num a,.png .num em{margin:0;padding:4px 6px 1px;font:11px dotum;}
+.png .num a{border:1px solid #DDD;color:#001166;}
+.png .num em{border:1px solid #fff;color:#000;font-weight:bold;}
+/* /pagination */
+
+/* header */
+#uh{clear:both;color:#C1C1C1;margin-top:8px;font:11px dotum;text-align:left;}
+#uh a{color:#036 !important;}
+#mh{float:left;height:48px;margin-top:12px;}
+#mh span{display:none;}
+#mh a{display:block;float:left;width:121px;height:31px;background:url('http://img.yahoo.co.kr/global/2009/k_mh.gif') 0 0 no-repeat;}
+#mh .a{display:inline;margin-right:12px;}
+#mh .b{width:101px;background-position:100% 0;}
+#ad{position:relative;z-index:20;float:right;margin-top:-13px;background-color:#fff;text-align:left;}
+#prn{clear:both;}
+#prn .pn{height:40px;padding-left:9px;background:url('http://img.yahoo.co.kr/global/2009/k_prn.gif') 0 0 no-repeat;}
+#prn .pn li{float:left;padding-left:1px;background:url('http://img.yahoo.co.kr/global/2009/k_prn.gif') -112px -40px no-repeat;}
+#prn .pn li.a,#prn .pn li.z{background:none;}
+#prn .pn li span{display:none;}
+#prn .pn li a{display:block;width:102px;height:40px;background:url('http://img.yahoo.co.kr/global/2009/k_prn.gif') -10px -40px no-repeat;}
+#prn .pn li.a a{width:102px;background-position:-10px -40px;}
+#prn .pn li.b a{width:63px;background-position:-113px -40px;}
+#prn .pn li.c a{width:86px;background-position:-177px -40px;}
+#prn .pn li.d a{width:60px;background-position:-264px -40px;}
+#prn .pn li.e a{width:59px;background-position:-325px -40px;}
+#prn .pn li.f a{width:74px;background-position:-385px -40px;}
+#prn .pn li.g a{width:63px;background-position:-460px -40px;}
+#prn .pn li.h a{width:86px;background-position:-524px -40px;}
+#prn .pn li.i a{width:74px;background-position:-611px -40px;}
+#prn .pn li.j a{width:62px;background-position:-686px -40px;}
+#prn .pn li.k a{width:71px;background-position:-749px -40px;}
+#prn .pn li.a a:hover{background-position:-10px -80px;}
+#prn .pn li.b a:hover{background-position:-113px -80px;}
+#prn .pn li.c a:hover{background-position:-177px -80px;}
+#prn .pn li.d a:hover{background-position:-264px -80px;}
+#prn .pn li.e a:hover{background-position:-325px -80px;}
+#prn .pn li.f a:hover{background-position:-385px -80px;}
+#prn .pn li.g a:hover{background-position:-460px -80px;}
+#prn .pn li.h a:hover{background-position:-524px -80px;}
+#prn .pn li.i a:hover{background-position:-611px -80px;}
+#prn .pn li.j a:hover{background-position:-686px -80px;}
+#prn .pn li.k a:hover{background-position:-749px -80px;}
+#prn .pn li.a a.on{background-position:-10px -120px;}
+#prn .pn li.b a.on{background-position:-113px -120px;}
+#prn .pn li.c a.on{background-position:-177px -120px;}
+#prn .pn li.d a.on{background-position:-264px -120px;}
+#prn .pn li.e a.on{background-position:-325px -120px;}
+#prn .pn li.f a.on{background-position:-385px -120px;}
+#prn .pn li.g a.on{background-position:-460px -120px;}
+#prn .pn li.h a.on{background-position:-524px -120px;}
+#prn .pn li.i a.on{background-position:-611px -120px;}
+#prn .pn li.j a.on{background-position:-686px -120px;}
+#prn .pn li.k a.on{background-position:-749px -120px;}
+#prn .pn li.z{float:right;margin-top:8px;}
+#prn .pn li.z a{width:72px;height:23px;margin-right:6px;background:url('http://img.yahoo.co.kr/global/2009/k_prn.gif') -872px -8px no-repeat;}
+
+#n_sub_prn{float:left;clear:both;margin-bottom:15px;margin-top:-5px;width:950px;}
+#n_sub_prn .pn{height:25px;background:url(http://img.yahoo.co.kr/global/2009/k_prn.gif) 0 -160px no-repeat;padding-top:8px;}
+#n_sub_prn .pn span{display:none;}
+#n_sub_prn .pn ol{margin-left:49px;}
+#n_sub_prn .pn li.n14{background:none;}
+#n_sub_prn .pn li{float:left;display:block;height:18px;background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/icon/c_submenu_bar.gif) right center no-repeat;padding:0 5px 0 4px;}
+#n_sub_prn .pn li.nbar{float:left;display:block;height:18px;background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/icon/i_n_menubar.gif) right center no-repeat;padding:0 10px 0 4px;}
+#n_sub_prn .pn li.nbar02{float:left;display:block;height:18px;background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/icon/c_submenu_bar.gif) right center no-repeat;padding:0 5px 0 12px;}
+#n_sub_prn .pn li.nbar03{float:left;display:block;height:18px;background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/icon/i_n_menubar.gif) right center no-repeat;padding:0 14px 0 4px;}
+#n_sub_prn .pn li a{display:block;background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/bg/n_submenu.gif) 0 0 no-repeat;}
+#n_sub_prn .pn li.n01 a.on{width:57px;height:18px;background-position:0px 0px;}
+#n_sub_prn .pn li.n02 a.on{width:58px;height:18px;background-position:-57px 0px;}
+#n_sub_prn .pn li.n03 a.on{width:67px;height:18px;background-position:-115px 0px;}
+#n_sub_prn .pn li.n04 a.on{width:47px;height:18px;background-position:-182px 0px;}
+#n_sub_prn .pn li.n05 a.on{width:58px;height:18px;background-position:-229px 0px;}
+#n_sub_prn .pn li.n06 a.on{width:36px;height:18px;background-position:-287px 0px;}
+#n_sub_prn .pn li.n07 a.on{width:36px;height:18px;background-position:-323px 0px;}
+#n_sub_prn .pn li.n08 a.on{width:37px;height:18px;background-position:-359px 0px;}
+#n_sub_prn .pn li.n09 a.on{width:37px;height:18px;background-position:-396px 0px;}
+#n_sub_prn .pn li.n10 a.on{width:36px;height:18px;background-position:-433px 0px;}
+#n_sub_prn .pn li.n11 a.on{width:68px;height:18px;background-position:-469px 0px;}
+#n_sub_prn .pn li.n12 a.on{width:68px;height:18px;background-position:-611px 0px;}
+#n_sub_prn .pn li.n13 a.on{width:37px;height:18px;background-position:-537px 0px;}
+#n_sub_prn .pn li.n14 a.on{width:37px;height:18px;background-position:-574px 0px;}
+
+#n_sub_prn .pn li.n01 a{width:57px;height:18px;background-position:0px -18px;}
+#n_sub_prn .pn li.n02 a{width:58px;height:18px;background-position:-57px -18px;}
+#n_sub_prn .pn li.n03 a{width:67px;height:18px;background-position:-115px -18px;}
+#n_sub_prn .pn li.n04 a{width:47px;height:18px;background-position:-182px -18px;}
+#n_sub_prn .pn li.n05 a{width:58px;height:18px;background-position:-229px -18px;}
+#n_sub_prn .pn li.n06 a{width:36px;height:18px;background-position:-287px -18px;}
+#n_sub_prn .pn li.n07 a{width:36px;height:18px;background-position:-323px -18px;}
+#n_sub_prn .pn li.n08 a{width:37px;height:18px;background-position:-359px -18px;}
+#n_sub_prn .pn li.n09 a{width:37px;height:18px;background-position:-396px -18px;}
+#n_sub_prn .pn li.n10 a{width:36px;height:18px;background-position:-433px -18px;}
+#n_sub_prn .pn li.n11 a{width:68px;height:18px;background-position:-469px -18px;}
+#n_sub_prn .pn li.n12 a{width:37px;height:18px;background-position:-611px -18px;}
+#n_sub_prn .pn li.n13 a{width:37px;height:18px;background-position:-537px -18px;}
+#n_sub_prn .pn li.n14 a{width:37px;height:18px;background-position:-574px -18px;}
+/* /header */
+
+/*right*/
+.rv{position:relative;width:290px;margin:16px 5px 0;}
+.rv .hd{height:15px;margin-bottom:4px;background:url('http://img.yahoo.co.kr/global/2009/t_rv_v1.gif') 9px 0 no-repeat;}
+.rv .bd{border:1px solid #c9c9c9;background:#fdfdfd;}
+.rv h4{display:none;}
+.rv .tb{display:block;position:absolute;top:19px;left:0;width:291px;height:27px;background:url('http://img.yahoo.co.kr/global/2009/k_rv_v1.gif') 0 26px no-repeat;}
+.rv .tb a{display:inline;float:left;margin-right:1px;background:url('http://img.yahoo.co.kr/global/2009/k_rv_v1.gif') 0 -1px no-repeat;color:#6c6e73;}
+.rv .tb a span{display:block;height:18px;width:71px;margin-left:1px;padding-top:9px;background:url('http://img.yahoo.co.kr/global/2009/k_rv_v1.gif') 100% -1px no-repeat;font:11px dotum;text-align:center;cursor:pointer;}
+.rv .tb a.on{background-position:0 -28px;}
+.rv .tb a.on span{width:70px;height:17px;padding-top:10px;background-position:100% -28px;font-weight:bold;}
+.rv .ls{margin-left:12px;padding-top:9px;}
+.rv .ls li{padding-left:9px;background:url('http://img.yahoo.co.kr/global/2009/u_rv_v1.gif') 0 -52px no-repeat;line-height:20px;}
+.rv .ls li a{color:#016;}
+.rv .ls li.b{font-weight:bold;}
+.rv .ls li em{font:11px dotum;}
+.rv .nb{margin-left:10px;padding-top:7px;}
+.rv .nb li{padding-left:20px;background:url('http://img.yahoo.co.kr/global/2009/u_rv_v1.gif') 0 -96px no-repeat;line-height:21px;}
+.rv .nb li a{color:#016;}
+.rv .nb li.nb2{background-position:0 -117px;}
+.rv .nb li.nb3{background-position:0 -138px;}
+.rv .nb li.nb4{background-position:0 -159px;}
+.rv .nb li.nb5{background-position:0 -180px;}
+.rv .nb li.nb6{background-position:0 -201px;}
+.rv .nb li.nb7{background-position:0 -222px;}
+.rv .nb li.nb8{background-position:0 -243px;}
+.rv .nb li.nb9{background-position:0 -264px;}
+.rv .nb li.nb10{background-position:0 -285px;}
+.rv .nb li.nb11{background-position:0 -306px;}
+.rv .nb li.nb12{background-position:0 -327px;}
+.rv .nb li.nb13{background-position:0 -348px;}
+.rv .nb li.nb14{background-position:0 -369px;}
+.rv .nb li.nb15{background-position:0 -390px;}
+.rv .nb li.nb16{background-position:0 -411px;}
+.rv .nb li.nb17{background-position:0 -432px;}
+.rv .nb li.nb18{background-position:0 -453px;}
+.rv .nb li.nb19{background-position:0 -474px;}
+.rv .nb li.nb20{background-position:0 -495px;}
+.rv .nb li.nb21{background-position:0 -516px;}
+.rv .nb li.nb22{background-position:0 -537px;}
+.rv .nb li.nb23{background-position:0 -558px;}
+.rv .nb li.nb24{background-position:0 -579px;}
+.rv .nb li.nb25{background-position:0 -600px;}
+.rv .nb li.nb26{background-position:0 -621px;}
+.rv .nb li.nb27{background-position:0 -642px;}
+.rv .nb li.nb28{background-position:0 -663px;}
+.rv .pt{padding-top:9px;}
+.rv .pt li{display:inline;position:relative;float:left;width:84px;height:109px;margin-left:9px;font:11px/16px dotum;text-align:center;}
+.rv .pt .clip{display:block;position:relative;width:80px;height:60px;margin-bottom:4px;border:2px solid #fff;overflow:hidden;}
+.rv .pt .clip img{position:absolute;top:0;left:0;clip:rect(auto 80px 60px auto);}
+.rv .pt em{position:absolute;top:51px;left:1px;z-index:2;width:15px;height:12px;background:url('http://img.yahoo.co.kr/global/2009/u_rv_v1.gif') 1px -80px no-repeat;}
+.rv .nt{position:absolute;bottom:11px;left:10px;color:#a2a2a2;font:11px dotum;}
+.rv .mr,#rv2 .mr{position:absolute;top:2px;right:6px;padding-left:7px;background:url('http://img.yahoo.co.kr/global/2009/u_rv_v1.gif') 0 -18px no-repeat;color:#016;font:11px dotum;letter-spacing:-1px;}
+.rv .rl,#rv2 .rl{position:absolute;bottom:8px;right:6px;width:19px;height:18px;background:url('http://img.yahoo.co.kr/global/2009/k_rv_v1.gif') 0 -74px no-repeat;}
+.rv .mr span,.rv .rl span,#rv2 .mr span,#rv2 .rl span{display:none;}
+
+#rv1{padding-bottom:10px;background:#fff;}
+#rv1 h4{display:none;}
+#rv1 img{vertical-align:top;}
+#rv2{position:relative;height:208px;padding:9px 6px 10px;background:url('http://img.yahoo.co.kr/global/2009/k_rv_v1.gif') 0 -109px no-repeat;}
+#rv2 .hd{height:15px;margin-bottom:11px;}
+#rv2 h4{display:none;}
+#rv2 a{color:#E5E5E6;}
+#rv2 ul{height:106px;}
+#rv2 ul li{display:inline;float:left;width:84px;margin:0 6px;font:11px/16px dotum;text-align:center;}
+#rv2 dl{width:268px;margin:9px 10px 0;}
+#rv2 dl dd{padding:2px 0 0 9px;background:url('http://img.yahoo.co.kr/global/2009/u_rv_v1.gif') 0 -32px no-repeat;}
+#rv2 .clip{display:block;position:relative;width:80px;height:60px;margin-bottom:1px;border:2px solid #71747B;}
+#rv2 .clip img{position:absolute;top:0;left:0;clip:rect(auto 80px 60px auto);}
+#rv2 .mr{top:12px;right:13px;background-position:0 2px;color:#959492;}
+#rv2 .rl{bottom:21px;right:11px;}
+#rv3 h4{display:none;}
+#rv3 img{vertical-align:top;}
+#rv4 .hd{margin-bottom:30px;background-position:9px 0;}
+#rv4 .bd{height:250px;}
+#rv4 .tb a span{width:95px;}
+#rv5{margin:8px 5px 0;padding-top:10px;background:url('http://img.yahoo.co.kr/global/2009/k_rv_v1.gif') 0 -336px no-repeat;}
+#rv5 .hd{margin-bottom:6px;background:url('http://img.yahoo.co.kr/global/2009/t_rv_v1.gif') 12px -15px no-repeat;}
+#rv5 .bd{height:129px;background:url('http://img.yahoo.co.kr/global/2009/k_rv_v1.gif') -1px -368px no-repeat;}
+#rv5 ul{margin:0 5px;}
+#rv5 li{padding:1px 0;zoom:1;}
+#rv5 li:after{content: ".";display:block;font-size:0;height:0;line-height:0;clear:both;}
+#rv5 li img{display:inline;float:left;margin-right:9px;}
+#rv5 li span{display:block;height:18px;margin-top:10px;padding-top:7px;font:11px dotum;}
+#rv5 li em{float:left;width:28px;color:#000;font:11px dotum;text-align:center;}
+#rv5 li em.x{display:inline;margin-left:14px;}
+#rv5 li p{padding:8px 0 0 4px;font:11px dotum;}
+#rv6{margin:8px 5px 0;padding-top:11px;height:63px;background:url('http://img.yahoo.co.kr/global/2009/k_rv_v1.gif') 0 -498px no-repeat;}
+#rv6 .hd{height:15px;margin-bottom:8px;}
+#rv6 h4{display:none;}
+#rv6 fieldset{padding:8px 0 0 22px;font:bold 11px dotum;backgroun d:#f0f;}
+#rv6 fieldset *{vertical-align:middle;}
+#rv6 fieldset .tx{display:inline;width:105px;height:16px;margin:0 2px;padding:3px 0 0 3px;border:1px solid #9a9a9a;border-right:1px solid #d8d8d8;border-bottom:1px solid #d8d8d8;background:url('http://img.yahoo.co.kr/global/2009/k_rv_v1.gif') 0 -55px no-repeat;}
+#rv7{margin:8px 5px 0;padding-top:10px;}
+#rv7 .hd{margin-bottom:6px;background-position:12px -45px;}
+#rv7 .bd{height:121px;}
+#rv7 .mr{top:12px;}
+#rv8{margin:10px 5px;}
+#rv8 .hd{margin-bottom:30px;background-position:9px -150px;}
+#rv8 .bd{height:165px;}
+#rv8 .tb a span{width:71px;}
+#rv8 .tb a.on span{width:70px;}
+#rv9 .hd{margin-bottom:30px;background-position:9px -75px;}
+#rv9 .bd{height:195px;}
+#rv9 .tb a span{width:95px;}
+#rv9 ul{padding:8px 0 0 7px;}
+#rv9 li{position:relative;padding-bottom:11px;zoom:1;}
+#rv9 li:after{content: ".";display:block;font-size:0;height:0;line-height:0;clear:both;}
+#rv9 li strong,#rv9 li em,#rv9 li span{display:block;}
+#rv9 li strong{padding-top:3px;margin-bottom:5px;line-height:14px;}
+#rv9 li em{color:#016;font:11px/13px dotum;}
+#rv9 li span{position:absolute;top:53px;left:110px;width:90px;height:13px;margin-top:0px;padding:4px 0 0 15px;background:url('http://img.yahoo.co.kr/global/2009/k_rv_v1.gif') 0 -92px no-repeat;color:#666;font:11px dotum;text-decoration:none;letter-spacing:-1px;}
+#rv9 .clip{display:inline;float:left;width:90px;height:65px;margin-right:11px;_margin-right:9px;padding:3px;border:1px solid #ccc;background:#fff;}
+#rv9 .clip img{clip:rect(auto 90px 65px auto);}
+#rv10 .hd{margin-bottom:30px;background-position:9px -90px;}
+#rv10 .bd{height:250px;}
+#rv10 .tb a span{width:144px;}
+#rv10 .tb a.on span{width:143px;}
+#rv11 .hd{margin-bottom:30px;background-position:9px -105px;}
+#rv11 .bd{height:117px;}
+#rv11 .tb a span{width:95px;}
+#rv12 .hd{margin-bottom:30px;background-position:9px -120px;}
+#rv12 .bd{height:117px;}
+#rv12 .tb a span{width:95px;}
+#rv13{margin:10px 5px;}
+#rv13 .hd{background-position:9px -135px;}
+#rv13 .bd{height:121px;}
+#rv14 .hd{margin-bottom:30px;background-position:9px -150px;}
+#rv14 .bd{height:165px;}
+#rv14 .tb a span{width:71px;}
+#rv14 .tb a.on span{width:70px;}
+#rv15 .hd{background-position:9px -165px;}
+#rv15 .bd{height:121px;}
+#rv16 .hd{background-position:9px -195px;}
+#rv16 .bd{height:121px;margin-bottom:10px;}
+#rv17 .hd{background-position:9px -180px;}
+#rv17 .bd{height:165px;}
+#rv17 ul{padding:3px 0 0 10px;}
+#rv17 li{padding-top:6px;zoom:1;}
+#rv17 li:after{content: ".";display:block;font-size:0;height:0;line-height:0;clear:both;}
+#rv17 li strong,#rv17 li em{display:block;}
+#rv17 li strong{padding:6px 0 3px;}
+#rv17 li em{font:11px dotum;}
+#rv17 .clip{display:inline;float:left;width:60px;height:45px;margin-right:6px;}
+#rv17 .clip img{clip:rect(auto 60px 45px auto);}
+#rv18 .hd{background-position:9px -210px;}
+#rv18 .bd{height:121px;}
+#rv19 .hd{background-position:9px -225px;}
+#rv19 .bd{height:121px;}
+#rv20{margin:10px 5px;}
+#rv20 .hd{background-position:9px -240px;}
+#rv20 .bd{padding-top:5px;background:url('http://img.yahoo.co.kr/global/2009/k_rv_v1.gif') 0 -642px no-repeat #fdfdfd;*background-position:1px -641px;}
+#rv20 li{height:96px;}
+#rv21 .hd{background-position:9px -255px;}
+#rv21 .bd{height:121px;}
+#rv22 .hd{background-position:9px -270px;}
+#rv22 .bd{height:121px;}
+#rv23{margin:10px 5px;}
+#rv23 .hd{background-position:9px -285px;}
+#rv23 .bd{padding-top:5px;padding-bottom:5px;background:url('http://img.yahoo.co.kr/global/2009/k_rv_v1.gif') 0 -642px no-repeat #fdfdfd;*background-position:1px -641px;}
+#rv23 li{height:72px;}
+#rv24 .hd{background-position:9px -300px;}
+#rv24 .bd{height:121px;}
+#rv25 .hd{background-position:9px -315px;}
+#rv25 .bd{height:121px;}
+#rv26{margin:10px 5px;}
+#rv26 .hd{background-position:9px -330px;}
+#rv26 .bd{height:121px;}
+#rv27 .hd{display:none;}
+#rv27 .bd{height:70px;border:none;background:url('http://img.yahoo.co.kr/global/2009/k_rv_v1.gif') 0 -572px no-repeat;}
+#rv27 ul{margin-left:105px;padding-top:5px;}
+#rv28 .hd{background-position:9px -345px;}
+#rv28 .bd{height:121px;}
+/*/right*/
+
+/*footer*/
+#ftr{padding:31px 0;color:#777;font:11px/19px dotum;text-align:center;}
+#ftr a{color:#004276;}
+#ftr .bd p{margin-bottom:11px;padding-bottom:10px;border-bottom:1px solid #CCC;}
+/*/footer*/
+
+
+/* 만평,슬라이드 */
+#n_mainleft{background:#fff;float:left;width:192px;}
+#n_mainleft01{position:relative;background:#fff;border:1px solid #c9c9c9;width:190px;margin-bottom:10px;}
+#n_mainleft01 .hd{background:transparent url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/icon/i_nv1.gif) repeat-x scroll 0 -278px;height:31px;}
+#n_mainleft01 .hd h4{background:transparent url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/subtitle/t_nmain_left.gif) 0 0 no-repeat;height:31px;}
+#n_mainleft01 .hd h4 span{display:none;} 
+#n_mainleft01 p{background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/bg/n_mline03.gif) 0 0 repeat-x;width:178px;margin:0 auto;height:1px;clear:both;font-size:0;}
+.n_mla01{font-family:돋움,dotum;font-size:11px;width:173px;text-align:center;margin:8px auto 7px;}
+.n_mla01 span{position:relative;border:1px solid #c9c9c9;display:block;width:171px;height:129px;margin-bottom:7px;}
+.n_mla01 a img{position:absolute;clip:rect(auto 171px 129px auto);left:0;top:0;}
+.n_mla02 dl{float:left;width:80px;font-family:돋움,dotum;font-size:11px;display:inline;margin-top:7px;margin-left:10px;}
+.n_mla02 dl dt{background:#C6C6C6 none repeat scroll 0 0;height:60px;display:block;position:relative;width:80px;clear:both;}
+.n_mla02 dt a img{clip:rect(auto 80px 60px auto);position:absolute;left:0;top:0;}
+.n_mla02 dd{padding:0 10px;text-align:center;margin-top:5px;margin-bottom:8px;}
+#n_mainleft01 .ft{position:absolute;color:#001166;font-family:돋움,dotum;font-size:11px;letter-spacing:-1px;right:5px;top:9px;}
+/* /만평,슬라이드 */
+
+/* 사설ㆍ운세&언론사별뉴스 */
+#n_mainleft02{background:#fff;border:1px solid #c9c9c9;width:190px;margin-bottom:10px;}
+#n_mainleft02 .hd{background:transparent url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/icon/i_nv1.gif) repeat-x scroll 0 -278px;height:31px;}
+#n_mainleft02 .hd h4{background:transparent url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/subtitle/t_nmain_left.gif) 0 -31px no-repeat;height:31px;}
+#n_mainleft02 .hd h4 span{display:none;} 
+#n_mainleft02 p{background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/bg/n_mline03.gif) 0 0 repeat-x;width:178px;margin:0 auto;height:1px;clear:both;font-size:0;}
+.n_mlb01{margin:10px 0 10px 5px;}
+.n_mlb01 li.n_a{float:left;font-family:돋움,dotum;font-size:11px;font-weight:bold;display:block;background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/icon/i_n_bar01.gif) right 2px no-repeat;padding:0 5px 0 4px;}
+.n_mlb01 li.n_last{float:left;font-family:돋움,dotum;font-size:11px;font-weight:bold;padding-left:5px;}
+.n_mlb02{margin-top:13px;margin-left:9px;margin-bottom:12px;}
+.n_mlb02 dt{color:#666;font-family:돋움,dotum;font-size:11px;font-weight:bold;padding-bottom:2px;}
+.n_mlb02 dd{font-family:돋움,dotum;font-size:11px;padding-top:5px;}
+.n_mlb02 dd span{color:#d3d3d3;}
+/* /사설ㆍ운세&언론사별뉴스 */
+
+/* 광고AD */
+#n_mainleftad{margin-bottom:10px;}
+#n_mainleftad .hd h4 span{display:none;}
+/* /광고AD */
+
+/* 금융정보 */
+#n_mainleft03{position:relative;background:#fff;border:1px solid #c9c9c9;width:190px;}
+#n_mainleft03 .hd{background:transparent url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/icon/i_nv1.gif) repeat-x scroll 0 -278px;height:31px;}
+#n_mainleft03 .hd h4{background:transparent url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/subtitle/t_nmain_left.gif) 0 -62px no-repeat;height:31px;}
+#n_mainleft03 .hd h4 span{display:none;} 
+#n_mainleft03 p.nmdotline{background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/bg/n_mline03.gif) 0 0 repeat-x;width:178px;margin:0 auto;height:1px;clear:both;font-size:0;}
+#n_mainleft03 p.nmsolid{background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/bg/n_mline04.gif) 0 0 repeat-x;width:178px;margin:0 auto;height:1px;clear:both;font-size:0;}
+.n_mlc01{color:#a98d5d;text-align:right;font-family:돋움,dotum;font-size:11px;margin-right:10px;padding-top:5px;padding-bottom:5px;}
+.n_mlc01 span.d01{font-family:돋움,dotum;font-size:11px;font-weight:bold;}
+.n_mlc01 span.d02{padding-left:5px;}
+.n_mlc02{margin-left:9px;margin-top:6px;margin-bottom:2px;}
+.n_mlc02 li{font-family:돋움,dotum;font-size:11px;height:17px;}
+.n_mlc02 li strong,.n_mlc02 li span,.n_mlc02 li span.rm01,.n_mlc02 li span.rm02{display:inline;float:left;}
+.n_mlc02 li strong{width:60px;color:#001166;font-family:돋움,dotum;font-size:11px;}
+.n_mlc02 li span.rm01{width:53px;text-align:right;}
+.n_mlc02 li span.rm02{width:58px;text-align:right;}
+.n_mlc02 li span img{padding-right:5px;}
+.n_mlc02 em{display:none;}
+#n_mainleft03 fieldset{clear:both;padding:16px 0 14px 8px;}
+#n_mainleft03 fieldset *{vertical-align:middle;}
+#n_mainleft03 fieldset label.on,#gmd .ft em{font-weight:bold;}
+#n_mainleft03 fieldset .tx{width:120px;height:14px;margin:0 -1px 0 0px;padding:2px 0 0 3px;}
+#n_mainleft03 fieldset span{display:block;padding-top:5px;}
+#n_mainleft03 .tx{border:1px solid #9a9a9a;border-right:1px solid #d8d8d8;border-bottom:1px solid #d8d8d8;background:url('http://img.yahoo.co.kr/global/2009/k_gmd.gif') 0 -101px no-repeat;}
+#n_mainleft03 input[type="radio"]{vertical-align:middle;width:13px;height:13px;margin: 0px 5px 3px 2px;padding: 0 !important;cursor:default;}
+.n_mlc03{font-family:돋움,dotum;font-size:11px;margin:13px 0 15px 5px;}
+.n_mlc03 li{color:#666;}
+.n_mlc03 li strong{padding-left:3px;}
+.n_mlc03 li.nrate{float:left;padding-top:5px;}
+.n_mlc03 li.nrate .tx{display:inline;float:left;width:54px;height:13px;margin:0 3px;padding:3px 3px 0 0;text-align:right;}
+.n_mlc03 li.nrate .sel{float:left;position:relative;width:51px;background:url('http://img.yahoo.co.kr/global/2009/k_gmd.gif') 0 -74px no-repeat;font:11px dotum;}
+.n_mlc03 li.nrate .sel span,#gmd .sel .opt{border:1px solid #9a9a9a;border-right:1px solid #d8d8d8;border-bottom:1px solid #d8d8d8;}
+.n_mlc03 li.nrate .sel span{display:block;height:13px;padding:3px 0 0 3px;background:url('http://img.yahoo.co.kr/global/2009/k_gmd.gif') 0 -121px no-repeat #fff;cursor:pointer;}
+.n_mlc03 li.nrate .sel .opt{display:none;position:absolute;top:17px;left:0;width:49px;background:#fff;}
+.n_mlc03 li.nrate .sel .opt li a{display:block;height:13px;padding:3px 0 0 3px;color:#666;text-decoration:none;cursor:pointer;}
+.n_mlc03 li.nrate .sel .opt li a:hover{background:#e9e9e9;}
+.n_mlc03 li.nrate .sel .opt .on{text-decoration:underline;}
+#n_mainleft03 .ft{position:absolute;color:#001166;font-family:돋움,dotum;font-size:11px;letter-spacing:-1px;right:5px;top:9px;}
+/* /금융정보 */
+
+/*뉴스메인 미주뉴스*/
+#n_main_news01{position:relative;padding-bottom:17px;clear:both;}
+#n_main_news01 #gb01{margin:0;}
+#n_main_news01 .hd{border-bottom:2px solid #f4f4f4;}
+#n_main_news01 .hd h3{background:transparent url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/subtitle/t_nma.gif) no-repeat scroll 0 0;height:24px;border-bottom:1px solid #c9c9c9;}
+#n_main_news01 .hd h3 span{display:none;}
+#n_main_news01 .ga01{margin:0 0 20px 0;padding-top:12px;}
+#n_main_news01 .ga01 h3{font:24px 굴림;margin:0 0 10px 3px;}
+#n_main_news01 .ga01 dd{color:#666;margin:0 10px 15px 3px;line-height:140%;}
+#n_main_news01 .ga01 dt{background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/icon/i_nv1.gif) 8px -197px no-repeat;padding-left:22px;line-height:140%;margin:0 0 4px;}
+#n_main_news01 .ga01 dt img{vertical-align:-4px;margin-right:4px;}
+#n_main_news01 .ga01 span{font:11px dotum;letter-spacing:-1px;padding:0 0 0 15px;background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/icon/i_nv1.gif) 0 -240px no-repeat;}
+#n_main_news01 .ga01 span a{color:#f16615;}
+#n_main_news01 #gb01 div{width:428px;margin:0;}
+#n_main_news01 #gb01 dl{margin:15px 0 15px 0;}
+#n_main_news01 #gb01 dd{background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/icon/i_nv1.gif) 8px -30px no-repeat;padding:0 0 0 15px;font:12px 굴림;line-height:180%;margin:0 0 1px;}
+#n_main_news01 #gb01 .b{font-weight:bold;}
+#n_main_news01 #gb01 dt.n_nl{float:right;position:relative;border:1px solid #ccc;width:96px;height:71px;margin-right:5px;}
+#n_main_news01 #gb01 dt.n_nl a{display:block;font:11px/1.25 돋움;}
+#n_main_news01 #gb01 dt.n_nl a img{position:absolute;clip:rect(auto 90px 65px auto);top:3px;left:3px;}
+#n_main_news01 #gb01 dt.n_nl a.tx{position:absolute;text-align:center;margin-top:77px;}
+#n_main_news01 p{background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/bg/n_mline05.gif) 0 0 repeat-x;width:428px;margin:0 auto;height:1px;clear:both;font-size:0;}
+#n_main_news01 .ft{position:absolute;color:#001166;font-family:돋움,dotum;font-size:11px;letter-spacing:-1px;right:3px;top:6px;}
+/*/뉴스메인 미주뉴스*/
+
+/*뉴스메인 본국뉴스*/
+#n_main_news02{position:relative;padding-bottom:17px;clear:both;}
+#n_main_news02 #gb01{margin:0;}
+#n_main_news02 .hd{border-bottom:2px solid #f4f4f4;}
+#n_main_news02 .hd h3{background:transparent url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/subtitle/t_nmb.gif) no-repeat scroll 0 0;height:24px;border-bottom:1px solid #c9c9c9;}
+#n_main_news02 .hd h3 span{display:none;}
+#n_main_news02 .ga01{margin:0 0 20px 0;padding-top:12px;}
+#n_main_news02 .ga01 h3{font:24px 굴림;margin:0 0 10px 3px;}
+#n_main_news02 .ga01 dd{color:#666;margin:0 10px 15px 3px;line-height:140%;}
+#n_main_news02 .ga01 dt{background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/icon/i_nv1.gif) 8px -197px no-repeat;padding-left:22px;line-height:140%;margin:0 0 4px;}
+#n_main_news02 .ga01 dt img{vertical-align:-4px;margin-right:4px;}
+#n_main_news02 .ga01 span{font:11px dotum;letter-spacing:-1px;padding:0 0 0 15px;background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/icon/i_nv1.gif) 0 -240px no-repeat;}
+#n_main_news02 .ga01 span a{color:#f16615;}
+#n_main_news02 #gb01 div{width:428px;margin:0;}
+#n_main_news02 #gb01 dl{margin:15px 0 15px 0;}
+#n_main_news02 #gb01 dd{background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/icon/i_nv1.gif) 8px -30px no-repeat;padding:0 0 0 15px;font:12px 굴림;line-height:180%;margin:0 0 1px;}
+#n_main_news02 #gb01 .b{font-weight:bold;}
+#n_main_news02 #gb01 dt.n_nl{float:right;position:relative;border:1px solid #ccc;width:96px;height:71px;margin-right:5px;}
+#n_main_news02 #gb01 dt.n_nl a{display:block;font:11px/1.25 돋움;}
+#n_main_news02 #gb01 dt.n_nl a img{position:absolute;clip:rect(auto 90px 65px auto);top:3px;left:3px;}
+#n_main_news02 #gb01 dt.n_nl a.tx{position:absolute;text-align:center;margin-top:77px;}
+#n_main_news02 p{background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/bg/n_mline05.gif) 0 0 repeat-x;width:428px;margin:0 auto;height:1px;clear:both;font-size:0;}
+#n_main_news02 .ft{position:absolute;color:#001166;font-family:돋움,dotum;font-size:11px;letter-spacing:-1px;right:3px;top:5px;}
+/* /뉴스메인 본국뉴스 */
+
+/*뉴스메인 세계한인*/
+#n_main_news03{position:relative;padding-bottom:17px;clear:both;}
+#n_main_news03 #gb01{margin:0;}
+#n_main_news03 .hd{border-bottom:2px solid #f4f4f4;}
+#n_main_news03 .hd h3{background:transparent url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/subtitle/t_nmc.gif) no-repeat scroll 0 0;height:24px;border-bottom:1px solid #c9c9c9;}
+#n_main_news03 .hd h3 span{display:none;}
+#n_main_news03 .ga01{margin:0 0 20px 0;padding-top:12px;}
+#n_main_news03 .ga01 h3{font:24px 굴림;margin:0 0 10px 3px;}
+#n_main_news03 .ga01 dd{color:#666;margin:0 10px 15px 3px;line-height:140%;}
+#n_main_news03 .ga01 dt{background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/icon/i_nv1.gif) 8px -197px no-repeat;padding-left:22px;line-height:140%;margin:0 0 4px;}
+#n_main_news03 .ga01 dt img{vertical-align:-4px;margin-right:4px;}
+#n_main_news03 .ga01 span{font:11px dotum;letter-spacing:-1px;padding:0 0 0 15px;background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/icon/i_nv1.gif) 0 -240px no-repeat;}
+#n_main_news03 .ga01 span a{color:#f16615;}
+#n_main_news03 #gb01 div{width:428px;margin:0;}
+#n_main_news03 #gb01 dl{margin:15px 0 15px 0;}
+#n_main_news03 #gb01 dd{background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/icon/i_nv1.gif) 8px -30px no-repeat;padding:0 0 0 15px;font:12px 굴림;line-height:180%;margin:0 0 1px;}
+#n_main_news03 #gb01 .b{font-weight:bold;}
+#n_main_news03 #gb01 dt.n_nl{float:right;position:relative;border:1px solid #ccc;width:96px;height:71px;margin-right:5px;}
+#n_main_news03 #gb01 dt.n_nl a{display:block;font:11px/1.25 돋움;}
+#n_main_news03 #gb01 dt.n_nl a img{position:absolute;clip:rect(auto 90px 65px auto);top:3px;left:3px;}
+#n_main_news03 #gb01 dt.n_nl a.tx{position:absolute;text-align:center;margin-top:77px;}
+#n_main_news03 p{background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/bg/n_mline05.gif) 0 0 repeat-x;width:428px;margin:0 auto;height:1px;clear:both;font-size:0;}
+#n_main_news03 .ft{position:absolute;color:#001166;font-family:돋움,dotum;font-size:11px;letter-spacing:-1px;right:3px;top:5px;}
+/*/뉴스메인 세계한인*/
+</style>
+
+</head>
+<body>
+<div id="doc2" class="yui-t6">
+	<div id="hd">
+	<!-- Begin:Header Block -->
+	<div id="hd">
+
+		<div id="uh">
+			<a href="http://kr.yahoo.com">야후!</a> | <a href="http://help.yahoo.com/help/kr/blog">도움말</a> |
+			<a href="#">로그인</a> <!--<a href="#"><strong>maple8109</strong> 님</a> <a href="#">로그아웃</a> -->
+			<!-- urgent 1 -->
+			<style type="text/css">#urgent1{background:url(http://img.yahoo.co.kr/common/2008/k_iuo2.gif) 4px -170px no-repeat;padding:0 0 0 12px;}</style>
+			<strong id="urgent1"><a href="https://bugzilla.seoul.corp.yahoo.com/enter_bug.cgi?product=Internal_News" target="_blank">긴급오류신고</a></strong>
+			<!-- /urgent 1 -->
+		</div>
+			
+		<div id="mh"><h1><a href="http://kr.yahoo.com" class="a"><span>Yahoo!Korea</span></a> <a href="#" class="b"><span>미주한인</span></a></h1></div>
+	
+		<div id="ad"><a href="#"><img src="http://img.yahoo.co.kr/global/2009/r_gme.gif" alt="" /></a></div>
+	
+		<div id="prn">
+			<div class="pn">
+				<ol>
+					<li class="a"><a href="#"><span>미주한인 홈</span></a></li>
+					<li class="b"><a href="#" class="on"><span>뉴스</span></a></li>
+					<li class="c"><a href="#"><span>커뮤니티</span></a></li>
+					<li class="d"><a href="#"><span>Job</span></a></li>
+					<li class="e"><a href="#"><span>Car</span></a></li>
+					<li class="f"><a href="#"><span>부동산</span></a></li>
+					<li class="g"><a href="#"><span>금융</span></a></li>
+					<li class="h"><a href="#"><span>생활정보</span></a></li>
+					<li class="i"><a href="#"><span>업소록</span></a></li>
+					<li class="j"><a href="#"><span>Life</span></a></li>
+					<li class="k"><a href="#"><span>쇼핑몰</span></a></li>
+					<li class="z"><a href="#"><span>야후! 미디어</span></a></li>
+				</ol>
+			</div>
+		</div>
+
+		<div id="n_sub_prn">
+			<div class="pn">
+				<ol>                                                           
+					<li class="n01"><a href="/news/shelllist.html?linkid=55&newssetid=513" ><span>미주속보</span></a></li>
+					<li class="n02"><a href="/news/shelllist.html?linkid=56&newssetid=3888" ><span>세계한인</span></a></li>
+					<li class="n03 nbar"><a href="/news/shelllist.html?linkid=57&newssetid=4019" ><span>미주언론사</span></a></li>
+					<li class="n04 nbar02"><a href="/news/shellsection.html?linkid=hot" ><span>핫뉴스</span></a></li>
+					<li class="n05"><a href="/news/shelllist.html?linkid=4&newssetid=1352" ><span>본국속보</span></a></li>
+					<li class="n06"><a href="/news/shellsection.html?linkid=10" ><span>정치</span></a></li>
+					<li class="n07"><a href="/news/shellsection.html?linkid=11" ><span>경제</span></a></li>
+					<li class="n08"><a href="/news/shellsection.html?linkid=12" ><span>사회</span></a></li>
+					<li class="n09"><a href="/news/shellsection.html?linkid=15" ><span>세계</span></a></li>
+					<li class="n10"><a href="/news/shellsection.html?linkid=16" ><span>연예</span></a></li>
+					<li class="n11 nbar03"><a href="/news/shellsection.html?linkid=slide" ><span>슬라이드쇼</span></a></li>
+					<li class="n13"><a href="/news/shellsection.html?linkid=stock" ><span>주가</span></a></li>
+					<li class="n14"><a href="/news/shellsection.html?linkid=exchange" ><span>환율</span></a></li>
+				</ol>
+			</div>
+		</div>
+
+	</div>
+	<!-- End:Header Block -->
+	</div>
+
+	<div id="bd_n02">
+
+	<div id="yui-main">
+	<div class="yui-b">
+	<div class="yui-gf">
+	<div class="yui-u nmfirst">
+
+		<!-- 뉴스메인 좌측 -->
+		<div id="n_mainleft">
+			<!-- 만평,슬라이드 -->
+			<div id="n_mainleft01">
+				<div class="hd"><h4><span>만평&슬라이드쇼</span></h4></div>
+				<div class="bd">
+					<div class="n_mla01">
+						<span><a href="#"><img src="http://shared2-vm9.inf.corp.kr1.yahoo.com/img/sample/nlist04.jpg" width="171px"/></a></span>
+						<a href="#">[김상택 만평] 2월 18일</a>
+					</div>
+					<p></p>
+					<div class="n_mla02 clearfx">
+						<dl>
+							<dt><a href="#"><img src="http://shared2-vm9.inf.corp.kr1.yahoo.com/img/sample/nlist03.jpg" width="80px"/></a></dt>
+							<dd><a href="#">꽁심이노트(시즌2)</a></dd>
+						</dl>
+						<dl>
+							<dt><a href="#"><img src="http://shared2-vm9.inf.corp.kr1.yahoo.com/img/sample/nlist05.jpg" width="80px"/></a></dt>
+							<dd><a href="#">꽁심이노트(시즌2)</a></dd>
+						</dl>
+					</div>
+				</div>
+				<div class="ft"><a href="#">더보기</a></div>
+			</div>
+			<!-- //만평,슬라이드 -->
+
+			<!-- 운세,언론사별뉴스 -->
+			<div id="n_mainleft02">
+				<div class="hd"><h4><span>사설ㆍ운세&언론사별뉴스</span></h4></div>
+				<div class="bd">
+					<div class="n_mlb01 clearfx">
+						<ul>
+							<li class="n_a"><a href="#">핫뉴스</a></li>
+							<li class="n_a"><a href="#">사설/칼럼</a></li>
+							<li class="n_last"><a href="#">오늘의 운세</a></li>
+						</ul>
+					</div>
+					<p></p>
+					<div class="n_mlb02">
+						<dl>
+							<dt>언론사별 보기</dt>
+							<dd><a href="#">미주한국</a> <span>|</span> <a href="#">라디오코리아</a></dd>
+							<dd><a href="#">미주헤럴드경제</a> <span>|</span> <a href="#">자유아시아방송</a></dd>
+							<dd><a href="#">미국의소리VOA</a> <span>|</span> <a href="#">재외동포재단</a></dd>
+							<dd><a href="#">유코피아</a> <span>|</span> <a href="#">코글로</a></dd>
+						</dl>
+					</div>
+				</div>
+				<div class="ft"></div>
+			</div>
+			<!-- //운세,언론사별뉴스 -->
+
+			<!-- 광고AD -->
+			<div id="n_mainleftad">
+				<div class="hd"><h4><span>광고</span></h4></div>
+				<div class="bd"><a href="#"><img src="http://shared2-vm9.inf.corp.kr1.yahoo.com/img/sample/nr_ad01.gif"/></a></div>
+				<div class="ft"></div>
+			</div>
+			<!-- //광고AD -->
+
+			<!-- 금융정보 -->
+			<div id="n_mainleft03">
+				<div class="hd"><h4><span>금융정보</span></h4></div>
+				<div class="bd">
+					<div class="n_mlc01"><span class="d01">Pacific Time</span><span class="d02">11/06 09:00</span></div>
+					<p class="nmdotline"></p>
+					<div class="n_mlc02 clearfx">
+						<ul>
+							<li><strong>Dow</strong><span class="rm01">8,870.54</span><span class="rm02"><img src="http://shared2-vm9.inf.corp.kr1.yahoo.com/img/icon/i_st_up.gif"/>143.27</span></li>
+							<li><strong>Nasdaq</strong><span class="rm01">1,616.74</span><span class="rm02"><img src="http://shared2-vm9.inf.corp.kr1.yahoo.com/img/icon/i_st_down.gif"/>30.66</span></li>
+						</ul>
+					</div>
+					<p class="nmdotline"></p>
+					<div class="n_mlc02 clearfx">
+						<ul>
+							<li><strong>코스피200</strong><span class="rm01">8,870.54</span><span class="rm02"><img src="http://shared2-vm9.inf.corp.kr1.yahoo.com/img/icon/i_st_up.gif"/>143.27</span></li>
+							<li><strong>선물0812</strong><span class="rm01">1,616.74</span><span class="rm02"><img src="http://shared2-vm9.inf.corp.kr1.yahoo.com/img/icon/i_st_down.gif"/>30.66</span></li>
+						</ul>
+					</div>
+					<p class="nmsolid"></p>
+					<fieldset>
+						<input type="radio" id="fm11" name="n_nation" selected="selected" /><label for="fm11" class="on">미국</label>
+						<input type="radio" id="fm12" name="n_nation"/><label for="fm12">한국</label>
+						<span>
+						<input type="text" id="fm13" class="tx" />
+						<input type="image" id="fm14" src="http://img.yahoo.co.kr/global/2009/b_rate.gif" class="bt" title="조회" />
+						</span>
+					</fieldset>
+					<p class="nmsolid"></p>
+					<div class="n_mlc03 clearfx">
+						<ul>
+							<li><strong>환율</strong>: 매매기준 1,323,00</li>
+							<li class="nrate">
+								<input type="text" id="fm21" class="tx" />
+								<!-- Select Input Box -->
+								<div class="sel">
+									<span>\→$</span>
+									<ul class="opt"><!-- style="display:none;" -->
+										<li><a href="#" class="on">\→$</a></li>
+										<li><a href="#">$→\</a></li>
+									</ul>
+								</div>
+								<!--/ Select Input Box -->
+								<input type="text" id="fm22" class="tx" />
+							</li>
+						<ul>
+					</div>
+				</div>
+				<div class="ft"><a href="#">더보기</a></div>
+			</div>
+			<!-- //금융정보 -->
+		</div>
+		<!-- //뉴스미주 좌측메뉴 -->
+
+	</div>
+	<div class="yui-nmu">
+
+		<!-- 미주뉴스 -->
+		<div id="n_main_news01">
+			<div class="hd"><h3><span>미주뉴스</span></h3></div>
+			<div class="bd">
+				<div class="ga01">
+					<h3><a href="#"><b>쌍용차 노조 &quot;상하이차에 손배 청구&quot;</b></a></h3>
+					<dl>
+						<dd>[노컷뉴스 방송연예팀 조은별 기자] "지난해 발사 시엔 어선 철수 없었다" 반론도 중국 어선들이 서해안 북쪽 경계 해역 밖으로 이동하면서...</dd>
+					</dl>
+				</div>
+				<div id="gb01">		
+					<div id="vm1">
+						<dl>
+							<dt class="n_nl"><a title='꽁심이노트(시즌2) 36화' href="#"><span><img src="http://shared2-vm9.inf.corp.kr1.yahoo.com/img/sample/nlist03.jpg" width="90px" /></span></a><a class="tx" href="#">꽁심이노트(시즌2) 36...</a></dt>
+							<dd class="b"><b><a href="#">전인화 &quot;유동근에 사극연기 배우다 연애&quot;</a></b> <img src="http://shared2-vm9.inf.corp.kr1.yahoo.com/img/icon/i_photo.gif"/></dd>
+
+							<dd class="b"><b><a href="#">백지영 “총 쏘고 싶은 남자 있었다”</a></b></dd>
+							<dd class="b"><b><a href="#">에바 &quot;이민우 에이미, 닭살행각 찜질방서 목격&quot;</a></b></dd>
+							<dd class="b"><b><a href="#">박상원 &quot;박찬호와 편지 주고받는…&quot;</a></b> <img src="http://shared2-vm9.inf.corp.kr1.yahoo.com/img/icon/i_photo.gif"/></dd>
+							<dd class="b"><b><a href="#">이민영 &quot;진실 밝혀 억울함 씻고 싶다&quot;</a></b></dd>
+						</dl>
+					</div>	
+				</div>
+				<p></p>
+				<div id="gb01">		
+					<div id="vm1">
+						<dl>
+							<dt class="n_nl"><a title='꽁심이노트(시즌2) 36화' href="#"><span><img src="http://shared2-vm9.inf.corp.kr1.yahoo.com/img/sample/nlist03.jpg" width="90px" /></span></a><a class="tx" href="#">꽁심이노트(시즌2) 36...</a></dt>
+							<dd class="b"><b><a href="#">전인화 &quot;유동근에 사극연기 배우다 연애&quot;</a></b> <img src="http://shared2-vm9.inf.corp.kr1.yahoo.com/img/icon/i_photo.gif"/></dd>
+
+							<dd class="b"><b><a href="#">백지영 “총 쏘고 싶은 남자 있었다”</a></b></dd>
+							<dd class="b"><b><a href="#">에바 &quot;이민우 에이미, 닭살행각 찜질방서 목격&quot;</a></b></dd>
+							<dd class="b"><b><a href="#">박상원 &quot;박찬호와 편지 주고받는…&quot;</a></b> <img src="http://shared2-vm9.inf.corp.kr1.yahoo.com/img/icon/i_photo.gif"/></dd>
+							<dd class="b"><b><a href="#">이민영 &quot;진실 밝혀 억울함 씻고 싶다&quot;</a></b></dd>
+						</dl>
+					</div>	
+				</div>
+			</div>
+			<div class="ft"><a href="#">더보기</a></div>
+		</div>
+		<!-- //미주뉴스 -->
+		<!-- 본국뉴스 -->
+		<div id="n_main_news02">
+			<div class="hd"><h3><span>본국뉴스</span></h3></div>
+			<div class="bd">
+				<div class="ga01">
+					<h3><a href="#"><b>쌍용차 노조 &quot;상하이차에 손배 청구&quot;</b></a></h3>
+					<dl>
+						<dd>[노컷뉴스 방송연예팀 조은별 기자] "지난해 발사 시엔 어선 철수 없었다" 반론도 중국 어선들이 서해안 북쪽 경계 해역 밖으로 이동하면서...</dd>
+					</dl>
+				</div>
+				<div id="gb01">		
+					<div id="vm1">
+						<dl>
+							<dt class="n_nl"><a title='꽁심이노트(시즌2) 36화' href="#"><span><img src="http://shared2-vm9.inf.corp.kr1.yahoo.com/img/sample/nlist03.jpg" width="90px" /></span></a><a class="tx" href="#">꽁심이노트(시즌2) 36...</a></dt>
+							<dd class="b"><b><a href="#">전인화 &quot;유동근에 사극연기 배우다 연애&quot;</a></b> <img src="http://shared2-vm9.inf.corp.kr1.yahoo.com/img/icon/i_photo.gif"/></dd>
+
+							<dd class="b"><b><a href="#">백지영 “총 쏘고 싶은 남자 있었다”</a></b></dd>
+							<dd class="b"><b><a href="#">에바 &quot;이민우 에이미, 닭살행각 찜질방서 목격&quot;</a></b></dd>
+							<dd class="b"><b><a href="#">박상원 &quot;박찬호와 편지 주고받는…&quot;</a></b> <img src="http://shared2-vm9.inf.corp.kr1.yahoo.com/img/icon/i_photo.gif"/></dd>
+							<dd class="b"><b><a href="#">이민영 &quot;진실 밝혀 억울함 씻고 싶다&quot;</a></b></dd>
+						</dl>
+					</div>	
+				</div>
+				<p></p>
+				<div id="gb01">		
+					<div id="vm1">
+						<dl>
+							<dt class="n_nl"><a title='꽁심이노트(시즌2) 36화' href="#"><span><img src="http://shared2-vm9.inf.corp.kr1.yahoo.com/img/sample/nlist03.jpg" width="90px" /></span></a><a class="tx" href="#">꽁심이노트(시즌2) 36...</a></dt>
+							<dd class="b"><b><a href="#">전인화 &quot;유동근에 사극연기 배우다 연애&quot;</a></b> <img src="http://shared2-vm9.inf.corp.kr1.yahoo.com/img/icon/i_photo.gif"/></dd>
+
+							<dd class="b"><b><a href="#">백지영 “총 쏘고 싶은 남자 있었다”</a></b></dd>
+							<dd class="b"><b><a href="#">에바 &quot;이민우 에이미, 닭살행각 찜질방서 목격&quot;</a></b></dd>
+							<dd class="b"><b><a href="#">박상원 &quot;박찬호와 편지 주고받는…&quot;</a></b> <img src="http://shared2-vm9.inf.corp.kr1.yahoo.com/img/icon/i_photo.gif"/></dd>
+							<dd class="b"><b><a href="#">이민영 &quot;진실 밝혀 억울함 씻고 싶다&quot;</a></b></dd>
+						</dl>
+					</div>	
+				</div>
+			</div>
+			<div class="ft"><a href="#">더보기</a></div>
+		</div>
+		<!-- //본국뉴스 -->
+		<!-- 세계한인 -->
+		<div id="n_main_news03">
+			<div class="hd"><h3><span>세계한인</span></h3></div>
+			<div class="bd">
+				<div class="ga01">
+					<h3><a href="#"><b>쌍용차 노조 &quot;상하이차에 손배 청구&quot;</b></a></h3>
+					<dl>
+						<dd>[노컷뉴스 방송연예팀 조은별 기자] "지난해 발사 시엔 어선 철수 없었다" 반론도 중국 어선들이 서해안 북쪽 경계 해역 밖으로 이동하면서...</dd>
+					</dl>
+				</div>
+				<div id="gb01">		
+					<div id="vm1">
+						<dl>
+							<dt class="n_nl"><a title='꽁심이노트(시즌2) 36화' href="#"><span><img src="http://shared2-vm9.inf.corp.kr1.yahoo.com/img/sample/nlist03.jpg" width="90px" /></span></a><a class="tx" href="#">꽁심이노트(시즌2) 36...</a></dt>
+							<dd class="b"><b><a href="#">전인화 &quot;유동근에 사극연기 배우다 연애&quot;</a></b> <img src="http://shared2-vm9.inf.corp.kr1.yahoo.com/img/icon/i_photo.gif"/></dd>
+
+							<dd class="b"><b><a href="#">백지영 “총 쏘고 싶은 남자 있었다”</a></b></dd>
+							<dd class="b"><b><a href="#">에바 &quot;이민우 에이미, 닭살행각 찜질방서 목격&quot;</a></b></dd>
+							<dd class="b"><b><a href="#">박상원 &quot;박찬호와 편지 주고받는…&quot;</a></b> <img src="http://shared2-vm9.inf.corp.kr1.yahoo.com/img/icon/i_photo.gif"/></dd>
+							<dd class="b"><b><a href="#">이민영 &quot;진실 밝혀 억울함 씻고 싶다&quot;</a></b></dd>
+						</dl>
+					</div>	
+				</div>
+				<p></p>
+				<div id="gb01">		
+					<div id="vm1">
+						<dl>
+							<dt class="n_nl"><a title='꽁심이노트(시즌2) 36화' href="#"><span><img src="http://shared2-vm9.inf.corp.kr1.yahoo.com/img/sample/nlist03.jpg" width="90px" /></span></a><a class="tx" href="#">꽁심이노트(시즌2) 36...</a></dt>
+							<dd class="b"><b><a href="#">전인화 &quot;유동근에 사극연기 배우다 연애&quot;</a></b> <img src="http://shared2-vm9.inf.corp.kr1.yahoo.com/img/icon/i_photo.gif"/></dd>
+							<dd class="b"><b><a href="#">백지영 “총 쏘고 싶은 남자 있었다”</a></b></dd>
+							<dd class="b"><b><a href="#">에바 &quot;이민우 에이미, 닭살행각 찜질방서 목격&quot;</a></b></dd>
+							<dd class="b"><b><a href="#">박상원 &quot;박찬호와 편지 주고받는…&quot;</a></b> <img src="http://shared2-vm9.inf.corp.kr1.yahoo.com/img/icon/i_photo.gif"/></dd>
+							<dd class="b"><b><a href="#">이민영 &quot;진실 밝혀 억울함 씻고 싶다&quot;</a></b></dd>
+						</dl>
+					</div>	
+				</div>
+			</div>
+			<div class="ft"><a href="#">더보기</a></div>
+		</div>
+		<!-- //세계한인 -->
+
+	</div>
+	</div>
+
+	</div>
+	</div>
+	<div class="yui-b">
+	<!-- Begin:Secondary block -->
+		<div id="rv1">
+			<div class="hd"><h4><span>날씨</span></h4></div>
+			<div class="bd">
+				<a href="#"><img src="http://img.yahoo.co.kr/global/2009/v_rv1.gif" alt="" /></a>
+			</div>
+			<div class="ft"></div>
+		</div>
+
+		<div id="rv8" class="rv">
+			<div class="hd"><h4>핫뉴스</h4></div>
+			<div class="bd">
+				<span class="tb" id="rv8MD">
+					<a href="#" class="on"><span>미주지역</span></a>
+					<a href="#"><span>종 합</span></a>
+					<a href="#"><span>스포츠</span></a>
+					<a href="#"><span>연예</span></a>
+				</span>
+				<ol class="nb">
+					<li class="nb1"><a href="#">1박찬호 '1박2일'에 전화해 왜 눈물흘렸나</a></li>
+					<li class="nb2"><a href="#">박찬호 '1박2일'에 전화해 왜 눈물흘렸나</a></li>
+					<li class="nb3"><a href="#">박찬호 '1박2일'에 전화해 왜 눈물흘렸나</a></li>
+					<li class="nb4"><a href="#">박찬호 '1박2일'에 전화해 왜 눈물흘렸나</a></li>
+					<li class="nb5"><a href="#">박찬호 '1박2일'에 전화해 왜 눈물흘렸나</a></li>
+					<li class="nb6"><a href="#">박찬호 '1박2일'에 전화해 왜 눈물흘렸나</a></li>
+					<li class="nb7"><a href="#">박찬호 '1박2일'에 전화해 왜 눈물흘렸나</a></li>
+				</ol>
+				<a href="###" id="rv8MD_rBtn" class="rl"><span>다음</span></a>
+			</div>
+			<div class="ft"><a href="#" class="mr"><span>핫뉴스</span> 더보기</a></div>
+		</div>
+
+		<div id="rv3">
+			<div class="hd"><h4><span>광고</span></h4></div>
+			<div class="bd">
+				<a href="#"><img src="http://img.yahoo.co.kr/global/2009/v_rv3.gif" alt="" /></a>
+			</div>
+			<div class="ft"></div>
+		</div>
+
+		<div id="rv9" class="rv">
+			<div class="hd"><h4><span>야후! 코리아 미디어 특집</span></h4></div>
+			<div class="bd">
+				<span class="tb">
+					<a href="#" target="_blank" class="on"><span>주요핫이슈</span></a>
+					<a href="#" target="_blank"><span>토론마당</span></a>
+					<a href="#" target="_blank"><span>네티즌 한표</span></a>
+				</span>
+				<ul>
+					<li><a href="#" class="clip"><img src="http://l.yimg.com/ne/news3/pyramid/2009/05/25/rvrv6_t1_I1mage1_1243232636.jpg" alt="" /></a><strong><a href="#">盧전대통령 서거 &quot;유족들 악으로 버텨&quot;</a></strong><em>노무현 前 대통령 서거</em><span><a href="http://kr.rd.yahoo.com/media/rv9MD_t1/s1Link1/*http://kr.news.yahoo.com/service/news/shellview.htm?linkid=20&fid=569&articleid=2009052515074493101" target="_blank">관련기사 바로가기</a></span></li>
+					<li><a href="#" class="clip"><img src="http://l.yimg.com/ne/news3/pyramid/2009/05/26/rvrv6_t1_I2mage1_1243312742.jpg" alt="" /></a><strong><a href="#">이문세 &quot;방송하기 힘들다&quot;<br/>盧 서거 심경 토로</a></strong><em>방송 이모저모</em><span><a href="#" target="_blank">관련기사 바로가기</a></span></li>
+				</ul>
+				<a href="#" class="rl"><span>다음</span></a>
+				<p class="nt">‘야후! 코리아’ 서비스로 링크 됩니다.</p>
+			</div>
+			<div class="ft"><a href="#" class="mr"><span>야후! 코리아 미디어 특집</span> 더보기</a></div>
+		</div>
+
+		<div id="rv10" class="rv">
+			<div class="hd"><h4>슬라이드쇼 & 만화</h4></div>
+			<div class="bd">
+				<span class="tb" id="rv10MD">
+					<a href="###" class="on" t="rv10MD_t1"><span>슬라이드쇼</span></a>
+					<a href="###" t="rv10MD_t2"><span>만화</span></a>
+				</span>
+				<div class="ntc1">
+					<ul class="pt clearfx">
+						<li><em></em><a href="#" class="clip" title="분향소 치우라! 막말 파문"><img src="http://img.news.yahoo.co.kr/picture/2009/a3/20090526/20090526101305869a3_101305_0.jpg?y=60&sig=reUImG0R8vXRVtqLkmfqfQ--" alt="" /></a><a href="#">분향소 치우라! 막말 파문</a></li>
+						<li><em></em><a href="#" class="clip" title="묘자리 둘러보는 권 여사"><img	src="http://img.news.yahoo.co.kr/picture/2009/15/20090526/2009052610071811215_100932_0.jpg?y=60&sig=RaSRTIZzxNRnLe2awQvKAw--" alt="" /></a><a href="#">묘자리 둘러보는 권 여사</a></li>
+						<li><em></em><a href="#" class="clip" title="노 전대통령은 당은 다르지만…"><img src="http://img.news.yahoo.co.kr/picture/2009/70/20090526/2009052609265062270_100034_0.jpg?x=80&sig=qZR7nnuqyS2kKbPOaLQbmQ--" alt="" /></a><a href="#">노 전대통령은 당은 다르...</a></li>
+						<li><em></em><a href="#" class="clip" title="경찰에게 맞지말고 오세요!"><img src="http://img.news.yahoo.co.kr/picture/2009/24/20090526/2009052610250011424_103009_3.jpg?x=80&sig=ERyp05uH3lhYHIEQZzycAQ--" alt="" /></a><a href="#">경찰에게 맞지말고 오세요...</a></li>
+						<li><em></em><a href="#" class="clip" title="그룹 총수 중 첫 조문하는 구본무 회장"><img src="http://img.news.yahoo.co.kr/picture/2009/70/20090526/2009052610445044470_104811_0.jpg?y=60&sig=TyYVhUQcxX0fqegssi5AZw--" alt="" /></a><a href="#">그룹 총수 중 첫 조문하는...</a></li>
+						<li><em></em><a href="#" class="clip" title="박희태측 &quot;조문 거부 자작극 루머다&quot;"><img src="http://img.news.yahoo.co.kr/picture/2009/14/20090526/2009052612144359814_123013_0.jpg?y=60&sig=hsa4S9rvhuMuJlhmrEHgaw--" alt="" /></a><a href="#">박희태측 &quot;조문 거부 자작...</a></li>
+					</ul>
+				</div>
+				<a href="#" class="rl"><span>다음</span></a>
+				<p class="nt">‘야후! 코리아’ 서비스로 링크 됩니다.</p>
+			</div>
+			<div class="ft"><a href="http://shared2-vm9.inf.corp.kr1.yahoo.com/news/shellsection.html?linkid=slide" class="mr"><span>슬라이드쇼 & 만화</span> 더보기</a></div>
+		</div>
+
+		<div id="rv11" class="rv">
+			<div class="hd"><h4>Marketplace</h4></div>
+			<div class="bd">
+				<span class="tb">
+					<a href="#" class="on"><span>자동차</span></a>
+					<a href="#" class="off"><span>부동산</span></a>
+					<a href="#" class="off"><span>Job</span></a>
+				</span>
+				<ul class="pt clearfx">
+					<li>
+						<a href="#" class="clip"><img src="http://img.yahoo.co.kr/global/2009/x_rv201.gif" alt="" /></a>
+						<a href="#">1-1꽁심이노트(시즌2) 36...</a>
+					</li>
+					<li>
+						<a href="#" class="clip"><img src="http://img.yahoo.co.kr/global/2009/x_rv202.gif" alt="" /></a>
+						<a href="#">조이라이드 하이서울</a>
+					</li>
+					<li>
+						<a href="#" class="clip"><img src="http://img.yahoo.co.kr/global/2009/x_rv203.gif" alt="" /></a>
+						<a href="#">드림캐쳐 2화 첫번째</a>
+					</li>
+				</ul>
+				<a href="###" id="rv11MD_rBtn" class="rl"><span>다음</span></a>
+			</div>
+			<div class="ft"><a href="###" class="mr"><span>Marketplace</span> 더보기</a></div>
+		</div>
+
+		<div id="rv12" class="rv">
+			<div class="hd"><h4>Community</h4></div>
+			<div class="bd">
+				<span class="tb">
+					<a href="#" class="on"><span>Best Talk</span></a>
+					<a href="#" class="off"><span>지식 Q&A</span></a>
+					<a href="#" class="off"><span>전문가칼럼</span></a>
+				</span>
+				<ol class="nb">
+					<li class="nb1"><a href="#">1-1박찬호 '1박2일'에 전화해 왜 눈물흘렸나</a></li>
+					<li class="nb2"><a href="#">박찬호 '1박2일'에 전화해 왜 눈물흘렸나</a></li>
+					<li class="nb3"><a href="#">박찬호 '1박2일'에 전화해 왜 눈물흘렸나</a></li>
+					<li class="nb4"><a href="#">박찬호 '1박2일'에 전화해 왜 눈물흘렸나</a></li>
+					<li class="nb5"><a href="#">박찬호 '1박2일'에 전화해 왜 눈물흘렸나</a></li>
+				</ol>
+				<a href="#" class="rl"><span>다음</span></a>
+			</div>
+			<div class="ft"><a href="#" class="mr"><span>Community</span> 더보기</a></div>
+		</div>
+
+
+	<!-- End:Secondary block -->
+	</div>
+	</div>
+
+	<div id="ft">
+	<!-- Begin:Footer Block -->
+		<div id="ftr">
+			<div class="hd"></div>
+			<div class="bd">
+				<p>본 서비스는 해외거주 한인들을 대상으로 ‘야후! 코리아’와 ‘미주 한국일보’가 공동으로 운영하는 서비스 입니다.</p>
+			</div>
+			<div class="ft">
+				<p>
+					<a href="http://kr.docs.yahoo.com/info/privacy.html" target="_blank">개인정보/청소년보호 정책</a> &middot;
+					<a href="http://kr.docs.yahoo.com/info/disclaimer.html" target="_blank">책임의 한계와 법적고지</a> &middot;
+					<a href="http://kr.docs.yahoo.com/info/copyright.html" target="_blank">지적재산권 침해구제센터</a> &middot;
+					<a href="http://kr.docs.yahoo.com/info/utos.html" target="_blank">서비스 약관</a> &middot;
+					<a href="http://kr.helpboard.yahoo.com/helpfeedback/m_news.html?from_url=http%3A%2F%2Fhelp%2Eyahoo%2Ecom%2Fl%2Fkr%2Fyahoo%2Fnews%2Fnews%2D54822%2Ehtml" target="_blank">의견 또는 질문</a> &middot;
+					<a href="http://kr.helpboard.yahoo.com/helpfeedback/il_news.html" target="_blank">권리침해신고</a> &middot;
+					<a href="http://help.yahoo.com/l/kr/yahoo/news/" target="_blank">도움말</a>
+				</p>
+				<address>Copyright &copy; 2008 <a href="http://kr.pr.yahoo.com/Yahoo/" target="_blank">Yahoo! Korea YH.</a> All rights reserved.</address>
+				<address>Copyright &copy; 2008 <a href="http://www.koreatimes.com/" target="_blank">Koreatimes.com.</a> All rights reserved.</address>
+			</div>
+		</div>
+	<!-- End:Footer Block -->
+
+	</div>
+</div>
+
+</body>
+
+</html>

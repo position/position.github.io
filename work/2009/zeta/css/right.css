@@ -1,0 +1,66 @@
+.zMailAccess{clear:both;position:relative;width:240px;}
+.zMailAccess .accessDate{padding:5px 15px 5px 15px;}
+.zMailAccess .accessDate li{font-size:11px;background:url(../images/i_arrow_left.gif) 0 5px no-repeat;padding-left:7px;}
+.zMailAccess .accessDate li strong{display:block;float:left;width:52px;}
+/* //접속일자, ip */
+
+.zMailSkin{clear:both;position:relative;width:240px;}
+.zMailSkin .skinSet{padding:5px 15px 5px 15px;height:15px;}
+.zMailSkin .skinSet dt{float:left;width:70px;font-weight:bold;color:#4e4e4e;background:url(../images/i_arrow_left.gif) 0 5px no-repeat;padding-left:7px;}
+.zMailSkin .skinSet dd{float:left;margin-right:10px;padding-top:2px;}
+/* //스킨설정 */
+
+.zMailMemo{clear:both;position:relative;width:240px;z-index:1;}
+.zMailMemo .memoNum{padding:5px 5px 5px 15px;height:55px;}
+.zMailMemo .memoNum h3{font-weight:bold;background:url(../images/i_rightline.gif) center bottom no-repeat;height:23px;}
+.zMailMemo .memoNum ol{padding-top:10px;}
+.zMailMemo .memoNum li{float:left;margin-right:5px;display:inline;}
+/* //메모 */
+
+.zMailNotice{clear:both;position:relative;width:240px;}
+.zMailNotice .right_h3topbg h3{font-weight:bold;padding:13px 0 0 15px;}
+.zMailNotice .noticeLst{padding:5px 15px 5px 15px;height:85px;overflow:hidden;}
+.zMailNotice .noticeLst ol{padding-top:5px;}
+.zMailNotice .noticeLst li{clear:both;height:20px;}
+.zMailNotice .noticeLst li span{display:block;float:left;}
+.zMailNotice .noticeLst li .title{width:160px;letter-spacing:-1px;}
+.zMailNotice .noticeLst li .date{width:50px;font-size:11px;color:#959595;text-align:right;}
+.zMailNotice .noticeLst li a{background:url(../images/i_bullet.gif) 0 4px no-repeat;padding-left:7px;}
+.zMailNotice .noticeLst li a:hover{color:#ef830f;}
+.zMailNotice .ft{position:absolute;right:17px;top:17px;}
+.zMailNotice .ft a{display:block;background:url(../images/i_rightmore.gif) 0 0 no-repeat;width:29px;height:11px;}
+.zMailNotice .ft a:hover{background:url(../images/i_rightmore.gif) 0 -12px no-repeat;}
+/* //공지사항 */
+
+.zMailSchedule{clear:both;position:relative;width:240px;}
+.zMailSchedule .right_h3topbg h3{font-weight:bold;padding:13px 0 0 15px;}
+.zMailSchedule .scheduleLst{padding:5px 15px 5px 15px;overflow:hidden;}
+.zMailSchedule .scheduleLst .date{background:url(../images/k_schedule_bg.gif) 0 0 no-repeat;width:209px;height:23px;padding-top:4px;text-align:center;}
+.zMailSchedule .scheduleLst .date .bullet{background:url(../images/i_bullet.gif) 0 4px no-repeat;padding-left:7px;color:#3b3b3b;font-weight:bold;font-size:11px;}
+.zMailSchedule .scheduleLst .date .today{font-family:tahoma;font-size:10px;font-weight:bold;}
+.zMailSchedule .scheduleLst .date .dat{font-family:tahoma;font-size:10px;font-weight:bold;color:#eb6100;}
+.zMailSchedule .scheduleLst ul{padding-top:7px;}
+.zMailSchedule .scheduleLst li{padding-bottom:2px;}
+.zMailSchedule .scheduleLst li strong{padding:0 5px;}
+.zMailSchedule .scheduleLst li a{letter-spacing:-1px;}
+.zMailSchedule .scheduleLst li a:hover{color:#ef830f;}
+.zMailSchedule .ft{position:absolute;right:17px;top:17px;}
+.zMailSchedule .ft a{display:block;background:url(../images/i_rightmore.gif) 0 0 no-repeat;width:29px;height:11px;}
+.zMailSchedule .ft a:hover{background:url(../images/i_rightmore.gif) 0 -12px no-repeat;}
+/* //일정관리 */
+
+.zMailImg{clear:both;position:relative;width:240px;}
+.zMailImg .right_h3topbg h3{font-weight:bold;padding:13px 0 0 15px;}
+.zMailImg .imgLst{padding:5px 15px 5px 15px;overflow:hidden;}
+.zMailImg .imgLst ol{padding-top:5px;}
+.zMailImg .imgLst li{clear:both;height:20px;}
+.zMailImg .imgLst li span{display:block;float:left;}
+.zMailImg .imgLst li .title{width:160px;letter-spacing:-1px;}
+.zMailImg .imgLst li .date{width:50px;font-size:11px;color:#959595;text-align:right;}
+.zMailImg .imgLst li a{background:url(../images/i_bullet.gif) 0 4px no-repeat;padding-left:7px;}
+.zMailImg .imgLst li a:hover{color:#ef830f;}
+.zMailImg .ft{position:absolute;right:17px;top:17px;}
+.zMailImg .ft a{display:block;background:url(../images/i_rightmore.gif) 0 0 no-repeat;width:29px;height:11px;}
+.zMailImg .ft a:hover{background:url(../images/i_rightmore.gif) 0 -12px no-repeat;}
+/* //이미지리스트 */
+

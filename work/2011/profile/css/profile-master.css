@@ -1,0 +1,12 @@
+@charset="utf-8";
+@import url("common.css");
+@import url("section.css");
+@import url("comment.css");
+@import url("message.css");
+@import url("friend.css");
+@import url("setup.css");
+@import url("popup.css");
+@import url("layer.css");
+@import url("nickname.css");
+
+/* Author: Choi kyung hwan (position@ndoors.net) */

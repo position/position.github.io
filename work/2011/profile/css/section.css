@@ -1,0 +1,88 @@
+/* Main left section*/
+.pfLeftInner .tit{font-size:11px;font-weight:bold;color:#ea4012;letter-spacing:-1px;padding-bottom:7px;}
+.pfLeftInner .userNickPho .userNickname{position:relative;width:238px;margin:0 0 10px -18px;}
+.pfLeftInner .userNickPho .userNickname dl{background:url(http://img.ndoors.com/webdata/profile/2010/section/k_pho_bg.gif) 0 0 no-repeat;width:238px;height:40px;}
+.pfLeftInner .userNickPho .userNickname dt{float:left;padding:8px 0 0 15px;}
+.pfLeftInner .userNickPho .userNickname dd{float:left;padding:15px 0 0 5px;}
+.pfLeftInner .userNickPho .userNickname .gm-icon{position:absolute;right:5px;top:-15px;}
+.pfLeftInner .userNickPho .userNickname .nic-1{font-size:18px;font-weight:bold;color:#fff;letter-spacing:-1px;}
+.pfLeftInner .userNickPho .userNickname .nic-2{font-size:11px;color:#ffddbb;padding-top:8px;}
+.pfLeftInner .userNickPho .userPhoto{position:relative;width:216px;height:216px;clear:both;margin-bottom:7px;}
+.pfLeftInner .userNickPho .userPhoto a img{width:216px;height:216px;border:1px solid #6d5238;}
+.pfLeftInner .userNickPho .userPhoto .pholarge{position:absolute;top:3px;right:3px;background:url(http://img.ndoors.com/webdata/profile/2010/section/i_img_view.gif) no-repeat;width:29px;height:28px;}
+.pfLeftInner .userNickPho .userPhoto .phoBtn{position:absolute;bottom:6px;right:6px;background:url(http://img.ndoors.com/webdata/profile/2010/setup/b_pho_change.png) no-repeat;width:89px;height:20px;}
+.pfLeftInner .userNickPho .userContact{clear:both;margin-bottom:7px;}
+.pfLeftInner .userNickPho .userContact .inviteBtn{background:url(http://img.ndoors.com/webdata/profile/2010/section/b_sec_invite.gif) no-repeat;width:108px;height:31px;margin-right:2px;}
+.pfLeftInner .userNickPho .userContact .sendBtn{background:url(http://img.ndoors.com/webdata/profile/2010/section/b_sec_send.gif) no-repeat;width:108px;height:31px;}
+.pfLeftInner .userNickPho .userContact .phochgBtn{background:url(http://img.ndoors.com/webdata/profile/2010/section/b_sec_phochg.gif) no-repeat;width:108px;height:31px;margin-right:2px;}
+.pfLeftInner .userNickPho .userContact .prochgBtn{background:url(http://img.ndoors.com/webdata/profile/2010/section/b_sec_prochg.gif) no-repeat;width:108px;height:31px;}
+
+.pfLeftInner .userIntro{position:relative;clear:both;margin-bottom:20px;}
+.pfLeftInner .userIntro .userInfo{clear:both;margin-bottom:20px;overflow:hidden;}
+.pfLeftInner .userIntro .userInfo dl{clear:both;padding-left:5px;}
+.pfLeftInner .userIntro .userInfo .nam{font-size:11px;font-weight:bold;color:#ea4012;letter-spacing:-1px;padding-bottom:7px;}
+.pfLeftInner .userIntro .userInfo .guild{font-size:11px;letter-spacing:-1px;}
+.pfLeftInner .userIntro .userInfo .inf{font-size:11px;letter-spacing:-1px;}
+.pfLeftInner .userIntro .userInfo .inf ul{padding-top:3px;}
+.pfLeftInner .userIntro .userInfo .inf li{float:left;color:#bcbcbc;color:#5e5e5e;}
+.pfLeftInner .userIntro .userInfo .inf li em{color:#bcbcbc;padding:0 4px;}
+.pfLeftInner .userIntro .userInfo .inf li.lv{font-weight:bold;color:#ff9000;}
+.pfLeftInner .userIntro .userComment{clear:both;background:url(http://img.ndoors.com/webdata/profile/2010/section/k_commentbg_b.gif) left bottom no-repeat;width:218px;padding-bottom:10px;}
+.pfLeftInner .userIntro .userComment .bgTop{background:url(http://img.ndoors.com/webdata/profile/2010/section/k_commentbg_t.gif) left top repeat-y;width:218px;padding-top:10px;}
+.pfLeftInner .userIntro .userComment .bgCenter{background:url(http://img.ndoors.com/webdata/profile/2010/section/k_commentbg_c.gif) left top repeat-y;width:200px;padding:0 9px 5px 9px;}
+.pfLeftInner .userIntro .userComment p{color:#fff;letter-spacing:-1px;word-wrap:break-word;}
+.pfLeftInner .userIntro .userComment .indent{font-size:14px;font-weight:bold;}
+.pfLeftInner .userIntro .userComment p dfn{font-weight:bold;text-decoration:underline;color:#ffc600;line-height:18px;}
+
+.pfLeftInner .userSns{clear:both;height:45px;margin-bottom:20px;}
+.pfLeftInner .userSns dl{clear:both;padding-left:5px;}
+.pfLeftInner .userSns dd{float:left;margin-right:10px;}
+
+.pfLeftInner .userStyle{clear:both;margin-bottom:20px;}
+.pfLeftInner .userStyle .dot{background:url(http://img.ndoors.com/webdata/profile/2010/section/i_dot_gray.gif) left bottom repeat-x;padding-bottom:10px;}
+.pfLeftInner .userStyle .gamestyle{clear:both;padding-left:5px;}
+.pfLeftInner .userStyle .gamestyle .tit{font-size:11px;font-weight:bold;color:#ea4012;letter-spacing:-1px;padding-bottom:7px;}
+.pfLeftInner .userStyle .gamestyle dd{font-size:11px;letter-spacing:-1px;padding-bottom:3px;height:15px;}
+.pfLeftInner .userStyle .gamestyle dd .typ{display:block;float:left;width:100px;}
+.pfLeftInner .userStyle .gameinfo{clear:both;padding-top:13px;height:15px;}
+.pfLeftInner .userStyle .gameinfo dt{float:left;margin-right:5px;display:inline;font-size:11px;letter-spacing:-1px;font-weight:bold;color:#000;}
+.pfLeftInner .userStyle .gameinfo dd{float:left;font-size:11px;letter-spacing:-1px;padding-bottom:3px;}
+
+.pfLeftInner .userVisitor{clear:both;}
+.pfLeftInner .userVisitor .visitorWrap{clear:both;margin-bottom:10px;}
+.pfLeftInner .userVisitor .visitorNum{background:url(http://img.ndoors.com/webdata/profile/2010/section/k_visitorbg_b.gif) left bottom no-repeat;width:218px;padding-bottom:6px;}
+.pfLeftInner .userVisitor .visitorNum .bgTop{background:url(http://img.ndoors.com/webdata/profile/2010/section/k_visitorbg_t.gif) left top repeat-y;width:218px;padding-top:6px;}
+.pfLeftInner .userVisitor .visitorNum .bgCenter{background:url(http://img.ndoors.com/webdata/profile/2010/section/k_visitorbg_c.gif) left top repeat-y;width:200px;padding:3px 9px 0px 9px;}
+.pfLeftInner .userVisitor .visitorNum li{clear:both;height:20px;padding-top:4px;}
+.pfLeftInner .userVisitor .visitorNum li.dot{background:url(http://img.ndoors.com/webdata/profile/2010/section/i_dot_white.gif) center bottom repeat-x;}
+.pfLeftInner .userVisitor .visitorNum li span{display:block;float:left;font-size:11px;font-weight:bold;}
+.pfLeftInner .userVisitor .visitorNum li span em{font-weight:bold;padding-right:5px;}
+.pfLeftInner .userVisitor .visitorNum li .visit{width:40px;color:#6d4823;}
+.pfLeftInner .userVisitor .visitorNum li .num{width:155px;color:#6d4823;text-align:right;}
+.pfLeftInner .userVisitor .visitorNum li .num .today{color:#4899de !important;}
+.pfLeftInner .userVisitor .visitorNum li .num .all{color:#e50000 !important;}
+.pfLeftInner .userVisitor .visitorPho{clear:both;margin-bottom:10px;overflow:hidden;}
+.pfLeftInner .userVisitor .visitorPho ul{clear:both;margin-bottom:5px;}
+.pfLeftInner .userVisitor .visitorPho li{float:left;margin-right:4px;}
+.pfLeftInner .userVisitor .visitorPho li a img{width:40px;height:40px;}
+
+/* 설정 Sub left section*/
+.pfSetupMenu{clear:both;background:url(http://img.ndoors.com/webdata/profile/2010/section/k_sub_leftbg_v2.gif) no-repeat;width:136px;}
+.pfSetupMenu h2{background-position:0 0;height:60px;}
+.pfSetupMenu ul{width:136px;font-size:0;}
+.pfSetupMenu li a{display:block;background:url(http://img.ndoors.com/webdata/profile/2010/section/k_sub_leftbg_v2.gif) no-repeat;}
+.pfSetupMenu li.set-1 a{background-position:0 -60px;height:30px;}
+.pfSetupMenu li.set-2 a{background-position:0 -90px;height:30px;}
+.pfSetupMenu li.set-3 a{background-position:0 -120px;height:30px;}
+.pfSetupMenu li.set-4 a{background-position:0 -150px;height:30px;}
+.pfSetupMenu li.set-5 a{background-position:0 -180px;height:40px;}
+.pfSetupMenu li.set-1 a.on{background-position:-146px -60px;height:30px;}
+.pfSetupMenu li.set-2 a.on{background-position:-146px -90px;height:30px;}
+.pfSetupMenu li.set-3 a.on{background-position:-146px -120px;height:30px;}
+.pfSetupMenu li.set-4 a.on{background-position:-146px -150px;height:30px;}
+.pfSetupMenu li.set-5 a.on{background-position:-146px -180px;height:40px;}
+.pfSetupMenu li.set-1 a:hover{background-position:-146px -60px;height:30px;}
+.pfSetupMenu li.set-2 a:hover{background-position:-146px -90px;height:30px;}
+.pfSetupMenu li.set-3 a:hover{background-position:-146px -120px;height:30px;}
+.pfSetupMenu li.set-4 a:hover{background-position:-146px -150px;height:30px;}
+.pfSetupMenu li.set-5 a:hover{background-position:-146px -180px;height:40px;}

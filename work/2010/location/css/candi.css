@@ -1,0 +1,146 @@
+#candiInfo{clear:both;margin-top:20px;}
+#candiInfo h3{color:#333;font:bold 13px Gulim, 굴림;background:url(../images/i_icon.gif) 0 0 no-repeat;padding-left:14px;margin-bottom:7px;}
+#candiInfo h4{color:#333;font:bold 13px Gulim, 굴림;background:url(../images/i_icon.gif) 0 -22px no-repeat;padding-left:10px;height:20px;}
+#candiInfo .bx{clear:both;border:1px solid #d8d8d8;padding:1px;overflow:hidden;height:270px;margin-bottom:20px;}
+#candiInfo .bx02{clear:both;border:1px solid #d8d8d8;padding:1px;overflow:hidden;height:250px;margin-bottom:20px;}
+#candiInfo .Bg{background:url(../images/k_boxtopbg.gif) left top repeat-x;padding:10px 0px 5px 11px;}
+#candiInfo dl{float:left;margin-right:9px;padding-bottom:20px;}
+#candiInfo dt.large{border:1px solid #d8d8d8;width:142px;height:78px;}
+#candiInfo dt.small{border:1px solid #d8d8d8;width:111px;height:67px;}
+#candiInfo dt a{display:block;}
+#candiInfo dt a.area01{background:url(../images/u_city01.gif) center center no-repeat;width:142px;height:78px;}
+#candiInfo dt a.area02{background:url(../images/u_city02.gif) center center no-repeat;width:142px;height:78px;}
+#candiInfo dt a.area03{background:url(../images/u_city03.gif) center center no-repeat;width:142px;height:78px;}
+#candiInfo dt a.area04{background:url(../images/u_city04.gif) center center no-repeat;width:142px;height:78px;}
+#candiInfo dt a.area05{background:url(../images/u_city05.gif) center center no-repeat;width:142px;height:78px;}
+#candiInfo dt a.area06{background:url(../images/u_city06.gif) center center no-repeat;width:142px;height:78px;}
+#candiInfo dt a.area07{background:url(../images/u_city07.gif) center center no-repeat;width:142px;height:78px;}
+#candiInfo dt a.province01{background:url(../images/u_province01.gif) center center no-repeat;width:111px;height:67px;}
+#candiInfo dt a.province02{background:url(../images/u_province02.gif) center center no-repeat;width:111px;height:67px;}
+#candiInfo dt a.province03{background:url(../images/u_province03.gif) center center no-repeat;width:111px;height:67px;}
+#candiInfo dt a.province04{background:url(../images/u_province04.gif) center center no-repeat;width:111px;height:67px;}
+#candiInfo dt a.province05{background:url(../images/u_province05.gif) center center no-repeat;width:111px;height:67px;}
+#candiInfo dt a.province06{background:url(../images/u_province06.gif) center center no-repeat;width:111px;height:67px;}
+#candiInfo dt a.province07{background:url(../images/u_province07.gif) center center no-repeat;width:111px;height:67px;}
+#candiInfo dt a.province08{background:url(../images/u_province08.gif) center center no-repeat;width:111px;height:67px;}
+#candiInfo dt a.province09{background:url(../images/u_province09.gif) center center no-repeat;width:111px;height:67px;}
+#candiInfo dd{text-align:center;padding-top:3px;}
+#candiInfo .ft{position:absolute;right:5px;top:11px;}
+#candiInfo .ft a{font:11px Dotum, 돋움;letter-spacing:-1px;color:#333;background:url(../images/i_icon.gif) 0 -41px no-repeat;padding-left:7px;}
+/** 후보정보 메인 **/
+
+#candiCity{clear:both;margin-top:20px;}
+#candiCity .bg01{background:url(../images/k_candi_img01.gif) 0 0 no-repeat;height:278px;}
+#candiCity .bg02{background:url(../images/k_candi_img02.gif) 0 0 no-repeat;height:258px;}
+/** 후보지역 알림전 **/
+
+#canMessage{clear:both;border:1px solid #e0e0e0;padding:15px 10px 10px 14px;background:url(../images/k_boxbottombg.gif) left bottom repeat-x;height:20px;}
+#canMessage span{padding:0 5px;color:#4c5e8f;}
+#canMessage em{color:#233e8c;font-weight:bold;}
+/** 후보정보알림 **/
+
+#candi_entry{clear:both;background:url(../images/k_bg_entry.gif) left top repeat-x;height:36px;border:1px solid #91a5ca;margin-top:20px;}
+#candi_entry .ent{padding:6px 10px 0 15px;}
+#candi_entry .txt{color:#fff;background:url(../images/i_candi_arrow.gif) 0 1px no-repeat;padding-left:10px;}
+#candi_entry .btn{padding-left:30px;}
+#candi_entry strong{font-weight:bold;color:#ffffd6;}
+/** 후보등록신청 **/
+
+#candiProfile{clear:both;overflow:hidden;}
+#candiProfile .profile{position:relative;border:1px solid #dbd3c6;width:306px;height:108px;background:url(../images/k_boxbottombg.gif) left bottom repeat-x;margin-bottom:12px;}
+#candiProfile .profile dl{padding:9px;}
+#candiProfile .profile dt{float:left;margin-right:10px;display:inline;}
+#candiProfile .profile dd{padding-top:2px;}
+#candiProfile .profile .name{color:#333;font-weight:bold;}
+#candiProfile .logo{position:absolute;right:5px;bottom:5px;}
+#candiProfile .ft{position:absolute;right:8px;top:8px;}
+#candiProfile .ft a{font:11px Dotum, 돋움;letter-spacing:-1px;color:#333;background:url(../images/i_icon.gif) 0 -116px no-repeat;padding-left:9px;}
+/** 시도별 후보정보 **/
+
+#profileView{position:relative;clear:both;background:#d4c8ba;padding:5px;height:185px;}
+#profileView .bg{background:#fff;border:1px solid #c5b9a9;padding:20px 10px 20px 20px;height:143px;}
+#profileView .pho{float:left;border:1px solid #e4e4e4;width:205px;height:140px;margin-right:15px;display:inline;}
+#profileView dl{float:left;}
+#profileView dt{clear:both;height:55px;font-size:13px;font-weight:bold;color:#454545;margin-bottom:5px;}
+#profileView dd{clear:both;height:17px;background:url(../images/i_icon.gif) 0 -158px no-repeat;padding-bottom:5px;}
+#profileView span{display:block;float:left;}
+#profileView .logo{width:90px;text-align:center;border:1px solid #eee;padding:5px 0;margin-right:15px;}
+#profileView .hb{width:220px;padding-top:20px;}
+#profileView .nam{width:69px;margin-right:10px;color:#333;font-weight:bold;padding-left:10px;}
+#profileView .con{width:255px;}
+#profileView .con em{color:#ddd;}
+#profileView .ft{position:absolute;right:15px;top:20px;}
+#profileView .ft a{font:11px Dotum, 돋움;letter-spacing:-1px;color:#333;background:url(../images/i_icon.gif) 0 -116px no-repeat;padding-left:9px;}
+/** 후보 프로필 **/
+
+#profileDetail{clear:both;margin-top:10px;}
+#profileDetail .candiTab{background:url(../images/b_canditab.gif) 0 -62px no-repeat;height:29px;}
+#profileDetail .candiTab li{float:left;}
+#profileDetail .candiTab li span{display:none;}
+#profileDetail .candiTab li a{display:block;background:url(../images/b_canditab.gif) 0 0 no-repeat;margin-right:1px;}
+#profileDetail .candiTab li.basic a{background-position:0 -31px;width:72px;height:29px;}
+#profileDetail .candiTab li.etc a{background-position:-73px -31px;width:145px;height:29px;}
+#profileDetail .candiTab li.basic a.on{background-position:0 0;width:72px;height:29px;}
+#profileDetail .candiTab li.etc a.on{background-position:-73px 0;width:145px;height:29px;}
+#profileDetail .candiTab .msg{float:right;padding-top:7px;}
+#profileDetail .candiTab .msg span{font:11px Dotum;color:#ccc;}
+#profileDetail .candiTab .msg span a{color:#666;letter-spacing:-1px;}
+#profileDetail .candiTab .msg em{color:#f2631f;}
+#profileDetail .candiLine{border-left:1px solid #d8d8d8;border-right:1px solid #d8d8d8;border-bottom:1px solid #d8d8d8;padding:15px;}
+#profileDetail .list{clear:both;margin-bottom:20px;}
+#profileDetail .list h3{font-weight:bold;color:#0d3b9b;background:url(../images/i_icon.gif) 0 -136px no-repeat;padding:0 0 5px 9px;border-bottom:2px solid #768cb1;}
+#profileDetail .list li{border-bottom:1px solid #b7c6d9;height:15px;padding:5px 0;}
+#profileDetail .list span{display:block;float:left;}
+#profileDetail .list .nam{font-weight:bold;color:#333;padding-left:10px;width:110px;}
+#profileDetail .list .con{width:470px;}
+/** 후보 프로필 Tab **/
+
+#candiSearch{clear:both;border:1px solid #e0e0e0;padding:10px 5px 10px 10px;background:url(../images/k_boxbottombg.gif) left bottom repeat-x;height:40px;margin-top:10px;}
+#candiSearch h3{float:left;width:95px;background:url(../images/i_icon.gif) 0 -182px no-repeat;padding-left:18px;font-weight:bold;color:#333;}
+#candiSearch .other{float:left;}
+#candiSearch .ma5{margin-top:5px;}
+#candiSearch ul{clear:both;height:20px;}
+#candiSearch li span{color:#ccc;padding:0 13px;}
+#candiSearch li{float:left;height:20px;}
+/** 다른후보검색 **/
+
+#candiNamesch{clear:both;margin-top:20px;}
+#candiNamesch h3{color:#333;font:bold 13px Gulim, 굴림;background:url(../images/i_icon.gif) 0 0 no-repeat;padding-left:14px;margin-bottom:7px;}
+#candiNamesch .bg{border:1px solid #e0e0e0;padding:13px 10px 10px 14px;background:url(../images/k_boxbottombg.gif) left bottom repeat-x;height:22px;}
+#candiNamesch dt, #candiNamesch dd{float:left;}
+#candiNamesch dt{margin-right:50px;color:#4c5e8f;padding-top:3px;}
+#candiNamesch .canditxt{border:1px solid #6078ad;width:210px;height:13px;padding:3px 3px 2px 3px;}
+#candiNamesch .btn{background:url(../images/b_search.gif) 0 0 no-repeat;width:41px;height:21px;margin-left:5px;}
+/** 후보검색 **/
+
+#candiCheck{clear:both;margin-top:20px;}
+#candiCheck h3{color:#333;font:bold 13px Gulim, 굴림;background:url(../images/i_icon.gif) 0 0 no-repeat;padding-left:14px;margin-bottom:7px;}
+#candiCheck h4{color:#333;font:bold 13px Gulim, 굴림;background:url(../images/i_icon.gif) 0 -22px no-repeat;padding-left:10px;height:20px;margin-bottom:7px;}
+#candiCheck .bg{border:1px solid #e0e0e0;padding:13px 10px 10px 14px;background:url(../images/k_boxbottombg.gif) left bottom repeat-x;height:50px;margin-bottom:10px;}
+#candiCheck dl{float:left;margin-right:15px;}
+#candiCheck dt, #candiNamesch dd{float:left;}
+#candiCheck dt{padding-top:2px;margin-right:5px;}
+#candiCheck select{vertical-align:middle;}
+#candiCheck .btn{background:url(../images/b_search.gif) 0 0 no-repeat;width:41px;height:21px;margin-left:5px;vertical-align:middle;}
+/** 후보조회 **/
+
+#candiSchresult{clear:both;margin-top:20px;}
+#candiSchresult h3{font-size:13px;font-weight:bold;color:#333;padding-bottom:15px;}
+#candiSchresult h3 em{font-size:13px;font-weight:bold;color:#1145bf;}
+#candiSchresult h4{color:#333;font:bold 13px Gulim, 굴림;background:url(../images/i_icon.gif) 0 -22px no-repeat;padding-left:10px;height:20px;margin-bottom:7px;}
+#candiSchresult .line{border-bottom:1px solid #d4d4d4;padding-bottom:20px;overflow:hidden;margin-bottom:20px;}
+#candiSchresult .bg{border:1px solid #e0e0e0;padding:13px 10px 10px 14px;background:url(../images/k_boxbottombg.gif) left bottom repeat-x;height:55px;margin-bottom:10px;}
+#candiSchresult .research01{clear:both;}
+#candiSchresult .research02{clear:both;}
+#candiSchresult dl{float:left;margin-right:15px;}
+#candiSchresult dt, #candiNamesch dd{float:left;}
+#candiSchresult dt{padding-top:2px;margin-right:5px;}
+#candiSchresult select{vertical-align:middle;}
+#candiSchresult .btn{background:url(../images/b_search.gif) 0 0 no-repeat;width:41px;height:21px;margin-left:5px;vertical-align:middle;}
+#candiSchresult caption{display:none;}
+#candiSchresult th{text-align:center;background:#e5ecf5;color:#3b5f9e;padding:5px 0;font-weight:bold;}
+#candiSchresult td,th{border:1px solid #b7c7d9;}
+#candiSchresult td{text-align:center;padding:5px 0;color:#666;}
+#candiSchresult .career{text-align:left;padding-left:5px;}
+#candiSchresult .noinfo{font-size:13px;font-weight:bold;text-align:center;padding:10px 0;}
+/** 후보검색결과 **/

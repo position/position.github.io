@@ -1,0 +1,34 @@
+.commentWrite{background:url(http://img.ndoors.com/webdata/profile/2010/comment/k_comment_box.png) left top no-repeat;width:678px;height:117px;}
+.commentWrite .commentWrap{padding:16px 10px 0 17px;}
+.commentWrite .textInner{height:55px;margin-bottom:10px;}
+.commentWrite .textInner .textArea{float:left;width:563px;height:40px;padding:5px;border:0 none;overflow:auto;margin:3px 10px 0 0;}
+.commentWrite .textInner .textBtn{float:left;background:url(http://img.ndoors.com/webdata/profile/2010/comment/b_register.gif) left top no-repeat;width:63px;height:54px;}
+.commentWrite .attachInner{clear:both;}
+.commentWrite .attachInner dl{width:575px;}
+.commentWrite .attachInner dt, .commentWrite .attachInner dd{float:left;margin-right:5px;display:inline;}
+.commentWrite .attachInner .add{background:url(http://img.ndoors.com/webdata/profile/2010/comment/t_attach.gif) left center no-repeat;width:56px;height:20px;}
+.commentWrite .attachInner .img .imgBtn{background:url(http://img.ndoors.com/webdata/profile/2010/comment/b_image_btn.gif) left top no-repeat;width:67px;height:20px;}
+.commentWrite .attachInner .mov .movBtn{background:url(http://img.ndoors.com/webdata/profile/2010/comment/b_movie_btn.gif) left top no-repeat;width:67px;height:20px;}
+.commentWrite .attachInner .limit{float:right;color:#ba9978;font-weight:bold;font-size:14px;letter-spacing:-1px;}
+
+.commentDate{clear:both;background:url(http://img.ndoors.com/webdata/profile/2010/comment/i_calendar_v2.gif) left 7px no-repeat;width:640px;height:45px;padding-left:35px;margin-top:30px;}
+.commentDate p{display:none;font-family:arial;font-weight:normal;font-size:30px;letter-spacing:-2px;color:#d2c2b3;}
+
+.commentList{clear:both;position:relative;width:675px;}
+.commentList .commList{position:relative;clear:both;width:675px;border-bottom:1px solid #f0ebe6;padding:20px 0 10px 0;}
+.commentList .commList .pho{float:left;width:75px;margin-right:20px;display:inline;}
+.commentList .commList .pho a img{width:75px;height:75px;}
+.commentList .commList .list{position:relative;float:left;width:540px;padding-right:40px;}
+.commentList .commList .f-list{position:relative;float:left;width:460px;padding-right:120px;}
+.commentList .commList .rlyView{font-size:14px;letter-spacing:-1px;word-wrap:break-word;}
+.commentList .commList .rlyView a{color:#ff702b;text-decoration:underline;}
+.commentList .commList .rlyView .comAreaBg{background:url(http://img.ndoors.com/webdata/profile/2010/friend/k_comment_area.gif) left top no-repeat;width:440px;height:70px;padding:10px;}
+.commentList .commList .rlyView .txtArea{border:0 none;width:440px;height:70px;overflow:auto;color:#907b65;font-size:14px;}
+.commentList .commList .userInfo{padding-top:10px;}
+.commentList .commList .userInfo li{font-size:11px;color:#b48963;float:left;margin-right:10px;}
+.commentList .commList .userInfo li a{color:#b48963;}
+.commentList .commList .userInfo .del{clear:both;position:absolute;top:0px;right:0px;}
+.commentList .commList .userInfo .app{clear:both;position:absolute;top:0px;right:48px;}
+.commentList .commList .userInfo .can{clear:both;position:absolute;top:0px;right:0px;}
+.commentList .commList .userInfo .memo{clear:both;position:absolute;top:0px;right:0px;}
+.commentList .commList .userInfo .mobile{display:block;float:left;background:url(http://img.ndoors.com/webdata/bm/obt/2010/community/i_phone.gif) left top no-repeat;width:12px;height:23px;text-indent:-99999px;}

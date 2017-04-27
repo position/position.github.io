@@ -1,0 +1,54 @@
+/* basic */
+*{margin:0;padding:0;}
+body{font:12px Gulim, Dotum;color:#929292;}
+h1,h2,h3,h4,div,p,ul,ol,li,dl,dt,dd,form{list-style:none;margin:0;padding:0;}
+dl, ul, ol{list-style-image:none;list-style-type:none;}
+em,address{font-style:normal;}
+button,label{cursor:pointer;_cursor /**/:hand;border:0;}
+input,select,textarea{font:12px sans-serif, Gulim, Dotum;font-family:sans-serif, verdana, tahoma;color:#4a4a4a;}
+a img{border:none;}
+img,fieldset{border:0 none;}
+img,input,select,button,textarea {vertical-align:middle;}
+hr {display:none;}
+table{border-collapse:collapse;border-spacing:0;}
+label{cursor:pointer;}
+input[type="checkbox"],input[type="radio"]{width:13px;height:13px;margin: 0px 5px 3px 2px;*margin: 1px 5px 3px 2px;padding: 0 !important;cursor:default;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;font-variant:normal;}
+sup{vertical-align:text-top;}
+sub{vertical-align:text-bottom;}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}
+input,textarea,select{*font-size:100%;}
+textarea{background:#fff;padding:6px 8px;border:1px solid #ccc;overflow-y:scroll;}
+legend{color:#000;}
+del,ins{text-decoration:none;}
+button{border:none 0;background:none;cursor:pointer;_cursor /**/:hand;}
+
+/* links */
+a:link, a:visited {color:#929292;text-decoration:none;}
+a:hover {color:#ff5a00;}
+
+/* class */
+.block{display:block;}
+.clear{clear:both;}
+.clearfx{zoom:1;}
+.clearfx:after{content: ".";display:block;font-size:0;height:0px;line-height:0;clear:both;}
+.fl{float:left;}
+.fr{float:right;}
+.hidden{display:none;}
+.text{border:1px solid #b4b4b4;height:14px;padding:2px 3px 2px 3px;}
+.letter{letter-spacing:0px;}
+.left_bottom{width:220px;background:url(../images/k_graybox_bottom.gif) left bottom no-repeat;padding-bottom:3px;}
+.left_top{background:url(../images/k_graybox_top.gif) left top no-repeat;width:207px;height:25px;padding:11px 0 0 13px;}
+.left_Bg{background:url(../images/k_graybox_bg.gif) 0 0 repeat-y;padding:10px;}
+.left_bottom02{width:200px;background:url(../images/k_graybox_bottom02.gif) left bottom no-repeat;padding-bottom:3px;}
+.left_top02{background:url(../images/k_graybox_top02.gif) left top no-repeat;width:187px;height:25px;padding:11px 0 0 13px;}
+.left_Bg02{background:url(../images/k_graybox_bg02.gif) 0 0 repeat-y;padding:10px;}
+
+/* pagination */
+.png{clear:both;text-align:center;padding-top:20px;margin-bottom:20px;font:12px vernada, sans-serif;}
+.png .num{color:#e3e3e3;}
+.png .num em{color:#ff5a00;font-weight:bold;padding:0 4px 0 5px;}
+.png .num a{color:#707070;padding:0 7px 0 5px;}
+.png .num a:hover{color:#ff5a00;padding:0 7px 0 5px;}
+/* /pagination */

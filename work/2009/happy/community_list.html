@@ -1,0 +1,328 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="author" content="스포츠 코리아" />
+<meta name="keywords" content="Happy Leports, 마라톤, 생활체육, 자전거" />
+<meta name="description" content="Happy Leports, 해피레포츠" />
+<title>Happy Leports 마라톤</title>
+<link rel="stylesheet" href="css/master.css" type="text/css" media="all" />
+
+</head>
+
+<body>
+
+<div id="wrapper">
+	<div id="header">
+		<div class="top">
+			<div class="logo">
+				<div class="mh">
+					<h1><a href="#" class="a"><span class="hidden">Happy Leports</span></a><a href="/" class="b"><span class="hidden">마라톤</span></a></h1>
+				</div>
+				<div class="etcLink">
+					<a href="#" class="m1">&nbsp;<span class="hidden">자전거</span></a>
+					<a href="#" class="m2">&nbsp;<span class="hidden">생활체육</span></a>
+				</div>
+			</div>
+			<div class="memberMenu">
+				<div class="uh">
+					<a href="#">로그인</a> |
+					<a href="#">회원가입</a> |
+					<a href="#">장바구니</a> |
+					<a href="#">주문조회</a> |
+					<a href="#">고객센터</a>
+				</div>
+				<!-- div class="mAd">
+					<a href="#"><img src="images/sample_ad.gif" alt="메인광고" /></a>
+				</div -->
+			</div>
+		</div><!--//top -->
+
+		<div class="topNavi">
+			<div class="tNav">
+				<ol>
+					<li class="a"><a href="#"><span>마라톤 홈</span></a></li>
+					<li class="b"><a href="#"><span>마라톤 사진</span></a></li>
+					<li class="c"><a href="#"><span>마라톤 대회일정</span></a></li>
+					<li class="d"><a class="on" href="#"><span>마라톤 커뮤니티</span></a></li>
+					<li class="e"><a href="#"><span>마라톤 뉴스</span></a></li>
+					<li class="f"><a href="#"><span>마라톤 배우기</span></a></li>
+					<li class="z"><a href="#">사진상품안내</a> / <a href="#">사진취재요청</a> / <a href="#">마라톤홈페이지 제작</a></li>
+				</ol>
+			</div>
+		</div><!--//topNavi -->
+		<div class="subNavi">
+			<div class="cNav">	
+				<ol>
+					<li class="c01"><a class="on" href="#"><span>자유게시판</span></a></li>
+					<li class="c02"><a href="#"><span>설문조사</span></a></li>
+				</ol>
+				<p>
+					<input type="text" class="text vm" style="width:213px;" />
+					<a href="#"><img src="images/b_m_search.gif" alt="검색" /></a>
+				</p>
+			</div>
+		</div><!--//subNavi -->
+	</div><!--//header -->
+
+	<div id="columnArea">
+		<script type="text/javascript">
+			try {
+			 document.execCommand('BackgroundImageCache', false, true);
+			} catch(e) {}
+
+			function open_close() {
+			var sidebar_all = document.getElementById('sidebar_all');
+			var obj_sidebar = document.getElementById('sidebar');
+			var btn_open = document.getElementById('sidebar_open');
+			var btn_close = document.getElementById('sidebar_close');
+
+			}
+
+			function A2YSlide(name,id,range,sec,tb,margin){
+				this.name = name;
+				this.obj = document.getElementById(id);
+				this.range = range;
+				this.sec = sec;
+				this.tb = tb;
+				this.margin = margin;
+				this.Timer();
+			}
+			A2YSlide.prototype.Move = function A2YSlide_Move(fix_y){
+				objY = parseInt(this.obj.style.top);
+				if(objY != fix_y){
+					this.obj.style.top = (objY + this.GetMoveValue(objY,fix_y)) + 'px';
+				}
+				this.Timer();
+			}
+			A2YSlide.prototype.GetMoveValue = function A2YSlide_GetMoveValue(start, end){
+				return (end - start) * this.range;
+			}
+
+			A2YSlide.prototype.GetDocTnB = function A2YSlide_GetDocTnB(bTB){
+				return ((bTB)?document.documentElement.clientHeight:0) + document.documentElement.scrollTop;
+			}
+
+			A2YSlide.prototype.Timer = function A2YSlide_Timer(){
+				setTimeout(this.name + '.Move('+(this.GetDocTnB(this.tb)+this.margin)+')',this.sec);
+			}
+			function A2Wzd_YSlide(id,range,sec,tb,margin){
+				eval('C'+id+" = new A2YSlide('C"+id+"','"+id+"',"+range+","+sec+","+tb+","+margin+');');
+			}
+
+			function scroll_ing() {
+				A2Wzd_YSlide('top',0.2,10,0,0);
+			}
+
+			if (typeof window.addEventListener != 'undefined') {
+				window.addEventListener("load", open_close, false);
+				window.addEventListener("load", scroll_ing, false);
+			} else if (typeof window.attachEvent != 'undefined') {
+				window.attachEvent("onload", open_close);
+				window.attachEvent("onload", scroll_ing);
+			}
+		</script><!--// quick menu script-->
+
+		<div id="top" style="position:absolute;top:0px;right:-115px;width:104px;">
+			<a href="#"><img src="images/b_quickbg.gif" alt="맨 위로" title="맨 위로" /></a>
+		</div><!--// quick menu -->
+
+		<div id="subColumn">
+			<div class="subtitle">
+				<div class="line">
+					<h3 class="t_comm02"><span class="hidden">자유게시판</span></h3>
+				</div>
+			</div><!--//subtitle -->
+
+			<div class="boardComm">
+				<div class="tab tabLine">
+					<ul>
+						<li class="a"><a class="on" href="#"><span>전체보기</span></a></li>
+						<li class="a"><a href="#"><span>자유</span></a></li>
+						<li class="a"><a href="#"><span>맛집</span></a></li>
+						<li class="a"><a href="#"><span>사고팔기</span></a></li>
+					</ul>
+				</div>
+				<table>
+					<caption>커뮤니티 게시판 리스트</caption>
+					<colgroup>
+						<col width="56px">
+						<col width="353px">
+						<col width="102px">
+						<col width="54px">
+						<col width="65px">
+					</colgroup>
+					<thead>
+						<tr>
+							<th class="ha">번호</th>
+							<th class="hb">제목</th>
+							<th class="hc">작성자</th>
+							<th class="hd">조회</th>
+							<th class="he">등록일</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr onMouseOver="this.style.backgroundColor='#f4f4f4'" onMouseOut="this.style.backgroundColor='white'">
+							<td class="da">1234</td>
+							<td class="db"><span class="dep"><a href="#">[자유]</a></span><a href="#">제7회 스포츠서울마라톤대회</a><em>[1]</em></td>
+							<td class="dc">관리자</td>
+							<td class="dd">1234</td>
+							<td class="de">10.03.08</td>
+						</tr><!--// list -->
+						<tr onMouseOver="this.style.backgroundColor='#f4f4f4'" onMouseOut="this.style.backgroundColor='white'">
+							<td class="da">1234</td>
+							<td class="db"><span class="dep"><a href="#">[맛집]</a></span><a href="#">제7회 스포츠서울마라톤대회</a><em>[1]</em></td>
+							<td class="dc">관리자</td>
+							<td class="dd">1234</td>
+							<td class="de">10.03.08</td>
+						</tr><!--// list -->
+						<tr onMouseOver="this.style.backgroundColor='#f4f4f4'" onMouseOut="this.style.backgroundColor='white'">
+							<td class="da">1234</td>
+							<td class="db"><span class="reply01"><img src="images/i_reply.gif" /></span><a href="#">2010 MBC 섬진강 꽃길 마라톤대회</a><em>[12]</em></td>
+							<td class="dc">positionfov</td>
+							<td class="dd">1234</td>
+							<td class="de">10.03.08</td>
+						</tr><!--//답변글 list -->
+						<tr onMouseOver="this.style.backgroundColor='#f4f4f4'" onMouseOut="this.style.backgroundColor='white'">
+							<td class="da">1234</td>
+							<td class="db"><span class="reply02"><img src="images/i_reply.gif" /></span><a href="#">2010 MBC 섬진강 꽃길 마라톤대회</a><em>[12]</em></td>
+							<td class="dc">positionfov</td>
+							<td class="dd">1234</td>
+							<td class="de">10.03.08</td>
+						</tr><!--//답변글의 답변 list class="reply0? 번호 증가-->
+						<tr onMouseOver="this.style.backgroundColor='#f4f4f4'" onMouseOut="this.style.backgroundColor='white'">
+							<td class="da">1234</td>
+							<td class="db"><span class="dep"><a href="#">[사고팔기]</a></span><a href="#">제7회 스포츠서울마라톤대회</a><em>[1]</em></td>
+							<td class="dc">관리자</td>
+							<td class="dd">1234</td>
+							<td class="de">10.03.08</td>
+						</tr><!--// list -->
+						<tr onMouseOver="this.style.backgroundColor='#f4f4f4'" onMouseOut="this.style.backgroundColor='white'">
+							<td class="da">1234</td>
+							<td class="db"><span class="dep"><a href="#">[기타]</a></span><a href="#">제7회 스포츠서울마라톤대회</a><em>[1]</em></td>
+							<td class="dc">관리자</td>
+							<td class="dd">1234</td>
+							<td class="de">10.03.08</td>
+						</tr><!--// list -->
+					</tbody>
+				</table>
+				<div class="btn">
+					<a href="#"><img src="images/b_write.gif" alt="글쓰기" /></a>
+				</div>
+				
+			</div><!--//boardComm -->
+
+			<div class="png">
+				<span class="pre"><a href="#">이전</a></span>
+				<span class="num">
+				|<em>1</em>|
+				<a href="#">2</a>|
+				<a href="#">3</a>|
+				<a href="#">4</a>|
+				<a href="#">5</a>|
+				<a href="#">6</a>|
+				<a href="#">7</a>|
+				<a href="#">8</a>|
+				<a href="#">9</a>|
+				<a href="#">10</a>|
+				</span>
+				<span class="nxt"><a href="#">다음</a></span>
+			</div><!-- /pagining -->
+
+			<div class="boardSch">
+				<select class="vm">
+					<option>제목</option>
+					<option>작성자</option>
+					<option>작성일</option>
+				</select>
+				<input type="text" class="txt vm" /> 
+				<a href="#"><img src="images/b_search03.gif" alt="검색" /></a>
+			</div>
+			
+		</div><!--//subColumn -->
+
+		<div id="rightColumn">
+
+			<div class="rSubcourse">
+				<h2 class="t_community"><span class="hidden">마라톤 커뮤니티</span></h2>
+				<div class="tab tabLine02">
+					<ul>
+						<li class="b"><a class="on" href="#" ><span>조회수</span></a></li>
+						<li class="b"><a href="#"><span>댓글순</span></a></li>
+						<li class="b"><a href="#"><span>추천순</span></a></li>
+					</ul>
+				</div>
+				<dl>
+					<dt><em>1</em><a href="#">2010년도를 기념하는 배번호</a></dt>
+					<dd>타조알</dd>
+				</dl>
+				<dl>
+					<dt><em>2</em><a href="#">2010년도를 기념하는 배번호</a></dt>
+					<dd>이봉주</dd>
+				</dl>
+				<dl>
+					<dt><em>3</em><a href="#">2010년도를 기념하는 배번호</a></dt>
+					<dd>황영조</dd>
+				</dl>
+				<dl>
+					<dt><em>4</em><a href="#">2010년도를 기념하는 배번호</a></dt>
+					<dd>듣보잡</dd>
+				</dl>
+				<dl>
+					<dt><em>5</em><a href="#">2010년도를 기념하는 배번호</a></dt>
+					<dd>최경환</dd>
+				</dl>
+				<dl>
+					<dt><em>6</em><a href="#">2010년도를 기념하는 배번호</a></dt>
+					<dd>최경환</dd>
+				</dl>
+				<dl>
+					<dt><em>7</em><a href="#">2010년도를 기념하는 배번호</a></dt>
+					<dd>최경환</dd>
+				</dl>
+				<dl>
+					<dt><em>8</em><a href="#">2010년도를 기념하는 배번호</a></dt>
+					<dd>최경환</dd>
+				</dl>
+				<dl>
+					<dt><em>9</em><a href="#">2010년도를 기념하는 배번호</a></dt>
+					<dd>최경환</dd>
+				</dl>
+				<dl>
+					<dt><em>10</em><a href="#">2010년도를 기념하는 배번호</a></dt>
+					<dd>최경환</dd>
+				</dl>
+				<div class="mr"><a href="#"><img src="images/i_more.gif" alt="더보기" /></a></div>
+			</div><!--//rSubcourse -->
+
+		</div><!--//rightColumn -->
+
+	</div><!--//columnArea-->
+
+	<div id="footer">
+		<div class="fot">
+			<span><a href="#">회사소개</a></span> |
+			<span><a href="#">사업제휴</a></span> |
+			<span><a href="#">광고문의</a></span> |
+			<span><a href="#">취재·홍보문의</a></span> |
+			<span><a href="#">사진촬영·대여문의</a></span> |
+			<span><a href="#">홈페이지제작문의</a></span> |
+			<span><a href="#">기사제보</a></span> |
+			<span><a href="#">서비스이용약관</a></span> |
+			<span><a href="#">개인정보보호정책</a></span> |
+			<span><a href="#">찾아오시는길</a></span>
+		</div>
+		<address>
+			<p>서울시 마포구 신공덕동 12-6 규성빌딩 301호 ㈜스포츠코리아</p>
+			<p>TEL(02)707-2127 · FAX(02)707-2206 | Email : <a href="mailto:news.happyleports.com">news.happyleports.com</a> | Copyrightⓒ happyleports. All rights reserved.</p>
+		</address>
+	</div><!--//footer-->
+
+</div><!--//wrapper -->
+
+</body>
+
+</html>

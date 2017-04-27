@@ -1,0 +1,1087 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>야후! 미주한인</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="http://yui.yahooapis.com/2.5.1/build/reset-fonts-grids/reset-fonts-grids.css" type="text/css">
+<style type="text/css">
+/* reset */
+html{color:#666;background:#fff;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+li{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;font-variant:normal;}
+sup{vertical-align:text-top;}
+sub{vertical-align:text-bottom;}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}
+input,textarea,select{*font-size:100%;}
+legend{color:#000;}
+del,ins{text-decoration:none;}
+button{border:none 0;background:none;cursor:pointer;_cursor /**/:hand;}
+a img{border:none;}
+
+/* fonts */
+body{font:12px/1.335 굴림,Gulim,Arial,Helvetica,Clean,AppleGothic,sans-serif;}
+select,input,button,textarea{font:12px 굴림,Gulim,Arial,Helvetica,Clean,AppleGothic,sans-serif;}
+table{font-size:inherit;font:100%;}
+pre,code,kbd,samp,tt{font-family:monospace;*font-size:108%;line-height:100%;}
+body{text-align:center;}a{color:#001166;text-decoration:none;}a:visited{color:#800080;}a:hover{text-decoration:underline;}
+
+/* layout  css*/
+#doc2{width:950px;margin:0 auto;text-align:left;}
+.yui-t6 #yui-main{margin-right:-325px;}
+.yui-t6 #yui-main .yui-b{width:635px;padding-bottom:0px;}
+.yui-t6 .yui-b{width:300px;padding-bottom:20px;}
+#hd,#bd,#bd_n01,#bd_n02,#bd_j01,#bd_j02,#bd_y,#ft{clear:both;}
+.yui-gf .yui-u{width:525px;}
+.yui-gf div.first{width:95px;}
+
+.yui-gf .yui-nmu{width:428px;float:right;}
+.yui-gf div.nmfirst{width:192px;float:left;}
+
+.yui-gf .yui-jmu{width:500px;float:right;}
+.yui-gf div.jmfirst{width:120px;float:left;}
+
+/*업소록 메인 layout */
+.gui-w{width:635px;}
+.gui-l{float:left;width:192px;}
+.gui-r{float:right;width:428px;}
+.gui-b{clear:both;}
+
+#bd:after,#bd_n01:after,#bd_n02:after,#bd_j01:after,#bd_j02:after,#bd_y:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+#bd_n01,#bd_n02,#bd_j01,#bd_j02,#bd_y{zoom:1;}
+/* 기본 Bg */
+#bd{background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/bg/k_rightbg.gif) right 0 repeat-y;}
+/* 뉴스 Bg1 */
+#bd_n01{background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/bg/k_bb.gif) left top repeat-y;}
+/* 뉴스 Bg2 */
+#bd_n02{background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/bg/k_bb02.gif) left top repeat-y;}
+/* Job Bg1 */
+#bd_j01{background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/bg/k_bb03.gif) left top repeat-y;}
+/* Job Bg2 */
+#bd_j02{background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/bg/k_bb04.gif) left top repeat-y;}
+/* 업소록 Bg */
+#bd_y{background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/bg/k_y_rightbg.gif) left top repeat-y;}
+strong{font-weight:bold;}
+/* /layout */
+
+/* 추가 class */
+.block{display:block;}
+.clear{clear:both;}
+.clearfx{zoom:1;}
+.clearfx:after{content: ".";display:block;font-size:0;height:0px;line-height:0;clear:both;}
+.hidden{display:none;}
+.bold{font-weight:bold;}
+.fl{float:left;}
+.fr{float:right;}
+.n_bg{background-image:none;}
+.more a{font:11px Dotum,돋움;color:#011168;text-decoration:none;background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/icon/i_arrow.gif) no-repeat;padding-left:6px;letter-spacing:-1px;}
+/* /추가 class */
+
+/* pagination */
+.png{text-align:center;padding-top:24px;margin-bottom:20px;}
+.png .pre,.png .nxt{color:#999;}
+.png .pre a,.png .nxt a{border:1px solid #ddd;margin:0 3px;padding:4px 5px 1px;font:bold 11px dotum;color:#001166;}
+.png .pre a{background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/bg/k_png.gif) no-repeat 6px 7px;padding-left:12px;}
+.png .nxt a{background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/bg/k_png.gif) no-repeat 100% 7px;padding-right:12px;}
+.png .num a,.png .num em{margin:0;padding:4px 6px 1px;font:11px dotum;}
+.png .num a{border:1px solid #DDD;color:#001166;}
+.png .num em{border:1px solid #fff;color:#000;font-weight:bold;}
+/* /pagination */
+
+/* header */
+#uh{clear:both;color:#C1C1C1;margin-top:8px;font:11px dotum;text-align:left;}
+#uh a{color:#036 !important;}
+#mh{float:left;height:48px;margin-top:12px;}
+#mh span{display:none;}
+#mh a{display:block;float:left;width:121px;height:31px;background:url('http://img.yahoo.co.kr/global/2009/k_mh.gif') 0 0 no-repeat;}
+#mh .a{display:inline;margin-right:12px;}
+#mh .b{width:101px;background-position:100% 0;}
+#ad{position:relative;z-index:20;float:right;margin-top:-13px;background-color:#fff;text-align:left;}
+#prn{clear:both;}
+#prn .pn{height:40px;padding-left:9px;background:url('http://img.yahoo.co.kr/global/2009/k_prn.gif') 0 0 no-repeat;}
+#prn .pn li{float:left;padding-left:1px;background:url('http://img.yahoo.co.kr/global/2009/k_prn.gif') -112px -40px no-repeat;}
+#prn .pn li.a,#prn .pn li.z{background:none;}
+#prn .pn li span{display:none;}
+#prn .pn li a{display:block;width:102px;height:40px;background:url('http://img.yahoo.co.kr/global/2009/k_prn.gif') -10px -40px no-repeat;}
+#prn .pn li.a a{width:102px;background-position:-10px -40px;}
+#prn .pn li.b a{width:63px;background-position:-113px -40px;}
+#prn .pn li.c a{width:86px;background-position:-177px -40px;}
+#prn .pn li.d a{width:60px;background-position:-264px -40px;}
+#prn .pn li.e a{width:59px;background-position:-325px -40px;}
+#prn .pn li.f a{width:74px;background-position:-385px -40px;}
+#prn .pn li.g a{width:63px;background-position:-460px -40px;}
+#prn .pn li.h a{width:86px;background-position:-524px -40px;}
+#prn .pn li.i a{width:74px;background-position:-611px -40px;}
+#prn .pn li.j a{width:62px;background-position:-686px -40px;}
+#prn .pn li.k a{width:71px;background-position:-749px -40px;}
+#prn .pn li.a a:hover{background-position:-10px -80px;}
+#prn .pn li.b a:hover{background-position:-113px -80px;}
+#prn .pn li.c a:hover{background-position:-177px -80px;}
+#prn .pn li.d a:hover{background-position:-264px -80px;}
+#prn .pn li.e a:hover{background-position:-325px -80px;}
+#prn .pn li.f a:hover{background-position:-385px -80px;}
+#prn .pn li.g a:hover{background-position:-460px -80px;}
+#prn .pn li.h a:hover{background-position:-524px -80px;}
+#prn .pn li.i a:hover{background-position:-611px -80px;}
+#prn .pn li.j a:hover{background-position:-686px -80px;}
+#prn .pn li.k a:hover{background-position:-749px -80px;}
+#prn .pn li.a a.on{background-position:-10px -120px;}
+#prn .pn li.b a.on{background-position:-113px -120px;}
+#prn .pn li.c a.on{background-position:-177px -120px;}
+#prn .pn li.d a.on{background-position:-264px -120px;}
+#prn .pn li.e a.on{background-position:-325px -120px;}
+#prn .pn li.f a.on{background-position:-385px -120px;}
+#prn .pn li.g a.on{background-position:-460px -120px;}
+#prn .pn li.h a.on{background-position:-524px -120px;}
+#prn .pn li.i a.on{background-position:-611px -120px;}
+#prn .pn li.j a.on{background-position:-686px -120px;}
+#prn .pn li.k a.on{background-position:-749px -120px;}
+#prn .pn li.z{float:right;margin-top:8px;}
+#prn .pn li.z a{width:72px;height:23px;margin-right:6px;background:url('http://img.yahoo.co.kr/global/2009/k_prn.gif') -872px -8px no-repeat;}
+/* /header */
+
+/*right*/
+.rv{position:relative;width:290px;margin:16px 5px 0;}
+.rv .hd{height:15px;margin-bottom:4px;background:url('http://img.yahoo.co.kr/global/2009/t_rv_v1.gif') 9px 0 no-repeat;}
+.rv .bd{border:1px solid #c9c9c9;background:#fdfdfd;}
+.rv h4{display:none;}
+.rv .tb{display:block;position:absolute;top:19px;left:0;width:291px;height:27px;background:url('http://img.yahoo.co.kr/global/2009/k_rv_v1.gif') 0 26px no-repeat;}
+.rv .tb a{display:inline;float:left;margin-right:1px;background:url('http://img.yahoo.co.kr/global/2009/k_rv_v1.gif') 0 -1px no-repeat;color:#6c6e73;}
+.rv .tb a span{display:block;height:18px;width:71px;margin-left:1px;padding-top:9px;background:url('http://img.yahoo.co.kr/global/2009/k_rv_v1.gif') 100% -1px no-repeat;font:11px dotum;text-align:center;cursor:pointer;}
+.rv .tb a.on{background-position:0 -28px;}
+.rv .tb a.on span{width:70px;height:17px;padding-top:10px;background-position:100% -28px;font-weight:bold;}
+.rv .ls{margin-left:12px;padding-top:9px;}
+.rv .ls li{padding-left:9px;background:url('http://img.yahoo.co.kr/global/2009/u_rv_v1.gif') 0 -52px no-repeat;line-height:20px;}
+.rv .ls li a{color:#016;}
+.rv .ls li.b{font-weight:bold;}
+.rv .ls li em{font:11px dotum;}
+.rv .nb{margin-left:10px;padding-top:7px;}
+.rv .nb li{padding-left:20px;background:url('http://img.yahoo.co.kr/global/2009/u_rv_v1.gif') 0 -96px no-repeat;line-height:21px;}
+.rv .nb li a{color:#016;}
+.rv .nb li.nb2{background-position:0 -117px;}
+.rv .nb li.nb3{background-position:0 -138px;}
+.rv .nb li.nb4{background-position:0 -159px;}
+.rv .nb li.nb5{background-position:0 -180px;}
+.rv .nb li.nb6{background-position:0 -201px;}
+.rv .nb li.nb7{background-position:0 -222px;}
+.rv .nb li.nb8{background-position:0 -243px;}
+.rv .nb li.nb9{background-position:0 -264px;}
+.rv .nb li.nb10{background-position:0 -285px;}
+.rv .nb li.nb11{background-position:0 -306px;}
+.rv .nb li.nb12{background-position:0 -327px;}
+.rv .nb li.nb13{background-position:0 -348px;}
+.rv .nb li.nb14{background-position:0 -369px;}
+.rv .nb li.nb15{background-position:0 -390px;}
+.rv .nb li.nb16{background-position:0 -411px;}
+.rv .nb li.nb17{background-position:0 -432px;}
+.rv .nb li.nb18{background-position:0 -453px;}
+.rv .nb li.nb19{background-position:0 -474px;}
+.rv .nb li.nb20{background-position:0 -495px;}
+.rv .nb li.nb21{background-position:0 -516px;}
+.rv .nb li.nb22{background-position:0 -537px;}
+.rv .nb li.nb23{background-position:0 -558px;}
+.rv .nb li.nb24{background-position:0 -579px;}
+.rv .nb li.nb25{background-position:0 -600px;}
+.rv .nb li.nb26{background-position:0 -621px;}
+.rv .nb li.nb27{background-position:0 -642px;}
+.rv .nb li.nb28{background-position:0 -663px;}
+.rv .pt{padding-top:9px;}
+.rv .pt li{display:inline;position:relative;float:left;width:84px;height:109px;margin-left:9px;font:11px/16px dotum;text-align:center;}
+.rv .pt .clip{display:block;position:relative;width:80px;height:60px;margin-bottom:4px;border:2px solid #fff;overflow:hidden;}
+.rv .pt .clip img{position:absolute;top:0;left:0;clip:rect(auto 80px 60px auto);}
+.rv .pt em{position:absolute;top:51px;left:1px;z-index:2;width:15px;height:12px;background:url('http://img.yahoo.co.kr/global/2009/u_rv_v1.gif') 1px -80px no-repeat;}
+.rv .nt{position:absolute;bottom:11px;left:10px;color:#a2a2a2;font:11px dotum;}
+.rv .mr,#rv2 .mr{position:absolute;top:2px;right:6px;padding-left:7px;background:url('http://img.yahoo.co.kr/global/2009/u_rv_v1.gif') 0 -18px no-repeat;color:#016;font:11px dotum;letter-spacing:-1px;}
+.rv .rl,#rv2 .rl{position:absolute;bottom:8px;right:6px;width:19px;height:18px;background:url('http://img.yahoo.co.kr/global/2009/k_rv_v1.gif') 0 -74px no-repeat;}
+.rv .mr span,.rv .rl span,#rv2 .mr span,#rv2 .rl span{display:none;}
+
+#rv1{padding-bottom:10px;background:#fff;}
+#rv1 h4{display:none;}
+#rv1 img{vertical-align:top;}
+#rv2{position:relative;height:208px;padding:9px 6px 10px;background:url('http://img.yahoo.co.kr/global/2009/k_rv_v1.gif') 0 -109px no-repeat;}
+#rv2 .hd{height:15px;margin-bottom:11px;}
+#rv2 h4{display:none;}
+#rv2 a{color:#E5E5E6;}
+#rv2 ul{height:106px;}
+#rv2 ul li{display:inline;float:left;width:84px;margin:0 6px;font:11px/16px dotum;text-align:center;}
+#rv2 dl{width:268px;margin:9px 10px 0;}
+#rv2 dl dd{padding:2px 0 0 9px;background:url('http://img.yahoo.co.kr/global/2009/u_rv_v1.gif') 0 -32px no-repeat;}
+#rv2 .clip{display:block;position:relative;width:80px;height:60px;margin-bottom:1px;border:2px solid #71747B;}
+#rv2 .clip img{position:absolute;top:0;left:0;clip:rect(auto 80px 60px auto);}
+#rv2 .mr{top:12px;right:13px;background-position:0 2px;color:#959492;}
+#rv2 .rl{bottom:21px;right:11px;}
+#rv3 h4{display:none;}
+#rv3 img{vertical-align:top;}
+#rv4 .hd{margin-bottom:30px;background-position:9px 0;}
+#rv4 .bd{height:250px;}
+#rv4 .tb a span{width:95px;}
+#rv5{margin:8px 5px 0;padding-top:10px;background:url('http://img.yahoo.co.kr/global/2009/k_rv_v1.gif') 0 -336px no-repeat;}
+#rv5 .hd{margin-bottom:6px;background:url('http://img.yahoo.co.kr/global/2009/t_rv_v1.gif') 12px -15px no-repeat;}
+#rv5 .bd{height:129px;background:url('http://img.yahoo.co.kr/global/2009/k_rv_v1.gif') -1px -368px no-repeat;}
+#rv5 ul{margin:0 5px;}
+#rv5 li{padding:1px 0;zoom:1;}
+#rv5 li:after{content: ".";display:block;font-size:0;height:0;line-height:0;clear:both;}
+#rv5 li img{display:inline;float:left;margin-right:9px;}
+#rv5 li span{display:block;height:18px;margin-top:10px;padding-top:7px;font:11px dotum;}
+#rv5 li em{float:left;width:28px;color:#000;font:11px dotum;text-align:center;}
+#rv5 li em.x{display:inline;margin-left:14px;}
+#rv5 li p{padding:8px 0 0 4px;font:11px dotum;}
+#rv6{margin:8px 5px 0;padding-top:11px;height:63px;background:url('http://img.yahoo.co.kr/global/2009/k_rv_v1.gif') 0 -498px no-repeat;}
+#rv6 .hd{height:15px;margin-bottom:8px;}
+#rv6 h4{display:none;}
+#rv6 fieldset{padding:8px 0 0 22px;font:bold 11px dotum;backgroun d:#f0f;}
+#rv6 fieldset *{vertical-align:middle;}
+#rv6 fieldset .tx{display:inline;width:105px;height:16px;margin:0 2px;padding:3px 0 0 3px;border:1px solid #9a9a9a;border-right:1px solid #d8d8d8;border-bottom:1px solid #d8d8d8;background:url('http://img.yahoo.co.kr/global/2009/k_rv_v1.gif') 0 -55px no-repeat;}
+#rv7{margin:8px 5px 0;padding-top:10px;}
+#rv7 .hd{margin-bottom:6px;background-position:12px -45px;}
+#rv7 .bd{height:121px;}
+#rv7 .mr{top:12px;}
+#rv8{margin:10px 5px;}
+#rv8 .hd{margin-bottom:30px;background-position:9px -150px;}
+#rv8 .bd{height:165px;}
+#rv8 .tb a span{width:71px;}
+#rv8 .tb a.on span{width:70px;}
+#rv9 .hd{margin-bottom:30px;background-position:9px -75px;}
+#rv9 .bd{height:195px;}
+#rv9 .tb a span{width:95px;}
+#rv9 ul{padding:8px 0 0 7px;}
+#rv9 li{position:relative;padding-bottom:11px;zoom:1;}
+#rv9 li:after{content: ".";display:block;font-size:0;height:0;line-height:0;clear:both;}
+#rv9 li strong,#rv9 li em,#rv9 li span{display:block;}
+#rv9 li strong{padding-top:3px;margin-bottom:5px;line-height:14px;}
+#rv9 li em{color:#016;font:11px/13px dotum;}
+#rv9 li span{position:absolute;top:53px;left:110px;width:90px;height:13px;margin-top:0px;padding:4px 0 0 15px;background:url('http://img.yahoo.co.kr/global/2009/k_rv_v1.gif') 0 -92px no-repeat;color:#666;font:11px dotum;text-decoration:none;letter-spacing:-1px;}
+#rv9 .clip{display:inline;float:left;width:90px;height:65px;margin-right:11px;_margin-right:9px;padding:3px;border:1px solid #ccc;background:#fff;}
+#rv9 .clip img{clip:rect(auto 90px 65px auto);}
+#rv10 .hd{margin-bottom:30px;background-position:9px -90px;}
+#rv10 .bd{height:250px;}
+#rv10 .tb a span{width:144px;}
+#rv10 .tb a.on span{width:143px;}
+#rv11 .hd{margin-bottom:30px;background-position:9px -105px;}
+#rv11 .bd{height:117px;}
+#rv11 .tb a span{width:95px;}
+#rv12 .hd{margin-bottom:30px;background-position:9px -120px;}
+#rv12 .bd{height:117px;}
+#rv12 .tb a span{width:95px;}
+#rv13{margin:10px 5px;}
+#rv13 .hd{background-position:9px -135px;}
+#rv13 .bd{height:121px;}
+#rv14 .hd{margin-bottom:30px;background-position:9px -150px;}
+#rv14 .bd{height:165px;}
+#rv14 .tb a span{width:71px;}
+#rv14 .tb a.on span{width:70px;}
+#rv15 .hd{background-position:9px -165px;}
+#rv15 .bd{height:121px;}
+#rv16 .hd{background-position:9px -195px;}
+#rv16 .bd{height:121px;margin-bottom:10px;}
+#rv17 .hd{background-position:9px -180px;}
+#rv17 .bd{height:165px;}
+#rv17 ul{padding:3px 0 0 10px;}
+#rv17 li{padding-top:6px;zoom:1;}
+#rv17 li:after{content: ".";display:block;font-size:0;height:0;line-height:0;clear:both;}
+#rv17 li strong,#rv17 li em{display:block;}
+#rv17 li strong{padding:6px 0 3px;}
+#rv17 li em{font:11px dotum;}
+#rv17 .clip{display:inline;float:left;width:60px;height:45px;margin-right:6px;}
+#rv17 .clip img{clip:rect(auto 60px 45px auto);}
+#rv18 .hd{background-position:9px -210px;}
+#rv18 .bd{height:121px;}
+#rv19 .hd{background-position:9px -225px;}
+#rv19 .bd{height:121px;}
+#rv20{margin:10px 5px;}
+#rv20 .hd{background-position:9px -240px;}
+#rv20 .bd{padding-top:5px;background:url('http://img.yahoo.co.kr/global/2009/k_rv_v1.gif') 0 -642px no-repeat #fdfdfd;*background-position:1px -641px;}
+#rv20 li{height:96px;}
+#rv21 .hd{background-position:9px -255px;}
+#rv21 .bd{height:121px;}
+#rv22 .hd{background-position:9px -270px;}
+#rv22 .bd{height:121px;}
+#rv23{margin:10px 5px;}
+#rv23 .hd{background-position:9px -285px;}
+#rv23 .bd{padding-top:5px;padding-bottom:5px;background:url('http://img.yahoo.co.kr/global/2009/k_rv_v1.gif') 0 -642px no-repeat #fdfdfd;*background-position:1px -641px;}
+#rv23 li{height:72px;}
+#rv24 .hd{background-position:9px -300px;}
+#rv24 .bd{height:121px;}
+#rv25 .hd{background-position:9px -315px;}
+#rv25 .bd{height:121px;}
+#rv26{margin:10px 5px;}
+#rv26 .hd{background-position:9px -330px;}
+#rv26 .bd{height:121px;}
+#rv27 .hd{display:none;}
+#rv27 .bd{height:70px;border:none;background:url('http://img.yahoo.co.kr/global/2009/k_rv_v1.gif') 0 -572px no-repeat;}
+#rv27 ul{margin-left:105px;padding-top:5px;}
+#rv28 .hd{background-position:9px -345px;}
+#rv28 .bd{height:121px;}
+/*/right*/
+
+/*footer*/
+#ftr{padding:31px 0;color:#777;font:11px/19px dotum;text-align:center;}
+#ftr a{color:#004276;}
+#ftr .bd p{margin-bottom:11px;padding-bottom:10px;border-bottom:1px solid #CCC;}
+/*/footer*/
+
+/* job 서브메뉴 */
+#j_sub_prn{float:left;clear:both;margin-bottom:15px;margin-top:-5px;width:950px;}
+#j_sub_prn .pn{height:25px;background:url(http://img.yahoo.co.kr/global/2009/k_prn.gif) 0 -160px no-repeat;padding-top:8px;}
+#j_sub_prn .pn span{display:none;}
+#j_sub_prn .pn ol{margin-left:209px;}
+#j_sub_prn .pn li.g{background:none;}
+#j_sub_prn .pn li{float:left;display:block;height:18px;background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/icon/c_submenu_bar.gif) right center no-repeat;padding:0 5px 0 4px;}
+#j_sub_prn .pn li.nbar{float:left;display:block;height:18px;background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/icon/i_n_menubar.gif) right center no-repeat;padding:0 14px 0 4px;}
+#j_sub_prn .pn li.nbar02{float:left;display:block;height:18px;background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/icon/c_submenu_bar.gif) right center no-repeat;padding:0 5px 0 12px;}
+#j_sub_prn .pn li.nbar03{float:left;display:block;height:18px;background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/icon/i_n_menubar.gif) right center no-repeat;padding:0 14px 0 4px;}
+#j_sub_prn .pn li.nbar04{float:left;display:block;height:18px;background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/icon/c_submenu_bar.gif) right center no-repeat;padding:0 5px 0 10px;}
+#j_sub_prn .pn li.nbar05{float:left;display:block;height:18px;background:none;padding:0 5px 0 10px;}
+#j_sub_prn .pn li a{display:block;background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/bg/j_submenu.gif) 0 0 no-repeat;}
+#j_sub_prn .pn li.n01 a.on{width:46px;height:18px;background-position:0px 0px;}
+#j_sub_prn .pn li.n02 a.on{width:46px;height:18px;background-position:-46px 0px;}
+#j_sub_prn .pn li.n03 a.on{width:45px;height:18px;background-position:-92px 0px;}
+#j_sub_prn .pn li.n04 a.on{width:36px;height:18px;background-position:-137px 0px;}
+#j_sub_prn .pn li.n05 a.on{width:61px;height:18px;background-position:-173px 0px;}
+#j_sub_prn .pn li.n06 a.on{width:57px;height:18px;background-position:-234px 0px;}
+#j_sub_prn .pn li.n07 a.on{width:106px;height:18px;background-position:-291px 0px;}
+#j_sub_prn .pn li.n08 a.on{width:57px;height:18px;background-position:-397px 0px;}
+#j_sub_prn .pn li.n09 a.on{width:82px;height:18px;background-position:-454px 0px;}
+#j_sub_prn .pn li.n01 a{width:46px;height:18px;background-position:0px -18px;}
+#j_sub_prn .pn li.n02 a{width:46px;height:18px;background-position:-46px -18px;}
+#j_sub_prn .pn li.n03 a{width:45px;height:18px;background-position:-92px -18px;}
+#j_sub_prn .pn li.n04 a{width:36px;height:18px;background-position:-137px -18px;}
+#j_sub_prn .pn li.n05 a{width:61px;height:18px;background-position:-173px -18px;}
+#j_sub_prn .pn li.n06 a{width:57px;height:18px;background-position:-234px -18px;}
+#j_sub_prn .pn li.n07 a{width:106px;height:18px;background-position:-291px -18px;}
+#j_sub_prn .pn li.n08 a{width:57px;height:18px;background-position:-397px -18px;}
+#j_sub_prn .pn li.n09 a{width:82px;height:18px;background-position:-454px -18px;}
+
+#j_lm_map{position:relative;background:#fff;width:192px;padding-bottom:18px;}
+#j_lm_map .hd{margin-top:4px;padding:6px 0 7px 9px;}
+#j_lm_map h4{background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/bg/k_m_jobsubtitle.gif) 0 0 no-repeat;height:13px;width:82px;}
+#j_lm_map .line{border:1px solid #c9c9c9;}
+#j_lm_map .bd{background:#fafafa;margin-top:4px;padding-bottom:5px;}
+#j_lm_map .map{border:1px solid #c9c9c9;width:180px;margin:0 auto;}
+#j_lm_map .ft span.more{position:absolute;right:5px;top:11px;*top:13px;}
+
+#j_lm_industry{position:relative;background:#fff;width:192px;}
+#j_lm_industry h3{margin:0 0 8px 7px;}
+#j_lm_industry .bd{background:#f5f5f5;padding:2px;width:188px;}
+#j_lm_industry .work01{position:relative;width:186px;border-top:1px solid #c9c9c9;border-right:1px solid #c9c9c9;border-left:1px solid #c9c9c9;background:#fff;}
+#j_lm_industry .work01 .t_line{border-bottom:1px solid #c9c9c9;padding:1px 1px 0 1px;}
+#j_lm_industry .work01 .title{background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/bg/k_lm_jobbg.gif) repeat-x;height:20px;padding:8px 0 0 8px;}
+#j_lm_industry .work01 h4{background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/bg/k_m_jobsubtitle.gif) 0 -20px no-repeat;width:98px;height:13px;}
+#j_lm_industry .work02{position:relative;width:186px;border-top:1px solid #c9c9c9;border-right:1px solid #c9c9c9;border-left:1px solid #c9c9c9;background:#fff;}
+#j_lm_industry .work02 .t_line{border-bottom:1px solid #c9c9c9;padding:1px 1px 0 1px;}
+#j_lm_industry .work02 .title{background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/bg/k_lm_jobbg.gif) repeat-x;height:20px;padding:8px 0 0 8px;}
+#j_lm_industry .work02 h4{background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/bg/k_m_jobsubtitle.gif) 0 -37px no-repeat;width:98px;height:13px;}
+#j_lm_industry .work03{position:relative;width:186px;border-top:1px solid #c9c9c9;border-right:1px solid #c9c9c9;border-left:1px solid #c9c9c9;background:#fff;}
+#j_lm_industry .work03 .t_line{border-bottom:1px solid #c9c9c9;padding:1px 1px 0 1px;}
+#j_lm_industry .work03 .title{background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/bg/k_lm_jobbg.gif) repeat-x;height:20px;padding:8px 0 0 8px;}
+#j_lm_industry .work03 h4{background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/bg/k_m_jobsubtitle.gif) 0 -57px no-repeat;width:98px;height:13px;}
+#j_lm_industry .work04{position:relative;width:186px;border-top:1px solid #c9c9c9;border-right:1px solid #c9c9c9;border-left:1px solid #c9c9c9;background:#fff;}
+#j_lm_industry .work04 .t_line{border-bottom:1px solid #c9c9c9;padding:1px 1px 0 1px;}
+#j_lm_industry .work04 .title{background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/bg/k_lm_jobbg.gif) repeat-x;height:20px;padding:8px 0 0 8px;}
+#j_lm_industry .work04 h4{background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/bg/k_m_jobsubtitle.gif) 0 -77px no-repeat;width:98px;height:13px;}
+#j_lm_industry .work05{position:relative;width:186px;border:1px solid #c9c9c9;background:#fff;}
+#j_lm_industry .work05 .t_line{border-bottom:1px solid #c9c9c9;padding:1px 1px 0 1px;}
+#j_lm_industry .work05 .title{background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/bg/k_lm_jobbg.gif) repeat-x;height:20px;padding:8px 0 0 8px;}
+#j_lm_industry .work05 h4{background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/bg/k_m_jobsubtitle.gif) 0 -95px no-repeat;width:98px;height:13px;}
+#j_lm_industry .j_list{padding:10px;}
+#j_lm_industry .j_list ul{clear:both;padding-bottom:20px;}
+#j_lm_industry .j_list li{float:left;color:#d3d3d3;margin-right:3px;}
+#j_lm_industry .more{position:absolute;right:5px;top:9px;*top:11px;}
+/* /job 서브메뉴 */
+
+/* 구인정보검색 */
+#j_search{position:relative;background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/bg/k_jobsearchbg.gif) 0 0 no-repeat;width:428px;margin-bottom:18px;z-index:1;}
+#j_search h3{padding:12px 0 0 15px;}
+#j_search .sel{margin:10px 0 0 15px;height:25px;}
+#j_search .sel .sel01,#j_search .sel .sel02,#j_search .sel .sel03{position:relative;float:left;width:128px;margin-right:7px;}
+#j_search .sel span{display:block;height:16px;padding:4px 0 0 5px;border:1px solid #9a9a9a;border-right:1px solid #d8d8d8;border-bottom:1px solid #d8d8d8;background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/bg/k_carinput.gif) 100% 0px no-repeat #fff;cursor:pointer;font-weight:bold;}
+#j_search .sel .opt{position:absolute;top:21px;left:0;width:126px;border:1px solid #9a9a9a;border-right:1px solid #d8d8d8;border-bottom:1px solid #d8d8d8;background:#fff;z-index:10;}
+#j_search .sel .opt li a{display:block;height:19px;padding:4px 0 0 5px;color:#666;text-decoration:none;cursor:pointer;}
+#j_search .sel .opt li a:hover{background:#e9e9e9;}
+#j_search .sel .opt .on{text-decoration:underline;}
+#j_search .sel .opt02{position:absolute;top:21px;left:0;width:126px;height:140px;border:1px solid #9a9a9a;border-right:1px solid #d8d8d8;border-bottom:1px solid #d8d8d8;background:#fff;z-index:10;overflow-y:scroll;}
+#j_search .sel .opt02 li a{display:block;height:19px;padding:4px 0 0 5px;color:#666;text-decoration:none;cursor:pointer;}
+#j_search .sel .opt02 li a:hover{background:#e9e9e9;}
+#j_search .sel .opt02 .on{text-decoration:underline;}
+#j_search .chk{width:428px;font:11px 돋움,Dotum;margin-top:7px;*margin-top:3px;}
+#j_search .chk span{padding-left:17px;}
+#j_search .sch{clear:both;height:25px;padding:20px 0 0 14px;}
+#j_search .sch .tx{display:inline;float:left;width:300px;height:16px;margin:0 4px 0 0;padding:4px 0 0 5px;border:1px solid #9a9a9a;border-right:1px solid #d8d8d8;border-bottom:1px solid #d8d8d8;background:url('http://img.yahoo.co.kr/global/2009/k_gmf.gif') 0 -73px no-repeat;color:#666;}
+#j_search .sch .bt{float:left;display:block;}
+#j_search .ft span.more{position:absolute;right:10px;top:11px;*top:13px;}
+#j_search .register{background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/bg/k_jobsearchbg.gif) 0 -142px no-repeat;width:428px;height:53px;text-align:right;margin-top:12px;}
+#j_search .register .btn{padding:13px 16px 0 0;}
+/* /구인정보검색 */
+
+/* 스페셜 구인광고 */
+#j_ad{position:relative;clear:both;margin-bottom:20px;width:428px;}
+#j_ad h3{padding:0 0 10px 5px;}
+#j_ad .s_ad{clear:both;margin-bottom:5px;height:89px;}
+#j_ad .s_ad dl{float:left;background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/bg/k_j_adbg.gif) 0 0 no-repeat;width:139px;height:89px;display:inline;}
+#j_ad .s_ad dt{width:123px;margin:6px 8px 0 8px;border-bottom:1px solid #ececec;}
+#j_ad .s_ad dd{padding-top:5px;}
+#j_ad .s_ad .adspace{margin-left:3px;}
+#j_ad .s_ad span{display:block;text-align:center;}
+#j_ad .s_ad .clstop{color:#001166;font:bold 12px/140% 굴림,Gulim;}
+#j_ad .s_ad .clsbottom{color:#666;font:11px/140% 돋움,Dotum;}
+#j_ad .s_ad .clsbottom a{color:#666;font:11px/140% 돋움,Dotum;}
+#j_ad .ft span.btn{position:absolute;right:7px;top:0px;}
+#j_ad .ft span.more{position:absolute;right:120px;top:3px;*top:5px;}
+/* /스페셜 구인광고 */
+
+/* 구인정보 */
+#j_info{position:relative;clear:both;width:428px;}
+#j_info h3{font-weight:bold;}
+#j_info .j_t_border{border-top:1px solid #c9c9c9;border-bottom:2px solid #f4f4f4;margin-top:7px;}
+#j_info .new_info,#j_info .hot_info{padding:9px;}
+#j_info .new_info h4,#j_info .hot_info h4{background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/icon/i_dot.gif) left bottom repeat-x;padding-bottom:10px;margin-bottom:10px;}
+#j_info .new_info ul,#j_info .hot_info ul{margin-bottom:23px;}
+#j_info .new_info li,#j_info .hot_info li{background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/icon/i_bullet.gif) 0 6px no-repeat;padding-left:10px;color:#bababa;margin-bottom:5px;}
+#j_info .new_info .date,#j_info .hot_info .date{font:11px 돋움,Dotum;color:#666;padding-right:7px;}
+#j_info .new_info .title,#j_info .hot_info .title{padding-left:10px;}
+#j_info .new_info em,#j_info .hot_info em{font-weight:bold;color:#4578bf;}
+#j_info .ft{position:absolute;right:0px;top:-4px;}
+#j_info .ft span{display:block;font-weight:bold;width:137px;height:16px;padding:4px 0 0 5px;border:1px solid #9a9a9a;border-right:1px solid #d8d8d8;border-bottom:1px solid #d8d8d8;background:url(http://shared2-vm9.inf.corp.kr1.yahoo.com/img/bg/k_carinput.gif) 100% 0px no-repeat #fff;cursor:pointer;}
+#j_info .ft .opt{position:absolute;top:22px;left:0;width:142px;height:140px;border:1px solid #9a9a9a;border-right:1px solid #d8d8d8;border-bottom:1px solid #d8d8d8;background:#fff;overflow-y:scroll;}
+#j_info .ft .opt li a{display:block;height:19px;padding:4px 0 0 5px;color:#666;text-decoration:none;cursor:pointer;}
+#j_info .ft .opt li a:hover{background:#e9e9e9;}
+#j_info .ft .opt .on{text-decoration:underline;}
+/* /구인정보 */
+</style>
+
+</head>
+
+<body>
+
+<div id="doc2" class="yui-t6">
+	<div id="hd">
+	<!-- Begin:Header Block -->
+	<div id="hd">
+
+		<div id="uh">
+			<a href="http://kr.yahoo.com">야후!</a> | <a href="http://help.yahoo.com/help/kr/blog">도움말</a> |
+			<a href="#">로그인</a> <!--<a href="#"><strong>maple8109</strong> 님</a> <a href="#">로그아웃</a> -->
+			<!-- urgent 1 -->
+			<style type="text/css">#urgent1{background:url(http://img.yahoo.co.kr/common/2008/k_iuo2.gif) 4px -170px no-repeat;padding:0 0 0 12px;}</style>
+			<strong id="urgent1"><a href="https://bugzilla.seoul.corp.yahoo.com/enter_bug.cgi?product=Internal_News" target="_blank">긴급오류신고</a></strong>
+			<!-- /urgent 1 -->
+		</div>
+			
+		<div id="mh"><h1><a href="http://kr.yahoo.com" class="a"><span>Yahoo!Korea</span></a> <a href="#" class="b"><span>미주한인</span></a></h1></div>
+	
+		<div id="ad"><a href="#"><img src="http://img.yahoo.co.kr/global/2009/r_gme.gif" alt="" /></a></div>
+	
+		<div id="prn">
+			<div class="pn">
+				<ol>
+					<li class="a"><a href="#"><span>미주한인 홈</span></a></li>
+					<li class="b"><a href="#"><span>뉴스</span></a></li>
+					<li class="c"><a href="#"><span>커뮤니티</span></a></li>
+					<li class="d"><a href="#" class="on"><span>Job</span></a></li>
+					<li class="e"><a href="#"><span>Car</span></a></li>
+					<li class="f"><a href="#"><span>부동산</span></a></li>
+					<li class="g"><a href="#"><span>금융</span></a></li>
+					<li class="h"><a href="#"><span>생활정보</span></a></li>
+					<li class="i"><a href="#"><span>업소록</span></a></li>
+					<li class="j"><a href="#"><span>Life</span></a></li>
+					<li class="k"><a href="#"><span>쇼핑몰</span></a></li>
+					<li class="z"><a href="#"><span>야후! 미디어</span></a></li>
+				</ol>
+			</div>
+		</div>
+
+	</div>
+
+	<div id="j_sub_prn">
+		<div class="pn">
+			<ol>                                                           
+				<li class="n01"><a href="#" class="on"><span>기업체</span></a></li>
+				<li class="n02"><a href="#"><span>지역별</span></a></li>
+				<li class="n03"><a href="#"><span>업종별</span></a></li>
+				<li class="n04"><a href="#"><span>구직</span></a></li>
+				<li class="n05 nbar"><a href="#"><span>취업Q&A</span></a></li>
+				<!--<li class="n06"><a href="#"><span>취업칼럼</span></a></li>
+				<li class="n07"><a href="#"><span>면접/이력서 노하우</span></a></li>
+				<li class="n08 nbar"><a href="#"><span>연봉공개</span></a></li>	-->
+				<li class="n09 nbar05"><a href="#"><span>등록관리</span></a></li>
+			</ol>
+		</div>
+	</div>
+
+	<!-- End:Header Block -->
+
+	</div>
+	
+	<div id="bd_j01"><div id="yui-main">
+	<div class="yui-b"><div class="yui-gf">
+	<div class="yui-u nmfirst">
+	<!-- Begin:primary column -->
+<!-- 지역별 구인정보 -->
+<div id="j_lm_map">
+	<div class="line">
+	<div class="bd">
+		<div class="hd">
+			<h4 title="지역별 구인정보"><span class="hidden">지역별 구인정보</span></h4>
+		</div>	
+		<div class="map">
+			<a href="#"><img src="http://shared2-vm9.inf.corp.kr1.yahoo.com/img/button/b_jobmap.gif" alt="지도를 클릭해주세요" title="지도를 클릭해주세요" align="absmiddle" /></a>
+		</div>
+	</div>	
+	</div>
+	<div class="ft">
+		<span class="more"><a href="#">더보기</a></span>
+	</div>
+</div>
+<!-- /지역별 구인정보 -->
+
+<!-- 업종별 구인정보 -->
+<div id="j_lm_industry">
+	<div class="hd"><h3><img src="http://shared2-vm9.inf.corp.kr1.yahoo.com/img/title/t_m_jobkind.gif" alt="업종별 구인정보" title="업종별 구인정보" align="absmiddle" /><span class="hidden">업종별 구인정보</span></h3></div>
+	<div class="bd">
+		<div class="work01">
+			<div class="t_line">
+				<div class="title">
+					<h4 title="서비스/파트타임 잡"><span class="hidden">서비스/파트타임 잡</span></h4>
+				</div>
+			</div>
+			<div class="j_list">
+				<ul>
+					<li><a href="#">마켓/리커</a> |</li>
+					<li><a href="#">베이비시터</a></li> 
+				</ul>
+				<ul>
+					<li><a href="#">가정부</a> |</li> 
+					<li><a href="#">서빙/식당</a></li> 
+				</ul>
+				<ul>
+					<li><a href="#">클럽/카페</a> |</li> 
+					<li><a href="#">그래픽디자인 </a></li> 
+				</ul>
+				<ul>
+					<li><a href="#">개인지도/튜터</a> |</li> 
+					<li><a href="#">안내/도우미</a></li> 
+				</ul>
+				<ul>
+					<li><a href="#">단순 아르바이트</a></li> 
+				</ul>
+				<ul>
+					<li><a href="#">기타 아르바이트</a></li> 
+				</ul>
+			</div>
+			<div class="more"><a href="#">더보기</a></div>
+		</div>
+		<div class="work02">
+			<div class="t_line">
+				<div class="title">
+					<h4 title="기술직"><span class="hidden">기술직</span></h4>
+				</div>
+			</div>
+			<div class="j_list">
+				<ul>
+					<li><a href="#">네일/훼이셜</a> |</li>
+					<li><a href="#">미용사</a></li> 
+				</ul>
+				<ul>
+					<li><a href="#">건축/페인트/목공</a> |</li> 
+					<li><a href="#">세탁소</a></li> 
+				</ul>
+				<ul>
+					<li><a href="#">주유소/정비</a> |</li> 
+					<li><a href="#">관광/여행 </a></li> 
+				</ul>
+				<ul>
+					<li><a href="#">비디오/사진/편집</a> |</li> 
+					<li><a href="#">생산/제조</a></li> 
+				</ul>
+				<ul>
+					<li><a href="#">배송/운전</a> |</li> 
+					<li><a href="#">요리사/스시</a></li> 
+				</ul>
+				<ul>
+					<li><a href="#">기술직 기타</a></li> 
+				</ul>
+			</div>
+			<div class="more"><a href="#">더보기</a></div>
+		</div>
+		<div class="work03">
+			<div class="t_line">
+				<div class="title">
+					<h4 title="사무직"><span class="hidden">사무직</span></h4>
+				</div>
+			</div>
+			<div class="j_list">
+				<ul>
+					<li><a href="#">일반사무</a> |</li> 
+					<li><a href="#">비서직</a> |</li> 
+					<li><a href="#">번역/통역</a></li> 
+				</ul>
+				<ul>
+					<li><a href="#">물류/유통</a> |</li> 
+					<li><a href="#">무역/수출</a></li> 
+				</ul>
+				<ul>
+					<li><a href="#">마케팅</a> |</li> 
+					<li><a href="#">사무직 기타</a></li> 
+				</ul>
+			</div>
+			<div class="more"><a href="#">더보기</a></div>
+		</div>
+		<div class="work04">
+			<div class="t_line">
+				<div class="title">
+					<h4 title="전문직"><span class="hidden">전문직</span></h4>
+				</div>
+			</div>
+			<div class="j_list">
+				<ul>
+					<li><a href="#">의사/간호사</a> |</li> 
+					<li><a href="#">교사/강사/교수</a></li> 
+				</ul>
+				<ul>
+					<li><a href="#">프로그래머</a> |</li> 
+					<li><a href="#">웹/편집 디자인</a></li> 
+				</ul>
+				<ul>
+					<li><a href="#">산업디자인</a> |</li> 
+					<li><a href="#">경리/회계</a></li> 
+				</ul>
+				<ul>
+					<li><a href="#">부동산/공인중개</a> |</li> 
+					<li><a href="#">법률/법무</a></li> 
+				</ul>
+				<ul>
+					<li><a href="#">전문직 기타</a></li> 
+				</ul>
+			</div>
+			<div class="more"><a href="#">더보기</a></div>
+		</div>
+		<div class="work05">
+			<div class="t_line">
+				<div class="title">
+					<h4 title="영업직"><span class="hidden">영업직</span></h4>
+				</div>
+			</div>
+			<div class="j_list">
+				<ul>
+					<li><a href="#">일반영업</a> |</li>
+					<li><a href="#">해외영업/무역 </a></li> 
+				</ul>
+				<ul>
+					<li><a href="#">영업관리/매장관리</a> |</li> 
+					<li><a href="#">고객관리 </a></li> 
+				</ul>
+				<ul>
+					<li><a href="#">금융/보험 영업</a> |</li> 
+					<li><a href="#">텔레마케터</a></li> 
+				</ul>
+				<ul>
+					<li><a href="#">영업직 기타</a></li> 
+				</ul>
+			</div>
+			<div class="more"><a href="#">더보기</a></div>
+		</div>
+	</div>	
+	<div class="ft"></div>
+</div>
+<!-- /업종별 구인정보 -->
+
+	<!-- End:primary column -->
+	</div>
+	
+	<div class="yui-nmu">
+	<!-- Begin:secondary column -->
+
+<!-- 구인정보검색 -->
+<div id="j_search">
+	<div class="hd"><h3><img src="http://shared2-vm9.inf.corp.kr1.yahoo.com/img/title/t_m_jobsearch.gif" alt="구인정보검색" title="구인정보검색" align="absmiddle" /><span class="hidden">구인정보 검색</span></h3></div>
+	<div class="bd">
+		<div class="sel">
+			<div class="sel01">
+				<span>직종 1차 분류</span>
+					<ul class="opt" style="display:none;"><!-- style="display:none;" -->
+					<li><a href="#" class="on">전체선택</a></li>
+					<li><a href="#">서비스/파트타임잡</a></li>
+					<li><a href="#">기술직</a></li>
+					<li><a href="#">사무직</a></li>
+					<li><a href="#">전문직</a></li>
+					<li><a href="#">영업직</a></li>
+					<li><a href="#">학생모집</a></li>
+				</ul>
+			</div>
+			<div class="sel02">
+				<span>직종 2차 분류</span>
+				<ul class="opt" style="display:none;"><!-- style="display:none;" -->
+					<li><a href="#" class="on">전체선택</a></li>
+					<li><a href="#">미용사</a></li>
+					<li><a href="#">미용사</a></li>
+					<li><a href="#">미용사</a></li>
+					<li><a href="#">미용사</a></li>
+					<li><a href="#">미용사</a></li>
+					<li><a href="#">미용사</a></li>
+					<li><a href="#">미용사</a></li>
+					<li><a href="#">미용사</a></li>
+					<li><a href="#">미용사</a></li>
+					<li><a href="#">미용사</a></li>
+					<li><a href="#">미용사</a></li>
+					<li><a href="#">미용사</a></li>
+					<li><a href="#">미용사</a></li>
+					<li><a href="#">미용사</a></li>
+					<li><a href="#">미용사</a></li>
+					<li><a href="#">미용사</a></li>
+					<li><a href="#">미용사</a></li>
+					<li><a href="#">미용사</a></li>
+				</ul>
+			</div>
+			<div class="sel03">
+				<span>지역선택</span>
+				<ul class="opt02" style="display:none;"><!-- style="display:none;" -->
+					<li><a href="#" class="on">전체선택</a></li>
+					<li><a href="#">로스엔젤레스</a></li>
+					<li><a href="#">오렌지시티</a></li>
+					<li><a href="#">샌디에고</a></li>
+					<li><a href="#">로스엔젤레스</a></li>
+					<li><a href="#">오렌지시티</a></li>
+					<li><a href="#">샌디에고</a></li>
+					<li><a href="#">로스엔젤레스</a></li>
+					<li><a href="#">오렌지시티</a></li>
+					<li><a href="#">샌디에고</a></li>
+					<li><a href="#">로스엔젤레스</a></li>
+					<li><a href="#">오렌지시티</a></li>
+					<li><a href="#">샌디에고</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="chk">
+			<span><strong>근무형태</strong></span>
+			<span><input type="checkbox" />Full Time</span>
+			<span><input type="checkbox" />Part Time</span>
+			<span><input type="checkbox" />Freelancer/재택근무</span>
+		</div>		
+		<div class="sch clearfx">
+		<input type="text" class="tx"  />
+		<input type="image" title="검색" src="http://shared2-vm9.inf.corp.kr1.yahoo.com/img/button/b_car_search.gif" class="bt" />
+		</div>
+	</div>
+	<div class="register" title="인재를 찾는 가장 빠른 방법!">
+		<p class="hidden">"인재를 찾는 가장 빠른 방법!"</p>
+		<div class="btn">
+			<span><a href="#"><img src="http://shared2-vm9.inf.corp.kr1.yahoo.com/img/button/b_m_jbutton01.gif" alt="구인등록" title="구인등록" align="absmiddle" /><em class="hidden">구인등록</em></a></span>		
+			<span><a href="#"><img src="http://shared2-vm9.inf.corp.kr1.yahoo.com/img/button/b_m_jbutton02.gif" alt="구직등록" title="구직등록" align="absmiddle" /><em class="hidden">구직등록</em></a></span>		
+		</div>
+	</div>
+	<div class="ft">
+		<span class="more"><a href="#">상세검색</a></span>
+	</div>
+</div>
+<!-- /구인정보검색 -->
+
+<!-- 스페셜구인광고 -->
+<div id="j_ad">
+	<div class="hd">
+		<h3><img src="http://shared2-vm9.inf.corp.kr1.yahoo.com/img/title/t_m_jobad.gif" alt="스페셜 구인광고" title="스페셜 구인광고" align="absmiddle" /><span class="hidden">스페셜 구인광고</span></h3>
+	</div>
+	<div class="bd">
+		<div class="s_ad">
+			<dl class="adspace">
+				<dt><a href="#"><img src="http://shared2-vm9.inf.corp.kr1.yahoo.com/img/sample/j_sample03.gif" border="0" width="123px" height="33px"/></a></dt><!-- 로고광고사이즈 고정 width="123px" height="33px" -->
+				<dd>
+					<span class="clstop"><a href="#">아시아나 LA지사</a></span>
+					<span class="clsbottom"><a href="#">경력직 상담원 모집</a></span>
+				</dd>
+			</dl>
+			<dl class="adspace">
+				<dt><a href="#"><img src="http://shared2-vm9.inf.corp.kr1.yahoo.com/img/sample/j_sample03.gif" border="0" width="123px" height="33px"/></a></dt>
+				<dd>
+					<span class="clstop"><a href="#">아시아나 LA지사</a></span>
+					<span class="clsbottom"><a href="#">경력직 상담원 모집</a></span>
+				</dd>
+			</dl>
+			<dl class="adspace">
+				<dt><a href="#"><img src="http://shared2-vm9.inf.corp.kr1.yahoo.com/img/sample/j_sample03.gif" border="0" width="123px" height="33px"/></a></dt>
+				<dd>
+					<span class="clstop"><a href="#">아시아나 LA지사</a></span>
+					<span class="clsbottom"><a href="#">경력직 상담원 모집</a></span>
+				</dd>
+			</dl>
+		</div>
+		<div class="s_ad">
+			<dl class="adspace">
+				<dt><a href="#"><img src="http://shared2-vm9.inf.corp.kr1.yahoo.com/img/sample/j_sample03.gif" border="0" width="123px" height="33px"/></a></dt><!-- 로고광고사이즈 고정 width="123px" height="33px" -->
+				<dd>
+					<span class="clstop"><a href="#">아시아나 LA지사</a></span>
+					<span class="clsbottom"><a href="#">경력직 상담원 모집</a></span>
+				</dd>
+			</dl>
+			<dl class="adspace">
+				<dt><a href="#"><img src="http://shared2-vm9.inf.corp.kr1.yahoo.com/img/sample/j_sample03.gif" border="0" width="123px" height="33px"/></a></dt>
+				<dd>
+					<span class="clstop"><a href="#">아시아나 LA지사</a></span>
+					<span class="clsbottom"><a href="#">경력직 상담원 모집</a></span>
+				</dd>
+			</dl>
+			<dl class="adspace">
+				<dt><a href="#"><img src="http://shared2-vm9.inf.corp.kr1.yahoo.com/img/sample/j_sample03.gif" border="0" width="123px" height="33px"/></a></dt>
+				<dd>
+					<span class="clstop"><a href="#">아시아나 LA지사</a></span>
+					<span class="clsbottom"><a href="#">경력직 상담원 모집</a></span>
+				</dd>
+			</dl>
+		</div>
+		<div class="s_ad">
+			<dl class="adspace">
+				<dt><a href="#"><img src="http://shared2-vm9.inf.corp.kr1.yahoo.com/img/sample/j_sample03.gif" border="0" width="123px" height="33px"/></a></dt><!-- 로고광고사이즈 고정 width="123px" height="33px" -->
+				<dd>
+					<span class="clstop"><a href="#">아시아나 LA지사</a></span>
+					<span class="clsbottom"><a href="#">경력직 상담원 모집</a></span>
+				</dd>
+			</dl>
+			<dl class="adspace">
+				<dt><a href="#"><img src="http://shared2-vm9.inf.corp.kr1.yahoo.com/img/sample/j_sample03.gif" border="0" width="123px" height="33px"/></a></dt>
+				<dd>
+					<span class="clstop"><a href="#">아시아나 LA지사</a></span>
+					<span class="clsbottom"><a href="#">경력직 상담원 모집</a></span>
+				</dd>
+			</dl>
+			<dl class="adspace">
+				<dt><a href="#"><img src="http://shared2-vm9.inf.corp.kr1.yahoo.com/img/sample/j_sample03.gif" border="0" width="123px" height="33px"/></a></dt>
+				<dd>
+					<span class="clstop"><a href="#">아시아나 LA지사</a></span>
+					<span class="clsbottom"><a href="#">경력직 상담원 모집</a></span>
+				</dd>
+			</dl>
+		</div>				
+	</div>
+	<div class="ft">
+		<span class="more"><a href="#">더보기</a></span>
+		<span class="btn"><a href="#"><img src="http://shared2-vm9.inf.corp.kr1.yahoo.com/img/button/b_jobregist.gif" alt="스페셜 구인정보" title="스페셜 구인정보" align="absmiddle" /></a></span>
+	</div>
+</div>
+<!-- /스페셜구인광고 -->
+
+<!-- 구인정보 -->
+<div id="j_info">
+	<div class="hd"><h3><img src="http://shared2-vm9.inf.corp.kr1.yahoo.com/img/title/t_m_jobinfo.gif" alt="구인정보" title="구인정보" align="absmiddle" /><span class="hidden">구인정보 -</span> LA지역</h3></div>
+	<div class="j_t_border"></div>
+	<div class="bd">
+		<div class="new_info">
+			<h4><img src="http://shared2-vm9.inf.corp.kr1.yahoo.com/img/subtitle/t_sb_jobinfo01.gif" alt="최신 구인정보" title="최신 구인정보" align="absmiddle" /><span class="hidden">최신 구인정보</span></h4>
+			<ul>
+				<li><span class="date">2009.10.20</span>|<span class="title"><em>[급구]</em> <strong><a href="#">무역회사 영업사원 구합니다.</a></strong></span></li>
+				<li><span class="date">2009.10.20</span>|<span class="title"><em>[초보]</em> <strong><a href="#">무역회사 영업사원 구합니다.</a></strong></span></li>
+				<li><span class="date">2009.10.20</span>|<span class="title"><strong><a href="#">무역회사 영업사원 구합니다.</a></strong></span></li>
+				<li><span class="date">2009.10.20</span>|<span class="title"><em>[초보]</em> <strong><a href="#">무역회사 영업사원 구합니다.</a></strong></span></li>
+				<li><span class="date">2009.10.20</span>|<span class="title"><em>[초보]</em> <strong><a href="#">무역회사 영업사원 구합니다.</a></strong></span></li>
+			</ul>
+			<ul>
+				<li><span class="date">2009.10.20</span>|<span class="title"><em>[급구]</em> <a href="#">무역회사 영업사원 구합니다.</a></span></li>
+				<li><span class="date">2009.10.20</span>|<span class="title"><em>[초보]</em> <a href="#">무역회사 영업사원 구합니다.</a></span></li>
+				<li><span class="date">2009.10.20</span>|<span class="title"><a href="#">무역회사 영업사원 구합니다.</a></span></li>
+				<li><span class="date">2009.10.20</span>|<span class="title"><em>[초보]</em> <a href="#">무역회사 영업사원 구합니다.</a></span></li>
+				<li><span class="date">2009.10.20</span>|<span class="title"><em>[초보]</em> <a href="#">무역회사 영업사원 구합니다.</a></span></li>
+			</ul>
+			<ul>
+				<li><span class="date">2009.10.20</span>|<span class="title"><em>[급구]</em> <a href="#">무역회사 영업사원 구합니다.</a></span></li>
+				<li><span class="date">2009.10.20</span>|<span class="title"><em>[초보]</em> <a href="#">무역회사 영업사원 구합니다.</a></span></li>
+				<li><span class="date">2009.10.20</span>|<span class="title"><a href="#">무역회사 영업사원 구합니다.</a></span></li>
+				<li><span class="date">2009.10.20</span>|<span class="title"><em>[초보]</em> <a href="#">무역회사 영업사원 구합니다.</a></span></li>
+				<li><span class="date">2009.10.20</span>|<span class="title"><em>[초보]</em> <a href="#">무역회사 영업사원 구합니다.</a></span></li>
+			</ul>
+		</div><!-- /최신구인정보 -->
+		<div class="hot_info">
+			<h4><img src="http://shared2-vm9.inf.corp.kr1.yahoo.com/img/subtitle/t_sb_jobinfo02.gif" alt="인기 구인정보" title="인기 구인정보" align="absmiddle" /><span class="hidden">인기 구인정보</span></h4>
+			<ul>
+				<li><span class="date">2009.10.20</span>|<span class="title"><em>[급구]</em> <strong><a href="#">무역회사 영업사원 구합니다.</a></strong></span></li>
+				<li><span class="date">2009.10.20</span>|<span class="title"><em>[초보]</em> <strong><a href="#">무역회사 영업사원 구합니다.</a></strong></span></li>
+				<li><span class="date">2009.10.20</span>|<span class="title"><strong><a href="#">무역회사 영업사원 구합니다.</a></strong></span></li>
+				<li><span class="date">2009.10.20</span>|<span class="title"><em>[초보]</em> <strong><a href="#">무역회사 영업사원 구합니다.</a></strong></span></li>
+				<li><span class="date">2009.10.20</span>|<span class="title"><em>[초보]</em> <strong><a href="#">무역회사 영업사원 구합니다.</a></strong></span></li>
+			</ul>
+			<ul>
+				<li><span class="date">2009.10.20</span>|<span class="title"><em>[급구]</em> <a href="#">무역회사 영업사원 구합니다.</a></span></li>
+				<li><span class="date">2009.10.20</span>|<span class="title"><em>[초보]</em> <a href="#">무역회사 영업사원 구합니다.</a></span></li>
+				<li><span class="date">2009.10.20</span>|<span class="title"><a href="#">무역회사 영업사원 구합니다.</a></span></li>
+				<li><span class="date">2009.10.20</span>|<span class="title"><em>[초보]</em> <a href="#">무역회사 영업사원 구합니다.</a></span></li>
+				<li><span class="date">2009.10.20</span>|<span class="title"><em>[초보]</em> <a href="#">무역회사 영업사원 구합니다.</a></span></li>
+			</ul>
+			<ul>
+				<li><span class="date">2009.10.20</span>|<span class="title"><em>[급구]</em> <a href="#">무역회사 영업사원 구합니다.</a></span></li>
+				<li><span class="date">2009.10.20</span>|<span class="title"><em>[초보]</em> <a href="#">무역회사 영업사원 구합니다.</a></span></li>
+				<li><span class="date">2009.10.20</span>|<span class="title"><a href="#">무역회사 영업사원 구합니다.</a></span></li>
+				<li><span class="date">2009.10.20</span>|<span class="title"><em>[초보]</em> <a href="#">무역회사 영업사원 구합니다.</a></span></li>
+				<li><span class="date">2009.10.20</span>|<span class="title"><em>[초보]</em> <a href="#">무역회사 영업사원 구합니다.</a></span></li>
+			</ul>
+		</div><!-- /인기구인정보 -->
+	</div>
+	<div class="ft">
+		<span>다른지역보기</span>
+		<ul class="opt" style="display:none;"><!-- style="display:none;" -->
+			<li><a href="#" class="on">LA</a></li>
+			<li><a href="#">OC</a></li>
+			<li><a href="#">SD</a></li>
+			<li><a href="#">기타</a></li>
+		</ul>
+	</div>
+</div>
+<!-- /구인정보 -->
+	
+	<!-- End:secondary column -->
+	</div>
+	
+	</div>
+	</div>
+	</div>
+
+	<div class="yui-b">
+
+		<!-- Begin:Secondary block -->
+
+		<div id="rv8" class="rv">
+			<div class="hd"><h4>핫뉴스</h4></div>
+			<div class="bd">
+				<span class="tb">
+					<a href="#" class="on"><span>미주지역</span></a>
+					<a href="#"><span>종 합</span></a>
+					<a href="#"><span>스포츠</span></a>
+					<a href="#"><span>연예</span></a>
+				</span>
+				<ol class="nb">
+					<li class="nb1"><a href="#">1박찬호 '1박2일'에 전화해 왜 눈물흘렸나</a></li>
+					<li class="nb2"><a href="#">박찬호 '1박2일'에 전화해 왜 눈물흘렸나</a></li>
+					<li class="nb3"><a href="#">박찬호 '1박2일'에 전화해 왜 눈물흘렸나</a></li>
+					<li class="nb4"><a href="#">박찬호 '1박2일'에 전화해 왜 눈물흘렸나</a></li>
+					<li class="nb5"><a href="#">박찬호 '1박2일'에 전화해 왜 눈물흘렸나</a></li>
+					<li class="nb6"><a href="#">박찬호 '1박2일'에 전화해 왜 눈물흘렸나</a></li>
+					<li class="nb7"><a href="#">박찬호 '1박2일'에 전화해 왜 눈물흘렸나</a></li>
+				</ol>
+			</div>
+			<a href="#" class="rl"><span>다음</span></a>
+			<div class="ft"><a href="#" class="mr"><span>핫뉴스</span> 더보기</a></div>
+		</div>
+
+		<div id="rv3">
+			<div class="hd"><h4><span>광고</span></h4></div>
+			<div class="bd">
+				<a href="#"><img src="http://img.yahoo.co.kr/global/2009/v_rv3.gif" alt="" /></a>
+			</div>
+			<div class="ft"></div>
+		</div>
+
+		<div id="rv11" class="rv">
+			<div class="hd"><h4>Marketplace</h4></div>
+			<div class="bd">
+				<span class="tb">
+					<a href="#" class="on"><span>자동차</span></a>
+					<a href="#" class="off"><span>부동산</span></a>
+					<a href="#" class="off"><span>Job</span></a>
+				</span>
+
+				<ul class="pt clearfx">
+					<li>
+						<a href="#" class="clip"><img src="http://img.yahoo.co.kr/global/2009/x_rv201.gif" alt="" /></a>
+						<a href="#">1-1꽁심이노트(시즌2) 36...</a>
+					</li>
+					<li>
+						<a href="#" class="clip"><img src="http://img.yahoo.co.kr/global/2009/x_rv202.gif" alt="" /></a>
+						<a href="#">조이라이드 하이서울</a>
+					</li>
+					<li>
+						<a href="#" class="clip"><img src="http://img.yahoo.co.kr/global/2009/x_rv203.gif" alt="" /></a>
+						<a href="#">드림캐쳐 2화 첫번째</a>
+					</li>
+				</ul>
+				<a href="###" id="rv11MD_rBtn" class="rl"><span>다음</span></a>
+			</div>
+			<div class="ft"><a href="###" class="mr"><span>Marketplace</span> 더보기</a></div>
+		</div>
+
+		<div id="rv12" class="rv">
+			<div class="hd"><h4>Community</h4></div>
+			<div class="bd">
+				<span class="tb">
+					<a href="#" class="on"><span>Best Talk</span></a>
+					<a href="#" class="off"><span>지식 Q&A</span></a>
+					<a href="#" class="off"><span>전문가칼럼</span></a>
+				</span>
+				<ol class="nb">
+					<li class="nb1"><a href="#">1-1박찬호 '1박2일'에 전화해 왜 눈물흘렸나</a></li>
+					<li class="nb2"><a href="#">박찬호 '1박2일'에 전화해 왜 눈물흘렸나</a></li>
+					<li class="nb3"><a href="#">박찬호 '1박2일'에 전화해 왜 눈물흘렸나</a></li>
+					<li class="nb4"><a href="#">박찬호 '1박2일'에 전화해 왜 눈물흘렸나</a></li>
+					<li class="nb5"><a href="#">박찬호 '1박2일'에 전화해 왜 눈물흘렸나</a></li>
+				</ol>
+				<a href="#" class="rl"><span>다음</span></a>
+			</div>
+			<div class="ft"><a href="#" class="mr"><span>Community</span> 더보기</a></div>
+		</div>
+
+		<div id="rv18" class="rv">
+			<div class="hd"><h4><span>취업 Q&A</span></h4></div>
+			<div class="bd">
+				<ul class="ls">
+					<li><a href="#"><em>[공지]</em> '영' 안서는 與…연일 대출</a></li>
+					<li><a href="#"><em>[공지]</em> '영' 안서는 與…연일 대출</a></li>
+					<li class="b"><a href="#"><em>[공지]</em> '영' 안서는 與…연일 대출</a></li>
+					<li><a href="#"><em>[공지]</em> '영' 안서는 與…연일 대출</a></li>
+					<li><a href="#"><em>[공지]</em> '영' 안서는 與…연일 대출</a></li>
+				</ul>
+			</div>
+			<div class="ft"><a href="#" class="mr"><span>취업 Q&A</span> 더보기</a></div>
+		</div>
+
+		<div id="rv19" class="rv">
+			<div class="hd"><h4><span>취업칼럼</span></h4></div>
+			<div class="bd">
+				<ul class="ls">
+					<li><a href="#"><em>[공지]</em> '영' 안서는 與…연일 대출</a></li>
+					<li><a href="#"><em>[공지]</em> '영' 안서는 與…연일 대출</a></li>
+					<li class="b"><a href="#"><em>[공지]</em> '영' 안서는 與…연일 대출</a></li>
+					<li><a href="#"><em>[공지]</em> '영' 안서는 與…연일 대출</a></li>
+					<li><a href="#"><em>[공지]</em> '영' 안서는 與…연일 대출</a></li>
+				</ul>
+			</div>
+			<div class="ft"><a href="#" class="mr"><span>취업칼럼</span> 더보기</a></div>
+		</div>
+		<!-- End:Secondary block -->
+
+	</div>
+	</div>
+
+	<div id="ft">
+	<!-- Begin:Footer Block -->
+		<div id="ftr">
+			<div class="hd"></div>
+			<div class="bd">
+				<p>본 서비스는 해외거주 한인들을 대상으로 ‘야후! 코리아’와 ‘미주 한국일보’가 공동으로 운영하는 서비스 입니다.</p>
+			</div>
+			<div class="ft">
+				<p>
+					<a href="http://kr.docs.yahoo.com/info/privacy.html" target="_blank">개인정보/청소년보호 정책</a> &middot;
+					<a href="http://kr.docs.yahoo.com/info/disclaimer.html" target="_blank">책임의 한계와 법적고지</a> &middot;
+					<a href="http://kr.docs.yahoo.com/info/copyright.html" target="_blank">지적재산권 침해구제센터</a> &middot;
+					<a href="http://kr.docs.yahoo.com/info/utos.html" target="_blank">서비스 약관</a> &middot;
+					<a href="http://kr.helpboard.yahoo.com/helpfeedback/m_news.html?from_url=http%3A%2F%2Fhelp%2Eyahoo%2Ecom%2Fl%2Fkr%2Fyahoo%2Fnews%2Fnews%2D54822%2Ehtml" target="_blank">의견 또는 질문</a> &middot;
+					<a href="http://kr.helpboard.yahoo.com/helpfeedback/il_news.html" target="_blank">권리침해신고</a> &middot;
+					<a href="http://help.yahoo.com/l/kr/yahoo/news/" target="_blank">도움말</a>
+				</p>
+				<address>Copyright &copy; 2008 <a href="http://kr.pr.yahoo.com/Yahoo/" target="_blank">Yahoo! Korea YH.</a> All rights reserved.</address>
+				<address>Copyright &copy; 2008 <a href="http://www.koreatimes.com/" target="_blank">Koreatimes.com.</a> All rights reserved.</address>
+			</div>
+		</div>
+	<!-- End:Footer Block -->
+	</div>
+</div>
+
+
+
+
+</body>
+
+</html><!-- shared2-vm9.inf.corp.kr1.yahoo.com uncompressed/chunked Wed Feb 25 15:38:21 KST 2009 -->
+<!-- gui1.blokus.corp.kr1.yahoo.com compressed/chunked Wed Feb 25 15:38:20 KST 2009 -->
+

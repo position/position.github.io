@@ -1,0 +1,72 @@
+/* contents title */
+.subtitle{position:relative;clear:both;width:630px;height:20px;margin-bottom:20px;}
+.subtitle .line{position:relative;background:url(../images/i_titleline.gif) left bottom no-repeat;width:630px;height:20px;}
+.subtitle .line02{position:relative;background:url(../images/i_titleline.gif) left bottom no-repeat;width:970px;height:20px;}
+.subtitle .line03{position:relative;background:url(../images/i_titleline.gif) left bottom no-repeat;width:650px;height:20px;}
+.subtitle .line04{position:relative;background:url(../images/i_titleline.gif) left bottom no-repeat;width:844px;height:20px;}
+.subtitle h3{position:relative;float:left;height:20px;}
+.subtitle h4{float:left;height:20px;font-weight:bold;color:#000;}
+.subtitle h4.tAlbum{font-size:18px;font-family:돋움, Dotum, sans-serif;letter-spacing:-1px;}
+
+/* 마라톤 사진 */
+.subtitle .t_photo01{background:url(../images/t_photo.gif) 0 0 no-repeat;width:95px;} /* 사진검색 */
+.subtitle .t_photo02{background:url(../images/t_photo.gif) 0 -120px no-repeat;width:95px;} /* 장바구니 */
+.subtitle .t_photo03{background:url(../images/t_photo.gif) 0 -90px no-repeat;width:125px;} /* 주문조회 */
+.subtitle .t_photo04{background:url(../images/t_photo.gif) 0 -30px no-repeat;width:125px;} /* 상품소개 */
+.subtitle .t_photo05{background:url(../images/t_photo.gif) 0 -60px no-repeat;width:125px;} /* 팬시상품 */
+
+.subtitle .t_photodep01{background:url(../images/t_3depth.gif) 0 0 no-repeat;width:125px;} /* 촬영지점검색 */
+.subtitle .t_photodep02{background:url(../images/t_3depth.gif) 0 -20px no-repeat;width:125px;} /* 사진종류 */
+.subtitle .t_photodep03{background:url(../images/t_3depth.gif) 0 -40px no-repeat;width:125px;} /* 사진 사이즈 및 가격 */
+.subtitle .t_photodep04{background:url(../images/t_3depth.gif) 0 -60px no-repeat;width:125px;} /* 액자 사이즈 및 가격 */
+.subtitle .t_photodep05{background:url(../images/t_3depth.gif) 0 -80px no-repeat;width:125px;} /* 원본파일 다운로드 */
+.subtitle .t_photodep06{background:url(../images/t_3depth.gif) 0 -100px no-repeat;width:150px;} /* 탁상 달력 사이즈 및 가격표 */
+.subtitle .t_photodep07{background:url(../images/t_3depth.gif) 0 -120px no-repeat;width:125px;} /* 앨범 사이즈 및 가격표 */
+.subtitle .t_photodep08{background:url(../images/t_3depth.gif) 0 -140px no-repeat;width:200px;} /* 3면 비비크리스탈 사이즈 및 가격표 */
+.subtitle .t_photodep09{background:url(../images/t_3depth.gif) 0 -160px no-repeat;width:150px;} /* 미니앨범 사이즈 및 가격표 */
+.subtitle .t_photodep10{background:url(../images/t_3depth.gif) 0 -180px no-repeat;width:200px;} /* 미니 3단 원목 액자 사이즈 및 가격표 */
+.subtitle .t_photodep11{background:url(../images/t_3depth.gif) 0 -200px no-repeat;width:125px;} /* 지갑사진 사이즈 및 가격 */
+.subtitle .t_photodep12{background:url(../images/t_3depth.gif) 0 -220px no-repeat;width:125px;} /* 연속기록증 */
+
+/* 마라톤 대회 */
+.subtitle .t_mass01{background:url(../images/t_mass.gif) 0 0 no-repeat;width:95px;} /* 대회일정 */
+.subtitle .t_mass02{background:url(../images/t_mass.gif) 0 -30px no-repeat;width:95px;} /* 코스의 맥 */
+.subtitle .t_mass03{background:url(../images/t_mass.gif) 0 -60px no-repeat;width:95px;} /* 대회수상자 */
+.subtitle .t_mass04{background:url(../images/t_mass.gif) 0 -90px no-repeat;width:95px;} /* 나의앨범 */
+
+/* 마라톤 커뮤니티 */
+.subtitle .t_comm01{background:url(../images/t_community.gif) 0 0 no-repeat;width:125px;} /* 마라톤 커뮤니티 */
+.subtitle .t_comm02{background:url(../images/t_community.gif) 0 -61px no-repeat;width:125px;} /* 자유게시판 */
+.subtitle .t_comm03{background:url(../images/t_community.gif) 0 -91px no-repeat;width:125px;} /* 설문조사 */
+
+/* 마라톤 뉴스 */
+.subtitle .t_news01{background:url(../images/t_news.gif) 0 0 no-repeat;width:125px;} /* 마라톤 뉴스 */
+
+/* 마라톤 정보 */
+.subtitle .t_info01{background:url(../images/t_info.gif) 0 0 no-repeat;width:125px;} /* 마라톤 정보 */
+
+/* 고객센터 */
+.subtitle .t_customer01{background:url(../images/t_customer.gif) 0 0 no-repeat;width:95px;} /* 공지사항 */
+.subtitle .t_customer02{background:url(../images/t_customer.gif) 0 -30px no-repeat;width:200px;} /* FAQ */
+.subtitle .t_customer03{background:url(../images/t_customer.gif) 0 -60px no-repeat;width:200px;} /* Q&A */
+
+/* 회원 가입 */
+.subtitle .t_member01{background:url(../images/t_member.gif) 0 0 no-repeat;width:95px;} /* 회원가입 */
+.subtitle .t_member02{background:url(../images/t_member.gif) 0 -30px no-repeat;width:200px;} /* 아이디/비밀번호 찾기 */
+.subtitle .t_member03{background:url(../images/t_member.gif) 0 -60px no-repeat;width:200px;} /* 아이디 찾기 */
+.subtitle .t_member04{background:url(../images/t_member.gif) 0 -90px no-repeat;width:200px;} /* 비밀번호 찾기 */
+.subtitle .t_member05{background:url(../images/t_member.gif) 0 -120px no-repeat;width:200px;} /* 회원정보 변경 */
+.subtitle .t_member06{background:url(../images/t_member.gif) 0 -150px no-repeat;width:200px;} /* 회원탈퇴 */
+.subtitle .subtxt{padding-top:10px;}
+
+/* 회사소개 */
+.subtitle .t_company01{background:url(../images/t_company.gif) 0 0 no-repeat;width:95px;} /* 회사소개 */
+.subtitle .t_company02{background:url(../images/t_company.gif) 0 -30px no-repeat;width:200px;} /* 사업제휴 */
+.subtitle .t_company03{background:url(../images/t_company.gif) 0 -60px no-repeat;width:200px;} /* 광고문의 */
+.subtitle .t_company04{background:url(../images/t_company.gif) 0 -90px no-repeat;width:200px;} /* 취재ㆍ홍보문의 */
+.subtitle .t_company05{background:url(../images/t_company.gif) 0 -120px no-repeat;width:200px;} /* 사진촬영ㆍ대여문의 */
+.subtitle .t_company06{background:url(../images/t_company.gif) 0 -150px no-repeat;width:200px;} /* 홈페이지제작문의 */
+.subtitle .t_company07{background:url(../images/t_company.gif) 0 -180px no-repeat;width:200px;} /* 서비스이용약관 */
+.subtitle .t_company08{background:url(../images/t_company.gif) 0 -210px no-repeat;width:200px;} /* 개인정보취급방침 */
+.subtitle .t_company09{background:url(../images/t_company.gif) 0 -240px no-repeat;width:200px;} /* 찾아오시는길 */
+                                                

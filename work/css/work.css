@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+*{margin:0;padding:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+html{height:100%;background-color:rgba(34,34,34,1);}
+body{font-size:1em;-webkit-text-size-adjust:none;}
+section,nav,article,aside,hgroup,header,footer{display:block;}
+body,input,textarea,select,button,table{font-size:1em;font-family:georgia, Malgun Gothic, batang, Helvetica, AppleSDGothicNeo, sans-serif;color:#fff;letter-spacing:-0.5px;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+img{border:0;vertical-align:middle;}
+ul,ol{list-style:none;}
+table{border-collapse:collapse;}
+button{border:0 none;cursor:pointer;}
+em,address{font-style:normal;}
+a{color:inherit;text-decoration:none;}
+a:hover{color:#fbdf5d;}
+hr{display:none;}
+.blind{position:absolute;width:0;height:0;overflow:hidden;text-indent:-9999em;}
+.letter0{letter-spacing:0px !important;}
+::selection{text-shadow:none;background:#f26522;}
+
+#skipToContent{position:absolute;width:100%;z-index:10000000;left:0;}
+#skipToContent a{display:block;height:1px;width:1px;margin-bottom:-1px;overflow:hidden;text-align:center;color:yellow;white-space:nowrap;background:#000;}
+#skipToContent a:focus, #skipToContent a:active{height:auto;width:auto;padding:10px;margin-bottom:10px;}
+
+#videoContainer{position:fixed;width:100%;height:100%;top:0;left:0;overflow:hidden;background-color:rgba(34,34,34,1);z-index:0;}
+#videoContainer:after{position:absolute;width:100%;height:100%;top:0;left:0;overflow:hidden;background-color:rgba(34,34,34,0.5);z-index:1;}
+
+#pageWrapper{position:absolute;width:100%;height:100%;top:0;left:0;}
+#header{position:fixed;width:100%;background-color:rgba(0,0,0,0.6);overflow:hidden;z-index:100;}
+#header .tajoalLogo{float:left;background:url(../images/t_logo.png) left top no-repeat;background-size:210px 70px;width:25%;height:70px;margin-left:5%;}
+#header .tajoalLogo a{display:block;height:84px;}
+.navWrap .naviMenu{float:right;width:70%;overflow:hidden;text-align:right;padding-top:16px;}
+.navWrap .naviMenu li{float:left;width:22%;margin-right:3%;font-weight:bold;font-size:1em;text-shadow:2px 2px 2px #746537;}
+.navWrap .naviMenu li a{display:inline-block;width:100%;border:2px solid #aaa;border-radius:20px;text-align:center;padding:8px 0;background-color:rgba(4,4,4,0.5);transition:all 0.3s ease;-webkit-transition: all 0.3s ease;}
+.navWrap .naviMenu li a.active,
+.navWrap .naviMenu li a:hover{background-color:rgba(255,192,0,0.6);border:2px solid #fff;color:#fff200;}
+
+#contents{clear:both;}
+#contents section, #footer{position:relative;clear:both;}
+#contents .profile{background-color:rgba(34,34,34,0.5);padding:5% 0 9% 0;}
+#contents .profile:after{background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(34,34,34,0)),color-stop(100%,#222222));background:-webkit-linear-gradient(top,rgba(34,34,34,0) 0%,#222222 100%); background:-webkit-gradient(linear,left top,left bottom,from(rgba(34,34,34,0)),to(#222222));background:linear-gradient(to bottom,rgba(34,34,34,0) 0%,#222222 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00222222',endColorstr='#222222',GradientType=0);content:"";bottom:0;left:0;position:absolute;height:25%;width:100%;z-index:1;}
+#contents .profile .myName{font-size:3.5em;font-weight:bold;color:#fff;text-align:center;border-bottom:2px solid rgba(190,190,190,0.5);padding:40px 0;width:1000px;margin:0px auto 20px auto;}
+#contents .profile .profileListWrap{width:1000px;margin:0px auto 2px auto;}
+#contents .profile .pro_title{font-size:3em;font-weight:bold;color:#fff;padding-bottom:10px;}
+#contents .profile .profileList{padding:3%;border:1px solid rgba(190,190,190,0.5);border-radius:10px;overflow:hidden;}
+#contents .profile .profileList dt{clear:both;float:left;width:25%;margin:0 5% 10px 0;}
+#contents .profile .profileList dd{float:left;width:70%;}
+#contents .profile .profileList dd li{margin-bottom:10px;}
+
+#contents .introduction{background-color:rgba(34,34,34,1);padding-bottom:5%;}
+#contents .introduction .intro_title{width:1000px;margin:0 auto;font-size:3em;font-weight:bold;color:#fff;padding:6% 0 1.5% 0;}
+#contents .introduction .introSec{margin:0 auto;width:1000px;}
+#contents .introduction .introBx{border:1px solid rgba(190,190,190,0.5);border-radius:10px;padding:3%;overflow:hidden;}
+#contents .introduction .introSec h3{font-size:1.9em;padding-bottom:2%;letter-spacing:-1px;}
+#contents .introduction .introSec p{padding-top:1%;line-height:180%;}
+#contents .introduction .introSec .tajoal_img{position:relative;text-align:center;padding-top:4%;background-color:rgba(34,34,34,1);}
+#contents .introduction .introSec .tajoal_img .motto_tit{position:absolute;width:100%;font-size:2em;font-weight:bold;text-shadow:2px 2px 2px #000;opacity:1;transition:all 1s ease-in;-webkit-transition:all 1s ease-in;top:20%;z-index:5;}
+#contents .introduction .introSec .tajoal_img .motto_tit .speaker{display:block;font-size:0.75em;color:#fff799;}
+#contents .introduction .introSec .tajoal_img img{width:100%;opacity:0.2;box-shadow:0 0 10px #111;transition:all 0.5s ease;-webkit-transition:all 0.5s ease;border-radius:10px;overflow:hidden;}
+#contents .introduction .introSec .tajoal_img:hover img{opacity:1;box-shadow:0 0 50px #666;}
+#contents .introduction .introSec .tajoal_img:hover .motto_tit{opacity:0;}
+
+#contents .portfolio{background-color:rgba(34,34,34,0.5);padding-bottom:10%;}
+#contents .portfolio .port_title{background-color:rgba(34,34,34,1);font-size:3em;font-weight:bold;color:#fff;text-align:center;padding:6% 0 1% 0;}
+#contents .portfolio .notice_title{background-color:rgba(34,34,34,1);color:#888;text-align:center;padding-bottom:1%;}
+#contents .portfolio .yearSection{clear:both;}
+#contents .portfolio .yearList{background-color:rgba(34,34,34,1);border-bottom:1px solid rgba(190,190,190,0.2);transition:all 0.5s ease;-webkit-transition:all 0.5s ease;overflow:hidden;}
+#contents .portfolio .yearList.on{background-color:rgba(255,180,0,0.5);}
+#contents .portfolio .yearList a.yr{display:block;width:100%;padding:5% 0;color:#fff;font-size:3em;font-weight:bold;text-align:center;}
+#contents .portfolio .yearList a.yr:hover{color:#514300;text-shadow:0 0 7px #7f6900;}
+#contents .portfolio .working{width:100%;}
+#contents .portfolio .working .thumList{clear:both;margin:0 auto 2% auto;width:900px;padding-top:2%;border-top:1px solid rgba(190,190,190,0.2);overflow:hidden;}
+#contents .portfolio .working .thumList:first-child{border:0 none;}
+#contents .portfolio .working .thumList .pho{position:relative;float:left;width:30%;height:100%;margin-right:2%;border:1px solid #ddd;overflow:hidden;background-color:#111;display:-webkit-box;-webkit-box-pack:center;-webkit-box-align:center;}
+#contents .portfolio .working .thumList .pho img{width:100%;transition:all 0.5s ease;-webkit-transition:all 5s ease;transform:scale(1);-webkit-transform:scale(1);}
+#contents .portfolio .working .thumList .pho img:hover{transform:scale(1.5);-webkit-transform:scale(1.5);}
+#contents .portfolio .working .thumList .tx{float:left;padding-top:10px;width:68%;}
+#contents .portfolio .working .thumList .tx li{display:table;padding:1.5% 0;width:100%;border-bottom:1px solid rgba(190,190,190,0.2);}
+#contents .portfolio .working .thumList .tx li:last-child{border-bottom:0 none;}
+#contents .portfolio .working .thumList .tx li .lc{display:table-cell;width:25%;}
+#contents .portfolio .working .thumList .tx li .rc{display:table-cell;width:70%;line-height:150%;word-break:break-all;}
+#contents .portfolio .working .thumList .tx li .t_p{font-weight:bold;font-size:1.2em;letter-spacing:-1px;}
+#footer{background-color:rgba(34,34,34,1);padding:2% 0;text-align:center;border-top:1px solid rgba(190,190,190,0.2);}
+#footer .footTop{padding-left:1%;}
+
+@media all and (max-width:1024px){
+	#videoContainer{display:none;}
+	.poster{position:absolute;width:100%;height:100%;top:0;left:0;background-color:rgba(34,34,34,1);z-index:0;}
+	.poster img{width:100%;}
+	#header{position:static;background-color:rgba(34,34,34,0.7);}
+	#header .tajoalLogo{float:none;width:60%;}
+	.mnav-button{position:fixed;top:20px;right:20px;background-color:#dedede;border-radius:4px;-webkit-background-clip:padding-box;background-clip:padding-box;height:40px;width:40px;z-index:1000;-webkit-transition: opacity 0.15s ease;transition:opacity 0.15s ease;cursor:pointer;background-image:url(../images/list-icon.svg);-webkit-background-size: 45%;background-size:45%;background-position:center;background-repeat:no-repeat;}
+	.navWrap{position:fixed;background:#999;width:100%;top:0;left:0;background-color:rgba(0,0,0,0.8);z-index:10000;transition:all 0.5s ease;-webkit-transition:all 0.5s ease;opacity:0;transform:scale(1.5);-webkit-transform:scale(1.5);overflow:hidden;backface-visibility:hidden;-webkit-backface-visibility:hidden;}
+	.navWrap .close-btn{position:absolute;top:-20px;right:0px;background-color:#fe5607;border-radius:50px;-webkit-background-clip:padding-box;background-clip:padding-box;color:#fff;height:40px;width:40px;cursor:pointer;z-index:10;}
+	.navWrap .close-btn:after{content:"X";position:absolute;top:8px;left:0;width:100%;height:100%;text-align:center;color:#fff;font-weight:bold;font-family:arial black;font-size:1.3em;z-index:1;line-height:150%;}
+	.navWrap .navBx{position:absolute;width:90%;top:10%;left:5%;background-color:rgba(255,255,255,0.8);border-radius:15px;padding:5%;box-shadow:0 0 10px #fff;}
+	.navWrap .navBx .naviMenu{float:none;width:100%;padding-top:0;}
+	.navWrap .navBx .naviMenu li{width:100%;margin-bottom:0;padding:3% 0;}
+	.navWrap .navBx .naviMenu li a{padding:7% 0;border-radius:50px;font-size:1.3em;}
+	.open{transition:all 0.5s ease;-webkit-transition:all 0.5s ease;opacity:1;overflow:visible;height:100%;transform:scale(1);-webkit-transform:scale(1);}
+
+	#contents .profile{background-color:rgba(34,34,34,0.7);}
+	#contents .profile:after{display:none;}
+	#contents .profile .profileListWrap{width:100%;}
+	#contents .profile .pro_title{text-align:center;font-size:1.8em;}
+	#contents .profile .myName{font-size:2.2em;padding:10% 0;width:100%;border-bottom:0 none;}
+	#contents .introduction .introSec{width:100%;}
+	#contents .introduction .intro_title{width:100%;text-align:center;font-size:1.8em;padding-bottom:3%;}
+	#contents .introduction .introSec .tajoal_img .motto_tit{font-size:1em;}
+	#contents .introduction .introSec .tajoal_img img:hover{box-shadow:0 0 20px #666;}
+	#contents .portfolio{background-color:rgba(34,34,34,1);}
+	#contents .portfolio .port_title{width:100%;text-align:center;font-size:1.8em;}
+	#contents .portfolio .yearList.on{background-color:rgba(0,0,0,1);}
+	#contents .portfolio .yearList a.yr{font-size:1.5em;}
+	#contents .portfolio .yearList a.yr:hover{color:#fff;text-shadow:0 0 7px red;}
+	#contents .portfolio .working .thumList{width:90%;padding:5%;}
+	#contents .portfolio .working .thumList .pho, #contents .portfolio .working .thumList .tx{float:none;}
+	#contents .portfolio .working .thumList .pho{width:100%;}
+	#contents .portfolio .working .thumList .tx{width:100%;}
+	#contents .portfolio .working .thumList .tx ul{padding:3%;}
+	#contents .portfolio .working .thumList .tx li{padding:3% 0;}
+	#contents .portfolio .working .thumList .tx li .t_p{letter-spacing:0px;}
+}
+
+@media all and (max-width:767px){
+	body,input,textarea,select,button,table, p{font-size:0.75em;}
+	#footer{padding:4% 0;font-size:0.75em;}
+}
+
+@media all and (max-width:360px){
+	#header .tajoalLogo{float:none;width:50%;height:56px;background:url(../images/t_logo.png) left top no-repeat;background-size:158px 56px;}
+	#header .tajoalLogo a{height:56px;}
+}
