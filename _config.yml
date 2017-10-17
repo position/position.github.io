@@ -17,7 +17,7 @@
 title: Benjamin Choi
 email: positionfov@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Frontend 분야를 정리하고 기록하는 블로그
+  UX Engineer에 대한 고찰
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://position.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Otajoal
