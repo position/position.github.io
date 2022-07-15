@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PWA test</title>
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+<h1>You are offline</h1>
+
+<button type="button">⤾ Reload</button>
+
+<script>
+document.querySelector("button").addEventListener("click", () => {
+    window.location.reload();
+});
+window.addEventListener('online', () => {
+    window.location.reload();
+});
+</script>
+</body>
+</html>
